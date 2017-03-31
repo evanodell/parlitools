@@ -18,8 +18,11 @@ head(map4@data)
 if(hex_map=TRUE){
   map2 <- rgdal::readOGR("./data/GB_Hex_Cartogram_Const.shp")
 } else {
-  map3 <- rgdal::readOGR("./data/westminster_2010_2015_cart.kml")
+  map3 <- rgdal::readOGR("./data/westminster_const_region.shp", "westminster_const_region")
 }  
+
+write_rds(map3, "westminster_const_region.rds")
+
 
 x <- constituencies()
 
