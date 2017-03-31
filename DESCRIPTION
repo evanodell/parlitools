@@ -1,6 +1,6 @@
 Package: parlitools
 Type: Package
-Title: Tools for analysing UK politics
+Title: Tools for analysing UK politics in R
 Version: 0.0.1
 Authors@R: person("Evan Odell", email="evanodell91@gmail.com", role=c("aut", "cre"))
 Author: Evan Odell [aut, cre]
