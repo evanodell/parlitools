@@ -21,7 +21,6 @@ if(hex_map=TRUE){
   map3 <- rgdal::readOGR("./data/westminster_const_region.shp", "westminster_const_region")
 }  
 
-saveRDS(map3, "westminster_const_region.rds")
 
 
 x <- constituencies()
