@@ -1,0 +1,23 @@
+Package: parlitools
+Type: Package
+Title: Tools for analysing UK politics
+Version: 0.0.1
+Authors@R: person("Evan Odell", email="evanodell91@gmail.com", role=c("aut", "cre"))
+Author: Evan Odell [aut, cre]
+Maintainer: Evan Odell <evanodell91@gmail.com>
+Description: Provides various tools for analysing UK political data.
+URL: https://github.com/EvanOdell/parlitools
+BugReports: https://github.com/EvanOdell/parlitools/issues
+License: MIT + file LICENSE
+LazyData: TRUE
+Depends: R(>= 2.10.0)
+Imports:
+    rgdal,
+    mnis,
+    hansard
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown,
+    testthat,
+    covr
+VignetteBuilder: knitr
