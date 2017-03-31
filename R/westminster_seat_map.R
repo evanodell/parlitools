@@ -19,8 +19,11 @@
 
 westminster_seat_map <- function(date = Sys.Date(), hex_map = FALSE){
   
+  ### Date of retrieval
+  
+  
+
+
+  
 }
-
-
-
 
