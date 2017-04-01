@@ -7,9 +7,9 @@
 westminster_seat_map(date = Sys.Date(), hex_map = FALSE)
 }
 \arguments{
-\item{date}{}
+\item{date}{The date to return data from}
 
-\item{hex_map}{}
+\item{hex_map}{The map to use}
 }
 \value{
 Returns a map of all seats in the UK Parliament
