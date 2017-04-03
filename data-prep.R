@@ -1,11 +1,25 @@
 
 
+library(sp)  # vector data
+library(raster)  # raster data
+library(rgdal)  # input/output, projections
+library(rgeos)  # geometry ops
+library(spdep)  # spatial dependence
+
+latlong = "+init=epsg:4326"
+
+proj4string(west_hex_map2) <- NA
+
+
+
   west_hex_map <- rgdal::readOGR("./data/GB_Hex_Cartogram_Const.shp", "GB_Hex_Cartogram_Const")
 
   
   west_hex_map2 <- read_sf('./data-raw/GB_Hex_Cartogram_Const', 'GB_Hex_Cartogram_Const')
   
   sf_NPR1to1 <- read_sf('./data-raw/NPR1to1', 'NPR1to1')
+  
+  test <- read_sf('./data-raw/test', 'test')
   
   
   st_geometry(west_hex_map2)
