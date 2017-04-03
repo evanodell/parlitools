@@ -5,3 +5,4 @@
 ^\.travis\.yml$
 ^testing\.R\.R$
 ^data-prep\.R$
+^data-raw$

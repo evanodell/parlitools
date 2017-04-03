@@ -5,8 +5,8 @@
 #'
 #'
 #' 
-#' @param date The date to return data from
-#' @param hex_map The map to use
+#' @param date The date to return data from. Returns the make-up of parliament on any given date 
+#' @param map An option of SpatialPolygonsDataFrame
 #'
 #' @return Returns a map of all seats in the UK Parliament
 #' @export
@@ -17,15 +17,12 @@
 
 
 
-westminster_seat_map <- function(date = Sys.Date(), hex_map = FALSE){
+westminster_seat_map <- function(date = Sys.Date(), map = parlitools::west_hex_map){
   
   ### Date of retrieval
   
-  if(hex_map==FALSE){
-    
-  } else {
-    
-  }
+
+  
 
 
   
