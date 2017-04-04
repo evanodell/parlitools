@@ -4,8 +4,12 @@ language: r
 r:
   - release
 sudo: false
-
 cache: packages
+addons:
+  apt:
+    packages:
+      - libgdal-dev
+      - libproj-dev
 
 r_packages:
   - covr

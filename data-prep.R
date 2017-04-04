@@ -10,8 +10,6 @@ latlong = "+init=epsg:4326"
 
 proj4string(west_hex_map2) <- NA
 
-
-
   west_hex_map <- rgdal::readOGR("./data/GB_Hex_Cartogram_Const.shp", "GB_Hex_Cartogram_Const")
 
   
