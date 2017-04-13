@@ -5,6 +5,7 @@ library(raster)  # raster data
 library(rgdal)  # input/output, projections
 library(rgeos)  # geometry ops
 library(spdep)  # spatial dependence
+library(sf)
 
 latlong = "+init=epsg:4326"
 
