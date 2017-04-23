@@ -7,6 +7,19 @@ parlitools
 
 A collection of useful tools for UK politics, including base maps and datasets.
 
+Installing
+----------
+
+At present `parlitools` is only available on GitHub, although a CRAN release is being planned, to occur at least a fortnight ahead of the 2017 UK General Election.
+
+To install the current version from GitHub, run:
+
+    devtools::install_github("evanodell/parlitools")
+
+You will also need the development version of `mnis`:
+
+    devtools::install_github("evanodell/mnis")
+
 Data
 ----
 

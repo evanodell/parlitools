@@ -19,6 +19,7 @@ Note, this uses packages that are not imported by `parlitools`, namely `leaflet`
   library(leaflet)
   library(sf)
   library(dplyr)
+  devtools::install_github("evanodell/mnis") # If using v0.2.3 or less
 
   west_hex_map <- parlitools::west_hex_map
   

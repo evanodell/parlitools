@@ -3,7 +3,7 @@
 \docType{data}
 \name{spending_2015}
 \alias{spending_2015}
-\title{Tibbles with the election spending of all candidates in the 2015 General Election. Variable names have been converted to snake_case.}
+\title{A tibble with the election spending of all candidates in the 2015 General Election. Variable names have been converted to snake_case.}
 \format{A tibble with 3971 rows and 50 columns.
 \describe{
 }}
@@ -14,6 +14,6 @@
 spending_2015
 }
 \description{
-Tibbles with the election spending of all candidates in the 2015 General Election. Variable names have been converted to snake_case.
+A tibble with the election spending of all candidates in the 2015 General Election. Variable names have been converted to snake_case.
 }
 \keyword{datasets}
