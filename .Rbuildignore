@@ -6,3 +6,5 @@
 ^testing\.R\.R$
 ^data-prep\.R$
 ^data-raw$
+^testing\.R$
+^docs$

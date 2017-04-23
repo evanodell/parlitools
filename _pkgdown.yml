@@ -1,0 +1,34 @@
+template:
+  params:
+   bootswatch: yeti
+   ganalytics: UA-90706059-1
+
+name:
+navbar:
+  left:
+    - text: "Home"
+      href: http://evanodell.com
+    - text: "Reference"
+      href: reference/index.html
+    - text: "Articles"
+      href: articles/index.html
+    - text: "News"
+      href: news/index.html
+    - text: "Packages"
+      menu:
+        - text: "Packages Home"
+          href: http://evanodell.com/packages
+        - text: "---------"
+        - text: "hansard"
+          href: http://evanodell.com/hansard
+        - text: "mnis"
+          href: http://evanodell.com/mnis
+        - text: "parlitools"
+          href: http://evanodell.com/parlitools
+          
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/EvanOdell/parlitools
+
+
+

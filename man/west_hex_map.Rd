@@ -3,17 +3,17 @@
 \docType{data}
 \name{west_hex_map}
 \alias{west_hex_map}
-\title{A hexagonal cartogram of Westminster parliamentary constituencies}
+\title{A hexagonal cartogram of Westminster parliamentary constituencies. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.}
 \format{A SpatialPolygonsDataFrame, containing 650 elements
 \describe{
 }}
 \source{
-\url{}
+\url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}
 }
 \usage{
 west_hex_map
 }
 \description{
-A hexagonal cartogram of Westminster parliamentary constituencies
+A hexagonal cartogram of Westminster parliamentary constituencies. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
 }
 \keyword{datasets}

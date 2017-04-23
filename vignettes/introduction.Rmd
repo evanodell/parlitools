@@ -9,3 +9,43 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+## Creating a Hexagonal Map
+
+```{r fig.width= 8, fig.height=4,message=FALSE}
+  library(leaflet)
+  library(sf)
+  library(dplyr)
+  library(readr)
+
+  west_hex_map <- parlitools::west_hex_map
+  
+  constit <- hansard::constituencies() #Get list of current consituencies
+  
+  current <- mnis::mnis_eligible(house="commons") #Get list of current MPs
+  
+  current_mps <- left_join(current, constit, by = c("member_from"= "label_value"))
+  
+  party_colour <- parlitools::party_colour
+  
+  current_mps_colours <- left_join(current_mps, party_colour, by = "party_id")
+  
+  west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = c("CODE"="gss_code"))
+
+  labels <- paste0(
+   "<strong>", west_hex_map2$member_from, "</strong>", "</br>",
+    west_hex_map2$party_name, "</br>",
+    west_hex_map2$display_as, "</br>"
+  ) %>% lapply(htmltools::HTML)
+  
+  
+  leaflet(
+    west_hex_map2) %>%
+    addPolygons(
+      color = "grey",
+      weight=1,
+      opacity = 0.5,
+      fillOpacity = 1,
+      fillColor = ~party_colour,
+      label=labels)
+```
+

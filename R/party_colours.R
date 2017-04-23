@@ -1,6 +1,6 @@
 
 
-party_colours <- list("Abolish the Congestion Charge"="#DDDDDD",
+party_colours <- c("Abolish the Congestion Charge"="#DDDDDD",
 "All-for-Ireland"="#66FF99",
 "Alliance for Green Socialism"="#00A86B",
 "Alliance"="#F6CB2F",
