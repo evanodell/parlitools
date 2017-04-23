@@ -13,13 +13,17 @@ vignette: >
 
 Create a hexagonal map of all current constituency MPs, at the time Parliament was dissolved for the 2017 General Election.
 
-Note, this uses packages that are not imported by `parlitools`, namely `leaflet`, `htmltools` and `sf`.
+Note, this uses packages that are not imported by `parlitools`, namely `leaflet`, `htmltools` and `sf`. It also requires a version of `mnis` > 0.2.3. You may have to install the development version for this:
+
+```
+devtools::install_github("evanodell/mnis")
+```
 
 ```{r fig.width= 8, fig.height=4,message=FALSE}
   library(leaflet)
   library(sf)
   library(dplyr)
-  devtools::install_github("evanodell/mnis") # If using v0.2.3 or less
+  devtools::install_github("evanodell/mnis") # If current version is v0.2.3 or less
 
   west_hex_map <- parlitools::west_hex_map
   
