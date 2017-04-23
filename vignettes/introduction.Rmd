@@ -11,11 +11,14 @@ vignette: >
 
 ## Creating a Hexagonal Map
 
+Create a hexagonal map of all current constituency MPs, at the time Parliament was dissolved for the 2017 General Election.
+
+Note, this uses packages that are not imported by `parlitools`, namely `leaflet`, `htmltools` and `sf`.
+
 ```{r fig.width= 8, fig.height=4,message=FALSE}
   library(leaflet)
   library(sf)
   library(dplyr)
-  library(readr)
 
   west_hex_map <- parlitools::west_hex_map
   
@@ -23,21 +26,22 @@ vignette: >
   
   current <- mnis::mnis_eligible(house="commons") #Get list of current MPs
   
-  current_mps <- left_join(current, constit, by = c("member_from"= "label_value"))
+  current_mps <- left_join(current, constit, by = c("member_from"= "label_value")) ## Join together
   
-  party_colour <- parlitools::party_colour
+  party_colour <- parlitools::party_colour ## Party colour data
   
-  current_mps_colours <- left_join(current_mps, party_colour, by = "party_id")
+  current_mps_colours <- left_join(current_mps, party_colour, by = "party_id") ## Join to current MP data
   
-  west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = c("CODE"="gss_code"))
+  west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = c("CODE"="gss_code")) ## Join to hexagon map
 
+  # Creating map labels
   labels <- paste0(
    "<strong>", west_hex_map2$member_from, "</strong>", "</br>",
     west_hex_map2$party_name, "</br>",
     west_hex_map2$display_as, "</br>"
   ) %>% lapply(htmltools::HTML)
   
-  
+  # Creating the map itself
   leaflet(
     west_hex_map2) %>%
     addPolygons(

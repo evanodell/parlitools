@@ -8,7 +8,8 @@
 #'
 #' @docType package
 #' @name parlitools
-#' @import rgdal
 #' @import hansard
 #' @import mnis
+#' @import dplyr
+#' @import sf
 NULL

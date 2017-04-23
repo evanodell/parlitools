@@ -16,7 +16,7 @@ current_mps <- function(tidy=TRUE){
   
   current <- mnis::mnis_eligible(house="commons", tidy=tidy)  
   
-  current_mps <- left_join(current, constit, by = c("member_from"= "label_value"))
+  current_mps <- dplyr::left_join(current, constit, by = c("member_from"= "label_value"))
   
   current_mps
   

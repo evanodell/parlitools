@@ -3,7 +3,7 @@
 \docType{data}
 \name{bes_2015}
 \alias{bes_2015}
-\title{A tibble with the British Election Study 2015 Constituency Results Version 2.2.}
+\title{A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case.}
 \format{A tibble, containing 46 rows and 3 columns.
 \describe{
 }}
@@ -14,7 +14,7 @@
 bes_2015
 }
 \description{
-A tibble with the British Election Study 2015 Constituency Results Version 2.2.
+A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case.
 }
 \references{
 British Election Study 2015 Constituency Results Version 2.2. DOI: 10.13140/RG.2.1.1162.1844
