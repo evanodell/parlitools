@@ -54,5 +54,7 @@
   names(spending_2015) <- tolower(names(spending_2015))
   devtools::use_data(spending_2015)
   
-  
-  
+
+# Brexit data -------------------------------------------------------------
+
+### In data-raw folder, still needs some cleaning

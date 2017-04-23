@@ -8,10 +8,6 @@
       offset=c(-4,-10), textsize = '12px')) %>%
   setMapWidgetStyle()
 
-
-
-
-
 map@data <- 
   map@data %>% 
   left_join(election.2015,by=c("CODE"="gss_code"))
