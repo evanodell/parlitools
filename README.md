@@ -10,7 +10,7 @@ A collection of useful tools for UK politics, including base maps and datasets.
 Installing
 ----------
 
-At present `parlitools` is only available on GitHub, although a CRAN release is being planned, to occur at least a fortnight ahead of the 2017 UK General Election.
+At present `parlitools` is only available on GitHub, although a CRAN release is being planned, ahead of the 2017 UK General Election.
 
 To install the current version from GitHub, run:
 
@@ -39,7 +39,7 @@ Maps
 
 `west_hex_map` - A hexagonal cartogram of Westminster parliamentary constituencies.
 
-Vignette
---------
+Using `parlitools`
+------------------
 
 For more details, please see the [vignette](http://evanodell.com/parlitools/articles/introduction.html).
