@@ -2,8 +2,16 @@
 
 #' A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
 #'
-#' @format A SpatialPolygonsDataFrame, containing 650 elements
+#' @format An sf and data.frame object, containing 650 elements and 
 #' \describe{
+#'   \item{OBJECTID_1}{}
+#'   \item{NAME}{The name of the constituency}
+#'   \item{DESCRIPTIO}{Description of constituency type}
+#'   \item{CODE}{The constituency GSS code}
+#'   \item{Region_Nam}{Name of region within the UK}
+#'   \item{Shape_Leng}{}
+#'   \item{Shape_Area}{}
+#'   \item{geometry}{}
 #' }
 #' @source \url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}
 "west_hex_map"
@@ -13,6 +21,9 @@
 #'
 #' @format A tibble, containing 46 rows and 3 columns.
 #' \describe{
+#' \item{party_id}{The party ID, as assigned by the Members Name Information Service}
+#' \item{party_name}{The name of the political party}
+#' \item{party_colour}{A hex code for the party colour, as used by Wikipedia}
 #' }
 #' @source \url{https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes}
 #' \url{http://data.parliament.uk/membersdataplatform/services/mnis/ReferenceData/Parties/}
@@ -23,7 +34,7 @@
 #' 
 #' @references British Election Study 2015 Constituency Results Version 2.2. DOI: 10.13140/RG.2.1.1162.1844
 #'
-#' @format A tibble, containing 46 rows and 3 columns.
+#' @format A tibble, containing 632 rows and 277 columns.
 #' \describe{
 #' }
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}

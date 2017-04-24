@@ -25,9 +25,9 @@ Data
 
 `party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs.
 
-`bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. (source: <http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/>)
+`bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. (Source: <http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/>)
 
-Tibbles with spending data from all candidates in the 2001, 2005, 2010 and 2015 General Elections. Named `spending_2001`, `spending_2005`, `spending_2010` and `spending_2015`.
+Tibbles with spending data from all candidates in the 2001, 2005, 2010 and 2015 General Elections. Named `spending_2001`, `spending_2005`, `spending_2010` and `spending_2015`. (Source: <http://www.electoralcommission.org.uk/find-information-by-subject/elections-and-referendums/past-elections-and-referendums/uk-general-elections/candidate-election-spending>)
 
 Data Retrieval
 --------------

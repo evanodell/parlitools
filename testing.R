@@ -1,4 +1,12 @@
 
+
+west_hex_map <- parlitools::west_hex_map
+plot(west_hex_map)
+
+
+
+
+
 %>%
   addLabelOnlyMarkers(
     data=sf_NPR1to1.centers,

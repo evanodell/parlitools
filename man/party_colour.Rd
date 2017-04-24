@@ -6,6 +6,9 @@
 \title{A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs.}
 \format{A tibble, containing 46 rows and 3 columns.
 \describe{
+\item{party_id}{The party ID, as assigned by the Members Name Information Service}
+\item{party_name}{The name of the political party}
+\item{party_colour}{A hex code for the party colour, as used by Wikipedia}
 }}
 \source{
 \url{https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes}

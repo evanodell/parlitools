@@ -4,8 +4,16 @@
 \name{west_hex_map}
 \alias{west_hex_map}
 \title{A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.}
-\format{A SpatialPolygonsDataFrame, containing 650 elements
+\format{An sf and data.frame object, containing 650 elements and 
 \describe{
+  \item{OBJECTID_1}{}
+  \item{NAME}{The name of the constituency}
+  \item{DESCRIPTIO}{Description of constituency type}
+  \item{CODE}{The constituency GSS code}
+  \item{Region_Nam}{Name of region within the UK}
+  \item{Shape_Leng}{}
+  \item{Shape_Area}{}
+  \item{geometry}{}
 }}
 \source{
 \url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}

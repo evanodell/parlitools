@@ -4,7 +4,7 @@
 \name{bes_2015}
 \alias{bes_2015}
 \title{A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case.}
-\format{A tibble, containing 46 rows and 3 columns.
+\format{A tibble, containing 632 rows and 277 columns.
 \describe{
 }}
 \source{
