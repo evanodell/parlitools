@@ -16,6 +16,7 @@ Create a hexagonal map of all current constituency MPs, at the time Parliament w
 Note, this uses packages that are not imported by `parlitools`, namely `leaflet`, `htmltools` and `sf`. It also requires a version of `mnis` > 0.2.3. You may have to install the development version of `mnis`:
 
 ```
+#install.packages("devtools")
 devtools::install_github("evanodell/mnis")
 ```
 
@@ -23,7 +24,7 @@ devtools::install_github("evanodell/mnis")
   library(leaflet)
   library(sf)
   library(dplyr)
-  devtools::install_github("evanodell/mnis") # If current version is v0.2.3 or less
+  devtools::install_github("evanodell/mnis") # If installed version of `mnis` is v0.2.3 or less
 
   west_hex_map <- parlitools::west_hex_map
   
@@ -37,13 +38,19 @@ devtools::install_github("evanodell/mnis")
   
   current_mps_colours <- left_join(current_mps, party_colour, by = "party_id") ## Join to current MP data
   
-  west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = c("CODE"="gss_code")) ## Join to hexagon map
+  west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = "gss_code") ## Join to hexagon map
+  
+  elect2015 <- hansard::election_results(382386) # Get 2015 General Election Results
+  
+  west_hex_map2 <- left_join(west_hex_map2, elect2015, by = c("about"= "constituency_about")) ## Join together
 
   # Creating map labels
   labels <- paste0(
    "<strong>", west_hex_map2$member_from, "</strong>", "</br>",
     west_hex_map2$party_name, "</br>",
-    west_hex_map2$display_as, "</br>"
+    west_hex_map2$display_as, "</br>",
+    "2015 Result: ", west_hex_map2$result_of_election, "</br>",
+    "2015 Majority: ", west_hex_map2$majority
   ) %>% lapply(htmltools::HTML)
   
   # Creating the map itself
@@ -51,10 +58,10 @@ devtools::install_github("evanodell/mnis")
     west_hex_map2) %>%
     addPolygons(
       color = "grey",
-      weight=1,
+      weight=0.75,
       opacity = 0.5,
       fillOpacity = 1,
       fillColor = ~party_colour,
-      label=labels)
+      label=labels) 
 ```
 

@@ -2,16 +2,16 @@
 
 #' A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
 #'
-#' @format An sf and data.frame object, containing 650 elements and 
+#' @format An sf and data.frame object, containing 650 elements and 8 variables.
 #' \describe{
-#'   \item{OBJECTID_1}{}
-#'   \item{NAME}{The name of the constituency}
-#'   \item{DESCRIPTIO}{Description of constituency type}
-#'   \item{CODE}{The constituency GSS code}
-#'   \item{Region_Nam}{Name of region within the UK}
-#'   \item{Shape_Leng}{}
-#'   \item{Shape_Area}{}
-#'   \item{geometry}{}
+#'   \item{object_id}{Row Name}
+#'   \item{constituency_name}{The name of the constituency}
+#'   \item{description}{Description of constituency type}
+#'   \item{gss_code}{The constituency GSS code}
+#'   \item{region_name}{Name of region within the UK}
+#'   \item{shape_length}{The lengths of the shape}
+#'   \item{shape_area}{The area of shape}
+#'   \item{geometry}{Shape geometry/projection}
 #' }
 #' @source \url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}
 "west_hex_map"
@@ -40,41 +40,3 @@
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
 "bes_2015"
 
-#' A tibble with the election spending of all candidates in the 2001 General Election. Variable names have been converted to snake_case.
-#' 
-#'
-#' @format A tibble with 3291 rows and 22 columns.
-#' \describe{
-#' }
-#' @source \url{http://www.electoralcommission.org.uk/find-information-by-subject/elections-and-referendums/past-elections-and-referendums/uk-general-elections/candidate-election-spending}
-"spending_2001"
-
-
-#' A tibble with the election spending of all candidates in the 2005 General Election. Variable names have been converted to snake_case.
-#' 
-#'
-#' @format A tibble with 3554 rows and 26 columns.
-#' \describe{
-#' }
-#' @source \url{http://www.electoralcommission.org.uk/find-information-by-subject/elections-and-referendums/past-elections-and-referendums/uk-general-elections/candidate-election-spending}
-"spending_2005"
-
-
-#' A tibble with the election spending of all candidates in the 2010 General Election. Variable names have been converted to snake_case.
-#' 
-#'
-#' @format A tibble with 4031 rows and 52 columns.
-#' \describe{
-#' }
-#' @source \url{http://www.electoralcommission.org.uk/find-information-by-subject/elections-and-referendums/past-elections-and-referendums/uk-general-elections/candidate-election-spending}
-"spending_2010"
-
-
-#' A tibble with the election spending of all candidates in the 2015 General Election. Variable names have been converted to snake_case.
-#' 
-#'
-#' @format A tibble with 3971 rows and 50 columns.
-#' \describe{
-#' }
-#' @source \url{http://www.electoralcommission.org.uk/find-information-by-subject/elections-and-referendums/past-elections-and-referendums/uk-general-elections/candidate-election-spending}
-"spending_2015"

@@ -3,11 +3,15 @@
 west_hex_map <- parlitools::west_hex_map
 plot(west_hex_map)
 
+library(magick)
+x <- image_read(paste0("http://data.parliament.uk/membersdataplatform/services/images/MemberPhoto/", west_hex_map2$member_id[[2]]))
+
+elect2015 <- hansard::election_results(382386)
 
 
 
 
-%>%
+#%>%
   addLabelOnlyMarkers(
     data=sf_NPR1to1.centers,
     label = ~as.character(state),
