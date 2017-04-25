@@ -24,13 +24,14 @@ devtools::install_github("evanodell/mnis")
   library(leaflet)
   library(sf)
   library(dplyr)
+  library(hansard)
   devtools::install_github("evanodell/mnis") # If installed version of `mnis` is v0.2.3 or less
-
+  library(mnis)
   west_hex_map <- parlitools::west_hex_map
   
-  constit <- hansard::constituencies() #Get list of current consituencies
+  constit <- constituencies() #Get list of current consituencies
   
-  current <- mnis::mnis_eligible(house="commons") #Get list of current MPs
+  current <- mnis_eligible(house="commons") #Get list of current MPs
   
   current_mps <- left_join(current, constit, by = c("member_from"= "label_value")) ## Join together
   
@@ -40,7 +41,7 @@ devtools::install_github("evanodell/mnis")
   
   west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = "gss_code") ## Join to hexagon map
   
-  elect2015 <- hansard::election_results(382386) # Get 2015 General Election Results
+  elect2015 <- election_results(382386) # Get 2015 General Election Results
   
   west_hex_map2 <- left_join(west_hex_map2, elect2015, by = c("about"= "constituency_about")) ## Join together
 

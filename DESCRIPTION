@@ -14,13 +14,15 @@ Depends: R(>= 2.10.0)
 Imports:
     mnis,
     hansard,
-    dplyr,
-    sf
+    dplyr
 RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown,
     testthat,
     covr,
     rgdal,
-    leaflet
+    devtools,
+    sf,
+    leaflet,
+    htmltools
 VignetteBuilder: knitr

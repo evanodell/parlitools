@@ -8,5 +8,4 @@
 #' @import hansard
 #' @import mnis
 #' @import dplyr
-#' @import sf
 NULL
