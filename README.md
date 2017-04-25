@@ -41,3 +41,10 @@ Using `parlitools`
 ------------------
 
 For more details, please see the [vignette](http://evanodell.com/parlitools/articles/introduction.html).
+
+Data Sources
+------------
+
+There are a variety of potentially relevant data sources and datasets on UK politics, far too many for me to include them all in this package.
+
+*[Electoral Commission](http://www.electoralcommission.org.uk/our-work/our-research/electoral-data) - Electoral results dating back to 2005. *[British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data.

@@ -24,5 +24,6 @@ Suggests: knitr,
     devtools,
     sf,
     leaflet,
-    htmltools
+    htmltools,
+    jsonlite
 VignetteBuilder: knitr
