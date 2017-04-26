@@ -12,6 +12,9 @@ r_packages:
   - rmarkdown
   - covr
   
+r_github_packages:
+  -evanodell/mnis
+  
 apt_packages:
 - libudunits2-dev
 
