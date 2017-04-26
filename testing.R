@@ -42,3 +42,13 @@ leaflet(
     fillOpacity = 1,
     fillColor = ~party_colour,
     label=labels) 
+
+
+if(packageVersion("mnis")>'0.2.3'){
+  print("Yes")
+} else {
+  print("No")
+}
+
+
+

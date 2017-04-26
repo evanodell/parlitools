@@ -11,10 +11,10 @@ r_packages:
   - roxygen2
   - rmarkdown
   - covr
-  
-r_github_packages:
-  -evanodell/mnis
-  
+  - mnis
+  - hansard
+  - dplyr
+
 apt_packages:
 - libudunits2-dev
 
