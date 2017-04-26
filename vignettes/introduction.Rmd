@@ -22,7 +22,7 @@ devtools::install_github("evanodell/mnis")
 
 Use the code below to create the hexagonal map of current (as of 19 April 2017) UK constituency MPs.
 
-```{r fig.width= 7, fig.height=4,message=FALSE}
+```{r fig.width= 8, fig.height=4,message=FALSE}
   library(leaflet)
   library(sf)
   library(dplyr)
@@ -79,7 +79,7 @@ I have chosen two competing petitions: 'Donald Trump should make a State Visit t
 
 ### Pro-Trump petition signatories
 
-```{r fig.width= 7, fig.height=4,message=FALSE}
+```{r fig.width= 8, fig.height=4,message=FALSE}
 library(leaflet)
 library(sf)
 library(dplyr)
@@ -116,7 +116,7 @@ leaflet(
 
 ### Anti-Trump petition signatories
 
-```{r fig.width= 7, fig.height=4,message=FALSE}
+```{r fig.width= 8, fig.height=4,message=FALSE}
 library(leaflet)
 library(sf)
 library(dplyr)
