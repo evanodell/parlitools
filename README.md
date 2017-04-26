@@ -37,7 +37,7 @@ Maps
 
 `west_hex_map` - A hexagonal cartogram of Westminster parliamentary constituencies, which you can use to create maps like this:
 
-![](tools/hex_map.png)
+<img src="./tools/hex_map.png" width="536" height="100%" />
 
 Using `parlitools`
 ------------------
@@ -52,3 +52,5 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 -   [Electoral Commission](http://www.electoralcommission.org.uk/our-work/our-research/electoral-data) - Electoral results dating back to 2005.
 
 -   [British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data, covering elections and referenda.
+
+-   [`hansard`](https://cran.r-project.org/package=hansard) & [`mnis`](https://cran.r-project.org/package=mnis) data retrieval packages for parliamentary APIs.
