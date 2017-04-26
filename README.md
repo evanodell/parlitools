@@ -35,7 +35,9 @@ Data Retrieval
 Maps
 ----
 
-`west_hex_map` - A hexagonal cartogram of Westminster parliamentary constituencies.
+`west_hex_map` - A hexagonal cartogram of Westminster parliamentary constituencies, which you can use to create maps like this:
+
+![](tools/hex_map.png)
 
 Using `parlitools`
 ------------------
@@ -47,4 +49,6 @@ Data Sources
 
 There are a variety of potentially relevant data sources and datasets on UK politics, far too many for me to include them all in this package.
 
-*[Electoral Commission](http://www.electoralcommission.org.uk/our-work/our-research/electoral-data) - Electoral results dating back to 2005. *[British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data.
+-   [Electoral Commission](http://www.electoralcommission.org.uk/our-work/our-research/electoral-data) - Electoral results dating back to 2005.
+
+-   [British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data.

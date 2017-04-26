@@ -1,20 +1,38 @@
-
-
-trump_yes <- jsonlite::fromJSON("https://petition.parliament.uk/petitions/178844.json", flatten = TRUE)
-trump_yes_con <- trump_yes$data$attributes$signatures_by_constituency
-
-pal = colorNumeric("Oranges", trump_yes_con$signature_count)
+library(leaflet)
+library(sf)
+library(dplyr)
+library(hansard)
+devtools::install_github("evanodell/mnis") # If installed version of `mnis` is v0.2.3 or less
+library(mnis)
 
 west_hex_map <- parlitools::west_hex_map
 
-west_trump_yes <- left_join(west_hex_map, trump_yes_con, by = c("gss_code"="ons_code")) ## Join to hexagon map
+constit <- constituencies() #Get list of current consituencies
 
+current <- mnis_eligible(house="commons") #Get list of current MPs
 
+current_mps <- left_join(current, constit, by = c("member_from"= "label_value")) ## Join together
+
+party_colour <- parlitools::party_colour ## Party colour data
+
+current_mps_colours <- left_join(current_mps, party_colour, by = "party_id") ## Join to current MP data
+
+west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = "gss_code") ## Join to hexagon map
+
+elect2015 <- election_results(382386) # Get 2015 General Election Results
+
+west_hex_map2 <- left_join(west_hex_map2, elect2015, by = c("about"= "constituency_about")) ## Join together
+
+# Creating map labels
 labels <- paste0(
-  "<strong>", west_trump_yes$constituency_name, "</strong>", "</br>",
-  "Signatures: ", west_trump_yes$signature_count
+  "<strong>", west_hex_map2$member_from, "</strong>", "</br>",
+  west_hex_map2$party_name, "</br>",
+  west_hex_map2$display_as, "</br>",
+  "2015 Result: ", west_hex_map2$result_of_election, "</br>",
+  "2015 Majority: ", west_hex_map2$majority
 ) %>% lapply(htmltools::HTML)
 
+# Creating the map itself
 leaflet(
   west_hex_map2) %>%
   addPolygons(
@@ -22,5 +40,5 @@ leaflet(
     weight=0.75,
     opacity = 0.5,
     fillOpacity = 1,
-    fillColor = ~pal(signature_count),
-    label = labels)
+    fillColor = ~party_colour,
+    label=labels) 
