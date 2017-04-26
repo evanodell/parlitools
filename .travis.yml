@@ -11,6 +11,9 @@ r_packages:
   - roxygen2
   - rmarkdown
   - covr
+  
+apt_packages:
+- libudunits2-dev
 
 before_install:
   - sudo add-apt-repository -y ppa:ubuntugis/ppa
