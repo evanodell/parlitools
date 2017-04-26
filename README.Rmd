@@ -57,7 +57,7 @@ devtools::install_github("evanodell/mnis")
 `west_hex_map` - A hexagonal cartogram of Westminster parliamentary constituencies, which you can use to create maps like this:
 
 ```{r, out.height = '100%', echo=FALSE}
-knitr::include_graphics("./tools/hex_map.png")
+knitr::include_graphics("tools/hex_map.png")
 ```
 
 ## Using `parlitools`
