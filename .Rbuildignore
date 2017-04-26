@@ -10,3 +10,4 @@
 ^docs$
 ^_pkgdown\.yml$
 ^news\.md$
+^hex_amp\.png$

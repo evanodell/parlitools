@@ -37,7 +37,7 @@ Maps
 
 `west_hex_map` - A hexagonal cartogram of Westminster parliamentary constituencies, which you can use to create maps like this:
 
-<img src="./tools/hex_map.png" width="536" height="100%" />
+<img src="hex_map.png" width="536" height="100%" />
 
 Using `parlitools`
 ------------------
