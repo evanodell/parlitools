@@ -31,5 +31,3 @@ current_mps <- function(tidy=TRUE){
   df
   
 }
-
-x <- current_mps()

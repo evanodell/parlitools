@@ -1,5 +1,5 @@
 
-#' The parlitools package provides various useful tools and functions for analysing UK politics, creating political maps, retrieving data, etc.
+#' The parlitools package provides various useful tools and functions for analysing UK politics, creating political maps and retrieving data.
 #'
 #' 
 #'
@@ -8,4 +8,5 @@
 #' @import hansard
 #' @import mnis
 #' @import dplyr
+#' @import utils
 NULL
