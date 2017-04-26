@@ -9,4 +9,5 @@
 #' @import mnis
 #' @import dplyr
 #' @import utils
+#' @import tibble
 NULL
