@@ -2,24 +2,19 @@ library(leaflet)
 library(sf)
 library(dplyr)
 library(hansard)
-devtools::install_github("evanodell/mnis") # If installed version of `mnis` is v0.2.3 or less
 library(mnis)
 
 west_hex_map <- parlitools::west_hex_map
 
-constit <- constituencies() #Get list of current consituencies
-
-current <- mnis_eligible(house="commons") #Get list of current MPs
-
-current_mps <- left_join(current, constit, by = c("member_from"= "label_value")) ## Join together
-
 party_colour <- parlitools::party_colour ## Party colour data
+
+current_mps <- current_mps() 
+
+elect2015 <- election_results(382386) # Get 2015 General Election Results
 
 current_mps_colours <- left_join(current_mps, party_colour, by = "party_id") ## Join to current MP data
 
 west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = "gss_code") ## Join to hexagon map
-
-elect2015 <- election_results(382386) # Get 2015 General Election Results
 
 west_hex_map2 <- left_join(west_hex_map2, elect2015, by = c("about"= "constituency_about")) ## Join together
 
@@ -42,13 +37,3 @@ leaflet(
     fillOpacity = 1,
     fillColor = ~party_colour,
     label=labels) 
-
-
-if(packageVersion("mnis")>'0.2.3'){
-  print("Yes")
-} else {
-  print("No")
-}
-
-
-

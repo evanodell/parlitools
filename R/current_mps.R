@@ -12,14 +12,24 @@
  
 current_mps <- function(tidy=TRUE){
   
-  constit <- hansard::constituencies(tidy=tidy)
+  suppressMessages(constit <- hansard::constituencies(tidy=tidy))
   
-  current <- mnis::mnis_eligible(house="commons", tidy=tidy)  
+  if(packageVersion("mnis")>"0.2.3") {
   
-  current_mps <- dplyr::left_join(current, constit, by = c("member_from"= "label_value"))
+  current <- mnis::mnis_eligible(house="commons", tidy=tidy)
   
-  current_mps
+  } else {
+    
+    x <- mnis::mnis_eligible(house="commons", tidy=tidy)
+    
+    current <- tibble::as_tibble(mnis::mnis_tidy(x$members$Member))
+    
+  }
+  
+  df <- dplyr::left_join(current, constit, by = c("member_from"= "label_value"))
+  
+  df
   
 }
 
-
+x <- current_mps()

@@ -9,16 +9,9 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-## Creating a hexagonal map of constituencies
+#Creating a hexagonal map of constituencies
 
 Create a hexagonal map of all constituency MPs, at the time Parliament was dissolved for the 2017 General Election.
-
-Note, this uses packages that are not imported by `parlitools`, namely `leaflet`, `htmltools` and `sf`. It also requires a version of `mnis` > v0.2.3. You may have to install the development version of `mnis`:
-
-```
-#install.packages("devtools")
-devtools::install_github("evanodell/mnis")
-```
 
 Use the code below to create the hexagonal map of current (as of 19 April 2017) UK constituency MPs.
 
@@ -27,25 +20,21 @@ Use the code below to create the hexagonal map of current (as of 19 April 2017) 
   library(sf)
   library(dplyr)
   library(hansard)
-  devtools::install_github("evanodell/mnis") # If installed version of `mnis` is v0.2.3 or less
   library(mnis)
+  library(parlitools)
   
   west_hex_map <- parlitools::west_hex_map
-  
-  constit <- constituencies() #Get list of current consituencies
-  
-  current <- mnis_eligible(house="commons") #Get list of current MPs
-  
-  current_mps <- left_join(current, constit, by = c("member_from"= "label_value")) ## Join together
-  
+
   party_colour <- parlitools::party_colour ## Party colour data
-  
-  current_mps_colours <- left_join(current_mps, party_colour, by = "party_id") ## Join to current MP data
-  
-  west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = "gss_code") ## Join to hexagon map
-  
+
+  current_mps <- current_mps() 
+
   elect2015 <- election_results(382386) # Get 2015 General Election Results
-  
+
+  current_mps_colours <- left_join(current_mps, party_colour, by = "party_id") ## Join to current MP data
+
+  west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = "gss_code") ## Join to hexagon map
+
   west_hex_map2 <- left_join(west_hex_map2, elect2015, by = c("about"= "constituency_about")) ## Join together
 
   # Creating map labels
@@ -71,13 +60,13 @@ Use the code below to create the hexagonal map of current (as of 19 April 2017) 
 
 
 
-## Mapping Parliamentary Petitions
+#Mapping Parliamentary Petitions
 
 The [UK Parliamentary Petition site](https://petition.parliament.uk/) has facilities for mapping which parliamentary constituencies signatories of petitions live in. However, it only produces geographic maps, not hexagrams.
 
 I have chosen two competing petitions: 'Donald Trump should make a State Visit to the United Kingdom' and 'Prevent Donald Trump from making a State Visit to the United Kingdom', both of which attracted large numbers of signatures: 317,492 for the pro-Trump petition, and 1,863,565 on the anti-Trump petition. The  two maps use different colour scales, as using the same colour scale for both maps, which can aid direct comparison, renders the pro-Trump map too faint to read.
 
-### Pro-Trump petition signatories
+##Pro-Trump petition signatories
 
 ```{r fig.width= 8, fig.height=4,message=FALSE}
 library(leaflet)
@@ -114,7 +103,7 @@ leaflet(
 ```
 
 
-### Anti-Trump petition signatories
+##Anti-Trump petition signatories
 
 ```{r fig.width= 8, fig.height=4,message=FALSE}
 library(leaflet)

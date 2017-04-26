@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]() [![GitHub tag](https://img.shields.io/github/tag/evanodell/parlitools.svg)](https://github.com/evanodell/parlitools) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/parlitools)](https://cran.r-project.org/package=parlitools) [![](http://cranlogs.r-pkg.org/badges/grand-total/parlitools)](https://dgrtwo.shinyapps.io/cranview/) [![Travis-CI Build Status](https://travis-ci.org/EvanOdell/parlitools.svg?branch=master)](https://travis-ci.org/EvanOdell/parlitools) [![DOI](https://zenodo.org/badge/86801920.svg)](https://zenodo.org/badge/latestdoi/86801920) [![Coverage Status](https://img.shields.io/codecov/c/github/EvanOdell/parlitools/master.svg)](https://codecov.io/github/EvanOdell/parlitools?branch=master)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]() [![GitHub tag](https://img.shields.io/github/tag/evanodell/parlitools.svg)](https://github.com/evanodell/parlitools) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/parlitools)](https://cran.r-project.org/package=parlitools) <!--[![](http://cranlogs.r-pkg.org/badges/grand-total/parlitools)](https://dgrtwo.shinyapps.io/cranview/)--> [![Travis-CI Build Status](https://travis-ci.org/EvanOdell/parlitools.svg?branch=master)](https://travis-ci.org/EvanOdell/parlitools) [![DOI](https://zenodo.org/badge/86801920.svg)](https://zenodo.org/badge/latestdoi/86801920) [![Coverage Status](https://img.shields.io/codecov/c/github/EvanOdell/parlitools/master.svg)](https://codecov.io/github/EvanOdell/parlitools?branch=master)
 
 parlitools
 ==========
@@ -20,22 +20,22 @@ You will also need the development version of `mnis` if your installed version i
 
     devtools::install_github("evanodell/mnis")
 
-Data
-----
+Included Data
+-------------
 
 `party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs.
 
 `bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. (Source: <http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/>)
 
-Data Retrieval
---------------
+Data Retrieval Functions
+------------------------
 
 `current_mps` - Uses functions from `hansard` and `mnis` to create a tibble with data on all current MPs, their party affiliation and their constituency.
 
-Maps
-----
+Included Maps
+-------------
 
-`west_hex_map` - A hexagonal cartogram of Westminster parliamentary constituencies, which you can use to create maps like this:
+`west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies, which you can use to create maps like this:
 
 <img src="tools/hex_map.png" width="536" height="100%" />
 
