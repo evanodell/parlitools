@@ -16,7 +16,7 @@ To install the current version from GitHub, run:
 
     devtools::install_github("evanodell/parlitools")
 
-You will also need the development version of `mnis`:
+You will also need the development version of `mnis` if your installed version is v0.2.3 (the current version on CRAN) or less:
 
     devtools::install_github("evanodell/mnis")
 
@@ -51,4 +51,4 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 
 -   [Electoral Commission](http://www.electoralcommission.org.uk/our-work/our-research/electoral-data) - Electoral results dating back to 2005.
 
--   [British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data.
+-   [British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data, covering elections and referenda.
