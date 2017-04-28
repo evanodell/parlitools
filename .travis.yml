@@ -23,7 +23,7 @@ before_install:
   - sudo apt-get update
   - sudo apt-get install gdal-bin libgdal-dev libhdf5-7
   - sudo apt-get install -f
-- gdal-config --version
+  - gdal-config --version
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
