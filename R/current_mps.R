@@ -24,6 +24,8 @@ current_mps <- function(tidy=TRUE){
     
     current <- tibble::as_tibble(mnis::mnis_tidy(x$members$Member))
     
+    current$member_from <- gsub("Ynys MÃ´n","Ynys Môn",current$member_from)
+    
   }
   
   df <- dplyr::left_join(current, constit, by = c("member_from"= "label_value"))

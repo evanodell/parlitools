@@ -3,8 +3,15 @@ library(sf)
 library(dplyr)
 library(hansard)
 library(mnis)
+library(sp)
+library(sf)
+library(methods)
 
 west_hex_map <- parlitools::west_hex_map
+
+install.packages("cartogram")
+
+
 
 party_colour <- parlitools::party_colour ## Party colour data
 
@@ -18,22 +25,6 @@ west_hex_map2 <- left_join(west_hex_map, current_mps_colours, by = "gss_code") #
 
 west_hex_map2 <- left_join(west_hex_map2, elect2015, by = c("about"= "constituency_about")) ## Join together
 
-# Creating map labels
-labels <- paste0(
-  "<strong>", west_hex_map2$member_from, "</strong>", "</br>",
-  west_hex_map2$party_name, "</br>",
-  west_hex_map2$display_as, "</br>",
-  "2015 Result: ", west_hex_map2$result_of_election, "</br>",
-  "2015 Majority: ", west_hex_map2$majority
-) %>% lapply(htmltools::HTML)
 
-# Creating the map itself
-leaflet(
-  west_hex_map2) %>%
-  addPolygons(
-    color = "grey",
-    weight=0.75,
-    opacity = 0.5,
-    fillOpacity = 1,
-    fillColor = ~party_colour,
-    label=labels) 
+current$member_from[468]
+
