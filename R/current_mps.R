@@ -18,13 +18,15 @@ current_mps <- function(tidy=TRUE){
   
   current <- mnis::mnis_eligible(house="commons", tidy=tidy)
   
+  current$member_from <- gsub("Ynys M\U00C1\U00B4n", "Ynys M\U00F4n", current$member_from)
+  
   } else {
     
     x <- mnis::mnis_eligible(house="commons", tidy=tidy)
     
     current <- tibble::as_tibble(mnis::mnis_tidy(x$members$Member))
     
-    current$member_from <- gsub("Ynys MÃ´n","Ynys Môn",current$member_from)
+    current$member_from <- gsub("Ynys M\U00C1\U00B4n", "Ynys M\U00F4n", current$member_from)
     
   }
   

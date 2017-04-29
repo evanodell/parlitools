@@ -9,7 +9,7 @@
   \item{object_id}{Row Name}
   \item{constituency_name}{The name of the constituency}
   \item{description}{Description of constituency type}
-  \item{gss_code}{The constituency GSS code}
+  \item{gss_code}{The constituency GSS (Government Statistical Service) code}
   \item{region_name}{Name of region within the UK}
   \item{shape_length}{The lengths of the shape}
   \item{shape_area}{The area of shape}

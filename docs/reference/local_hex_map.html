@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • parlitools</title>
+<title>Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS. — local_hex_map • parlitools</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -48,7 +48,7 @@
   </head>
 
   <body>
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -114,76 +114,43 @@
       </header>
 
       <div class="row">
-  <div class="col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>
-        Reference
-        <small>version&nbsp;0.0.2</small>
-      </h1>
+    <h1>Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.</h1>
     </div>
 
-    <div class="contents">
-      <table class="ref-index">
+    
+    <p>Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.</p>
+    
 
-      <colgroup>
-        <col class="alias" />
-        <col class="title" />
-      </colgroup>
+    <pre class="usage"><span class='no'>local_hex_map</span></pre>
+        
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-      <tbody>
-        <tr>
-          <th colspan="2">
-            <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-            <p class="section-desc"></p>
-          </th>
-        </tr>
-        <tr>
-          <!--  -->
-          <td>
-            <p><code><a href="bes_2015.html">bes_2015</a></code> </p>
-          </td>
-          <td><p>A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="current_mps.html">current_mps</a></code> </p>
-          </td>
-          <td><p>current_mps</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="local_hex_map.html">local_hex_map</a></code> </p>
-          </td>
-          <td><p>Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="parlitools.html">parlitools</a></code> </p>
-          </td>
-          <td><p>The parlitools package provides various useful tools and functions for analysing UK politics, creating political maps and retrieving data.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="party_colour.html">party_colour</a></code> </p>
-          </td>
-          <td><p>A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs.</p></td>
-        </tr><tr>
-          <!--  -->
-          <td>
-            <p><code><a href="west_hex_map.html">west_hex_map</a></code> </p>
-          </td>
-          <td><p>A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.</p></td>
-        </tr>
-      </tbody>
-      </table>
-    </div>
+    <p>An sf and data.frame object, containing 650 elements and 8 variables.</p><dl class='dl-horizontal'>
+  <dt>object_id</dt><dd><p>Row Name</p></dd>
+  <dt>la_code</dt><dd><p>Local Authority identifier code</p></dd>
+  <dt>la_name</dt><dd><p>Local Authority Name</p></dd>
+  <dt>shape_length</dt><dd><p>The lengths of the shape</p></dd>
+  <dt>shape_area</dt><dd><p>The area of the shape</p></dd>
+  <dt>geometry</dt><dd><p>Shape geometry/projection</p></dd>
+</dl>
+    
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href = 'http://www.arcgis.com/home/item.html?id=593037bc399e460bb7c6c631ceff67b4'>http://www.arcgis.com/home/item.html?id=593037bc399e460bb7c6c631ceff67b4</a></p>
+    
+
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#section-all-functions">All functions</a></li>
-    </ul>
+      
+      <li><a href="#format">Format</a></li>
+
+      <li><a href="#source">Source</a></li>
+          </ul>
+
   </div>
 </div>
 

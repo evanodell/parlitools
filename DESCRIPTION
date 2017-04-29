@@ -1,7 +1,7 @@
 Package: parlitools
 Type: Package
-Title: Tools for analysing UK politics in R
-Version: 0.0.1
+Title: Tools for Analysing UK Politics in R
+Version: 0.0.2
 Authors@R: person("Evan Odell", email="evanodell91@gmail.com", role=c("aut", "cre"))
 Author: Evan Odell [aut, cre]
 Maintainer: Evan Odell <evanodell91@gmail.com>
@@ -27,5 +27,6 @@ Suggests: knitr,
     sf,
     leaflet,
     htmltools,
-    jsonlite
+    jsonlite,
+    cartogram
 VignetteBuilder: knitr

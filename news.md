@@ -1,4 +1,8 @@
 
+# parlitools 0.0.2
+
+Added additional vignette, `local_hex_map`.
+
 
 # parlitools 0.0.1
 
