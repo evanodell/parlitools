@@ -4,7 +4,7 @@
 \name{parlitools}
 \alias{parlitools}
 \alias{parlitools-package}
-\title{The parlitools package provides various useful tools and functions for analysing UK politics, creating political maps and retrieving data.}
+\title{parlitools: Tools for Analysing UK Politics with R}
 \description{
 The parlitools package provides various useful tools and functions for analysing UK politics, creating political maps and retrieving data.
 }

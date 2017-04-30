@@ -2,7 +2,7 @@
 % Please edit documentation in R/mps_on_date.R
 \name{mps_on_date}
 \alias{mps_on_date}
-\title{mps_on_date}
+\title{Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information.}
 \usage{
 mps_on_date(date1 = Sys.Date(), date2 = NULL, tidy = TRUE)
 }
@@ -14,10 +14,10 @@ mps_on_date(date1 = Sys.Date(), date2 = NULL, tidy = TRUE)
 \item{tidy}{Fix the variable names in the tibble to remove extra characters, superfluous text and convert variable names to snake_case. Defaults to TRUE.}
 }
 \value{
-A tibble
+A tibble with information on all MPs who were members of the House of Commons on the date specificed (if only date1 is included as a parameter), or on or between the two dates if both date1 and date2 are specified.
 }
 \description{
-mps_on_date
+Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information.
 }
 \examples{
 \dontrun{

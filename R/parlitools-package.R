@@ -1,5 +1,5 @@
 
-#' parlitools Tools for Analysing UK Politics with R
+#' parlitools: Tools for Analysing UK Politics with R
 #' 
 #' The parlitools package provides various useful tools and functions for analysing UK politics, creating political maps and retrieving data.
 #'

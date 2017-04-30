@@ -1,4 +1,4 @@
-#' current_mps
+#' Request data on all MPs eligible currently to sit in the House of Commons. Includes information on their constituency.
 #' 
 #' @param tidy Fix the variable names in the tibble to remove extra characters, superfluous text and convert variable names to snake_case. Defaults to TRUE.
 #' @return A tibble of all MPs currently eligible to sit in the House of Commons.

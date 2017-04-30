@@ -2,7 +2,7 @@
 % Please edit documentation in R/current_mps.R
 \name{current_mps}
 \alias{current_mps}
-\title{current_mps}
+\title{Request data on all MPs eligible currently to sit in the House of Commons. Includes information on their constituency.}
 \usage{
 current_mps(tidy = TRUE)
 }
@@ -13,7 +13,7 @@ current_mps(tidy = TRUE)
 A tibble of all MPs currently eligible to sit in the House of Commons.
 }
 \description{
-current_mps
+Request data on all MPs eligible currently to sit in the House of Commons. Includes information on their constituency.
 }
 \examples{
 \dontrun{

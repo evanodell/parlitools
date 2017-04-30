@@ -1,4 +1,4 @@
-#' mps_on_date
+#' Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information.
 #'
 #' @param date1 The date to return the list of mps from. Defaults to current system date.
 #' @param date2 An optional query parameter. If a proper date in "YYYY-MM-DD" format, the function returns a list of all MPs who were members between date2 and date1. Defaults to NULL.
