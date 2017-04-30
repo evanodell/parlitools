@@ -16,11 +16,11 @@
 
 mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE){
   
-  if(packageVersion("mnis")>"0.2.4") {
+#  if(packageVersion("mnis")>"0.2.4") {
     
-    mps <- mnis::mnis_mps_on_date(date1=date1, date2=date2, tidy=tidy)
+#    mps <- mnis::mnis_mps_on_date(date1=date1, date2=date2, tidy=tidy)
     
-  } else {
+#  } else {
   
     baseurl <- "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/House=Commons|Membership=all|commonsmemberbetween="
     
@@ -61,7 +61,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE){
       
     }
     
-  }
+#  }
   
   mps$member_from <- gsub("Ynys M\U00C1\U00B4n", "Ynys M\U00F4n", mps$member_from)
   
