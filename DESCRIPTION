@@ -1,6 +1,6 @@
 Package: parlitools
 Type: Package
-Title: Tools for Analysing UK Politics in R
+Title: Tools for Analysing UK Politics with R
 Date: 2017-04-30
 Version: 0.0.2
 Authors@R: person("Evan Odell", email="evanodell91@gmail.com", role=c("aut", "cre"))
