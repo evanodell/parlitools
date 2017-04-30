@@ -30,5 +30,20 @@ navbar:
     - icon: fa-github fa-lg
       href: https://github.com/EvanOdell/parlitools
 
-
+reference:
+- title: Data
+  desc: Datasets included in parlitools
+  contents:
+  - bes_2015
+  - party_colour
+- title: Data Retrieval
+  desc: Data retrieval functions
+  contents:
+  - mps_on_date
+  - current_mps
+- title: Maps
+  desc: Hexagonal maps included with parlitools
+  contents:
+  - west_hex_map
+  - local_hex_map
 
