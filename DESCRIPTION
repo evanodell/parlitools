@@ -1,7 +1,8 @@
 Package: parlitools
 Type: Package
 Title: Tools for Analysing UK Politics in R
-Version: 0.0.1
+Date: 2017-04-30
+Version: 0.0.2
 Authors@R: person("Evan Odell", email="evanodell91@gmail.com", role=c("aut", "cre"))
 Author: Evan Odell [aut, cre]
 Maintainer: Evan Odell <evanodell91@gmail.com>
@@ -16,7 +17,9 @@ Imports:
     hansard,
     dplyr,
     utils, 
-    tibble
+    tibble,
+    httr,
+    jsonlite
 RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown,
@@ -27,6 +30,5 @@ Suggests: knitr,
     sf,
     leaflet,
     htmltools,
-    jsonlite,
     cartogram,
 VignetteBuilder: knitr

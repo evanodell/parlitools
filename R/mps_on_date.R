@@ -60,7 +60,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE){
   
   suppressMessages(constit <- hansard::constituencies(current = FALSE))
   
-  constit <- constit[constit$started_date_value <= date & constit$ended_date_value >= date, ]
+  constit <- constit[constit$started_date_value <= date1 & constit$ended_date_value >= date2, ]
   
   suppressMessages(elect <- election_results())
 

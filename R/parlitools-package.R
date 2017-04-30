@@ -10,4 +10,6 @@
 #' @import dplyr
 #' @import utils
 #' @import tibble
+#' @import httr
+#' @import jsonlite
 NULL
