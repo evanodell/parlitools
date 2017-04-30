@@ -17,4 +17,10 @@ test_that("mps_on_date return expected format", {
   expect_true(tibble::is_tibble(xmpon2))
   expect_true(nrow(xmpon2)==1730)
   
+  xmpon3 <- mps_on_date(date2="1990-04-30", date1="2015-05-10")
+  expect_length(xmpon3, 37)
+  expect_type(xmpon3, "list")
+  expect_true(tibble::is_tibble(xmpon3))
+  expect_true(nrow(xmpon3)==1730)
+  
 })
