@@ -47,10 +47,11 @@ devtools::install_github("evanodell/mnis")
 
 `bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. (Source: http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/)
 
-
 ## Data Retrieval Functions
 
 `current_mps` - Uses functions from `hansard` and `mnis` to create a tibble with data on all current MPs, their party affiliation and their constituency.
+
+`mps_on_date`  - Uses functions from `hansard` and `mnis` to create a tibble with data on all MPs from a given date, their party affiliation and their constituency.
 
 ## Included Maps
 

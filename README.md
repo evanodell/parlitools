@@ -32,6 +32,8 @@ Data Retrieval Functions
 
 `current_mps` - Uses functions from `hansard` and `mnis` to create a tibble with data on all current MPs, their party affiliation and their constituency.
 
+`mps_on_date` - Uses functions from `hansard` and `mnis` to create a tibble with data on all MPs from a given date, their party affiliation and their constituency.
+
 Included Maps
 -------------
 

@@ -1,8 +1,7 @@
 
 # parlitools 0.0.2
 
-Added additional vignette, `local_hex_map`.
-
+Added additional vignette, `local_hex_map` data, `mps_on_date` function.
 
 # parlitools 0.0.1
 

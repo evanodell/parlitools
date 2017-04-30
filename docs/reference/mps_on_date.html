@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case. — bes_2015 • parlitools</title>
+<title>mps_on_date — mps_on_date • parlitools</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -116,39 +116,53 @@
       <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case.</h1>
+    <h1>mps_on_date</h1>
     </div>
 
     
-    <p>A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case.</p>
+    <p>mps_on_date</p>
     
 
-    <pre class="usage"><span class='no'>bes_2015</span></pre>
-        
-    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
-
-    <p>A tibble, containing 632 rows and 277 columns.</p>
+    <pre class="usage"><span class='fu'>mps_on_date</span>(<span class='kw'>date1</span> <span class='kw'>=</span> <span class='fu'>Sys.Date</span>(), <span class='kw'>date2</span> <span class='kw'>=</span> <span class='kw'>NULL</span>, <span class='kw'>tidy</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>)</pre>
     
-    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
-
-    <p><a href = 'http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/'>http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/</a></p>
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a> Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>date1</th>
+      <td><p>The date to return the list of mps from. Defaults to current system date.</p></td>
+    </tr>
+    <tr>
+      <th>date2</th>
+      <td><p>An optional query parameter. If a proper date in "YYYY-MM-DD" format, the function returns a list of all MPs who were members between date2 and date1. Defaults to NULL.</p></td>
+    </tr>
+    <tr>
+      <th>tidy</th>
+      <td><p>Fix the variable names in the tibble to remove extra characters, superfluous text and convert variable names to snake_case. Defaults to TRUE.</p></td>
+    </tr>
+    </table>
     
-    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>British Election Study 2015 Constituency Results Version 2.2. DOI: 10.13140/RG.2.1.1162.1844</p>
+    <p>A tibble</p>
     
 
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'>not_run</span>({
+
+  <span class='no'>x</span> <span class='kw'>&lt;-</span> <span class='fu'>mp_on_date</span>()
+
+})</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
+      <li><a href="#arguments">Arguments</a></li>
       
-      <li><a href="#format">Format</a></li>
-
-      <li><a href="#source">Source</a></li>
-
-      <li><a href="#references">References</a></li>
-          </ul>
+      <li><a href="#value">Value</a></li>
+      
+      <li><a href="#examples">Examples</a></li>
+    </ul>
 
   </div>
 </div>

@@ -23,26 +23,27 @@ Use the code below to create the hexagonal map of current (as of 19 April 2017) 
   library(mnis)
   library(parlitools)
   
-  west_hex_map <- parlitools::west_hex_map
+ west_hex_map <- parlitools::west_hex_map
 
-  party_colour <- parlitools::party_colour ## Party colour data
+party_colour <- parlitools::party_colour
 
-  current <- current_mps() 
+current_mps <- current_mps() 
 
-  elect2015 <- election_results(382386) # Get 2015 General Election Results
-  
-  constits <- constituencies() ### combine with elect 2015 to get gss code
-  
-  elect2015_details <- left_join(constits, elect2015, by = c("about"= "constituency_about")) ## Join
+elect2015 <- election_results(382386) #Get 2015 General Election Results
 
-  current_mps_colours <- left_join(current, party_colour, by = "party_id") ## Join to current MP data
+constits <- constituencies() #Combine with elect 2015 to get gss code
 
-  west_hex_map <- left_join(west_hex_map, current_mps_colours, by = "gss_code") ## Join to hexagon map
+elect2015_details <- left_join(constits, elect2015, by = c("about"= "constituency_about")) #Join constituency details to electoral results.
 
-  west_hex_map <- left_join(west_hex_map, elect2015_details, by = "gss_code") ## Join together
+current_mps_colours <- left_join(current_mps, party_colour, by = "party_id") #Join to current MP data
 
-  # Creating map labels
-  labels <- paste0(
+west_hex_map <- left_join(west_hex_map, current_mps_colours, by = "gss_code") #Join colours to hexagon map
+
+west_hex_map <- left_join(west_hex_map, elect2015_details, by = "gss_code") #Join constituency and electoral details to hexagon map
+
+
+# Creating map labels
+labels <- paste0(
    "<strong>", west_hex_map$member_from, "</strong>", "</br>",
     west_hex_map$party_name, "</br>",
     west_hex_map$display_as, "</br>",
@@ -50,8 +51,8 @@ Use the code below to create the hexagonal map of current (as of 19 April 2017) 
     "2015 Majority: ", west_hex_map$majority
   ) %>% lapply(htmltools::HTML)
   
-  # Creating the map itself
-  leaflet(
+# Creating the map itself
+leaflet(
     west_hex_map) %>%
     addPolygons(
       color = "grey",
