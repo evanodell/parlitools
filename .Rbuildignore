@@ -11,3 +11,7 @@
 ^_pkgdown\.yml$
 ^news\.md$
 ^hex_amp\.png$
+^parlitools\.bib$
+^\.gitignore$
+^\.Rhistory$
+^cran-comments\.md$

@@ -1,6 +1,7 @@
 ---
 output: github_document
 always_allow_html: yes
+bibliography: parlitools.bib
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -36,14 +37,9 @@ To install the current version from GitHub, run:
 devtools::install_github("evanodell/parlitools")
 ```
 
-You will also need the development version of `mnis` if your installed version is v0.2.3 (the current version on CRAN) or less:
-```
-devtools::install_github("evanodell/mnis")
-```
-
 ## Included Data
 
-`party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs.
+`party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes, `mnis::ref_parties()`)
 
 `bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. (Source: http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/)
 
@@ -55,13 +51,13 @@ devtools::install_github("evanodell/mnis")
 
 ## Included Maps
 
-`west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies, which you can use to create maps like this:
+`west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies (source: http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682). `west_hex_map` can be used to create maps like this:
 
 ```{r, out.height = '100%', echo=FALSE}
 knitr::include_graphics("tools/hex_map.png")
 ```
 
-`local_hex_map` - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland.
+`local_hex_map` - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland. (source: http://www.arcgis.com/home/item.html?id=593037bc399e460bb7c6c631ceff67b4)
 
 ## Using `parlitools`
 
@@ -76,3 +72,4 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 * [British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data, covering elections and referenda.
 
 * [`hansard`](https://cran.r-project.org/package=hansard) & [`mnis`](https://cran.r-project.org/package=mnis) data retrieval packages for parliamentary APIs.
+
