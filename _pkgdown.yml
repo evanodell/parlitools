@@ -47,3 +47,11 @@ reference:
   - west_hex_map
   - local_hex_map
 
+articles:
+- title: Introduction
+  contents:
+  - introduction
+- title: Using Cartograms
+  contents:
+  - using-cartograms
+

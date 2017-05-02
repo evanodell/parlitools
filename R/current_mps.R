@@ -28,7 +28,7 @@ current_mps <- function(tidy=TRUE){
     
     current$member_from <- stringi::stri_trans_general(current$member_from, "latin-ascii")
     
-    current$member_from <- gsub("Ynys MA´n", "Ynys M\U00F4n", current$member_from)
+    current$member_from <- gsub("Ynys MA\U00B4n", "Ynys M\U00F4n", current$member_from)
     
     }
 

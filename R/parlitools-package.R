@@ -14,4 +14,5 @@
 #' @import tibble
 #' @import httr
 #' @import jsonlite
+#' @import stringi
 NULL

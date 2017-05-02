@@ -15,7 +15,7 @@ You can use the [`cartogram`](https://CRAN.R-project.org/package=cartogram) pack
 
 As the cartogram package requires SpatialPolygonsDataFrame objects, instead of simple features objects, the 'west_hex_map' object is converted first to a Spatial object, and then to a SpatialPolygonsDataFrame object, as there is no function to convert directly from sf to SpatialPolygonsDataFrame.
 
-The map below shows the relative safety of each parliamentary seat, as represented by the percentage point margin between each seat's winning and second place candidate --- the 'majority' --- in the 2015 General Election. The larger the seat's hexagon, the safer --- in theory --- it is.
+The map below shows the relative safety of each parliamentary seat, as represented by the percentage point margin between each seat's winning and second place candidate---the 'majority'---in the 2015 General Election. The larger the seat's hexagon, the safer---in theory---it is.
 
 It uses datasets included in this package, namely the British Election Study ('bes_2015'), 'party_colours' and 'west_hex_map'. As the BES only covers Wales, Scotland and England, Northern Ireland is not included in the map.
 

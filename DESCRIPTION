@@ -19,7 +19,8 @@ Imports:
     utils, 
     tibble,
     httr,
-    jsonlite
+    jsonlite,
+    stringi
 RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown,
