@@ -8,12 +8,16 @@ navbar:
   left:
     - text: "Home"
       href: http://evanodell.com
+    - text: "News"
+      href: news/index.html
     - text: "Reference"
       href: reference/index.html
     - text: "Articles"
-      href: articles/index.html
-    - text: "News"
-      href: news/index.html
+      menu:
+        - text: "Introduction"
+          href: articles/introduction.html
+        - text: "Using cartograms with parlitools"
+          href: articles/using-cartograms.html
     - text: "Packages"
       menu:
         - text: "Packages Home"
@@ -47,11 +51,5 @@ reference:
   - west_hex_map
   - local_hex_map
 
-articles:
-- title: Introduction
-  contents:
-  - introduction
-- title: Using Cartograms
-  contents:
-  - using-cartograms
+
 
