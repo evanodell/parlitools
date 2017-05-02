@@ -18,7 +18,14 @@ current_mps <- function(tidy=TRUE){
   
   current <- mnis::mnis_eligible(house="commons", tidy=tidy)
   
-  current$member_from <- gsub("Ynys M\U00C1\U00B4n", "Ynys M\U00F4n", current$member_from)
+  if(.Platform$OS.type=="windows"){
+  
+  current$member_from <- stringi::stri_trans_general(current$member_from, "latin-ascii")
+  
+  current$member_from <- gsub("Ynys MA´n", "Ynys M\U00F4n", current$member_from)
+  
+  }
+
   
   } else {
     
@@ -26,11 +33,17 @@ current_mps <- function(tidy=TRUE){
     
     current <- tibble::as_tibble(mnis::mnis_tidy(x$members$Member))
     
-    current$member_from <- gsub("Ynys M\U00C1\U00B4n", "Ynys M\U00F4n", current$member_from)
+    if(.Platform$OS.type=="windows"){
     
+    current$member_from <- stringi::stri_trans_general(current$member_from, "latin-ascii")
+    
+    current$member_from <- gsub("Ynys MA´n", "Ynys M\U00F4n", current$member_from)
+    
+    }
+
   }
   
-  df <- dplyr::left_join(current, constit, by = c("member_from"= "label_value"))
+  df <- dplyr::right_join(current, constit, by = c("member_from"= "label_value"))
   
   df
   

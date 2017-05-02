@@ -54,6 +54,3 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 -   [British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data, covering elections and referenda.
 
 -   [`hansard`](https://cran.r-project.org/package=hansard) & [`mnis`](https://cran.r-project.org/package=mnis) data retrieval packages for parliamentary APIs.
-
-References
-==========
