@@ -18,7 +18,5 @@ Maintainer: 'Evan Odell <evanodell91@gmail.com>'
 
 New submission
 
-License components with restrictions and base license permitting such:
-  MIT + file LICENSE
-File 'LICENSE':
-  MIT License
+Possibly mis-spelled words in DESCRIPTION:
+  cartograms (9:100)

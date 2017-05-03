@@ -1,12 +1,12 @@
 Package: parlitools
 Type: Package
-Title: Tools for Analysing UK Politics with R
+Title: Tools for Analysing UK Politics
 Date: 2017-05-02
 Version: 0.0.2
 Authors@R: person("Evan Odell", email="evanodell91@gmail.com", role=c("aut", "cre"))
 Author: Evan Odell [aut, cre]
 Maintainer: Evan Odell <evanodell91@gmail.com>
-Description: Provides various tools for analysing UK political data.
+Description: Provides various tools for analysing UK political data, including creating political cartograms and retrieving data.
 URL: https://github.com/EvanOdell/parlitools
 BugReports: https://github.com/EvanOdell/parlitools/issues
 License: MIT + file LICENSE
