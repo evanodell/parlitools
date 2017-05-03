@@ -1,8 +1,13 @@
 
 
-#Comments 
+## Resubmission
 
-This is the first submission of the `parlitools` package.
+This is a resubmission the `parlitools` package, where I have:
+
+* Removed the redundant "with R" from the title field.
+
+* Corrected the license file to follow CRAN template for the MIT license.
+
 
 ## Test environments
 
@@ -18,7 +23,5 @@ Maintainer: 'Evan Odell <evanodell91@gmail.com>'
 
 New submission
 
-License components with restrictions and base license permitting such:
-  MIT + file LICENSE
-File 'LICENSE':
-  MIT License
+Possibly mis-spelled words in DESCRIPTION:
+  cartograms (9:100)

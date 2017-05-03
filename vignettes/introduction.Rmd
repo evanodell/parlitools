@@ -22,20 +22,16 @@ library(dplyr)
 library(hansard)
 library(mnis)
 library(parlitools)
-  
+
 west_hex_map <- parlitools::west_hex_map
 
 party_colour <- parlitools::party_colour
 
-current <- current_mps()
+mps <- mps_on_date("2017-04-19")
 
-elect2015 <- election_results(382386) #Get 2015 General Election Results
+mps_colours <- left_join(mps, party_colour, by = "party_id") #Join to current MP data
 
-current_mps_colours <- left_join(current, party_colour, by = "party_id") #Join to current MP data
-
-west_hex_map <- left_join(west_hex_map, current_mps_colours, by = "gss_code") #Join colours to hexagon map
-
-west_hex_map <- left_join(west_hex_map, elect2015, by = c("about"= "constituency_about")) #Join constituency and electoral details to hexagon map
+west_hex_map <- left_join(west_hex_map, mps_colours, by = "gss_code") #Join colours to hexagon map
 
 # Creating map labels
 labels <- paste0(
@@ -56,6 +52,7 @@ leaflet(
     fillOpacity = 1,
     fillColor = ~party_colour,
     label=labels) 
+
 ```
 
 

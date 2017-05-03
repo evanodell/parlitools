@@ -2,7 +2,7 @@
 % Please edit documentation in R/mps_on_date.R
 \name{mps_on_date}
 \alias{mps_on_date}
-\title{Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information.}
+\title{Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information if the date is 2010-05-06 or later, or if the date range is entirely within 2010-05-06 and the present day.}
 \usage{
 mps_on_date(date1 = Sys.Date(), date2 = NULL, tidy = TRUE)
 }
@@ -17,12 +17,12 @@ mps_on_date(date1 = Sys.Date(), date2 = NULL, tidy = TRUE)
 A tibble with information on all MPs who were members of the House of Commons on the date specificed (if only date1 is included as a parameter), or on or between the two dates if both date1 and date2 are specified.
 }
 \description{
-Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information.
+Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information if the date is 2010-05-06 or later, or if the date range is entirely within 2010-05-06 and the present day.
 }
 \examples{
 \dontrun{
 
-x <- mp_on_date()
+x <- mps_on_date()
 
 }
 }

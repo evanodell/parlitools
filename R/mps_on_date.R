@@ -1,4 +1,4 @@
-#' Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information.
+#' Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information if the date is 2010-05-06 or later, or if the date range is entirely within 2010-05-06 and the present day.
 #'
 #' @param date1 The date to return the list of mps from. Defaults to current system date.
 #' @param date2 An optional query parameter. If a proper date in "YYYY-MM-DD" format, the function returns a list of all MPs who were members between date2 and date1. Defaults to NULL.
@@ -9,7 +9,7 @@
 #'
 #' @examples \dontrun{
 #'
-#' x <- mp_on_date()
+#' x <- mps_on_date()
 #'
 #' }
 
@@ -63,24 +63,59 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE){
     
 #  }
   
-  mps$member_from <- gsub("Ynys M\U00C1\U00B4n", "Ynys M\U00F4n", mps$member_from)
+    if(.Platform$OS.type=="windows"){
+      
+      mps$member_from <- stringi::stri_trans_general(mps$member_from, "latin-ascii")
+      
+      mps$member_from <- gsub("Ynys MA\U00B4n", "Ynys M\U00F4n", mps$member_from)
+      
+    }
   
+  if(date1 >= "2010-05-06"){  
+    
   message("Downloading constituency data")
   
   suppressMessages(constit <- hansard::constituencies(current = FALSE))
   
-  constit <- constit[constit$started_date_value <= date1 & constit$ended_date_value >= date2, ]
+  date1 <- as.Date(date1)
+  date2 <- as.Date(date2)
   
-  suppressMessages(elect <- election_results())
+  constit$ended_date_value[is.na(constit$ended_date_value)] <- Sys.Date()
+  
+  constit2 <- constit[constit$started_date_value <= date1 & constit$ended_date_value >= date2,]
+  
+  constit2$ended_date_value[constit2$ended_date_value==Sys.Date()] <- NA 
+  
+  elect <- elections()
+  
+  suppressMessages(elect_res <- election_results())
+  
+  elect_res2 <- dplyr::right_join(elect, elect_res, by = c("about"="election_about", "label_value"="election_label_value"))
+  
+  elect_res2$date_value <- as.Date(elect_res2$date_value)
 
-  elect <- subset(elect,!duplicated(elect$constituency_about))
+  elect_res3 <- elect_res2[elect_res2$date_value <= date2,] 
+  
+  elect_res3 <- elect_res3[rev(order(elect_res3$date_value)),]
+  
+  elect_res4 <- subset(elect_res3,!duplicated(elect_res3$constituency_about))
     
-  const_elect <- left_join(constit, elect, by = c("about"= "constituency_about")) #Join
+  const_elect <- left_join(constit2, elect_res4, by = c("about"= "constituency_about")) #Join
   
-  df <- dplyr::left_join(mps, const_elect, by = c("member_from"= "label_value"))
+  df <- dplyr::left_join(mps, const_elect, by = c("member_from"= "constituency_label_value"))
   
+  df$label_value.y <- NULL
+  df$label_value.x <- NULL
+  df$about.y <- NULL
+  df$about.y.y <- NULL
+
   df
   
+  } else {
+    
+    mps
+  }
+    
 }
 
 
