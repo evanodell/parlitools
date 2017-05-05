@@ -66,13 +66,25 @@
   <a href="http://evanodell.com">Home</a>
 </li>
 <li>
+  <a href="../news/index.html">News</a>
+</li>
+<li>
   <a href="../reference/index.html">Reference</a>
 </li>
-<li>
-  <a href="../articles/index.html">Articles</a>
-</li>
-<li>
-  <a href="../news/index.html">News</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Articles
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="../articles/introduction.html">Introduction</a>
+    </li>
+    <li>
+      <a href="../articles/using-cartograms.html">Using cartograms with parlitools</a>
+    </li>
+  </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -124,7 +136,17 @@
     <div id="parlitools-0-0-2" class="section level1">
 <h1 class="hasAnchor">
 <a href="#parlitools-0-0-2" class="anchor"></a>parlitools 0.0.2</h1>
-<p>Added additional vignette, <code>local_hex_map</code> data, <code>mps_on_date</code> function.</p>
+<p>Added an additional vignette on using the data in <code>parlitools</code> to create scaled maps with the <code>cartogram</code> package.</p>
+<div id="maps" class="section level3">
+<h3 class="hasAnchor">
+<a href="#maps" class="anchor"></a>Maps</h3>
+<p>Now includes <code>local_hex_map</code>, a hexagonal map of all local authority areas in Scotland, Wales and England.</p>
+</div>
+<div id="data-retrieval" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data-retrieval" class="anchor"></a>Data Retrieval</h3>
+<p>The <code>mps_on_date</code> function downloads information on every MP and their constituency who was a member of the house on a single given date, or between two given dates.</p>
+</div>
 </div>
     <div id="parlitools-0-0-1" class="section level1">
 <h1 class="hasAnchor">
@@ -132,7 +154,23 @@
 <div id="introducing-parlitools" class="section level2">
 <h2 class="hasAnchor">
 <a href="#introducing-parlitools" class="anchor"></a>Introducing parlitools</h2>
-<p>Introducing <code>parlitools</code>, a package for retrieving and analysing UK political data. The package includes datasets from the British Election Study, a hexagonal map of all UK constituencies, and party colour hex codes. For more information see the <a href="http://evanodell.com/parlitools/articles/introduction.html">vignette</a> or the full <a href="http://evanodell.com/parlitools/">documentation</a>.</p>
+<p>Introducing <code>parlitools</code>, a package for retrieving and analysing UK political data. The package includes datasets from the British Election Study, a hexagonal map of all UK constituencies, and party colour hex codes.</p>
+<div id="data" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data" class="anchor"></a>Data</h3>
+<p>The package includes a dataset with 2015 General Election results and census information for each constituency in Scotland, Wales and England, taken from the British Election Study.</p>
+<p>The package also includes a dataset (<code>party_colours</code>) with the hex code for the official colours of UK political parties.</p>
+</div>
+<div id="maps-1" class="section level3">
+<h3 class="hasAnchor">
+<a href="#maps-1" class="anchor"></a>Maps</h3>
+<p>Includes a hexagonal map (<code>west_hex_map</code>) of all 650 constituencies in the UK.</p>
+</div>
+<div id="data-retrieval-1" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data-retrieval-1" class="anchor"></a>Data Retrieval</h3>
+<p>The <code>current_mps</code> function downloads information on every sitting MP and their constituency.</p>
+</div>
 </div>
 </div>
     </div>
