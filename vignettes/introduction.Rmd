@@ -15,7 +15,7 @@ Create a hexagonal map of all constituency MPs, at the time Parliament was disso
 
 Use the code below to create the hexagonal map of current (as of 19 April 2017) UK constituency MPs.
 
-```{r fig.width= 8, fig.height=4,message=FALSE}
+```{r fig.width= 8, fig.height=4, message=FALSE, warning=FALSE}
 library(leaflet)
 library(sf)
 library(dplyr)

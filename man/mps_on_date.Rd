@@ -22,7 +22,7 @@ Request information on all MPs who were members of the House of Commons on the d
 \examples{
 \dontrun{
 
-x <- mps_on_date()
+x <- mps_on_date(date1="2017-04-19", date2="2010-05-04")
 
 }
 }

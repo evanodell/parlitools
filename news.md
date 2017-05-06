@@ -1,4 +1,10 @@
 
+# parlitools 0.0.3
+
+## Bug Fix
+
+Fixed bug in `mps_on_date` where function did not return constituency data.
+
 # parlitools 0.0.2
 
 Added an additional vignette on using the data in `parlitools` to create scaled maps with the `cartogram` package.

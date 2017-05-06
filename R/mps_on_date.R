@@ -9,7 +9,7 @@
 #'
 #' @examples \dontrun{
 #'
-#' x <- mps_on_date()
+#' x <- mps_on_date(date1="2017-04-19", date2="2010-05-04")
 #'
 #' }
 
@@ -70,15 +70,15 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE){
       mps$member_from <- gsub("Ynys MA\U00B4n", "Ynys M\U00F4n", mps$member_from)
       
     }
+    
+    date1 <- as.Date(date1)
+    date2 <- as.Date(date2)
   
   if(date1 >= "2010-05-06"){  
     
   message("Downloading constituency data")
   
   suppressMessages(constit <- hansard::constituencies(current = FALSE))
-  
-  date1 <- as.Date(date1)
-  date2 <- as.Date(date2)
   
   constit$ended_date_value[is.na(constit$ended_date_value)] <- Sys.Date()
   
@@ -90,17 +90,17 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE){
   
   suppressMessages(elect_res <- election_results())
   
-  elect_res2 <- dplyr::right_join(elect, elect_res, by = c("about"="election_about", "label_value"="election_label_value"))
+  elect_res <- dplyr::right_join(elect, elect_res, by = c("about"="election_about", "label_value"="election_label_value"))
   
-  elect_res2$date_value <- as.Date(elect_res2$date_value)
+  elect_res$date_value <- as.Date(elect_res$date_value)
 
-  elect_res3 <- elect_res2[elect_res2$date_value <= date2,] 
+  elect_res <- elect_res[elect_res$date_value <= date2,] 
   
-  elect_res3 <- elect_res3[rev(order(elect_res3$date_value)),]
+  elect_res <- elect_res[rev(order(elect_res$date_value)),]
   
-  elect_res4 <- subset(elect_res3,!duplicated(elect_res3$constituency_about))
+  elect_res <- subset(elect_res,!duplicated(elect_res$constituency_about))
     
-  const_elect <- left_join(constit2, elect_res4, by = c("about"= "constituency_about")) #Join
+  const_elect <- left_join(constit2, elect_res, by = c("about"= "constituency_about")) #Join
   
   df <- dplyr::left_join(mps, const_elect, by = c("member_from"= "constituency_label_value"))
   
