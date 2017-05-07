@@ -4,6 +4,64 @@ library(dplyr)
 library(hansard)
 library(mnis)
 library(parlitools)
+library(cartogram)
+
+west_hex_map <- parlitools::west_hex_map
+
+party_colour <- parlitools::party_colour
+
+elect2015 <- parlitools::bes_2015
+
+elect2015_win_colours <- left_join(elect2015, party_colour, by = c("winner_15" ="party_name")) #Join to current MP data
+
+gb_hex_map <- right_join(west_hex_map, elect2015_win_colours, by = c("gss_code"="onsconst_id")) #Join colours to hexagon map
+
+gb_hex_map <- as(gb_hex_map, "Spatial")
+
+gb_hex_map <- as(gb_hex_map, "SpatialPolygonsDataFrame")
+
+gb_hex_map$majority_15 <- round(gb_hex_map$majority_15, 2)
+
+gb_hex_map$turnout_15 <- round(gb_hex_map$turnout_15, 2)
+
+gp_hex_scaled <- cartogram(gb_hex_map, 'majority_15')
+
+# Creating map labels
+labels <- paste0(
+  "<strong>", "Constituency: ", gb_hex_map$constituency_name.y, "</strong>", "</br>",
+  'Turnout: ', gb_hex_map$turnout_15, "</br>",
+  "Most Recent Winner: ", gb_hex_map$winner_15, "</br>",
+  "Most Recent Majority: ", gb_hex_map$majority_15
+) %>% lapply(htmltools::HTML)
+
+# Creating the map itself
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
+  attributionControl = FALSE),
+  gb_hex_map) %>%
+  addPolygons(
+    color = "grey",
+    weight=0.75,
+    opacity = 0.5,
+    fillOpacity = 1,
+    fillColor = ~party_colour,
+    label=labels)  %>% 
+  htmlwidgets::onRender(
+    "function(x, y) {
+    var myMap = this;
+    myMap._container.style['background'] = '#fff';
+    }")%>% 
+  mapOptions(zoomToLimits = "first")
+
+
+
+library(leaflet)
+library(sf)
+library(dplyr)
+library(hansard)
+library(mnis)
+library(parlitools)
 
 west_hex_map <- parlitools::west_hex_map
 
@@ -25,7 +83,7 @@ labels <- paste0(
 ) %>% lapply(htmltools::HTML)
 
 # Creating the map itself
-map <- leaflet(options=leafletOptions(
+leaflet(options=leafletOptions(
   dragging = FALSE, zoomControl = FALSE, tap = FALSE,
   minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
   attributionControl = FALSE),
@@ -39,45 +97,6 @@ map <- leaflet(options=leafletOptions(
     label=labels)  %>% 
   htmlwidgets::onRender(
     "function(x, y) {
-        var myMap = this;
-        myMap._container.style['background'] = '#fff';
+    var myMap = this;
+    myMap._container.style['background'] = '#fff';
     }")
-
-
-bounds <- input$mymap_bounds
-latRng <- range(bounds$north, bounds$south)
-lngRng <- range(bounds$east, bounds$west)
-
-library(tilegramsR)
-library(leaflet)
-devtools::install_github('bhaskarvk/leaflet.extras')
-library(leaflet.extras)
-
-getLeafletOptions <- function(minZoom, maxZoom, ...) {
-  leafletOptions(
-    crs = leafletCRS("L.CRS.Simple"),
-    minZoom = minZoom, maxZoom = maxZoom,
-    dragging = FALSE, zoomControl = FALSE,
-    tap = FALSE,
-    attributionControl = FALSE , ...)
-}
-
-getFactorPal <- function(f) {
-  colorFactor(colormap::colormap(
-    colormap = colormap::colormaps$hsv,
-    nshades = length(f)), f)
-}
-
-leaflet(
-  tilegramsR:: sf_NPR1to1,
-  options= getLeafletOptions(-1.5, -1.5)) %>%
-  addPolygons(
-    weight=2,color='#000000', group = 'states',
-    fillOpacity = 0.6, opacity = 1, fillColor= ~getFactorPal(state)(state),
-    highlightOptions = highlightOptions(weight = 4)) %>%
-  addLabelOnlyMarkers(
-    data=sf_NPR1to1.centers,
-    label = ~as.character(state),
-    labelOptions = labelOptions(
-      noHide = 'T', textOnly = T,
-      offset=c(-4,-10), textsize = '12px'))
