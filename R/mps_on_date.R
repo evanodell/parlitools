@@ -22,6 +22,8 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE){
     
 #  } else {
   
+  message("Downloading MP data")
+  
     baseurl <- "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/House=Commons|Membership=all|commonsmemberbetween="
     
     if(is.null(date2)==TRUE) {

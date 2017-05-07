@@ -15,7 +15,7 @@ Create a hexagonal map of all constituency MPs, at the time Parliament was disso
 
 Use the code below to create the hexagonal map of current (as of 19 April 2017) UK constituency MPs.
 
-```{r fig.width= 8, fig.height=4, message=FALSE, warning=FALSE}
+```{r fig.width= 6, fig.height=8, message=FALSE, warning=FALSE}
 library(leaflet)
 library(sf)
 library(dplyr)
@@ -38,12 +38,15 @@ labels <- paste0(
   "<strong>", west_hex_map$constituency_name, "</strong>", "</br>",
   west_hex_map$party_name, "</br>",
   west_hex_map$display_as, "</br>",
-  "2015 Result: ", west_hex_map$result_of_election, "</br>",
+  "Most Recent Result: ", west_hex_map$result_of_election, "</br>",
   "2015 Majority: ", west_hex_map$majority
 ) %>% lapply(htmltools::HTML)
 
 # Creating the map itself
-leaflet(
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE,
+  minZoom = 6, maxZoom = 6,
+  attributionControl = FALSE),
   west_hex_map) %>%
   addPolygons(
     color = "grey",
@@ -51,7 +54,14 @@ leaflet(
     opacity = 0.5,
     fillOpacity = 1,
     fillColor = ~party_colour,
-    label=labels) 
+    label=labels) %>% 
+  htmlwidgets::onRender(
+    "function(el, t) {
+        var myMap = this;
+        // get rid of the ugly grey background
+        myMap._container.style['background'] = '#ffffff';
+    }")%>% 
+  mapOptions(zoomToLimits = "first")
 
 ```
 
@@ -65,7 +75,7 @@ I have chosen two competing petitions: 'Donald Trump should make a State Visit t
 
 ##Pro-Trump petition signatories
 
-```{r fig.width= 8, fig.height=4,message=FALSE}
+```{r fig.width= 6, fig.height=8,message=FALSE}
 library(leaflet)
 library(sf)
 library(dplyr)
@@ -84,7 +94,10 @@ label_yes <- paste0(
   "Signatures: ", west_trump_yes$number_of_signatures
 ) %>% lapply(htmltools::HTML)
 
-leaflet(
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE,
+  minZoom = 6, maxZoom = 6,
+  attributionControl = FALSE),
   west_trump_yes) %>%
   addPolygons(
     color = "grey",
@@ -95,14 +108,20 @@ leaflet(
     label = label_yes) %>%
   addLegend("topright", pal = pal, values = ~number_of_signatures,
     title = "Number of Signatures",
-    opacity = 1
-  )
+    opacity = 1) %>% 
+  htmlwidgets::onRender(
+    "function(el, t) {
+        var myMap = this;
+        // get rid of the ugly grey background
+        myMap._container.style['background'] = '#ffffff';
+    }")%>% 
+  mapOptions(zoomToLimits = "first")
 ```
 
 
 ##Anti-Trump petition signatories
 
-```{r fig.width= 8, fig.height=4,message=FALSE}
+```{r fig.width= 6, fig.height=8,message=FALSE}
 library(leaflet)
 library(sf)
 library(dplyr)
@@ -121,7 +140,10 @@ label_no <- paste0(
   "Signatures: ", west_trump_no$number_of_signatures
 ) %>% lapply(htmltools::HTML)
 
-leaflet(
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE,
+  minZoom = 6, maxZoom = 6,
+  attributionControl = FALSE),
   west_trump_no) %>%
   addPolygons(
     color = "grey",
@@ -132,8 +154,14 @@ leaflet(
     label = label_no) %>%
   addLegend("topright", pal = pal, values = ~number_of_signatures,
     title = "Number of Signatures",
-    opacity = 1
-  )
+    opacity = 1) %>% 
+  htmlwidgets::onRender(
+    "function(el, t) {
+        var myMap = this;
+        // get rid of the ugly grey background
+        myMap._container.style['background'] = '#ffffff';
+    }")%>% 
+  mapOptions(zoomToLimits = "first")
 ```
 
 
