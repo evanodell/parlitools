@@ -118,34 +118,41 @@
 <div id="installing" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installing" class="anchor"></a>Installing</h2>
-<p>At present <code>parlitools</code> is only available on GitHub, although a CRAN release is being planned, ahead of the 2017 UK General Election.</p>
+<p><code>parlitools</code> is available on CRAN, to access run:</p>
+<pre><code>install.packages("parlitools")</code></pre>
 <p>To install the current version from GitHub, run:</p>
-<pre><code>devtools::install_github("evanodell/parlitools")</code></pre>
+<pre><code>##install.packages("parlitools")
+devtools::install_github("evanodell/parlitools")</code></pre>
 </div>
-<div id="included-data" class="section level2">
+<div id="functions-and-data" class="section level2">
 <h2 class="hasAnchor">
-<a href="#included-data" class="anchor"></a>Included Data</h2>
-<p><code>party_colours</code> - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: <a href="https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes" class="uri">https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes</a>, <code>mnis::ref_parties()</code>)</p>
+<a href="#functions-and-data" class="anchor"></a>Functions and Data</h2>
+<p>For more details see <a href="http://evanodell.com/parlitools/reference/index.html">the full documentation</a>.</p>
+<div id="included-data" class="section level3">
+<h3 class="hasAnchor">
+<a href="#included-data" class="anchor"></a>Included Data</h3>
+<p><code>party_colours</code> - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: <a href="https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes" class="uri">https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes</a>, <code>[mnis](https://cran.r-project.org/package=mnis)::ref_parties()</code>)</p>
 <p><code>bes_2015</code> - A tibble with the British Election Study 2015 Constituency Results Version 2.2. (Source: <a href="http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/" class="uri">http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/</a>)</p>
 </div>
-<div id="data-retrieval-functions" class="section level2">
-<h2 class="hasAnchor">
-<a href="#data-retrieval-functions" class="anchor"></a>Data Retrieval Functions</h2>
+<div id="data-retrieval-functions" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data-retrieval-functions" class="anchor"></a>Data Retrieval Functions</h3>
 <p><code>current_mps</code> - Uses functions from <code>hansard</code> and <code>mnis</code> to create a tibble with data on all current MPs, their party affiliation and their constituency.</p>
 <p><code>mps_on_date</code> - Uses functions from <code>hansard</code> and <code>mnis</code> to create a tibble with data on all MPs from a given date, their party affiliation and their constituency.</p>
 </div>
-<div id="included-maps" class="section level2">
-<h2 class="hasAnchor">
-<a href="#included-maps" class="anchor"></a>Included Maps</h2>
-<p><code>west_hex_map</code> - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies (source: <a href="http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682" class="uri">http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682</a>). <code>west_hex_map</code> can be used to create maps like this:</p>
+<div id="included-maps" class="section level3">
+<h3 class="hasAnchor">
+<a href="#included-maps" class="anchor"></a>Included Maps</h3>
+<p><code>west_hex_map</code> - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies. <code>west_hex_map</code> can be used to create maps like this:</p>
 <p><img src="tools/hex_map.png" width="268" height="100%"></p>
-<p><code>local_hex_map</code> - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland. (source: <a href="http://www.arcgis.com/home/item.html?id=593037bc399e460bb7c6c631ceff67b4" class="uri">http://www.arcgis.com/home/item.html?id=593037bc399e460bb7c6c631ceff67b4</a>)</p>
+<p><code>local_hex_map</code> - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland.</p>
 </div>
-<div id="using-parlitools" class="section level2">
-<h2 class="hasAnchor">
+<div id="using-parlitools" class="section level3">
+<h3 class="hasAnchor">
 <a href="#using-parlitools" class="anchor"></a>Using <code>parlitools</code>
-</h2>
-<p>For more details, please see the <a href="http://evanodell.com/parlitools/articles/introduction.html">vignette</a>.</p>
+</h3>
+<p>For more details, please see the <a href="http://evanodell.com/parlitools/articles/introduction.html">introductory vignette</a> and <a href="http://evanodell.com/parlitools/articles/using-cartograms.html">using <code>parlitools</code> with <code>cartogram</code></a>.</p>
+</div>
 </div>
 <div id="data-sources" class="section level2">
 <h2 class="hasAnchor">

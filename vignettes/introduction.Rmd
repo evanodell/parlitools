@@ -54,15 +54,13 @@ leaflet(options=leafletOptions(
     opacity = 0.5,
     fillOpacity = 1,
     fillColor = ~party_colour,
-    label=labels) %>% 
+    label=labels)  %>% 
   htmlwidgets::onRender(
-    "function(el, t) {
+    "function(x, y) {
         var myMap = this;
-        // get rid of the ugly grey background
-        myMap._container.style['background'] = '#ffffff';
+        myMap._container.style['background'] = '#fff';
     }")%>% 
   mapOptions(zoomToLimits = "first")
-
 ```
 
 
@@ -108,12 +106,11 @@ leaflet(options=leafletOptions(
     label = label_yes) %>%
   addLegend("topright", pal = pal, values = ~number_of_signatures,
     title = "Number of Signatures",
-    opacity = 1) %>% 
+    opacity = 1)  %>% 
   htmlwidgets::onRender(
-    "function(el, t) {
+    "function(x, y) {
         var myMap = this;
-        // get rid of the ugly grey background
-        myMap._container.style['background'] = '#ffffff';
+        myMap._container.style['background'] = '#fff';
     }")%>% 
   mapOptions(zoomToLimits = "first")
 ```
@@ -154,12 +151,11 @@ leaflet(options=leafletOptions(
     label = label_no) %>%
   addLegend("topright", pal = pal, values = ~number_of_signatures,
     title = "Number of Signatures",
-    opacity = 1) %>% 
+    opacity = 1)  %>% 
   htmlwidgets::onRender(
-    "function(el, t) {
+    "function(x, y) {
         var myMap = this;
-        // get rid of the ugly grey background
-        myMap._container.style['background'] = '#ffffff';
+        myMap._container.style['background'] = '#fff';
     }")%>% 
   mapOptions(zoomToLimits = "first")
 ```

@@ -12,39 +12,43 @@ The most up-to-date documentation for the development version will always be at 
 Installing
 ----------
 
-At present `parlitools` is only available on GitHub, although a CRAN release is being planned, ahead of the 2017 UK General Election.
+`parlitools` is available on CRAN, to access run:
+
+    install.packages("parlitools")
 
 To install the current version from GitHub, run:
 
+    ##install.packages("parlitools")
     devtools::install_github("evanodell/parlitools")
 
-Included Data
--------------
+Functions and Data
+------------------
 
-`party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: <https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes>, `mnis::ref_parties()`)
+For more details see [the full documentation](http://evanodell.com/parlitools/reference/index.html).
+
+### Included Data
+
+`party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: <https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes>, `[mnis](https://cran.r-project.org/package=mnis)::ref_parties()`)
 
 `bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. (Source: <http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/>)
 
-Data Retrieval Functions
-------------------------
+### Data Retrieval Functions
 
 `current_mps` - Uses functions from `hansard` and `mnis` to create a tibble with data on all current MPs, their party affiliation and their constituency.
 
 `mps_on_date` - Uses functions from `hansard` and `mnis` to create a tibble with data on all MPs from a given date, their party affiliation and their constituency.
 
-Included Maps
--------------
+### Included Maps
 
-`west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies (source: <http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682>). `west_hex_map` can be used to create maps like this:
+`west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies. `west_hex_map` can be used to create maps like this:
 
 <img src="tools/hex_map.png" width="536" height="100%" />
 
-`local_hex_map` - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland. (source: <http://www.arcgis.com/home/item.html?id=593037bc399e460bb7c6c631ceff67b4>)
+`local_hex_map` - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland.
 
-Using `parlitools`
-------------------
+### Using `parlitools`
 
-For more details, please see the [vignette](http://evanodell.com/parlitools/articles/introduction.html).
+For more details, please see the [introductory vignette](http://evanodell.com/parlitools/articles/introduction.html) and [using `parlitools` with `cartogram`](http://evanodell.com/parlitools/articles/using-cartograms.html).
 
 Data Sources
 ------------
