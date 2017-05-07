@@ -60,8 +60,8 @@ labels <- paste0(
 
 # Creating the map itself
 leaflet(options=leafletOptions(
-  dragging = FALSE, zoomControl = FALSE,
-  minZoom = 6, maxZoom = 6,
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
   attributionControl = FALSE),
   gp_hex_scaled) %>%
   addPolygons(
@@ -100,8 +100,8 @@ labels <- paste0(
 
 # Creating the map itself
 leaflet(options=leafletOptions(
-  dragging = FALSE, zoomControl = FALSE,
-  minZoom = 6, maxZoom = 6,
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
   attributionControl = FALSE),
   gp_hex_scaled) %>%
   addPolygons(

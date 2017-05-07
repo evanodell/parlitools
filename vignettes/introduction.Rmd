@@ -39,13 +39,13 @@ labels <- paste0(
   west_hex_map$party_name, "</br>",
   west_hex_map$display_as, "</br>",
   "Most Recent Result: ", west_hex_map$result_of_election, "</br>",
-  "2015 Majority: ", west_hex_map$majority
+  "Current Majority: ", west_hex_map$majority
 ) %>% lapply(htmltools::HTML)
 
 # Creating the map itself
 leaflet(options=leafletOptions(
-  dragging = FALSE, zoomControl = FALSE,
-  minZoom = 6, maxZoom = 6,
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
   attributionControl = FALSE),
   west_hex_map) %>%
   addPolygons(
@@ -59,8 +59,7 @@ leaflet(options=leafletOptions(
     "function(x, y) {
         var myMap = this;
         myMap._container.style['background'] = '#fff';
-    }")%>% 
-  mapOptions(zoomToLimits = "first")
+    }")
 ```
 
 
@@ -93,8 +92,8 @@ label_yes <- paste0(
 ) %>% lapply(htmltools::HTML)
 
 leaflet(options=leafletOptions(
-  dragging = FALSE, zoomControl = FALSE,
-  minZoom = 6, maxZoom = 6,
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
   attributionControl = FALSE),
   west_trump_yes) %>%
   addPolygons(
@@ -138,8 +137,8 @@ label_no <- paste0(
 ) %>% lapply(htmltools::HTML)
 
 leaflet(options=leafletOptions(
-  dragging = FALSE, zoomControl = FALSE,
-  minZoom = 6, maxZoom = 6,
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
   attributionControl = FALSE),
   west_trump_no) %>%
   addPolygons(
