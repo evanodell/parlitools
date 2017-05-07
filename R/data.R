@@ -44,7 +44,7 @@
 "party_colour"
 
 
-#' A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case and variables have been converted to appropriate R classes.
+#' A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. Spelling mistakes in the Edinburgh constituency names occuring in the original data have been corrected.
 #' 
 #' @references Fieldhouse, Edward, Jane Green, Geoffrey Evans, Hermann Schmitt, Cees van der Eijk, Jonathan Mellon, and Christopher Prosser. "British Election Study, 2015: General Election Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 #'

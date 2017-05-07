@@ -5,6 +5,10 @@
 
 Fixed bug in `mps_on_date` where function did not return constituency data.
 
+Fixed names party names in `party_colour` to align with names used in `bes_2015`.
+
+Fixed spelling mistakes in Endiburgh constituency names in `bes_2015`.
+
 # parlitools 0.0.2
 
 Added an additional vignette on using the data in `parlitools` to create scaled maps with the `cartogram` package.

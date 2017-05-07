@@ -15,6 +15,7 @@
   west_hex_map <- read_sf('./data-raw/west_hex_map', 'west_hex_map')## The actually working map
   west_hex_map$NAME <- gsub("Boro Const", "", west_hex_map$NAME) ## Removing extra names
   west_hex_map$NAME <- gsub("Co Const", "", west_hex_map$NAME) ## Removing extra names
+  west_hex_map$NAME <- gsub("Burgh Const", "", west_hex_map$NAME) ## Removing extra names
   names(west_hex_map)[names(west_hex_map)=="NAME"] <- "constituency_name"
   names(west_hex_map)[names(west_hex_map)=="OBJECTID_1"] <- "object_id"
   names(west_hex_map)[names(west_hex_map)=="DESCRIPTIO"] <- "description"
@@ -38,7 +39,7 @@
   
 # British Election Study Data -----------------------------------------------------------
 
-  library(readr)
+  library(readxl)
   bes_2015 <- read_xlsx("./data-raw/BES-2015-General-Election-results-file-v2.2.xlsx")
   facs <- c('Country' ,'ConstituencyName', 'Region', 'ConstituencyType', 'Winner15', 'Winner10', 'SeatChange1015', "ConPPC", "ConPPCsex", "ConPPCrace", "LabPPC", "LabPPCsex", "LabPPCrace", "LDPPC", "LDPPCsex",  "LDPPCrace", "UKIPPPC", "UKIPPPCsex", "UKIPPPCrace", "SNPPPC", "SNPPPCsex", "SNPPPCrace", "PCPPC", "PCPPCsex", "PCPPCrace", "GreenPPC", "GreenPPCsex", "GreenPPCrace" )
   bes_2015[,facs] <- lapply(bes_2015[,facs], factor)

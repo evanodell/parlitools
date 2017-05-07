@@ -22,6 +22,7 @@ The map below shows the relative safety of each parliamentary seat, as represent
 It uses datasets included in this package, namely the British Election Study (`bes_2015`), `party_colours` and `west_hex_map`. As the BES only covers Wales, Scotland and England, Northern Ireland is not included in the map.
 
 ```{r fig.width=6, fig.height=7, message=FALSE, warning=FALSE}
+
 library(leaflet)
 library(sf)
 library(dplyr)
@@ -52,10 +53,10 @@ gp_hex_scaled <- cartogram(gb_hex_map, 'majority_15')
 
 # Creating map labels
 labels <- paste0(
-  "<strong>", "Constituency: ", gp_hex_scaled$constituency_name.y, "</strong>", "</br>",
-  "Turnout: ", gp_hex_scaled$turnout_15, "%","</br>",
+  "Constituency: ", gp_hex_scaled$constituency_name.y, "</br>",
   "Most Recent Winner: ", gp_hex_scaled$winner_15, "</br>",
-  "Most Recent Majority: %", gp_hex_scaled$majority_15
+  "Most Recent Majority:", gp_hex_scaled$majority_15, "%",
+  "Turnout: ", gp_hex_scaled$turnout_15, "%","</br>"
 ) %>% lapply(htmltools::HTML)
 
 # Creating the map itself
@@ -70,12 +71,12 @@ leaflet(options=leafletOptions(
     opacity = 0.5,
     fillOpacity = 1,
     fillColor = ~party_colour,
-    label=labels)  %>% 
+    label=labels)  %>%
   htmlwidgets::onRender(
     "function(x, y) {
         var myMap = this;
         myMap._container.style['background'] = '#fff';
-    }")%>% 
+    }")%>%
   mapOptions(zoomToLimits = "first")
 ```
 
@@ -95,7 +96,7 @@ labels <- paste0(
   "<strong>", "Constituency: ", gp_hex_scaled$constituency_name.y, "</strong>", "</br>",
   'Turnout: ', gp_hex_scaled$turnout_15, "%", "</br>",
   "Most Recent Winner: ", gp_hex_scaled$winner_15, "</br>",
-  "Most Recent Majority: ", gp_hex_scaled$majority_15
+  "Most Recent Majority: ", gp_hex_scaled$majority_15, "%"
 ) %>% lapply(htmltools::HTML)
 
 # Creating the map itself
