@@ -21,7 +21,7 @@ navbar:
     - text: "Packages"
       menu:
         - text: "Packages Home"
-          href: http://evanodell.com/packages
+          href: http://evanodell.com/projects/#r-packages
         - text: "---------"
         - text: "hansard"
           href: http://evanodell.com/hansard
