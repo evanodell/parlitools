@@ -22,7 +22,7 @@ navbar:
           href: articles/using-cartograms.html
     - text: "Packages"
       menu:
-        - text: "Documentation Home"
+        - text: "Documentation"
           href: http://docs.evanodell.com
         - text: "---------"
         - text: "hansard"
@@ -35,6 +35,8 @@ navbar:
   right:
     - icon: fa-github fa-lg
       href: https://github.com/EvanOdell/parlitools
+    - icon: fa-home fa-lg
+      href: http://evanodell.com
 
 reference:
 - title: Data
