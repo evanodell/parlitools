@@ -8,6 +8,8 @@ navbar:
   left:
     - text: "Home"
       href: http://evanodell.com
+    - text: "Documentation Home"
+      href: http://docs.evanodell.com
     - text: "News"
       href: news/index.html
     - text: "Reference"
@@ -20,8 +22,8 @@ navbar:
           href: articles/using-cartograms.html
     - text: "Packages"
       menu:
-        - text: "Packages Home"
-          href: http://evanodell.com/#r-packages
+        - text: "Documentation Home"
+          href: http://docs.evanodell.com
         - text: "---------"
         - text: "hansard"
           href: http://docs.evanodell.com/hansard
@@ -29,7 +31,7 @@ navbar:
           href: http://docs.evanodell.com/mnis
         - text: "parlitools"
           href: http://docs.evanodell.com/parlitools
-          
+
   right:
     - icon: fa-github fa-lg
       href: https://github.com/EvanOdell/parlitools
@@ -50,6 +52,3 @@ reference:
   contents:
   - west_hex_map
   - local_hex_map
-
-
-
