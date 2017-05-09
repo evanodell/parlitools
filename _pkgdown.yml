@@ -20,6 +20,8 @@ navbar:
           href: articles/introduction.html
         - text: "Using cartograms with parlitools"
           href: articles/using-cartograms.html
+        - text: "British Election Study"
+          href: articles/bes-2015.html
     - text: "Packages"
       menu:
         - text: "Documentation"
