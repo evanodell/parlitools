@@ -8,7 +8,7 @@ navbar:
   left:
     - text: "Home"
       href: http://evanodell.com
-    - text: "Documentation Home"
+    - text: "Documentation"
       href: http://docs.evanodell.com
     - text: "News"
       href: news/index.html
