@@ -7,7 +7,7 @@ parlitools
 
 A collection of useful tools for UK politics, including base maps and datasets. Initially inspired by Bhaskar Karambelkar's [`tilegrams`](https://cran.r-project.org/package=tilegramsR) package, but with the ability to create a hexagonal map of UK parliamentary constituencies. The package also includes functions for data retrieval of current MPs and their consituency details (as it requires calls to two different APIs, this function is not included in my [`hansard`](https://cran.r-project.org/package=hansard) or [`mnis`](https://cran.r-project.org/package=mnis) packages), and data from the 2015 UK General Election, courtesy of the British Election Study.
 
-The most up-to-date documentation for the development version will always be at <http://evanodell.com/parlitools/>.
+The most up-to-date documentation for the development version will always be at <http://docs.evanodell.com/parlitools/>.
 
 Installing
 ----------
@@ -24,7 +24,7 @@ To install the current version from GitHub, run:
 Functions and Data
 ------------------
 
-For more details see [the full documentation](http://evanodell.com/parlitools/reference/index.html).
+For more details see [the full documentation](http://docs.evanodell.com/parlitools/).
 
 ### Included Data
 
@@ -48,7 +48,7 @@ For more details see [the full documentation](http://evanodell.com/parlitools/re
 
 ### Using `parlitools`
 
-For more details, please see the [introductory vignette](http://evanodell.com/parlitools/articles/introduction.html) and [using `parlitools` with `cartogram`](http://evanodell.com/parlitools/articles/using-cartograms.html).
+For more details, please see the [introductory vignette](http://docs.evanodell.com/parlitools/articles/introduction.html) and [using `parlitools` with `cartogram`](http://docs.evanodell.com/parlitools/articles/using-cartograms.html).
 
 Data Sources
 ------------
