@@ -1,0 +1,278 @@
+Name,Label,Census table
+`pano`,Press Association Constituency ID,
+`onsconst_id`,ONS Constituency ID,
+`constituency_name`,Constituency Name,
+`country`,Country,
+`region`,Region,
+`constituency_type`,County or Borough Constituency,
+`winner_15`,2015 Winning party,
+`con_15`,2015 Conservative vote share,
+`lab_15`,2015 Labour vote share,
+`ld_15`,2015 Liberal Democrat vote share,
+`snp_15`,2015 Scottish National Party (SNP) vote share,
+`pc_15`,2015 Plaid Cymru vote share,
+`ukip_15`,2015 United Kingdom Independence Party (UKIP) vote share,
+`green_15`,2015 Green Party vote share,
+`other_15`,2015 Combined other vote share,
+`majority_15`,2015 Majority,
+`turnout_15`,2015 Turnout,
+`con_vote_15`,2015 Conservative number of votes,
+`lab_vote_15`,2015 Labour number of votes,
+`ldvote_15`,2015 Liberal Democrat number of votes,
+`snpvote_15`,2015 Scottish National Party (SNP) number of votes,
+`pcvote_15`,2015 Plaid Cymru number of votes,
+`ukipvote_15`,2015 United Kingdom Independence Party (UKIP) number of votes,
+`green_vote_15`,2015 Green Party number of votes,
+`bnpvote_15`,2015 British National Party (BNP) number of votes,
+`total_vote_15`,2015 Total number of votes cast,
+`rejected_vote_15`,2015 Number of rejected ballots,
+`electorate_15`,2015 Size of electorate,
+`seat_change_1015`,2015 winning party gain from 2010 winning party,
+`con_1015`,2010-15 Conservative vote share change,
+`lab_1015`,2010-15 Labour vote share change,
+`ld_1015`,2010-15 Liberal Democrat vote share change,
+`snp_1015`,2010-15 Scottish National Party (SNP) vote share change,
+`pc_1015`,2010-15 Plaid Cymru vote share change,
+`ukip_1015`,2010-15 United Kingdom Independence Party (UKIP) vote share change,
+`green_1015`,2010-15 Green Party vote share change,
+`winner_10`,2010 Winning party,
+`con_10`,2010 Conservative vote share,
+`lab_10`,2010 Labour vote share,
+`ld_10`,2010 Liberal Democrat vote share,
+`snp_10`,2010 Scottish National Party (SNP) vote share,
+`pc_10`,2010 Plaid Cymru vote share,
+`ukip_10`,2010 United Kingdom Independence Party (UKIP) vote share,
+`green_10`,2010 Green Party vote share,
+`bnp_10`,2010 British National Party (BNP) vote share,
+`majority_10`,2010 Majority,
+`turn_10`,2010 Turnout,
+`con_vote_10`,2010 Conservative number of votes,
+`lab_vote_10`,2010 Labour number of votes,
+`ldvote_10`,2010 Liberal Democrat number of votes,
+`snpvote_10`,2010 Scottish National Party (SNP) number of votes,
+`pcvote_10`,2010 Plaid Cymru number of votes,
+`ukipvote_10`,2010 United Kingdom Independence Party (UKIP) number of votes,
+`green_vote_10`,2010 Green Party number of votes,
+`bnpvote_10`,2010 British National Party (BNP) number of votes,
+`total_vote_10`,2010 Total number of votes cast,
+`electorate_10`,2010 Size of electorate,
+`con_ppc`,Conservative candidate name,
+`con_ppcsex`,Conservative candidate sex,
+`con_ppcrace`,Conservative candidate race,
+`lab_ppc`,Labour Candidate name,
+`lab_ppcsex`,Labour Candidate sex,
+`lab_ppcrace`,Labour Candidate race,
+`ldppc`,Liberal Democrat candidate name,
+`ldppcsex`,Liberal Democrat candidate sex,
+`ldppcrace`,Liberal Democrat candidate race,
+`ukipppc`,UKIP candidate name,
+`ukipppcsex`,UKIP candidate sex,
+`ukipppcrace`,UKIP candidate race,
+`snpppc`,SNP candidate name,
+`snpppcsex`,SNP candidate sex,
+`snpppcrace`,SNP candidate race,
+`pcppc`,Plaid Cymru candidate name,
+`pcppcsex`,Plaid Cymru candidate sex,
+`pcppcrace`,Plaid Cymru candidate race,
+`green_ppc`,Green Party candidate name,
+`green_ppcsex`,Green Party candidate sex,
+`green_ppcrace`,Green Party candidate race,
+`c_11_population`,Census 2011: Usual resident population,KS101
+`c_11_population_density`,Census 2011: Population density,KS101
+`c_11_male`,Census 2011: Male,KS101
+`c_11_female`,Census 2011: Female,KS101
+`c_11_households`,Census 2011: People living in households,KS101
+`c_11_communal`,Census 2011: People living in Communal establishments,KS101
+`c_11_age_0_to_4`,Census 2011: Age 0 to 4,KS102
+`c_11_age_5_to_7`,Census 2011: Age 5 to 7,KS102
+`c_11_age_8_to_9`,Census 2011: Age 8 to 9,KS102
+`c_11_age_10_to_14`,Census 2011: Age 10 to 14,KS102
+`c_11_age_15`,Census 2011: Age 15,KS102
+`c_11_age_16_to_17`,Census 2011: Age 16 to 17,KS102
+`c_11_age_18_to_19`,Census 2011: Age 18 to 19,KS102
+`c_11_age_20_to_24`,Census 2011: Age 20 to 24,KS102
+`c_11_age_25_to_29`,Census 2011: Age 25 to 29,KS102
+`c_11_age_30_to_44`,Census 2011: Age 30 to 44,KS102
+`c_11_age_45_to_59`,Census 2011: Age 45 to 59,KS102
+`c_11_age_60_to_64`,Census 2011: Age 60 to 64,KS102
+`c_11_age_65_to_74`,Census 2011: Age 65 to 74,KS102
+`c_11_age_75_to_84`,Census 2011: Age 75 to 84,KS102
+`c_11_age_85_to_89`,Census 2011: Age 85 to 89,KS102
+`c_11_age_90_plus`,Census 2011: Age 90 plus,KS102
+`c_11_house_owned`,Census 2011: Housing tenure - Owned,KS402
+`c_11_house_outright`,Census 2011: Housing tenure - Owned outright,KS402
+`c_11_house_mortgage`,Census 2011: Housing tenure - Owned with a mortgage,KS402
+`c_11_house_shared`,Census 2011: Housing tenure - Shared ownership,KS402
+`c_11_house_social`,Census 2011: Housing tenure - Social rented,KS402
+`c_11_house_social_la`,Census 2011: Housing tenure - Social rented from council (Local Authority),KS402
+`c_11_house_social_other`,Census 2011: Housing tenure - Other social rented,KS402
+`c_11_house_private`,Census 2011: Housing tenure - Private rented,KS402
+`c_11_house_private_landlord`,Census 2011: Housing tenure - Private rented from landlord or letting agency,KS402
+`c_11_house_private_other`,Census 2011: Housing tenure - Other private rented,KS402
+`c_11_house_rent_free`,Census 2011: Housing tenure - Living rent free,KS402
+`c_11_household_one_person`,Census 2011: Household -  One person,KS105
+`c_11_household_one_person_65_plus`,Census 2011: Household -  One person aged 65 and older,KS105
+`c_11_household_one_person_other`,Census 2011: Household -  One person other,KS105
+`c_11_household_one_family`,Census 2011: Household -  One family,KS105
+`c_11_household_one_family_65_plus`,Census 2011: Household -  One family all 65 and older,KS105
+`c_11_household_married`,Census 2011: Household - Married,KS105
+`c_11_household_married_no_children`,Census 2011: Household - Married no children,KS105
+`c_11_household_married_dependents`,Census 2011: Household - Married with dependent children,KS105
+`c_11_household_married_nondependents`,Census 2011: Household - Married with no dependent children,KS105
+`c_11_household_cohabit`,Census 2011: Household - Cohabitating,KS105
+`c_11_household_cohabit_no_children`,Census 2011: Household - Cohabitating no children,KS105
+`c_11_household_cohabit_dependents`,Census 2011: Household - Cohabitating with dependent children,KS105
+`c_11_household_cohabit_nodependents`,Census 2011: Household - Cohabitating with no dependent children,KS105
+`c_11_household_lone`,Census 2011: Household - Lone parent,KS105
+`c_11_household_lone_dependents`,Census 2011: Household - Lone parent with dependent children,KS105
+`c_11_household_lone_nodependents`,Census 2011: Household - Lone parent with no dependent children,KS105
+`c_11_household_other`,Census 2011: Household - Other,KS105
+`c_11_household_other_dependents`,Census 2011: Household - Other with dependent children,KS105
+`c_11_household_all_students`,Census 2011: Household - All full-time students,KS105
+`c_11_household_all_65_plus`,Census 2011: Household - Other all 65 plus,KS105
+`c_11_household_any_other`,Census 2011: Household - Any other,KS105
+`c_11_cars_none`,Census 2011: No cars or vans in household,KS404
+`c_11_cars_one`,Census 2011: one car or van in household,KS404
+`c_11_cars_two`,Census 2011: Two cars or vans in household,KS404
+`c_11_cars_three`,Census 2011: Three cars or vans in household,KS404
+`c_11_cars_four`,Census 2011: Four cars or vans in household,KS404
+`c_11_ethnicity_white`,Census 2011: Ethnicity - White,KS201
+`c_11_ethnicity_mixed`,Census 2011: Ethnicity - Mixed,KS201
+`c_11_ethnicity_asian`,Census 2011: Ethnicity - Asian,KS201
+`c_11_ethnicity_black`,Census 2011: Ethnicity - Black,KS201
+`c_11_ethnicity_other`,Census 2011: Ethnicity - Other,KS201
+`c_11_ethnicity_white_british`,Census 2011: Ethnicity detailed - White British/English/Scottish/Northern Irish,KS201
+`c_11_ethnicity_white_irish`,Census 2011: Ethnicity detailed - White Irish,KS201
+`c_11_ethnicity_white_traveller`,Census 2011: Ethnicity detailed - White Gypsy or Irish Traveller,KS201
+`c_11_ethnicity_white_other`,Census 2011: Ethnicity detailed - White other,KS201
+`c_11_ethnicity_mixed_caribbean`,Census 2011: Ethnicity detailed - Mixed White and Black Caribbean,KS201
+`c_11_ethnicity_mixed_african`,Census 2011: Ethnicity detailed - Mixed White and Black African,KS201
+`c_11_ethnicity_mixed_asian`,Census 2011: Ethnicity detailed - Mixed White and Asian,KS201
+`c_11_ethnicity_mixed_other`,Census 2011: Ethnicity detailed - Mixed other,KS201
+`c_11_ethnicity_indian`,Census 2011: Ethnicity detailed - Indian,KS201
+`c_11_ethnicity_pakistani`,Census 2011: Ethnicity detailed - Pakistani,KS201
+`c_11_ethnicity_bangladeshi`,Census 2011: Ethnicity detailed - Bangladeshi,KS201
+`c_11_ethnicity_chinese`,Census 2011: Ethnicity detailed - Chinese,KS201
+`c_11_ethnicity_other_asian`,Census 2011: Ethnicity detailed - Other Asian,KS201
+`c_11_ethnicity_black_african`,Census 2011: Ethnicity detailed - Black African,KS201
+`c_11_ethnicity_black_caribbean`,Census 2011: Ethnicity detailed - Black Caribbean,KS201
+`c_11_ethnicity_black_other`,Census 2011: Ethnicity detailed - Black Other,KS201
+`c_11_ethnicity_arab`,Census 2011: Ethnicity detailed - Arab,KS201
+`c_11_ethnicity_any_other`,Census 2011: Ethnicity detailed - Any other ethnic group,KS201
+`c_11_born_uk`,Census 2011: Country of birth - UK,KS204
+`c_11_born_england`,Census 2011: Country of birth - England,KS204
+`c_11_born_ni`,Census 2011: Country of birth - Northern Ireland,KS204
+`c_11_born_scotland`,Census 2011: Country of birth - Scotland,KS204
+`c_11_born_wales`,Census 2011: Country of birth - Wales,KS204
+`c_11_born_uknot_specified`,Census 2011: Country of birth - Northern Ireland,KS204
+`c_11_born_ireland`,Census 2011: Country of birth - Ireland,KS204
+`c_11_born_other_eu`,Census 2011: Country of birth - Other EU (not Ireland),KS204
+`c_11_born_other_pre_2004_eu`,Census 2011: Country of birth - Other pre 2004 EU (not Ireland),KS204
+`c_11_born_post_2004_eu`,Census 2011: Country of birth - country joined EU 2004 or later,KS204
+`c_11_born_other`,Census 2011: Country of birth - Other,KS204
+`c_11_passport_none`,Census 2011: Passport held - None,KS205
+`c_11_passport_any`,Census 2011: Passport held - Any,KS205
+`c_11_passport_uk`,Census 2011: Passport held - United Kingdom,KS205
+`c_11_passport_ireland`,Census 2011: Passport held - Republic of Ireland,KS205
+`c_11_passport_eu`,Census 2011: Passport held - Other Europe EU Countries,KS205
+`c_11_passport_europe_not_eu`,Census 2011: Passport held - Other Europe Non EU countries,KS205
+`c_11_passport_africa`,Census 2011: Passport held - Africa,KS205
+`c_11_passport_asia`,Census 2011: Passport held - Middle East and Asia,KS205
+`c_11_passport_north_america`,Census 2011: Passport held - North America and the Caribbean,KS205
+`c_11_passport_central_america`,Census 2011: Passport held - Central America,KS205
+`c_11_passport_south_america`,Census 2011: Passport held - South America,KS205
+`c_11_passport_oceania`,Census 2011: Passport held - Antarctica and Oceania,KS205
+`c_11_english_all`,Census 2011: All 16+ have English (or Welsh in Wales) as main language,KS206
+`c_11_english_one`,Census 2011: At least one 16+ has English (or Welsh in Wales) as main language,KS206
+`c_11_english_child`,Census 2011: At least one 3-15 has English (or Welsh in Wales) as main language,KS206
+`c_11_english_none`,Census 2011: No one 16+ has English (or Welsh in Wales) as main language,KS206
+`c_11_christian`,Census 2011: Religion - Christian,KS209
+`c_11_buddhist`,Census 2011: Religion - Buddhist,KS209
+`c_11_hindu`,Census 2011: Religion - Hindu,KS209
+`c_11_jewish`,Census 2011: Religion - Jewish,KS209
+`c_11_muslim`,Census 2011: Religion - Muslim,KS209
+`c_11_sikh`,Census 2011: Religion - Sikh,KS209
+`c_11_religion_other`,Census 2011: Religion - Other,KS209
+`c_11_no_religion`,Census 2011: Religion - No Religion,KS209
+`c_11_religion_not_stated`,Census 2011: Religion - Not Stated,KS209
+`c_11_nssechigher_manager`,"Census 2011: NS-SeC Large employers, higher managerial and administrative",KS611
+`c_11_nssechigher_professional`,Census 2011: NS-SeC Higher professional occupations,KS611
+`c_11_nsseclower_manager`,"Census 2011: NS-SeC Lower managerial, administrative and professional",KS611
+`c_11_nssecintermediate`,Census 2011: NS-SeC Intermediate,KS611
+`c_11_nssecsmall_employer`,Census 2011: NS-SeC Small employers and own account workers,KS611
+`c_11_nsseclower_supervisor`,Census 2011: NS-SeC Lower supervisory and technical,KS611
+`c_11_nssecsemi_routine`,Census 2011: NS-SeC Semi-routine occupations,KS611
+`c_11_nssecroutine`,Census 2011: NS-SeC Routine,KS611
+`c_11_nssecnever_worked`,Census 2011: NS-SeC Never worked,KS611
+`c_11_nsseclongterm_unemployed`,Census 2011: NS-SeC Long-term unemployed,KS611
+`c_11_economic_active`,Census 2011: Economically active - all,KS601
+`c_11_employed`,Census 2011: Economically active - Employed,KS601
+`c_11_employed_part_time`,Census 2011: Economically active - Employee: Part-time,KS601
+`c_11_employed_full_time`,Census 2011: Economically active - Employee: Full-time,KS601
+`c_11_self_employed`,Census 2011: Economically active - Self-employed,KS601
+`c_11_unemployed`,Census 2011: Economically active - Unemployed,KS601
+`c_11_economically_active_student`,Census 2011: Economically active - Full-time student,KS601
+`c_11_economic_inactive`,Census 2011: Economically inactive - all,KS601
+`c_11_retired`,Census 2011: Economically inactive - Retired,KS601
+`c_11_economically_inactive_student`,Census 2011: Economically inactive - Student (including full-time students),KS601
+`c_11_looking_after_home`,Census 2011: Economically inactive - Looking after home or family,KS601
+`c_11_long_term_sick`,Census 2011: Economically inactive - Long-term sick or disabled,KS601
+`c_11_economic_inactive_other`,Census 2011: Economically inactive - Other,KS601
+`c_11_unemployed_16_to_24`,Census 2011: Unemployed age 16 to 24,KS601
+`c_11_unemployed_50_to_74`,Census 2011: Unemployed age 50 to 74,KS601
+`c_11_neverworked`,Census 2011: Never worked,KS601
+`c_11_long_term_unemployed`,Census 2011: Long-term unemployed,KS601
+`c_11_fulltime_student`,Census 2011: Full-time students,KS611
+`c_11_industry_agriculture`,"Census 2011: Industry - Agriculture, forestry and fishing",KS605
+`c_11_industry_mining`,Census 2011: Industry - Mining and quarrying,KS605
+`c_11_industry_manufacturing`,Census 2011: Industry - Manufacturing,KS605
+`c_11_industry_electricity_supply`,"Census 2011: Industry - Electricity, gas, steam and air conditioning supply",KS605
+`c_11_industry_water_supply`,Census 2011: Industry - Water supply,KS605
+`c_11_industry_construction`,Census 2011: Industry - Construction,KS605
+`c_11_industry_wholesale`,Census 2011: Industry - Wholesale and retail trade,KS605
+`c_11_industry_transport`,Census 2011: Industry - Transport and storage,KS605
+`c_11_industry_accommodation`,Census 2011: Industry - Accommodation and food service activities,KS605
+`c_11_industry_communication`,Census 2011: Industry - Information and Communication,KS605
+`c_11_industry_finance`,Census 2011: Industry - Financial and insurance activities,KS605
+`c_11_industry_real_estate`,Census 2011: Industry - Real estate activities,KS605
+`c_11_industry_professional`,"Census 2011: Industry - Professional, scientific and technical activities",KS605
+`c_11_industry_administrative`,Census 2011: Industry - Administrative and support service activities,KS605
+`c_11_industry_public_administration`,Census 2011: Industry - Public administration and defence,KS605
+`c_11_industry_education`,Census 2011: Industry - Education,KS605
+`c_11_industry_social_work`,Census 2011: Industry - Human Health and Social Work Activities,KS605
+`c_11_industry_other`,Census 2011: Industry - Other,KS605
+`c_11_qual_none`,Census 2011: Highest qualification - None,KS501
+`c_11_qual_level_1`,Census 2011: Highest qualification - Level 1,KS501
+`c_11_qual_level_2`,Census 2011: Highest qualification - Level 2,KS501
+`c_11_qual_apprentice`,Census 2011: Highest qualification - Apprenticeship,KS501
+`c_11_qual_level_3`,Census 2011: Highest qualification - Level 3,KS501
+`c_11_qual_level_4`,Census 2011: Highest qualification - Level 4 and above,KS501
+`c_11_qual_other`,Census 2011: Highest qualification - Other,KS501
+`c_11_degree`,Census 2011: University Degree,QS502
+`c_11_health_very_good`,Census 2011: Very good health,KS301
+`c_11_health_good`,Census 2011: Good health,KS301
+`c_11_health_fair`,Census 2011: Fair health,KS301
+`c_11_health_bad`,Census 2011: Bad health,KS301
+`c_11_health_very_bad`,Census 2011: Very bad health,KS301
+`c_11_no_adults_employed`,Census 2011: No adults in employment in household,KS106
+`c_11_no_adults_employed_children`,Census 2011: No adults in employment in household with dependent children,KS106
+`c_11_no_adults_employed_no_children`,Census 2011: No adults in employment in household without dependent children,KS106
+`c_11_deprived_none`,Census 2011: Household is not deprived on any dimension,QS119
+`c_11_deprived_1`,Census 2011: Household deprived on one dimension,QS119
+`c_11_deprived_2`,Census 2011: Household deprived on two dimensions,QS119
+`c_11_deprived_3`,Census 2011: Household deprived on three dimensions,QS119
+`c_11_deprived_4`,Census 2011: Household deprived on four dimensions,QS119
+`con_long_spend_percent`,Conservative Candidate Long Campaign Spending as % of Long Limit,
+`con_short_spend_percent`,Conservative Candidate Short Campaign Spending as % of Short Limit,
+`lab_long_spend_percent`,Labour Candidate Long Campaign Spending as % of Long Limit,
+`lab_short_spend_percent`,Labour Candidate Short Campaign Spending as % of Short Limit,
+`ldlong_spend_percent`,Liberal Democrat Candidate Long Campaign Spending as % of Long Limit,
+`ldshort_spend_percent`,Liberal Democrat Candidate Short Campaign Spending as % of Short Limit,
+`snplong_spend_percent`,SNP Candidate Long Campaign Spending as % of Long Limit,
+`snpshort_spend_percent`,SNP Candidate Short Campaign Spending as % of Short Limit,
+`pclong_spend_percent`,Plaid Cymru Candidate Long Campaign Spending as % of Long Limit,
+`pcshort_spend_percent`,Plaid Cymru Candidate Short Campaign Spending as % of Short Limit,
+`ukiplong_spend_percent`,UKIP Candidate Long Campaign Spending as % of Long Limit,
+`ukipshort_spend_percent`,UKIP Candidate Short Campaign Spending as % of Short Limit,
+`green_long_spend_percent`,Green Party Candidate Long Campaign Spending as % of Long Limit,
+`green_short_spend_percent`,Green Party Candidate Short Campaign Spending as % of Short Limit,
