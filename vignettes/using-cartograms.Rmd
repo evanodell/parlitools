@@ -25,6 +25,7 @@ It uses datasets included in this package, namely the British Election Study (`b
 
 library(leaflet)
 library(sf)
+library(htmlwidgets)
 library(dplyr)
 library(hansard)
 library(mnis)
