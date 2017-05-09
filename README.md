@@ -28,7 +28,7 @@ For more details see [the full documentation](http://docs.evanodell.com/parlitoo
 
 ### Included Data
 
-`party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: <https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes>, `[mnis::ref_parties()](https://cran.r-project.org/package=mnis)`)
+`party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: <https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes>, [`mnis::ref_parties()`](https://cran.r-project.org/package=mnis))
 
 `bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. (Source: <http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/>)
 
