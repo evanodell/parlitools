@@ -15,3 +15,4 @@
 ^\.gitignore$
 ^\.Rhistory$
 ^cran-comments\.md$
+^swing-dev\.R$
