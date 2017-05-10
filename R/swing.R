@@ -24,7 +24,7 @@ swing <- function(swing1=c("Conservative","Green", "Labour","Liberal Democrat" ,
 
   ### Subset data based on party names and restrictions
   
-  #swing_tbl <- 
+  swing_tbl <- parlitools::bes_2015
   
   if(swing_style=="Butler"){
     
@@ -79,7 +79,3 @@ swing <- function(swing1=c("Conservative","Green", "Labour","Liberal Democrat" ,
   
   
 }
-
-arg1 <- c("red","blue")
-arg2 <- c("blue","red")
-match(par_names,par_abs)
