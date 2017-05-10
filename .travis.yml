@@ -14,6 +14,8 @@ r_packages:
   - mnis
   - hansard
   - dplyr
+  - leaflet
+  - htmlwidgets
   
 r_check_args:
   - "--no-vignettes"
