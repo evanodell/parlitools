@@ -76,8 +76,11 @@ I have chosen two competing petitions: 'Donald Trump should make a State Visit t
 ```{r fig.width= 6, fig.height=7,message=FALSE}
 library(leaflet)
 library(sf)
+library(htmlwidgets)
 library(dplyr)
 library(hansard)
+library(mnis)
+library(parlitools)
 
 west_hex_map <- parlitools::west_hex_map #Base map
 
@@ -121,8 +124,11 @@ leaflet(options=leafletOptions(
 ```{r fig.width=6, fig.height=7, message=FALSE}
 library(leaflet)
 library(sf)
+library(htmlwidgets)
 library(dplyr)
 library(hansard)
+library(mnis)
+library(parlitools)
 
 west_hex_map <- parlitools::west_hex_map #Base map
 
