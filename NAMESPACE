@@ -2,7 +2,6 @@
 
 export(current_mps)
 export(mps_on_date)
-export(swing)
 import(dplyr)
 import(hansard)
 import(httr)

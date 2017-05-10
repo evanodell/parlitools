@@ -13,10 +13,10 @@ vignette: >
 
 Due to the 277 variables included in the `bes_2015` dataset, including information on each variable in the `parlitools` reference manual is very lengthy and not very user friendly. This vignette reproduces the table including with the British Election Study data, available [here](http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/). The 'Name' column refers to the variable name used in the `bes_2015` dataset, the 'Data Type' column refers to the R data type, and the 'Census Table' column refers to the location in the 2011 Census that demographic data was retrieved from.
 
-| Name | Label | Data Type | Census table |
-|----------------------------------|------------------------------------------------------|-----------|-------------|
-| `pano` | Press Association Constituency ID | numeric |  
-| `onsconst_id` | ONS Constituency ID | character |  |
+| Name | Description | Data Type | Census table |
+|----------------------|-----------------------------------|-----------|--------------|
+| `pano` | Press Association Constituency ID | numeric |  |
+| `ons_const_id` | ONS Constituency ID | character |  |
 | `constituency_name` | Constituency Name | factor |  |
 | `country` | Country | factor |  |
 | `region` | Region | factor |  |
@@ -34,12 +34,12 @@ Due to the 277 variables included in the `bes_2015` dataset, including informati
 | `turnout_15` | 2015 Turnout | numeric |  |
 | `con_vote_15` | 2015 Conservative number of votes | numeric |  |
 | `lab_vote_15` | 2015 Labour number of votes | numeric |  |
-| `ldvote_15` | 2015 Liberal Democrat number of votes | numeric |  |
-| `snpvote_15` | 2015 Scottish National Party (SNP) number of votes | numeric |  |
-| `pcvote_15` | 2015 Plaid Cymru number of votes | numeric |  |
-| `ukipvote_15` | 2015 United Kingdom Independence Party (UKIP) number of votes | numeric |  |
+| `ld_vote_15` | 2015 Liberal Democrat number of votes | numeric |  |
+| `snp_vote_15` | 2015 Scottish National Party (SNP) number of votes | numeric |  |
+| `pc_vote_15` | 2015 Plaid Cymru number of votes | numeric |  |
+| `ukip_vote_15` | 2015 United Kingdom Independence Party (UKIP) number of votes | numeric |  |
 | `green_vote_15` | 2015 Green Party number of votes | numeric |  |
-| `bnpvote_15` | 2015 British National Party (BNP) number of votes | numeric |  |
+| `bnp_vote_15` | 2015 British National Party (BNP) number of votes | numeric |  |
 | `total_vote_15` | 2015 Total number of votes cast | numeric |  |
 | `rejected_vote_15` | 2015 Number of rejected ballots | numeric |  |
 | `electorate_15` | 2015 Size of electorate | numeric |  |
@@ -64,40 +64,40 @@ Due to the 277 variables included in the `bes_2015` dataset, including informati
 | `turn_10` | 2010 Turnout | numeric |  |
 | `con_vote_10` | 2010 Conservative number of votes | numeric |  |
 | `lab_vote_10` | 2010 Labour number of votes | numeric |  |
-| `ldvote_10` | 2010 Liberal Democrat number of votes | numeric |  |
-| `snpvote_10` | 2010 Scottish National Party (SNP) number of votes | numeric |  |
-| `pcvote_10` | 2010 Plaid Cymru number of votes | numeric |  |
-| `ukipvote_10` | 2010 United Kingdom Independence Party (UKIP) number of votes | numeric |  |
+| `ld_vote_10` | 2010 Liberal Democrat number of votes | numeric |  |
+| `snp_vote_10` | 2010 Scottish National Party (SNP) number of votes | numeric |  |
+| `pc_vote_10` | 2010 Plaid Cymru number of votes | numeric |  |
+| `ukip_vote_10` | 2010 United Kingdom Independence Party (UKIP) number of votes | numeric |  |
 | `green_vote_10` | 2010 Green Party number of votes | numeric |  |
-| `bnpvote_10` | 2010 British National Party (BNP) number of votes | numeric |  |
+| `bnp_vote_10` | 2010 British National Party (BNP) number of votes | numeric |  |
 | `total_vote_10` | 2010 Total number of votes cast | numeric |  |
 | `electorate_10` | 2010 Size of electorate | numeric |  |
 | `con_ppc` | Conservative candidate name | factor |  |
-| `con_ppcsex` | Conservative candidate sex | factor |  |
-| `con_ppcrace` | Conservative candidate race | factor |  |
-| `lab_ppc` | Labour Candidate name | factor |  |
-| `lab_ppcsex` | Labour Candidate sex | factor |  |
-| `lab_ppcrace` | Labour Candidate race | factor |  |
-| `ldppc` | Liberal Democrat candidate name | factor |  |
-| `ldppcsex` | Liberal Democrat candidate sex | factor |  |
-| `ldppcrace` | Liberal Democrat candidate race | factor |  |
-| `ukipppc` | UKIP candidate name | factor |  |
-| `ukipppcsex` | UKIP candidate sex | factor |  |
-| `ukipppcrace` | UKIP candidate race | factor |  |
-| `snpppc` | SNP candidate name | factor |  |
-| `snpppcsex` | SNP candidate sex | factor |  |
-| `snpppcrace` | SNP candidate race | factor |  |
-| `pcppc` | Plaid Cymru candidate name | factor |  |
-| `pcppcsex` | Plaid Cymru candidate sex | factor |  |
-| `pcppcrace` | Plaid Cymru candidate race | factor |  |
+| `con_ppc_sex` | Conservative candidate sex | factor |  |
+| `con_ppc_race` | Conservative candidate race | factor |  |
+| `lab_ppc` | Labour candidate name | factor |  |
+| `lab_ppc_sex` | Labour candidate sex | factor |  |
+| `lab_ppc_race` | Labour candidate race | factor |  |
+| `ld_ppc` | Liberal Democrat candidate name | factor |  |
+| `ld_ppc_sex` | Liberal Democrat candidate sex | factor |  |
+| `ld_ppc_race` | Liberal Democrat candidate race | factor |  |
+| `ukip_ppc` | UKIP candidate name | factor |  |
+| `ukip_ppc_sex` | UKIP candidate sex | factor |  |
+| `ukip_ppc_race` | UKIP candidate race | factor |  |
+| `snp_ppc` | SNP candidate name | factor |  |
+| `snp_ppc_sex` | SNP candidate sex | factor |  |
+| `snp_ppc_race` | SNP candidate race | factor |  |
+| `pc_ppc` | Plaid Cymru candidate name | factor |  |
+| `pc_ppc_sex` | Plaid Cymru candidate sex | factor |  |
+| `pc_ppc_race` | Plaid Cymru candidate race | factor |  |
 | `green_ppc` | Green Party candidate name | factor |  |
-| `green_ppcsex` | Green Party candidate sex | factor |  |
-| `green_ppcrace` | Green Party candidate race | factor |  |
+| `green_ppc_sex` | Green Party candidate sex | factor |  |
+| `green_ppc_race` | Green Party candidate race | factor |  |
 | `c_11_population` | Census 2011: Usual resident population | numeric | KS101 |
 | `c_11_population_density` | Census 2011: Population density | numeric | KS101 |
 | `c_11_male` | Census 2011: Male | numeric | KS101 |
 | `c_11_female` | Census 2011: Female | numeric | KS101 |
-| `c_11_households` | Census 2011: People living in households | numeric | KS101 |
+| `c_11_household_s` | Census 2011: People living in households | numeric | KS101 |
 | `c_11_communal` | Census 2011: People living in Communal establishments | numeric | KS101 |
 | `c_11_age_0_to_4` | Census 2011: Age 0 to 4 | numeric | KS102 |
 | `c_11_age_5_to_7` | Census 2011: Age 5 to 7 | numeric | KS102 |
@@ -132,11 +132,11 @@ Due to the 277 variables included in the `bes_2015` dataset, including informati
 | `c_11_household_one_family` | Census 2011: Household -  One family | numeric | KS105 |
 | `c_11_household_one_family_65_plus` | Census 2011: Household -  One family all 65 and older | numeric | KS105 |
 | `c_11_household_married` | Census 2011: Household - Married | numeric | KS105 |
-| `c_11_household_married_no_children` | Census 2011: Household - Married no children | numeric | KS105 |
+| `c_11_household_married_no_child_ren` | Census 2011: Household - Married no children | numeric | KS105 |
 | `c_11_household_married_dependents` | Census 2011: Household - Married with dependent children | numeric | KS105 |
 | `c_11_household_married_nondependents` | Census 2011: Household - Married with no dependent children | numeric | KS105 |
 | `c_11_household_cohabit` | Census 2011: Household - Cohabitating | numeric | KS105 |
-| `c_11_household_cohabit_no_children` | Census 2011: Household - Cohabitating no children | numeric | KS105 |
+| `c_11_household_cohabit_no_child_ren` | Census 2011: Household - Cohabitating no children | numeric | KS105 |
 | `c_11_household_cohabit_dependents` | Census 2011: Household - Cohabitating with dependent children | numeric | KS105 |
 | `c_11_household_cohabit_nodependents` | Census 2011: Household - Cohabitating with no dependent children | numeric | KS105 |
 | `c_11_household_lone` | Census 2011: Household - Lone parent | numeric | KS105 |
@@ -271,25 +271,24 @@ Due to the 277 variables included in the `bes_2015` dataset, including informati
 | `c_11_health_bad` | Census 2011: Bad health | numeric | KS301 |
 | `c_11_health_very_bad` | Census 2011: Very bad health | numeric | KS301 |
 | `c_11_no_adults_employed` | Census 2011: No adults in employment in household | numeric | KS106 |
-| `c_11_no_adults_employed_children` | Census 2011: No adults in employment in household with dependent children | numeric | KS106 |
-| `c_11_no_adults_employed_no_children` | Census 2011: No adults in employment in household without dependent children | numeric | KS106 |
+| `c_11_no_adults_employed_child_ren` | Census 2011: No adults in employment in household with dependent children | numeric | KS106 |
+| `c_11_no_adults_employed_no_child_ren` | Census 2011: No adults in employment in household without dependent children | numeric | KS106 |
 | `c_11_deprived_none` | Census 2011: Household is not deprived on any dimension | numeric | QS119 |
 | `c_11_deprived_1` | Census 2011: Household deprived on one dimension | numeric | QS119 |
 | `c_11_deprived_2` | Census 2011: Household deprived on two dimensions | numeric | QS119 |
 | `c_11_deprived_3` | Census 2011: Household deprived on three dimensions | numeric | QS119 |
 | `c_11_deprived_4` | Census 2011: Household deprived on four dimensions | numeric | QS119 |
-| `con_long_spend_percent` | Conservative Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `con_short_spend_percent` | Conservative Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `lab_long_spend_percent` | Labour Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `lab_short_spend_percent` | Labour Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `ldlong_spend_percent` | Liberal Democrat Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `ldshort_spend_percent` | Liberal Democrat Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `snplong_spend_percent` | SNP Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `snpshort_spend_percent` | SNP Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `pclong_spend_percent` | Plaid Cymru Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `pcshort_spend_percent` | Plaid Cymru Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `ukiplong_spend_percent` | UKIP Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `ukipshort_spend_percent` | UKIP Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `green_long_spend_percent` | Green Party Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `green_short_spend_percent` | Green Party Candidate Short Campaign Spending as % of Short Limit | numeric |  |     |
-
+| `con_long_spend_percent` | Conservative candidate Long Campaign Spending as % of Long Limit | numeric |  |
+| `con_short_spend_percent` | Conservative candidate Short Campaign Spending as % of Short Limit | numeric |  |
+| `lab_long_spend_percent` | Labour candidate Long Campaign Spending as % of Long Limit | numeric |  |
+| `lab_short_spend_percent` | Labour candidate Short Campaign Spending as % of Short Limit | numeric |  |
+| `ld_long_spend_percent` | Liberal Democrat candidate Long Campaign Spending as % of Long Limit | numeric |  |
+| `ld_short_spend_percent` | Liberal Democrat candidate Short Campaign Spending as % of Short Limit | numeric |  |
+| `snp_long_spend_percent` | SNP candidate Long Campaign Spending as % of Long Limit | numeric |  |
+| `snp_short_spend_percent` | SNP candidate Short Campaign Spending as % of Short Limit | numeric |  |
+| `pc_long_spend_percent` | Plaid Cymru candidate Long Campaign Spending as % of Long Limit | numeric |  |
+| `pc_short_spend_percent` | Plaid Cymru candidate Short Campaign Spending as % of Short Limit | numeric |  |
+| `ukip_long_spend_percent` | UKIP candidate Long Campaign Spending as % of Long Limit | numeric |  |
+| `ukip_short_spend_percent` | UKIP candidate Short Campaign Spending as % of Short Limit | numeric |  |
+| `green_long_spend_percent` | Green Party candidate Long Campaign Spending as % of Long Limit | numeric |  |
+| `green_short_spend_percent` | Green Party candidate Short Campaign Spending as % of Short Limit | numeric |  |

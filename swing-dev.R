@@ -16,7 +16,7 @@
 
 swing <- function(swing1=c("Conservative","Green", "Labour","Liberal Democrat" ,"Plaid Cymru","Scottish National Party","UKIP"), swing2=c("Conservative","Green", "Labour","Liberal Democrat","Plaid Cymru","Scottish National Party","UKIP"), constituency=NULL, region=NULL, swing_style=c("Butler", "Steed")){
   
-  par_tib <- tibble(par_names=c("Conservative","Green", "Labour","Liberal Democrat" ,"Plaid Cymru","Scottish National Party","UKIP"), par_abs=c("con","green", "lab","lb" ,"pc","snp","ukip"))
+  par_tib <- tibble(par_names=c("Conservative","Green", "Labour","Liberal Democrat" ,"Plaid Cymru","Scottish National Party","UKIP"), par_abs=c("con","green", "lab","ld" ,"pc","snp","ukip"))
   
   swing1_func <- par_tib$par_abs[par_tib$par_names==swing1]
   
@@ -28,17 +28,17 @@ swing <- function(swing1=c("Conservative","Green", "Labour","Liberal Democrat" ,
   
   if(swing_style=="Butler"){
     
-    swing1_votes10 <- sum(select(swing_tbl, contains(paste0(swing1_func, "_vote_10"))), na.rm = TRUE)
+    swing1_votes10 <- sum(dplyr::select(swing_tbl, dplyr::contains(paste0(swing1_func, "_vote_10"))), na.rm = TRUE)
     
-    swing2_votes10 <- sum(select(swing_tbl, contains(paste0(swing2_func, "_vote_10"))), na.rm = TRUE)
+    swing2_votes10 <- sum(dplyr::select(swing_tbl, dplyr::contains(paste0(swing2_func, "_vote_10"))), na.rm = TRUE)
     
-    swing1_votes15 <- sum(select(swing_tbl, contains(paste0(swing1_func, "_vote_15"))), na.rm = TRUE)
+    swing1_votes15 <- sum(dplyr::select(swing_tbl, dplyr::contains(paste0(swing1_func, "_vote_15"))), na.rm = TRUE)
     
-    swing2_votes15 <- sum(select(swing_tbl, contains(paste0(swing2_func, "_vote_15"))), na.rm = TRUE)
+    swing2_votes15 <- sum(dplyr::select(swing_tbl, dplyr::contains(paste0(swing2_func, "_vote_15"))), na.rm = TRUE)
     
-    votes15 <- sum(select(swing_tbl, total_vote_15), na.rm = TRUE)
+    votes15 <- sum(dplyr::select(swing_tbl, total_vote_15), na.rm = TRUE)
     
-    votes10 <- sum(select(swing_tbl, total_vote_10), na.rm = TRUE)
+    votes10 <- sum(dplyr::select(swing_tbl, total_vote_10), na.rm = TRUE)
     
     perc1_10 <- (swing1_votes10/votes10)*100
     
@@ -56,13 +56,13 @@ swing <- function(swing1=c("Conservative","Green", "Labour","Liberal Democrat" ,
      
   } else if(swing_style =="Steed"){
     
-    swing1_votes10 <- sum(select(swing_tbl, contains(paste0(swing1_func, "_vote_10"))), na.rm = TRUE)
+    swing1_votes10 <- sum(dplyr::select(swing_tbl, dplyr::contains(paste0(swing1_func, "_vote_10"))), na.rm = TRUE)
     
-    swing2_votes10 <- sum(select(swing_tbl, contains(paste0(swing2_func, "_vote_10"))), na.rm = TRUE)
+    swing2_votes10 <- sum(dplyr::select(swing_tbl, dplyr::contains(paste0(swing2_func, "_vote_10"))), na.rm = TRUE)
     
-    swing1_votes15 <- sum(select(swing_tbl, contains(paste0(swing1_func, "_vote_15"))), na.rm = TRUE)
+    swing1_votes15 <- sum(dplyr::select(swing_tbl, dplyr::contains(paste0(swing1_func, "_vote_15"))), na.rm = TRUE)
     
-    swing2_votes15 <- sum(select(swing_tbl, contains(paste0(swing2_func, "_vote_15"))), na.rm = TRUE)
+    swing2_votes15 <- sum(dplyr::select(swing_tbl, dplyr::contains(paste0(swing2_func, "_vote_15"))), na.rm = TRUE)
     
     tot1 <- swing1_votes15 + swing1_votes10
     
@@ -74,7 +74,6 @@ swing <- function(swing1=c("Conservative","Green", "Labour","Liberal Democrat" ,
     
     chng1 - chng2  
 
-    
   }
   
   
