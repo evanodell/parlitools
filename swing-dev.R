@@ -52,8 +52,6 @@ swing <- function(swing1=c("Conservative","Green", "Labour","Liberal Democrat" ,
     
     chng2 <- abs(perc2_15 - perc2_10)
     
-    swing <- (chng1+chng2)/2
-    
   } else if(swing_style =="Steed"){
     
     swing1_votes10 <- sum(dplyr::select(swing_tbl, dplyr::contains(paste0(swing1_func, "_vote_10"))), na.rm = TRUE)
