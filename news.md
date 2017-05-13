@@ -3,7 +3,7 @@
 
 ## Bug Fix
 
-Fixed bug in `mps_on_date` where function did not return constituency data.
+Fixed bug in `mps_on_date` where function did not return constituency data. `mps_on_date` also now accepts dates in any format or class that can be converted with `as.Date()` to a date format.
 
 Fixed names party names in `party_colour` to align with names used in `bes_2015`.
 
