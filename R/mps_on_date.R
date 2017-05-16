@@ -2,7 +2,8 @@
 #'
 #' @param date1 The date to return the list of MPs from. Accepts character values in "YYYY-MM-DD" format, and objects of class Date, POSIXt, POSIXct, POSIXlt or anything else than can be coerced to a date with \code{as.Date()}. Defaults to current system date. 
 #' @param date2 An optional query parameter. Accepts character values in "YYYY-MM-DD" format, and objects of class Date, POSIXt, POSIXct, POSIXlt or anything else than can be coerced to a date with \code{as.Date()}. If a proper date, the function returns a list of all MPs who were members between date2 and date1. Defaults to NULL.
-#' @param tidy Fix the variable names in the tibble to remove extra characters, superfluous text and convert variable names to snake_case. Defaults to TRUE.
+#' @param tidy Fix the variable names in the tibble to remove special characters and superfluous text, and converts the variable names to a consistent style. Defaults to TRUE.
+#' @param tidy_style The style to convert variable names to, if tidy=TRUE. Accepts one of "snake_case", "camelCase" and "period.case". Defaults to "snake_case"
 #'
 #' @return A tibble with information on all MPs who were members of the House of Commons on the date specificed (if only date1 is included as a parameter), or on or between the two dates if both date1 and date2 are specified.
 #' @export
@@ -14,7 +15,7 @@
 #' }
 
 
-mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE){
+mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style="snake_case"){
   
 #  if(packageVersion("mnis")>"0.2.4") {
     
@@ -59,7 +60,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE){
     
     if (tidy == TRUE) {
       
-      mps <- mnis::mnis_tidy(mps)
+      mps <- mnis::mnis_tidy(mps, tidy_style)
       
       mps
       
