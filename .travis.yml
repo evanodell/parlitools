@@ -17,6 +17,9 @@ r_packages:
   - leaflet
   - htmlwidgets
   
+r_github_packages:
+  - "evanodell/mnis"
+  
 r_check_args:
   - "--no-vignettes"
 
