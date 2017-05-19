@@ -16,3 +16,4 @@
 ^\.Rhistory$
 ^cran-comments\.md$
 ^swing-dev\.R$
+^index\.Rmd$
