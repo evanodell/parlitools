@@ -28,7 +28,6 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     baseurl <- "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/House=Commons|Membership=all|commonsmemberbetween="
     
     date1 <- as.Date(date1)
-    date2 <- as.Date(date2)
     
     if(is.null(date2)==FALSE) {
       date2 <- as.Date(date2)
@@ -107,7 +106,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
   
   elect_res <- subset(elect_res,!duplicated(elect_res$constituency_about))
     
-  const_elect <- left_join(constit2, elect_res, by = c("about"= "constituency_about")) #Join
+  const_elect <- left_join(constit2, elect_res, by = c("about"= "constituency_about"))
   
   df <- dplyr::left_join(mps, const_elect, by = c("member_from"= "constituency_label_value"))
   
