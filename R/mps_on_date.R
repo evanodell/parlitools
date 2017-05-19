@@ -28,6 +28,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     baseurl <- "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/House=Commons|Membership=all|commonsmemberbetween="
     
     date1 <- as.Date(date1)
+    date2 <- as.Date(date2)
     
     if(is.null(date2)==FALSE) {
       date2 <- as.Date(date2)
@@ -79,9 +80,6 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
       mps$member_from <- gsub("Ynys MA\U00B4n", "Ynys M\U00F4n", mps$member_from)
       
     }
-    
-    date1 <- as.Date(date1)
-    date2 <- as.Date(date2)
   
   if(date1 >= "2010-05-06"){  
     

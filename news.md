@@ -8,7 +8,7 @@ Fixed names party names in `party_colour` to align with names used in `bes_2015`
 
 Fixed spelling mistakes in Endiburgh constituency names in `bes_2015`.
 
-Added optional 'tidy_style' parameter, allowing users to decide which style snake_case, camelCase and period.case they want variable names to be in, if 'tidy'==TRUE.
+Added optional `tidy_style` parameter in `current_mps()` and `mps_on_date()`, allowing users to decide which style snake_case, camelCase and period.case they want variable names to be in, if 'tidy'==TRUE.
 
 # parlitools 0.0.2
 
