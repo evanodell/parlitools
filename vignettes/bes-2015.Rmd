@@ -1,10 +1,10 @@
 ---
-title: "bes-2015"
+title: "British Election Study variables"
 author: "Evan Odell"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Introduction to parlitools}
+  %\VignetteIndexEntry{British Election Study variables}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
