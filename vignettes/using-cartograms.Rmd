@@ -83,11 +83,11 @@ leaflet(options=leafletOptions(
 
 ## Scaling by marginality
 
-This map scales constituencies based on how marginal they are, by subtracting the majority from 100 and squaring that value. Larger constituencies are those deemed to be more marginal.
+This map scales constituencies based on how marginal they are, by subtracting the majority from 100 and cubing that value. Larger constituencies are those deemed to be more marginal.
 
 ```{r fig.width=6, fig.height=7, message=FALSE, warning=FALSE}
 
-gb_hex_map$marginality <- (100-gb_hex_map$majority_15)^2
+gb_hex_map$marginality <- (100-gb_hex_map$majority_15)^3
 
 gp_hex_scaled <- cartogram(gb_hex_map, 'marginality')
 
