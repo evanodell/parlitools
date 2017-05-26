@@ -55,7 +55,7 @@ gp_hex_scaled <- cartogram(gb_hex_map, 'majority_15')
 labels <- paste0(
   "Constituency: ", gp_hex_scaled$constituency_name.y, "</br>",
   "Most Recent Winner: ", gp_hex_scaled$winner_15, "</br>",
-  "Most Recent Majority:", gp_hex_scaled$majority_15, "%","</br>",
+  "Most Recent Majority: ", gp_hex_scaled$majority_15, "%","</br>",
   "Turnout: ", gp_hex_scaled$turnout_15, "%"
 ) %>% lapply(htmltools::HTML)
 
