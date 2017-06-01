@@ -1,13 +1,13 @@
 Package: parlitools
 Type: Package
 Title: Tools for Analysing UK Politics
-Date: 2017-05-13
-Version: 0.0.3.9000
+Date: 2017-06-02
+Version: 0.0.4
 Authors@R: person("Evan Odell", email="evanodell91@gmail.com", role=c("aut", "cre"))
 Author: Evan Odell [aut, cre]
 Maintainer: Evan Odell <evanodell91@gmail.com>
 Description: Provides various tools for analysing UK political data, including creating political cartograms and retrieving data.
-URL: https://github.com/EvanOdell/parlitools
+URL: http://docs.evanodell.com/parlitools
 BugReports: https://github.com/EvanOdell/parlitools/issues
 License: MIT + file LICENSE
 LazyData: TRUE
@@ -32,4 +32,5 @@ Suggests: knitr,
     leaflet,
     htmltools,
     cartogram,
+    htmlwidgets
 VignetteBuilder: knitr

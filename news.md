@@ -1,12 +1,21 @@
+
+# parlitools 0.0.4
+
+## Bug Fixes
+
+A few minor tweaks to internal code, and to the vignette examples.
+
 # parlitools 0.0.3
 
-## Bug Fix
+## Bug Fixes
 
 Fixed bug in `mps_on_date` where function did not return constituency data. `mps_on_date` also now accepts dates in any format or class that can be converted with `as.Date()` to a date format.
 
 Fixed names party names in `party_colour` to align with names used in `bes_2015`.
 
 Fixed spelling mistakes in Endiburgh constituency names in `bes_2015`.
+
+## New Features
 
 Added optional `tidy_style` parameter in `current_mps()` and `mps_on_date()`, allowing users to decide which style snake_case, camelCase and period.case they want variable names to be in, if 'tidy'==TRUE.
 
