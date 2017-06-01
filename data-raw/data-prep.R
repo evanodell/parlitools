@@ -40,7 +40,7 @@
 # British Election Study Data -----------------------------------------------------------
 
   library(readxl)
-  bes_2015 <- read_xlsx("./data-raw/BES-2015-General-Election-results-file-v2.2.xlsx")
+  bes_2015 <- read_xlsx("./data-raw/BES-2015-General-Election-results-file-v2.21.xlsx")
   facs <- c('Country' ,'ConstituencyName', 'Region', 'ConstituencyType', 'Winner15', 'Winner10', 'SeatChange1015', "ConPPC", "ConPPCsex", "ConPPCrace", "LabPPC", "LabPPCsex", "LabPPCrace", "LDPPC", "LDPPCsex",  "LDPPCrace", "UKIPPPC", "UKIPPPCsex", "UKIPPPCrace", "SNPPPC", "SNPPPCsex", "SNPPPCrace", "PCPPC", "PCPPCsex", "PCPPCrace", "GreenPPC", "GreenPPCsex", "GreenPPCrace")
   bes_2015[,facs] <- lapply(bes_2015[,facs], factor)
   names(bes_2015) <- gsub("([[:lower:]])([[:upper:]])", "\\1_\\2", names(bes_2015))
