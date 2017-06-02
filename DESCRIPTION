@@ -20,7 +20,8 @@ Imports:
     tibble,
     httr,
     jsonlite,
-    stringi
+    stringi,
+    sf
 RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown,
@@ -28,7 +29,6 @@ Suggests: knitr,
     covr,
     rgdal,
     devtools,
-    sf,
     leaflet,
     htmltools,
     cartogram,

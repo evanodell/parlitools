@@ -17,12 +17,6 @@
 
 mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style="snake_case"){
   
-#  if(packageVersion("mnis")>"0.2.4") {
-    
-#    mps <- mnis::mnis_mps_on_date(date1=date1, date2=date2, tidy=tidy)
-    
-#  } else {
-  
   message("Downloading MP data")
   
     baseurl <- "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/House=Commons|Membership=all|commonsmemberbetween="
@@ -58,6 +52,69 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     
     mps <- tibble::as_tibble(mps)
     
+    
+#  }
+  
+    if(.Platform$OS.type=="windows"){
+      
+      mps$MemberFrom <- stringi::stri_trans_general(mps$MemberFrom, "latin-ascii")
+      
+      mps$MemberFrom <- gsub("Ynys MA\U00B4n", "Ynys M\U00F4n", mps$MemberFrom)
+      
+    }
+  
+  if(date1 >= "2010-05-06"){
+    
+    mps <- mnis::mnis_tidy(mps, tidy_style)
+    
+    message("Downloading constituency data")
+    
+    suppressMessages(constit <- hansard::constituencies(current = FALSE))
+    
+    constit$ended_date_value[is.na(constit$ended_date_value)] <- Sys.Date()
+    
+    constit2 <- constit[constit$started_date_value <= date1 & constit$ended_date_value >= date2,]
+    
+    constit2$ended_date_value[constit2$ended_date_value==Sys.Date()] <- NA 
+    
+    elect <- elections()
+    
+    suppressMessages(elect_res <- election_results())
+    
+    elect_res <- dplyr::right_join(elect, elect_res, by = c("about"="election_about", "label_value"="election_label_value"))
+    
+    elect_res$date_value <- as.Date(elect_res$date_value)
+    
+    elect_res <- elect_res[elect_res$date_value <= date2,] 
+    
+    elect_res <- elect_res[rev(order(elect_res$date_value)),]
+    
+    elect_res <- subset(elect_res,!duplicated(elect_res$constituency_about))
+    
+    const_elect <- left_join(constit2, elect_res, by = c("about"= "constituency_about"))
+    
+    df <- dplyr::left_join(mps, const_elect, by = c("member_from"= "constituency_label_value"))
+    
+    df$label_value.y <- NULL
+    df$label_value.x <- NULL
+    df$about.y <- NULL
+    df$about.y.y <- NULL
+    df$os_name
+    
+    if (tidy == TRUE) {
+    
+      df <- hansard::hansard_tidy(df, tidy_style)
+    
+      df
+    
+    } else {
+    
+    df
+    
+  }
+  
+  } else {
+    
     if (tidy == TRUE) {
       
       mps <- mnis::mnis_tidy(mps, tidy_style)
@@ -70,56 +127,6 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
       
     }
     
-#  }
-  
-    if(.Platform$OS.type=="windows"){
-      
-      mps$member_from <- stringi::stri_trans_general(mps$member_from, "latin-ascii")
-      
-      mps$member_from <- gsub("Ynys MA\U00B4n", "Ynys M\U00F4n", mps$member_from)
-      
-    }
-  
-  if(date1 >= "2010-05-06"){  
-    
-  message("Downloading constituency data")
-  
-  suppressMessages(constit <- hansard::constituencies(current = FALSE))
-  
-  constit$ended_date_value[is.na(constit$ended_date_value)] <- Sys.Date()
-  
-  constit2 <- constit[constit$started_date_value <= date1 & constit$ended_date_value >= date2,]
-  
-  constit2$ended_date_value[constit2$ended_date_value==Sys.Date()] <- NA 
-  
-  elect <- elections()
-  
-  suppressMessages(elect_res <- election_results())
-  
-  elect_res <- dplyr::right_join(elect, elect_res, by = c("about"="election_about", "label_value"="election_label_value"))
-  
-  elect_res$date_value <- as.Date(elect_res$date_value)
-
-  elect_res <- elect_res[elect_res$date_value <= date2,] 
-  
-  elect_res <- elect_res[rev(order(elect_res$date_value)),]
-  
-  elect_res <- subset(elect_res,!duplicated(elect_res$constituency_about))
-    
-  const_elect <- left_join(constit2, elect_res, by = c("about"= "constituency_about"))
-  
-  df <- dplyr::left_join(mps, const_elect, by = c("member_from"= "constituency_label_value"))
-  
-  df$label_value.y <- NULL
-  df$label_value.x <- NULL
-  df$about.y <- NULL
-  df$about.y.y <- NULL
-
-  df
-  
-  } else {
-    
-    mps
   }
     
 }

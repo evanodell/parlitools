@@ -13,7 +13,7 @@ vignette: >
 
 You can use the [`cartogram`](https://CRAN.R-project.org/package=cartogram) package with `parlitools` to produce maps with scaled areas, as seen in [Xinye Li's post on Brexit votes](https://xinye1.github.io/projects/brexit-cartogram-leaflet/). 
 
-As the cartogram package requires SpatialPolygonsDataFrame objects, instead of simple features objects, the 'west_hex_map' object is converted first to a Spatial object, and then to a SpatialPolygonsDataFrame object, as there is no function to convert directly from sf to SpatialPolygonsDataFrame.
+As the cartogram package requires SpatialPolygonsDataFrame objects, instead of simple features objects, the `west_hex_map` object is converted first to a Spatial object, and then to a SpatialPolygonsDataFrame object, as there is no function to convert directly from sf to SpatialPolygonsDataFrame.
 
 ## Scaling by seat safety
 

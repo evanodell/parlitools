@@ -1,6 +1,6 @@
 
 
-#' A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature. Originally downloaded from ESRI, with coordinates in Easting and Northing. The coordinates in the original shapefile were converted into Latitude and Longitude in QGIS, and the hexagon representing Ynys Mon was moved to be closer to the mainland of Wales.
+#' A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature. Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. The coordinates in the original shapefile were converted into Latitude and Longitude in QGIS, and the hexagon representing Ynys Mon was moved to be closer to the mainland of Wales.
 #'
 #' @format An sf and data.frame object, containing 650 elements and 8 variables.
 #' \describe{
@@ -16,7 +16,7 @@
 #' @source \url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}
 "west_hex_map"
 
-#' Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. Originally downloaded from ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
+#' Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
 #'
 #' @format An sf and data.frame object, containing 650 elements and 8 variables.
 #' \describe{
@@ -44,11 +44,39 @@
 "party_colour"
 
 
-#' A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. Spelling mistakes in the Edinburgh constituency names occuring in the original data have been corrected.
+#' A tibble with the British Election Study 2015 Constituency Results Version 2.21, which corrected spelling mistakes in the Edinburgh constituency names. Variable names have been converted to snake_case and variables have been converted to appropriate R classes.
 #' 
 #' @references Fieldhouse, Edward, Jane Green, Geoffrey Evans, Hermann Schmitt, Cees van der Eijk, Jonathan Mellon, and Christopher Prosser. "British Election Study, 2015: General Election Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 #'
 #' @format A tibble, containing 632 rows and 277 columns. For details on all variables in the dataset please see: \url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
 "bes_2015"
+
+#' A tibble with details on the council make-up of local authorities across the UK, taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal.
+#' @format A tibble, with 418 rows and 22 columns.
+#' \describe{
+#' \item{la_code}{The Local Authority code from the Office for National Statistics}}
+#' \item{name}{Local Authority Name}
+#' \item{type}{The type of local authority}
+#' \item{majority_party}{The majority party on the council. The label 'No Overall Control' is used if no single party has a majority.}
+#' \item{majority_party_id}{The ID of the majority party on the council. The label 'noc' is used if no single party has a majority.}
+#' \item{governing_coalition}{The governing coalition of the council (if known)}
+#' \item{conservative_councillors}{The number of Conservative councillors}
+#' \item{labour_councillors}{The number of Labour councillors}
+#' \item{lib_dem_councillors}{The number of Liberal Democrat councillors}
+#' \item{green_councillors}{The number of Green councillors}
+#' \item{ukip_councillors}{The number of UKIP councillors}
+#' \item{plaid_cymru_councillors}{The number of Plaid Cymru councillors}
+#' \item{snp_councillors}{The number of SNP councillors}
+#' \item{independent_councillors}{The number of Independent councillors}
+#' \item{vacant}{The number of vacant seats on the council}
+#' \item{total_councillors}{Total number of vacant council seats}
+#' \item{boundary}{Notes on upcoming boundary changes}
+#' \item{notes}{Notes from Open Council Data UK}
+#' \item{url}{URL}
+#' \item{last_update}{Date of last update}
+#' }
+#' @source \url{http://opencouncildata.co.uk/councils.php?model=}
+#' \url{http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0}
+"council_data"
 

@@ -15,4 +15,5 @@
 #' @import httr
 #' @import jsonlite
 #' @import stringi
+#' @import sf
 NULL

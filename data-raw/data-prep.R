@@ -5,14 +5,14 @@
   party_colour <- read_excel("./data-raw/party_colour.xlsx")
   party_colour$party_name <- as.factor(party_colour$party_name)
   party_colour$party_id <- as.factor(party_colour$party_id)
-  devtools::use_data(party_colour)
+  devtools::use_data(party_colour, overwrite = TRUE)
 
 # Maps -----------------------------------------------------------
 
 ## Constituencies ---------------------
   
   library(sf)
-  west_hex_map <- read_sf('./data-raw/west_hex_map', 'west_hex_map')## The actually working map
+  west_hex_map <- read_sf('./data-raw/west_hex_map', 'west_hex_map')
   west_hex_map$NAME <- gsub("Boro Const", "", west_hex_map$NAME) ## Removing extra names
   west_hex_map$NAME <- gsub("Co Const", "", west_hex_map$NAME) ## Removing extra names
   west_hex_map$NAME <- gsub("Burgh Const", "", west_hex_map$NAME) ## Removing extra names
@@ -28,14 +28,20 @@
   
   ## Local Authorities ---------------------
   library(sf)
-  local_hex_map <- read_sf('./data-raw/local_hex_map', 'local_hex_map')## The actually working map
+  local_hex_map <- read_sf('./data-raw/local_hex_map', 'local_hex_map')
   names(local_hex_map)[names(local_hex_map)=="OBJECTID"] <- "object_id"
   names(local_hex_map)[names(local_hex_map)=="NAME"] <- "constituency_name"
   names(local_hex_map)[names(local_hex_map)=="LAD12CD"] <- "la_code"
   names(local_hex_map)[names(local_hex_map)=="LAD12NM"] <- "la_name"
   names(local_hex_map)[names(local_hex_map)=="Shape_Leng"] <- "shape_length"
   names(local_hex_map)[names(local_hex_map)=="Shape_Area"] <- "shape_area"
-  devtools::use_data(local_hex_map) 
+  local_hex_map$la_name <- gsub("Rhondda Cynon Taf", "Rhondda Cynon Taff", local_hex_map$la_name)
+  devtools::use_data(local_hex_map, overwrite = TRUE) 
+
+# Wards ---------------------  
+
+  
+  
   
 # British Election Study Data -----------------------------------------------------------
 
@@ -51,3 +57,15 @@
   nums <- c("snplong_spend_percent", "snpshort_spend_percent", "pclong_spend_percent", "pcshort_spend_percent")
   bes_2015[,nums] <- lapply(bes_2015[,nums], as.numeric)
   devtools::use_data(bes_2015)
+
+  
+  
+  
+  
+# Local Authority Control Data --------------------------------------------
+
+  library(readr)
+  council_data <- read_csv("~/GitHub/parlitools/data-raw/opencouncildata_councils.csv")
+  devtools::use_data(council_data, overwrite = TRUE)
+  
+  
