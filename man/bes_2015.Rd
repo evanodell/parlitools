@@ -3,7 +3,7 @@
 \docType{data}
 \name{bes_2015}
 \alias{bes_2015}
-\title{A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. Spelling mistakes in the Edinburgh constituency names occuring in the original data have been corrected.}
+\title{A tibble with the British Election Study 2015 Constituency Results Version 2.21, which corrected spelling mistakes in the Edinburgh constituency names. Variable names have been converted to snake_case and variables have been converted to appropriate R classes.}
 \format{A tibble, containing 632 rows and 277 columns. For details on all variables in the dataset please see: \url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}}
 \source{
 \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
@@ -12,7 +12,7 @@
 bes_2015
 }
 \description{
-A tibble with the British Election Study 2015 Constituency Results Version 2.2. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. Spelling mistakes in the Edinburgh constituency names occuring in the original data have been corrected.
+A tibble with the British Election Study 2015 Constituency Results Version 2.21, which corrected spelling mistakes in the Edinburgh constituency names. Variable names have been converted to snake_case and variables have been converted to appropriate R classes.
 }
 \references{
 Fieldhouse, Edward, Jane Green, Geoffrey Evans, Hermann Schmitt, Cees van der Eijk, Jonathan Mellon, and Christopher Prosser. "British Election Study, 2015: General Election Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.

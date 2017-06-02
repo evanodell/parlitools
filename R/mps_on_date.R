@@ -19,7 +19,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
   
   message("Downloading MP data")
   
-    baseurl <- "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/House=Commons|Membership=all|commonsmemberbetween="
+    mps <- mnis::mnis_mps_on_date(date1, date2, tidy, tidy_style)
     
     date1 <- as.Date(date1)
     
@@ -36,36 +36,9 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
       rm(date3)
     }
     
-    query <- paste0(baseurl,date1,"and",date2,"/")
-    
-    got <- httr::GET(query, httr::accept_json())
-    
-    if (httr::http_type(got) != "application/json") {
-      stop("API did not return json", call. = FALSE)
-    }
-    
-    got <- mnis::tidy_bom(got)
-    
-    got <- jsonlite::fromJSON(got, flatten = TRUE)
-    
-    mps <- got$Members$Member
-    
-    mps <- tibble::as_tibble(mps)
-    
-    
-#  }
-  
-    if(.Platform$OS.type=="windows"){
-      
-      mps$MemberFrom <- stringi::stri_trans_general(mps$MemberFrom, "latin-ascii")
-      
-      mps$MemberFrom <- gsub("Ynys MA\U00B4n", "Ynys M\U00F4n", mps$MemberFrom)
-      
-    }
-  
   if(date1 >= "2010-05-06"){
     
-    mps <- mnis::mnis_tidy(mps, tidy_style)
+    mps <- mnis::mnis_tidy(mps, "snake_case")
     
     message("Downloading constituency data")
     
@@ -77,13 +50,11 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     
     constit2$ended_date_value[constit2$ended_date_value==Sys.Date()] <- NA 
     
-    elect <- elections()
+    suppressMessages(elect <- elections())
     
     suppressMessages(elect_res <- election_results())
     
     elect_res <- dplyr::right_join(elect, elect_res, by = c("about"="election_about", "label_value"="election_label_value"))
-    
-    elect_res$date_value <- as.Date(elect_res$date_value)
     
     elect_res <- elect_res[elect_res$date_value <= date2,] 
     
@@ -99,11 +70,11 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     df$label_value.x <- NULL
     df$about.y <- NULL
     df$about.y.y <- NULL
-    df$os_name
+    df$os_name <- NULL
     
     if (tidy == TRUE) {
     
-      df <- hansard::hansard_tidy(df, tidy_style)
+      df <- parlitools::parlitools_tidy(df, tidy_style)
     
       df
     
@@ -117,7 +88,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     
     if (tidy == TRUE) {
       
-      mps <- mnis::mnis_tidy(mps, tidy_style)
+      mps <- parlitools::parlitools_tidy(mps, tidy_style)
       
       mps
       

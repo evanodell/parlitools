@@ -55,7 +55,7 @@
 #' A tibble with details on the council make-up of local authorities across the UK, taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal.
 #' @format A tibble, with 418 rows and 22 columns.
 #' \describe{
-#' \item{la_code}{The Local Authority code from the Office for National Statistics}}
+#' \item{la_code}{The Local Authority code from the Office for National Statistics}
 #' \item{name}{Local Authority Name}
 #' \item{type}{The type of local authority}
 #' \item{majority_party}{The majority party on the council. The label 'No Overall Control' is used if no single party has a majority.}

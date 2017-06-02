@@ -21,7 +21,5 @@ This is a resubmission the `parlitools` package, where I have:
 
 Maintainer: 'Evan Odell <evanodell91@gmail.com>'
 
-New submission
-
 Possibly mis-spelled words in DESCRIPTION:
-  cartograms (9:100)
+  cartograms (9:99)
