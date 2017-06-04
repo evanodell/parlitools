@@ -12,7 +12,7 @@ This is a resubmission the `parlitools` package, where I have:
 ## Test environments
 
     Ubuntu 12.04.5 (on Travis-CI): R 3.4.0
-    local MacOS 10.11.6 installation: R 3.4.0
+    local MacOS 10.12.5 installation: R 3.4.0
     win-builder (devel and release)
 
 ##R CMD check results 0 errors | 0 warnings | 1 notes
