@@ -52,7 +52,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     
   if(date1 >= "2010-05-06"){
     
-    mps <- mnis::mnis_tidy(mps, "snake_case")
+    mps <- mnis::mnis_tidy(mps, tidy_style = "snake_case")
     
     message("Downloading constituency data")
     
