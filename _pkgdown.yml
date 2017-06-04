@@ -20,8 +20,11 @@ navbar:
           href: articles/introduction.html
         - text: "Using cartograms with parlitools"
           href: articles/using-cartograms.html
+        - text: "Mapping Local Government"
+          href: articles/mapping-local-authorities.html
         - text: "British Election Study"
           href: articles/bes-2015.html
+        
     - text: "Packages"
       menu:
         - text: "Documentation"
