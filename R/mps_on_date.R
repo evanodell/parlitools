@@ -19,22 +19,36 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
   
   message("Downloading MP data")
   
-    mps <- mnis::mnis_mps_on_date(date1, date2, tidy, tidy_style)
-    
-    date1 <- as.Date(date1)
-    
-    if(is.null(date2)==FALSE) {
-      date2 <- as.Date(date2)
-    }
-    
-    if(is.null(date2)==TRUE) {
-      date2 <- date1
-    } else if (date1 > date2) {
-      date3 <- date1
-      date1 <- date2
-      date2 <- date3
-      rm(date3)
-    }
+  baseurl <- "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/House=Commons|Membership=all|commonsmemberbetween="
+  
+  date1 <- as.Date(date1)
+  
+  if(is.null(date2)==FALSE) {
+    date2 <- as.Date(date2)
+  }
+  
+  if(is.null(date2)==TRUE) {
+    date2 <- date1
+  } else if (date1 > date2) {
+    date3 <- date1
+    date1 <- date2
+    date2 <- date3
+    rm(date3)
+  }
+  
+  query <- paste0(baseurl,date1,"and",date2,"/")
+  
+  got <- httr::GET(query, httr::accept_json())
+  
+  if (httr::http_type(got) != "application/json") {
+    stop("API did not return json", call. = FALSE)
+  }
+  
+  got <- mnis::tidy_bom(got)
+  
+  got <- jsonlite::fromJSON(got, flatten = TRUE)
+  
+  mps <- tibble::as_tibble(got$Members$Member)
     
   if(date1 >= "2010-05-06"){
     
