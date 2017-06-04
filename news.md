@@ -1,15 +1,15 @@
 
 # parlitools 0.0.4
 
-## Bug Fixes
-
-A few minor tweaks to internal code, and to the vignette examples.
-
 ## Data updates
 
 Updated `bes_2015` to use V2.21 from the British Election Study.
 
 Added `council_data` dataset, with details on the parties controlling local councils across the UK.
+
+## Bug Fixes
+
+A few minor tweaks to internal code, and to the vignette examples.
 
 # parlitools 0.0.3
 

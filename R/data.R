@@ -31,9 +31,9 @@
 "local_hex_map"
 
 
-#' A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs.
+#' A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. It also contains a 'No Overall Control' party for local government.
 #'
-#' @format A tibble, containing 46 rows and 3 columns.
+#' @format A tibble, containing 47 rows and 3 columns.
 #' \describe{
 #' \item{party_id}{The party ID, as assigned by the Members Name Information Service}
 #' \item{party_name}{The name of the political party}
