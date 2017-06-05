@@ -84,11 +84,11 @@ library(parlitools)
 
 west_hex_map <- parlitools::west_hex_map #Base map
 
-trump_yes <- epetition(ID = 680905, by_constituency=TRUE) #Download pro-inviting Trump signatures
+trump_yes <- hansard::epetition(ID = 680905, by_constituency=TRUE) #Download pro-inviting Trump signatures
 
 pal = colorNumeric("Oranges", trump_yes$number_of_signatures)
 
-west_trump_yes <- left_join(west_hex_map, trump_yes, by = "gss_code") #Joining to base map
+west_trump_yes <- dplyr::left_join(west_hex_map, trump_yes, by = "gss_code") #Joining to base map
 
 label_yes <- paste0(
   "<strong>", west_trump_yes$constituency_name, "</strong>", "</br>",
@@ -132,9 +132,9 @@ library(parlitools)
 
 west_hex_map <- parlitools::west_hex_map #Base map
 
-trump_no <- epetition(ID = 648278, by_constituency=TRUE) #Download anti-inviting Trump signatures
+trump_no <- hansard::epetition(ID = 648278, by_constituency=TRUE) #Download anti-inviting Trump signatures
 
-west_trump_no <- left_join(west_hex_map, trump_no, by = "gss_code") #Joining to base map
+west_trump_no <- dplyr::left_join(west_hex_map, trump_no, by = "gss_code") #Joining to base map
 
 pal = colorNumeric("Blues", trump_no$number_of_signatures)
 
