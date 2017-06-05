@@ -4,7 +4,9 @@ always_allow_html: yes
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<!-- rmarkdown v1 --> <!--to accomodate pandoc bug on windows-->
+<!-- rmarkdown v1 --> 
+
+<!--to accomodate pandoc bug on windows-->
 
 
 
