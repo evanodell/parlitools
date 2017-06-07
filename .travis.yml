@@ -16,14 +16,7 @@ r_packages:
   - dplyr
   - leaflet
   - htmlwidgets
-  
-r_github_packages:
-  - "evanodell/hansard"
-  - "evanodell/mnis"
-
-  
-r_check_args:
-  - "--no-vignettes"
+  - sf
 
 apt_packages:
 - libudunits2-dev
