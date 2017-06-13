@@ -80,3 +80,17 @@
 #' \url{http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0}
 "council_data"
 
+
+#' A tibble with details on the council make-up of local authorities across the UK, taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal.
+#' @format A tibble, with 641 rows and 7 columns.
+#' \describe{
+#' \item{gss_code}{ONS code for constituency}
+#' \item{constituency}{The name of the constituency.}
+#' \item{party_2016}{The party holding the constituency at the time of the referendum.}
+#' \item{ch_leave_vote}{Estimates of the leave vote produced by Chris Hanretty.}
+#' \item{known_leave_vote}{A dummy variable indicating 'yes' if the actual leave vote percentage is known, and 'no' if we only have the estimate.}
+#' \item{known_leave_vote_perc}{The percentage of votes cast for leave, if known.}
+#' \item{difference_estimate_known}{Difference between the estimate by Chris Hanretty and the actual result, if known.}
+#' }
+#' @source \url{https://secondreading.uk/brexit/brexit-votes-by-constituency/}
+"eu_votes_west"

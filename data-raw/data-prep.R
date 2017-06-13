@@ -68,4 +68,14 @@
   council_data <- read_csv("~/GitHub/parlitools/data-raw/opencouncildata_councils.csv")
   devtools::use_data(council_data, overwrite = TRUE)
   
+
+# Brexit Votes by Constituency --------------------------------------------
+
+  library(readxl)
+  leave_votes_west <- read_excel("~/GitHub/parlitools/data-raw/Estimates-of-constituency-level-EU-referendum-result.xlsx")
+  leave_votes_west$ch_leave_vote <- leave_votes_west$ch_leave_vote*100
+  leave_votes_west$known_leave_vote_perc <- leave_votes_west$known_leave_vote_perc*100
+  leave_votes_west$difference_estimate_known <- leave_votes_west$difference_estimate_known*100
+  leave_votes_west$known_leave_vote <- as.factor(leave_votes_west$known_leave_vote)
+  devtools::use_data(leave_votes_west, overwrite = TRUE)
   
