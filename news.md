@@ -1,4 +1,12 @@
 
+
+# parlitools 0.0.4.9000
+
+## Data updates
+
+Added `leave_votes_west` containing estimates and - where available - official counts of the proportion of leave votes in the 2016 EU referendum.
+
+
 # parlitools 0.0.4
 
 ## Data updates
