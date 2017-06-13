@@ -19,3 +19,4 @@
 ^index\.Rmd$
 ^README\.html$
 ^README\.md$
+^appveyor\.yml$

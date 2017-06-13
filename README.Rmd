@@ -23,6 +23,7 @@ knitr::opts_chunk$set(
 [![Travis-CI Build Status](https://travis-ci.org/EvanOdell/parlitools.svg?branch=master)](https://travis-ci.org/EvanOdell/parlitools)
 [![DOI](https://zenodo.org/badge/86801920.svg)](https://zenodo.org/badge/latestdoi/86801920)
 [![Coverage Status](https://img.shields.io/codecov/c/github/EvanOdell/parlitools/master.svg)](https://codecov.io/github/EvanOdell/parlitools?branch=master)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/EvanOdell/parlitools?branch=master&svg=true)](https://ci.appveyor.com/project/EvanOdell/parlitools)
 
 # parlitools
 
