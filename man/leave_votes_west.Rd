@@ -3,12 +3,12 @@
 \docType{data}
 \name{leave_votes_west}
 \alias{leave_votes_west}
-\title{A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membershi of the European Union.}
+\title{A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each British constituency, excluding Northern Ireland. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.}
 \format{A tibble, with 641 rows and 7 columns.
 \describe{
 \item{gss_code}{ONS code for constituency}
 \item{constituency}{The name of the constituency.}
-\item{party_2016}{The party holding the constituency at the time of the referendum.}
+\item{party_2016}{The party holding the constituency on 23 June 2016, the date of the referendum.}
 \item{ch_leave_vote}{Estimates of the leave vote produced by Chris Hanretty.}
 \item{known_leave_vote}{A dummy variable indicating 'yes' if the actual leave vote percentage is known, and 'no' if the estimate by CHris Hanretty is available.}
 \item{known_leave_vote_perc}{The percentage of votes cast for leave, if known.}
@@ -16,11 +16,12 @@
 }}
 \source{
 \url{https://secondreading.uk/brexit/brexit-votes-by-constituency/}
+\url{http://www.bbc.co.uk/news/uk-northern-ireland-36616830}
 }
 \usage{
 leave_votes_west
 }
 \description{
-A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membershi of the European Union.
+A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each British constituency, excluding Northern Ireland. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.
 }
 \keyword{datasets}

@@ -38,12 +38,9 @@
   local_hex_map$la_name <- gsub("Rhondda Cynon Taf", "Rhondda Cynon Taff", local_hex_map$la_name)
   devtools::use_data(local_hex_map, overwrite = TRUE) 
 
-# Wards ---------------------  
+# Datasets ---------------------  
 
-  
-  
-  
-# British Election Study Data -----------------------------------------------------------
+## British Election Study Data -----------------------------------------------------------
 
   library(readxl)
   bes_2015 <- read_xlsx("./data-raw/BES-2015-General-Election-results-file-v2.21.xlsx")
@@ -56,26 +53,23 @@
   names(bes_2015) <- gsub("([[:lower:]])([[:digit:]])", "\\1_\\2", names(bes_2015))
   nums <- c("snplong_spend_percent", "snpshort_spend_percent", "pclong_spend_percent", "pcshort_spend_percent")
   bes_2015[,nums] <- lapply(bes_2015[,nums], as.numeric)
+  bes_2015$winner_15 <- factor(bes_2015$winner_15, levels=c("Conservative", "Green", "Independent", "Labour", "Liberal Democrat", "Other", "Plaid Cymru", "Scottish National Party", "UKIP"))
+  bes_2015$winner_10 <- factor(bes_2015$winner_10, levels=c("Conservative", "Green", "Independent", "Labour", "Liberal Democrat", "Other", "Plaid Cymru", "Scottish National Party", "UKIP"))
   devtools::use_data(bes_2015)
 
   
-  
-  
-  
-# Local Authority Control Data --------------------------------------------
+## Local Authority Control Data --------------------------------------------
 
   library(readr)
   council_data <- read_csv("~/GitHub/parlitools/data-raw/opencouncildata_councils.csv")
   devtools::use_data(council_data, overwrite = TRUE)
   
 
-# Brexit Votes by Constituency --------------------------------------------
+## Brexit Votes by Constituency --------------------------------------------
 
   library(readxl)
   leave_votes_west <- read_excel("~/GitHub/parlitools/data-raw/Estimates-of-constituency-level-EU-referendum-result.xlsx")
-  leave_votes_west$ch_leave_vote <- leave_votes_west$ch_leave_vote*100
-  leave_votes_west$known_leave_vote_perc <- leave_votes_west$known_leave_vote_perc*100
-  leave_votes_west$difference_estimate_known <- leave_votes_west$difference_estimate_known*100
   leave_votes_west$known_leave_vote <- as.factor(leave_votes_west$known_leave_vote)
+  leave_votes_west$party_2016  <- factor(leave_votes_west$party_2016, levels=c("Conservative", "Green", "Independent", "Labour", "Liberal Democrat", "Other", "Plaid Cymru", "Scottish National Party", "UKIP", "DUP", "Sinn Fein", "SDLP", "UUP"))
   devtools::use_data(leave_votes_west, overwrite = TRUE)
   

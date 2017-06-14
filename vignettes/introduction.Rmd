@@ -9,7 +9,53 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-#Creating a hexagonal map of constituencies
+# Introduction to `parlitools`
+
+`parlitools` is a collection of datasets, maps and data retrieval functions for analysing UK politics.
+
+## Vignettes
+
+In addition to this introductory vignette, there are vignettes on [using `parlitools` with `cartogram`](http://docs.evanodell.com/parlitools/articles/using-cartograms.html), the [British Election Study dataset](http://docs.evanodell.com/parlitools/articles/bes-2015.html) and [mapping local authorities](http://docs.evanodell.com/parlitools/articles/mapping-local-authorities.html).
+
+
+### Included Data
+
+`party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes, [`mnis::ref_parties()`](https://cran.r-project.org/package=mnis))
+
+`bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. For information on all the variables in this dataset, see the [bes-2015 vignette](http://docs.evanodell.com/parlitools/articles/bes-2015.html) (Source: http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/)
+
+`council_data` - A tibble with data on the size of each local council (in terms of councillors), and the party or parties controlling the council.  (Sources: http://opencouncildata.co.uk/councils.php?model=, http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0)
+
+`leave_votes_west` - The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: https://secondreading.uk/brexit/brexit-votes-by-constituency/ http://www.bbc.co.uk/news/uk-northern-ireland-36616830)
+
+### Data Retrieval Functions
+
+`current_mps` - Uses functions from `hansard` and `mnis` to create a tibble with data on all current MPs, their party affiliation and their constituency.
+
+`mps_on_date`  - Uses functions from `hansard` and `mnis` to create a tibble with data on all MPs from a given date, their party affiliation and their constituency.
+
+### Included Maps
+
+`west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies. `west_hex_map` can be used to create maps like this:
+
+`local_hex_map` - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland. 
+
+## Other Data Sources
+
+There are a variety of potentially relevant data sources and datasets on UK politics, far too many for me to include them all in this package, and many of which are far too large. This list is by no means complete:
+
+* [Electoral Commission](http://www.electoralcommission.org.uk/our-work/our-research/electoral-data) - Electoral results dating back to 2005.
+
+* [British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data, covering elections and referenda.
+
+* [`hansard`](https://cran.r-project.org/package=hansard) & [`mnis`](https://cran.r-project.org/package=mnis) data retrieval packages for parliamentary APIs.
+
+* [Open Council Data](http://opencouncildata.co.uk/) has data on the names, parties, and wards of all UK councillors, updated more or less weekly.
+
+
+# Using `parlitools`
+
+## Creating a hexagonal map of constituencies
 
 Create a hexagonal map of all constituency MPs, at the time Parliament was dissolved for the 2017 General Election.
 
@@ -65,13 +111,13 @@ leaflet(options=leafletOptions(
 
 
 
-#Mapping Parliamentary Petitions
+## Mapping Parliamentary Petitions
 
 The [UK Parliamentary Petition site](https://petition.parliament.uk/) has facilities for mapping which parliamentary constituencies signatories of petitions live in. However, it only produces geographic maps, not hexagrams.
 
 I have chosen two competing petitions: 'Donald Trump should make a State Visit to the United Kingdom' and 'Prevent Donald Trump from making a State Visit to the United Kingdom', both of which attracted large numbers of signatures: 317,492 for the pro-Trump petition, and 1,863,565 on the anti-Trump petition. The  two maps use different colour scales, as using the same colour scale for both maps, which can aid direct comparison, renders the pro-Trump map too faint to read.
 
-##Pro-Trump petition signatories
+### Pro-Trump petition signatories
 
 ```{r fig.width= 6, fig.height=7,message=FALSE}
 library(leaflet)
@@ -119,7 +165,7 @@ leaflet(options=leafletOptions(
 ```
 
 
-##Anti-Trump petition signatories
+### Anti-Trump petition signatories
 
 ```{r fig.width=6, fig.height=7, message=FALSE}
 library(leaflet)

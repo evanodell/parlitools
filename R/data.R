@@ -48,11 +48,11 @@
 #' 
 #' @references Fieldhouse, Edward, Jane Green, Geoffrey Evans, Hermann Schmitt, Cees van der Eijk, Jonathan Mellon, and Christopher Prosser. "British Election Study, 2015: General Election Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 #'
-#' @format A tibble, containing 632 rows and 277 columns. For details on all variables in the dataset please see: \url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}
+#' @format A tibble, containing 632 rows and 277 columns. For details on all variables in the dataset please see the vignette: \url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
 "bes_2015"
 
-#' A tibble with details on the council make-up of local authorities across the UK, taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal.
+#' A tibble with details on the council make-up of local authorities across the UK, taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
 #' @format A tibble, with 418 rows and 20 columns.
 #' \describe{
 #' \item{la_code}{The Local Authority code from the Office for National Statistics}
@@ -81,16 +81,17 @@
 "council_data"
 
 
-#' A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membershi of the European Union.
+#' A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each British constituency, excluding Northern Ireland. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.
 #' @format A tibble, with 641 rows and 7 columns.
 #' \describe{
 #' \item{gss_code}{ONS code for constituency}
 #' \item{constituency}{The name of the constituency.}
-#' \item{party_2016}{The party holding the constituency at the time of the referendum.}
+#' \item{party_2016}{The party holding the constituency on 23 June 2016, the date of the referendum.}
 #' \item{ch_leave_vote}{Estimates of the leave vote produced by Chris Hanretty.}
 #' \item{known_leave_vote}{A dummy variable indicating 'yes' if the actual leave vote percentage is known, and 'no' if the estimate by CHris Hanretty is available.}
 #' \item{known_leave_vote_perc}{The percentage of votes cast for leave, if known.}
 #' \item{difference_estimate_known}{Difference between the estimate by Chris Hanretty and the actual result, if known.}
 #' }
 #' @source \url{https://secondreading.uk/brexit/brexit-votes-by-constituency/}
+#' \url{http://www.bbc.co.uk/news/uk-northern-ireland-36616830}
 "leave_votes_west"
