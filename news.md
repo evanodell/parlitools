@@ -1,11 +1,15 @@
 
+# parlitools 0.0.6
+
+## Bug fixes
+
+Fixed bugs in `mps_on_date()` that were causing problems on Windows.
 
 # parlitools 0.0.5
 
 ## Data updates
 
 Added `leave_votes_west` containing estimates and - where available - official counts of the proportion of leave votes in the 2016 EU referendum.
-
 
 # parlitools 0.0.4
 

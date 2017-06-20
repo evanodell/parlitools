@@ -63,7 +63,7 @@ Use the code below to create the hexagonal map of UK constituency MPs, as of 20 
 
 ### Creating a plot
 
-```{r fig.width=6, fig.height=7, message=FALSE, warning=FALSE}
+```{r fig.width=4, fig.height=5, message=FALSE, warning=FALSE}
 library(leaflet)
 library(sf)
 library(htmlwidgets)
