@@ -170,6 +170,11 @@ hr {
 <pre><code>install.packages(&quot;parlitools&quot;)
 </code></pre>
 
+<p>Or, if using the <a href="https://CRAN.R-project.org/package=pacman"><code>pacman</code></a> package:</p>
+
+<pre><code>pacman::p_load(parlitools)
+</code></pre>
+
 <p>To install the current version from GitHub, run:</p>
 
 <pre><code>##install.packages(&quot;parlitools&quot;)
@@ -185,6 +190,10 @@ devtools::install_github(&quot;evanodell/parlitools&quot;)
 <p><code>party_colours</code> - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: <a href="https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes">https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes</a>, <a href="https://cran.r-project.org/package=mnis"><code>mnis::ref_parties()</code></a>)</p>
 
 <p><code>bes_2015</code> - A tibble with the British Election Study 2015 Constituency Results Version 2.2. For information on all the variables in this dataset, see the <a href="http://docs.evanodell.com/parlitools/articles/bes-2015.html">bes-2015 vignette</a> (Source: <a href="http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/">http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/</a>)</p>
+
+<p><code>council_data</code> - A tibble with data on the size of each local council (in terms of councillors), and the party or parties controlling the council.  (Sources: <a href="http://opencouncildata.co.uk/councils.php?model=">http://opencouncildata.co.uk/councils.php?model=</a>, <a href="http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0">http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0</a>)</p>
+
+<p><code>leave_votes_west</code> - The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: <a href="https://secondreading.uk/brexit/brexit-votes-by-constituency/">https://secondreading.uk/brexit/brexit-votes-by-constituency/</a> <a href="http://www.bbc.co.uk/news/uk-northern-ireland-36616830">http://www.bbc.co.uk/news/uk-northern-ireland-36616830</a>)</p>
 
 <h3>Data Retrieval Functions</h3>
 
@@ -212,6 +221,7 @@ devtools::install_github(&quot;evanodell/parlitools&quot;)
 <li><p><a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission</a> - Electoral results dating back to 2005.</p></li>
 <li><p><a href="http://www.britishelectionstudy.com/data/">British Election Study</a> - A large selection of open data, including panel surveys, linked data and aggregated Twitter data, covering elections and referenda.</p></li>
 <li><p><a href="https://cran.r-project.org/package=hansard"><code>hansard</code></a> &amp; <a href="https://cran.r-project.org/package=mnis"><code>mnis</code></a> data retrieval packages for parliamentary APIs.</p></li>
+<li><p><a href="http://opencouncildata.co.uk/">Open Council Data</a> has data on the names, parties, and wards of all UK councillors, updated more or less weekly.</p></li>
 </ul>
 
 </body>

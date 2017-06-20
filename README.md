@@ -33,6 +33,13 @@ The most up-to-date documentation for the development version will always be at 
 install.packages("parlitools")
 ```
 
+Or, if using the [`pacman`](https://CRAN.R-project.org/package=pacman) package:
+
+```
+pacman::p_load(parlitools)
+```
+
+
 To install the current version from GitHub, run:
 
 ```
@@ -49,6 +56,10 @@ For more details see [the full documentation](http://docs.evanodell.com/parlitoo
 `party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes, [`mnis::ref_parties()`](https://cran.r-project.org/package=mnis))
 
 `bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. For information on all the variables in this dataset, see the [bes-2015 vignette](http://docs.evanodell.com/parlitools/articles/bes-2015.html) (Source: http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/)
+
+`council_data` - A tibble with data on the size of each local council (in terms of councillors), and the party or parties controlling the council.  (Sources: http://opencouncildata.co.uk/councils.php?model=, http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0)
+
+`leave_votes_west` - The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: https://secondreading.uk/brexit/brexit-votes-by-constituency/ http://www.bbc.co.uk/news/uk-northern-ireland-36616830)
 
 ### Data Retrieval Functions
 
@@ -78,3 +89,4 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 
 * [`hansard`](https://cran.r-project.org/package=hansard) & [`mnis`](https://cran.r-project.org/package=mnis) data retrieval packages for parliamentary APIs.
 
+* [Open Council Data](http://opencouncildata.co.uk/) has data on the names, parties, and wards of all UK councillors, updated more or less weekly.

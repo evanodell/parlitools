@@ -4,10 +4,12 @@
 \alias{current_mps}
 \title{Request data on all MPs eligible currently to sit in the House of Commons. Includes information on their constituency.}
 \usage{
-current_mps(tidy = TRUE)
+current_mps(tidy = TRUE, tidy_style = "snake_case")
 }
 \arguments{
 \item{tidy}{Fix the variable names in the tibble to remove extra characters, superfluous text and convert variable names to snake_case. Defaults to TRUE.}
+
+\item{tidy_style}{The style to convert variable names to, if tidy=TRUE. Accepts one of "snake_case", "camelCase" and "period.case". Defaults to "snake_case"}
 }
 \value{
 A tibble of all MPs currently eligible to sit in the House of Commons.

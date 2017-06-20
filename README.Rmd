@@ -39,6 +39,13 @@ The most up-to-date documentation for the development version will always be at 
 install.packages("parlitools")
 ```
 
+Or, if using the [`pacman`](https://CRAN.R-project.org/package=pacman) package:
+
+```
+pacman::p_load(parlitools)
+```
+
+
 To install the current version from GitHub, run:
 
 ```
@@ -90,3 +97,4 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 
 * [`hansard`](https://cran.r-project.org/package=hansard) & [`mnis`](https://cran.r-project.org/package=mnis) data retrieval packages for parliamentary APIs.
 
+* [Open Council Data](http://opencouncildata.co.uk/) has data on the names, parties, and wards of all UK councillors, updated more or less weekly.

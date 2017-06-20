@@ -77,13 +77,9 @@ parlitools_tidy <- function(df, tidy_style) {
   
   names(df) <- gsub("^Post\\.PostHolders\\.", "", names(df))
   
-  names(df) <- gsub("dfsi:nil", "nil", names(df))
+  names(df) <- gsub("xsi:nil", "nil", names(df))
   
-  names(df) <- gsub("dfmlns:dfsi", "label", names(df))
-  
-  names(df) <- gsub("dfsi.nil", "nil", names(df))
-  
-  names(df) <- gsub("dfmlns.dfsi", "label", names(df))
+  names(df) <- gsub("xmlns:xsi", "label", names(df))
   
   names(df) <- gsub("\\.", "_", names(df))
   

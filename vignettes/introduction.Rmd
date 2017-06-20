@@ -59,7 +59,7 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 
 Create a hexagonal map of all constituency MPs, at the time Parliament was dissolved for the 2017 General Election.
 
-Use the code below to create the hexagonal map of UK constituency MPs, as of 19 April 2017.
+Use the code below to create the hexagonal map of UK constituency MPs, as of 20 June 2017.
 
 ```{r fig.width=6, fig.height=7, message=FALSE, warning=FALSE}
 library(leaflet)
@@ -74,7 +74,7 @@ west_hex_map <- parlitools::west_hex_map
 
 party_colour <- parlitools::party_colour
 
-mps <- mps_on_date("2017-04-19")
+mps <- mps_on_date("2017-06-20")
 
 mps_colours <- left_join(mps, party_colour, by = "party_id") #Join to current MP data
 
