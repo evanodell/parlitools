@@ -23,7 +23,8 @@
   names(west_hex_map)[names(west_hex_map)=="Region_Nam"] <- "region_name"
   names(west_hex_map)[names(west_hex_map)=="Shape_Leng"] <- "shape_length"
   names(west_hex_map)[names(west_hex_map)=="Shape_Area"] <- "shape_area"
-  devtools::use_data(west_hex_map)
+  west_hex_map$constituency_name <- trimws(west_hex_map$constituency_name, which = "right")
+  devtools::use_data(west_hex_map, overwrite = TRUE)
   
   
   ## Local Authorities ---------------------

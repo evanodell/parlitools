@@ -77,4 +77,4 @@ swing <- function(swing1=c("Conservative","Green", "Labour","Liberal Democrat" ,
   
 }
 
-y <- local_hex_map[,c("la_code", "la_name")]
+

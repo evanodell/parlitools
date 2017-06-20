@@ -49,6 +49,14 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
   got <- jsonlite::fromJSON(got, flatten = TRUE)
   
   mps <- tibble::as_tibble(got$Members$Member)
+  
+  if(.Platform$OS.type=="windows"){
+    
+    mps$MemberFrom <- stringi::stri_trans_general(mps$MemberFrom, "latin-ascii")
+    
+    mps$MemberFrom <- gsub("Ynys MA\U00B4n", "Ynys M\U00F4n", mps$MemberFrom)
+    
+  }
     
   if(date1 >= "2010-05-06"){
     
@@ -64,19 +72,25 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     
     constit2$ended_date_value[constit2$ended_date_value==Sys.Date()] <- NA 
     
-    suppressMessages(elect <- elections())
+    suppressMessages(elect <- hansard::elections())
     
-    suppressMessages(elect_res <- election_results())
+    elect$about <- gsub("http://data.parliament.uk/resources/", "", elect$about)
     
-    elect_res <- dplyr::right_join(elect, elect_res, by = c("about"="election_about", "label_value"="election_label_value"))
+    suppressMessages(elect_res <- hansard::election_results())
     
-    elect_res <- elect_res[elect_res$date_value <= date2,] 
+    elect_res$election_about <- gsub("http://data.parliament.uk/resources/", "", elect_res$election_about)
     
-    elect_res <- elect_res[rev(order(elect_res$date_value)),]
+    elect_res2 <- dplyr::left_join(elect_res, elect, by = c("election_about"="about"))
     
-    elect_res <- subset(elect_res,!duplicated(elect_res$constituency_about))
+    elect_res2 <- elect_res2[elect_res2$date_value <= date2,] 
     
-    const_elect <- left_join(constit2, elect_res, by = c("about"= "constituency_about"))
+    elect_res2 <- elect_res2[rev(order(elect_res2$date_value)),]
+    
+    elect_res2 <- subset(elect_res2,!duplicated(elect_res2$constituency_about))
+    
+    constit2$about <- gsub("http://data.parliament.uk/resources/", "", constit2$about)
+    
+    const_elect <- left_join(constit2, elect_res2, by = c("about"= "constituency_about"))
     
     df <- dplyr::left_join(mps, const_elect, by = c("member_from"= "constituency_label_value"))
     
