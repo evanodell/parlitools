@@ -77,7 +77,7 @@ For more details see [the full documentation](http://docs.evanodell.com/parlitoo
 
 `west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies. `west_hex_map` can be used to create maps like this:
 
-```{r, out.height = '100%', echo=FALSE}
+```{r, out.width= '456px', echo=FALSE}
 knitr::include_graphics("tools/hex_map.png")
 ```
 

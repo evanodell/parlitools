@@ -71,7 +71,7 @@ For more details see [the full documentation](http://docs.evanodell.com/parlitoo
 
 `west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies. `west_hex_map` can be used to create maps like this:
 
-<img src="tools/hex_map.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" height="100%" />
+<img src="tools/hex_map.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="456px" />
 
 `local_hex_map` - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland. 
 
