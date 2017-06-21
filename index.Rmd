@@ -8,8 +8,8 @@ output: rmarkdown::html_vignette
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/EvanOdell/parlitools/blob/master/LICENSE)
 [![GitHub tag](https://img.shields.io/github/tag/evanodell/parlitools.svg)](https://github.com/evanodell/parlitools)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/parlitools)](https://cran.r-project.org/package=parlitools)
-[![](http://cranlogs.r-pkg.org/badges/grand-total/parlitools)](https://dgrtwo.shinyapps.io/cranview/)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/parlitools)](https://cran.r-project.org/package=parlitools)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/parlitools)](https://dgrtwo.shinyapps.io/cranview/)
 [![Travis-CI Build Status](https://travis-ci.org/EvanOdell/parlitools.svg?branch=master)](https://travis-ci.org/EvanOdell/parlitools)
 [![DOI](https://zenodo.org/badge/86801920.svg)](https://zenodo.org/badge/latestdoi/86801920)
 [![Coverage Status](https://img.shields.io/codecov/c/github/EvanOdell/parlitools/master.svg)](https://codecov.io/github/EvanOdell/parlitools?branch=master)
@@ -19,7 +19,7 @@ output: rmarkdown::html_vignette
 
 A collection of useful tools for UK politics, including base maps and datasets. Initially inspired by Bhaskar Karambelkar's [`tilegrams`](https://cran.r-project.org/package=tilegramsR) package, but with the ability to create a hexagonal map of UK parliamentary constituencies. The package also includes functions for data retrieval of current MPs and their consituency details (as it requires calls to two different APIs, this function is not included in my [`hansard`](https://cran.r-project.org/package=hansard) or [`mnis`](https://cran.r-project.org/package=mnis) packages), and data from the 2015 UK General Election, courtesy of the British Election Study.
 
-The most up-to-date documentation for the development version will always be at http://docs.evanodell.com/parlitools/. 
+The most up-to-date documentation for the development version will always be at https://docs.evanodell.com/parlitools/. 
 
 ## Installing
 
@@ -45,13 +45,13 @@ devtools::install_github("evanodell/parlitools")
 
 ## Functions and Data
 
-For more details see [the full documentation](http://docs.evanodell.com/parlitools/).
+For more details see [the full documentation](https://docs.evanodell.com/parlitools/).
 
 ### Included Data
 
 `party_colours` - A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. (Sources: https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes, [`mnis::ref_parties()`](https://cran.r-project.org/package=mnis))
 
-`bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. For information on all the variables in this dataset, see the [bes-2015 vignette](http://docs.evanodell.com/parlitools/articles/bes-2015.html) (Source: http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/)
+`bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. For information on all the variables in this dataset, see the [bes-2015 vignette](https://docs.evanodell.com/parlitools/articles/bes-2015.html) (Source: https://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/)
 
 ### Data Retrieval Functions
 
@@ -115,7 +115,7 @@ leaflet(options=leafletOptions(
 
 ### Using `parlitools`
 
-For more details, please see the [introductory vignette](http://docs.evanodell.com/parlitools/articles/introduction.html) and [using `parlitools` with `cartogram`](http://docs.evanodell.com/parlitools/articles/using-cartograms.html).
+For more details, please see the [introductory vignette](https://docs.evanodell.com/parlitools/articles/introduction.html) and [using `parlitools` with `cartogram`](https://docs.evanodell.com/parlitools/articles/using-cartograms.html).
 
 ## Data Sources
 
