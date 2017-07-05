@@ -32,5 +32,6 @@ Suggests: knitr,
     leaflet,
     htmltools,
     cartogram,
-    htmlwidgets
+    htmlwidgets,
+    ggplot2
 VignetteBuilder: knitr
