@@ -3,7 +3,7 @@
 \docType{data}
 \name{council_data}
 \alias{council_data}
-\title{A tibble with details on the council make-up of local authorities across the UK, taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.}
+\title{A tibble with details on the council make-up of local authorities across the UK.}
 \format{A tibble, with 418 rows and 20 columns.
 \describe{
 \item{la_code}{The Local Authority code from the Office for National Statistics}
@@ -35,6 +35,6 @@
 council_data
 }
 \description{
-A tibble with details on the council make-up of local authorities across the UK, taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
+This data is taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
 }
 \keyword{datasets}

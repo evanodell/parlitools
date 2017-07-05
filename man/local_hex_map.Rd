@@ -3,7 +3,7 @@
 \docType{data}
 \name{local_hex_map}
 \alias{local_hex_map}
-\title{Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.}
+\title{Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland.}
 \format{An sf and data.frame object, containing 650 elements and 8 variables.
 \describe{
   \item{object_id}{Row Name}
@@ -20,6 +20,6 @@
 local_hex_map
 }
 \description{
-Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
+Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
 }
 \keyword{datasets}

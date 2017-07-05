@@ -39,9 +39,9 @@ navbar:
 
   right:
     - icon: fa-github fa-lg
-      href: https://github.com/EvanOdell/parlitools
+      href: https://github.com/evanodell/parlitools
     - icon: fa-home fa-lg
-      href: http://evanodell.com
+      href: https://evanodell.com
 
 reference:
 - title: Data
@@ -50,6 +50,7 @@ reference:
   - bes_2015
   - party_colour
   - council_data
+  - leave_votes_west
 - title: Data Retrieval
   desc: Data retrieval functions
   contents:

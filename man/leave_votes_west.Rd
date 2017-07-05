@@ -3,7 +3,7 @@
 \docType{data}
 \name{leave_votes_west}
 \alias{leave_votes_west}
-\title{A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each British constituency, excluding Northern Ireland. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.}
+\title{A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each  constituency.}
 \format{A tibble, with 641 rows and 7 columns.
 \describe{
 \item{gss_code}{ONS code for constituency}
@@ -22,6 +22,6 @@
 leave_votes_west
 }
 \description{
-A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each British constituency, excluding Northern Ireland. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.
+A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each  constituency. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.
 }
 \keyword{datasets}

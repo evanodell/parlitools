@@ -1,6 +1,8 @@
 
 
-#' A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature. Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. The coordinates in the original shapefile were converted into Latitude and Longitude in QGIS, and the hexagon representing Ynys Mon was moved to be closer to the mainland of Wales.
+#' A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature. 
+#' 
+#' Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. The coordinates in the original shapefile were converted into Latitude and Longitude in QGIS, and the hexagon representing Ynys Mon was moved to be closer to the mainland of Wales.
 #'
 #' @format An sf and data.frame object, containing 650 elements and 8 variables.
 #' \describe{
@@ -16,7 +18,9 @@
 #' @source \url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}
 "west_hex_map"
 
-#' Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
+#' Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. 
+#' 
+#' Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
 #'
 #' @format An sf and data.frame object, containing 650 elements and 8 variables.
 #' \describe{
@@ -31,7 +35,9 @@
 "local_hex_map"
 
 
-#' A tibble with the ID, name and hex code for the official colour of a variety of political parties, taken from Wikipedia. Includes all political parties with MPs and a number without MPs. It also contains a 'No Overall Control' party for local government.
+#' A tibble with the ID, name and hex code for the official colour of a variety of political parties. 
+#' 
+#' Includes all political parties with MPs and a number without MPs. It also contains a 'No Overall Control' party for local government. Hex codes are taken from Wikipedia.
 #'
 #' @format A tibble, containing 47 rows and 3 columns.
 #' \describe{
@@ -44,7 +50,11 @@
 "party_colour"
 
 
-#' A tibble with the British Election Study 2015 Constituency Results Version 2.21, which corrected spelling mistakes in the Edinburgh constituency names. Variable names have been converted to snake_case and variables have been converted to appropriate R classes.
+#' A tibble with the British Election Study 2015 Constituency Results Version 2.21.
+#' 
+#' A tibble with constituencies results from the British Election Study 2015, linked to census data for each constituency. Only covers Great Britain, so data on Northern Irish constituencies is not included.
+#' 
+#' Variable names have been converted to snake_case and variables have been converted to appropriate R classes.
 #' 
 #' @references Fieldhouse, Edward, Jane Green, Geoffrey Evans, Hermann Schmitt, Cees van der Eijk, Jonathan Mellon, and Christopher Prosser. "British Election Study, 2015: General Election Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 #'
@@ -52,7 +62,10 @@
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
 "bes_2015"
 
-#' A tibble with details on the council make-up of local authorities across the UK, taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
+#' A tibble with details on the council make-up of local authorities across the UK.
+#' 
+#' This data is taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
+#' 
 #' @format A tibble, with 418 rows and 20 columns.
 #' \describe{
 #' \item{la_code}{The Local Authority code from the Office for National Statistics}
@@ -81,7 +94,9 @@
 "council_data"
 
 
-#' A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each British constituency, excluding Northern Ireland. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.
+#' A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each  constituency. 
+#' 
+#' A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each  constituency. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.
 #' @format A tibble, with 641 rows and 7 columns.
 #' \describe{
 #' \item{gss_code}{ONS code for constituency}

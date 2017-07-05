@@ -1,4 +1,10 @@
 
+
+
+# parlitools 0.0.7
+
+Updated documentation, more comprehensive testing. Added Northern Irish EU Referendum results to the `leave_votes_west` dataset.
+
 # parlitools 0.0.6
 
 ## Bug fixes
