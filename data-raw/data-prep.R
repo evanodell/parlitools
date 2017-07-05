@@ -41,7 +41,7 @@
 
 # Datasets ---------------------  
 
-## British Election Study Data -----------------------------------------------------------
+## British Election Study Data 2015 -----------------------------------------------------------
 
   library(readxl)
   bes_2015 <- read_xlsx("./data-raw/BES-2015-General-Election-results-file-v2.21.xlsx")
@@ -58,7 +58,6 @@
   bes_2015$winner_10 <- factor(bes_2015$winner_10, levels=c("Conservative", "Green", "Independent", "Labour", "Liberal Democrat", "Other", "Plaid Cymru", "Scottish National Party", "UKIP"))
   devtools::use_data(bes_2015)
 
-  
 ## Local Authority Control Data --------------------------------------------
 
   library(readr)
