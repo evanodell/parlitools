@@ -1,5 +1,7 @@
 
+# parlitools 0.0.8
 
+Changes to vignettes to comply with CRAN policies and to reduce the time needed to check the package.
 
 # parlitools 0.0.7
 
@@ -54,8 +56,6 @@ Now includes `local_hex_map`, a hexagonal map of all local authority areas in Sc
 ### Data Retrieval
 
 The `mps_on_date` function downloads information on every MP and their constituency who was a member of the house on a single given date, or between two given dates.
-
-
 
 # parlitools 0.0.1
 
