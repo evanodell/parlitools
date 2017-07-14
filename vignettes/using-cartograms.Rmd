@@ -22,6 +22,32 @@ This map scales constituencies based on how marginal they are, by subtracting th
 It uses datasets included in this package, namely the British Election Study (`bes_2015`), `party_colours` and `west_hex_map`. As the BES only covers Wales, Scotland and England, Northern Ireland is not included in the map.
 
 ```{r fig.width=6, fig.height=7, message=FALSE, warning=FALSE}
+library(leaflet)
+library(sf)
+library(htmlwidgets)
+library(dplyr)
+library(hansard)
+library(mnis)
+library(parlitools)
+library(cartogram)
+
+west_hex_map <- parlitools::west_hex_map
+
+party_colour <- parlitools::party_colour
+
+elect2015 <- parlitools::bes_2015
+
+elect2015_win_colours <- left_join(elect2015, party_colour, by = c("winner_15" ="party_name")) #Join to current MP data
+
+gb_hex_map <- right_join(west_hex_map, elect2015_win_colours, by = c("gss_code"="onsconst_id")) #Join colours to hexagon map
+
+gb_hex_map <- as(gb_hex_map, "Spatial")
+
+gb_hex_map <- as(gb_hex_map, "SpatialPolygonsDataFrame")
+
+gb_hex_map$majority_15 <- round(gb_hex_map$majority_15, 2)
+
+gb_hex_map$turnout_15 <- round(gb_hex_map$turnout_15, 2)
 
 gb_hex_map$marginality <- (100-gb_hex_map$majority_15)^3
 

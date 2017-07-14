@@ -3,6 +3,18 @@
 
 Changes to vignettes to comply with CRAN policies and to reduce the time needed to check the package.
 
+Reduction in the number of similar vignette examples to reduce build time.
+
+## Data
+
+Updating of `council_data` dataset to be accurate as of 2017-07-14.
+
+New `ge_2017` dataset, with results of 2017 General Election, linked with constituency data from `bes_2015`.
+
+## Bug fixes
+
+Consistent naming of vote variables in `bes_2015`.
+
 # parlitools 0.0.7
 
 Updated documentation, more comprehensive testing. Added Northern Irish EU Referendum results to the `leave_votes_west` dataset.

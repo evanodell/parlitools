@@ -2,13 +2,12 @@
 
 ## Resubmission
 
-This is the second resubmission of the `parlitools` package. Version 0.0.2 was released on 2017-05-03, and version 0.0.4 was released on 2017-06-05.
-
+This is a resubmission of the `parlitools` package to comply with CRAN policies on installing or updating packages during R CMD INSTALL and R CMD.
 
 ## Test environments
 
     Ubuntu 12.04.5 (on Travis-CI): devel and release
-    local MacOS 10.12.5 installation: R 3.4.0
+    local MacOS 10.12.5 installation: R 3.4.1
     local Windows 7 installation: R 3.4.1
     win-builder (devel and release)
 

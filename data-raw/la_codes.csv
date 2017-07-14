@@ -1,0 +1,419 @@
+﻿name,la_code,type
+Hartlepool,E06000001,Unitary
+Middlesbrough,E06000002,Unitary
+Redcar and Cleveland,E06000003,Unitary
+Stockton-on-Tees,E06000004,Unitary
+Darlington,E06000005,Unitary
+Halton,E06000006,Unitary
+Warrington,E06000007,Unitary
+Blackburn with Darwen,E06000008,Unitary
+Blackpool,E06000009,Unitary
+Hull,E06000010,Unitary
+East Riding of Yorkshire,E06000011,Unitary
+North East Lincolnshire,E06000012,Unitary
+North Lincolnshire,E06000013,Unitary
+York,E06000014,Unitary
+Derby,E06000015,Unitary
+Leicester,E06000016,Unitary
+Rutland,E06000017,Unitary
+Nottingham,E06000018,Unitary
+Herefordshire,E06000019,Unitary
+Telford and Wrekin,E06000020,Unitary
+Stoke-on-Trent,E06000021,Unitary
+Bath and North East Somerset,E06000022,Unitary
+City of Bristol,E06000023,Unitary
+North Somerset,E06000024,Unitary
+South Gloucestershire,E06000025,Unitary
+Plymouth,E06000026,Unitary
+Torbay,E06000027,Unitary
+Bournemouth,E06000028,Unitary
+Poole,E06000029,Unitary
+Swindon,E06000030,Unitary
+Peterborough,E06000031,Unitary
+Luton,E06000032,Unitary
+Southend-on-Sea,E06000033,Unitary
+Thurrock,E06000034,Unitary
+Medway,E06000035,Unitary
+Bracknell Forest,E06000036,Unitary
+West Berkshire,E06000037,Unitary
+Reading,E06000038,Unitary
+Slough,E06000039,Unitary
+Windsor and Maidenhead,E06000040,Unitary
+Wokingham,E06000041,Unitary
+Milton Keynes,E06000042,Unitary
+Brighton and Hove,E06000043,Unitary
+Portsmouth,E06000044,Unitary
+Southampton,E06000045,Unitary
+Isle of Wight,E06000046,Unitary
+County Durham,E06000047,Unitary
+Cheshire East,E06000049,Unitary
+Cheshire West and Chester,E06000050,Unitary
+Shropshire,E06000051,Unitary
+Cornwall,E06000052,Unitary
+Isles of Scilly,E06000053,Sui Generis
+Wiltshire,E06000054,Unitary
+Bedford,E06000055,Unitary
+Central Bedfordshire,E06000056,Unitary
+Northumberland,E06000057,Unitary
+Aylesbury Vale,E07000004,District
+Chiltern,E07000005,District
+South Bucks,E07000006,District
+Wycombe,E07000007,District
+Cambridge,E07000008,District
+East Cambridgeshire,E07000009,District
+Fenland,E07000010,District
+Huntingdonshire,E07000011,District
+South Cambridgeshire,E07000012,District
+Allerdale,E07000026,District
+Barrow-in-Furness,E07000027,District
+Carlisle,E07000028,District
+Copeland,E07000029,District
+Eden,E07000030,District
+South Lakeland,E07000031,District
+Amber Valley,E07000032,District
+Bolsover,E07000033,District
+Chesterfield,E07000034,District
+Derbyshire Dales,E07000035,District
+Erewash,E07000036,District
+High Peak,E07000037,District
+North East Derbyshire,E07000038,District
+South Derbyshire,E07000039,District
+East Devon,E07000040,District
+Exeter,E07000041,District
+Mid Devon,E07000042,District
+North Devon,E07000043,District
+South Hams,E07000044,District
+Teignbridge,E07000045,District
+Torridge,E07000046,District
+West Devon,E07000047,District
+Christchurch,E07000048,District
+East Dorset,E07000049,District
+North Dorset,E07000050,District
+Purbeck,E07000051,District
+West Dorset,E07000052,District
+Weymouth and Portland,E07000053,District
+Eastbourne,E07000061,District
+Hastings,E07000062,District
+Lewes,E07000063,District
+Rother,E07000064,District
+Wealden,E07000065,District
+Basildon,E07000066,District
+Braintree,E07000067,District
+Brentwood,E07000068,District
+Castle Point,E07000069,District
+Chelmsford,E07000070,District
+Colchester,E07000071,District
+Epping Forest,E07000072,District
+Harlow,E07000073,District
+Maldon,E07000074,District
+Rochford,E07000075,District
+Tendring,E07000076,District
+Uttlesford,E07000077,District
+Cheltenham,E07000078,District
+Cotswold,E07000079,District
+Forest of Dean,E07000080,District
+Gloucester,E07000081,District
+Stroud,E07000082,District
+Tewkesbury,E07000083,District
+Basingstoke and Deane,E07000084,District
+East Hampshire,E07000085,District
+Eastleigh,E07000086,District
+Fareham,E07000087,District
+Gosport,E07000088,District
+Hart,E07000089,District
+Havant,E07000090,District
+New Forest,E07000091,District
+Rushmoor,E07000092,District
+Test Valley,E07000093,District
+Winchester,E07000094,District
+Broxbourne,E07000095,District
+Dacorum,E07000096,District
+Hertsmere,E07000098,District
+North Hertfordshire,E07000099,District
+Three Rivers,E07000102,District
+Watford,E07000103,District
+Ashford,E07000105,District
+Canterbury,E07000106,District
+Dartford,E07000107,District
+Dover,E07000108,District
+Gravesham,E07000109,District
+Maidstone,E07000110,District
+Sevenoaks,E07000111,District
+Shepway,E07000112,District
+Swale,E07000113,District
+Thanet,E07000114,District
+Tonbridge and Malling,E07000115,District
+Tunbridge Wells,E07000116,District
+Burnley,E07000117,District
+Chorley,E07000118,District
+Fylde,E07000119,District
+Hyndburn,E07000120,District
+Lancaster,E07000121,District
+Pendle,E07000122,District
+Preston,E07000123,District
+Ribble Valley,E07000124,District
+Rossendale,E07000125,District
+South Ribble,E07000126,District
+West Lancashire,E07000127,District
+Wyre,E07000128,District
+Blaby,E07000129,District
+Charnwood,E07000130,District
+Harborough,E07000131,District
+Hinckley and Bosworth,E07000132,District
+Melton,E07000133,District
+North West Leicestershire,E07000134,District
+Oadby and Wigston,E07000135,District
+Boston,E07000136,District
+East Lindsey,E07000137,District
+Lincoln,E07000138,District
+North Kesteven,E07000139,District
+South Holland,E07000140,District
+South Kesteven,E07000141,District
+West Lindsey,E07000142,District
+Breckland,E07000143,District
+Broadland,E07000144,District
+Great Yarmouth,E07000145,District
+King's Lynn and West Norfolk,E07000146,District
+North Norfolk,E07000147,District
+Norwich,E07000148,District
+South Norfolk,E07000149,District
+Corby,E07000150,District
+Daventry,E07000151,District
+East Northamptonshire,E07000152,District
+Kettering,E07000153,District
+Northampton,E07000154,District
+South Northamptonshire,E07000155,District
+Wellingborough,E07000156,District
+Craven,E07000163,District
+Hambleton,E07000164,District
+Harrogate,E07000165,District
+Richmondshire,E07000166,District
+Ryedale,E07000167,District
+Scarborough,E07000168,District
+Selby,E07000169,District
+Ashfield,E07000170,District
+Bassetlaw,E07000171,District
+Broxtowe,E07000172,District
+Gedling,E07000173,District
+Mansfield,E07000174,District
+Newark and Sherwood,E07000175,District
+Rushcliffe,E07000176,District
+Cherwell,E07000177,District
+Oxford,E07000178,District
+South Oxfordshire,E07000179,District
+Vale of White Horse,E07000180,District
+West Oxfordshire,E07000181,District
+Mendip,E07000187,District
+Sedgemoor,E07000188,District
+South Somerset,E07000189,District
+Taunton Deane,E07000190,District
+West Somerset,E07000191,District
+Cannock Chase,E07000192,District
+East Staffordshire,E07000193,District
+Lichfield,E07000194,District
+Newcastle-under-Lyme,E07000195,District
+South Staffordshire,E07000196,District
+Stafford,E07000197,District
+Staffordshire Moorlands,E07000198,District
+Tamworth,E07000199,District
+Babergh,E07000200,District
+Forest Heath,E07000201,District
+Ipswich,E07000202,District
+Mid Suffolk,E07000203,District
+St Edmundsbury,E07000204,District
+Suffolk Coastal,E07000205,District
+Waveney,E07000206,District
+Elmbridge,E07000207,District
+Epsom and Ewell,E07000208,District
+Guildford,E07000209,District
+Mole Valley,E07000210,District
+Reigate and Banstead,E07000211,District
+Runnymede,E07000212,District
+Spelthorne,E07000213,District
+Surrey Heath,E07000214,District
+Tandridge,E07000215,District
+Waverley,E07000216,District
+Woking,E07000217,District
+North Warwickshire,E07000218,District
+Nuneaton and Bedworth,E07000219,District
+Rugby,E07000220,District
+Stratford-on-Avon,E07000221,District
+Warwick,E07000222,District
+Adur,E07000223,District
+Arun,E07000224,District
+Chichester,E07000225,District
+Crawley,E07000226,District
+Horsham,E07000227,District
+Mid Sussex,E07000228,District
+Worthing,E07000229,District
+Bromsgrove,E07000234,District
+Malvern Hills,E07000235,District
+Redditch,E07000236,District
+Worcester,E07000237,District
+Wychavon,E07000238,District
+Wyre Forest,E07000239,District
+St Albans,E07000240,District
+Welwyn Hatfield,E07000241,District
+East Hertfordshire,E07000242,District
+Stevenage,E07000243,District
+Bolton,E08000001,Metropolitan
+Bury,E08000002,Metropolitan
+Manchester,E08000003,Metropolitan
+Oldham,E08000004,Metropolitan
+Rochdale,E08000005,Metropolitan
+Salford,E08000006,Metropolitan
+Stockport,E08000007,Metropolitan
+Tameside,E08000008,Metropolitan
+Trafford,E08000009,Metropolitan
+Wigan,E08000010,Metropolitan
+Knowsley,E08000011,Metropolitan
+Liverpool,E08000012,Metropolitan
+St. Helens,E08000013,Metropolitan
+Sefton,E08000014,Metropolitan
+Wirral,E08000015,Metropolitan
+Barnsley,E08000016,Metropolitan
+Doncaster,E08000017,Metropolitan
+Rotherham,E08000018,Metropolitan
+Sheffield,E08000019,Metropolitan
+Newcastle upon Tyne,E08000021,Metropolitan
+North Tyneside,E08000022,Metropolitan
+South Tyneside,E08000023,Metropolitan
+Sunderland,E08000024,Metropolitan
+Birmingham,E08000025,Metropolitan
+Coventry,E08000026,Metropolitan
+Dudley,E08000027,Metropolitan
+Sandwell,E08000028,Metropolitan
+Solihull,E08000029,Metropolitan
+Walsall,E08000030,Metropolitan
+Wolverhampton,E08000031,Metropolitan
+Bradford,E08000032,Metropolitan
+Calderdale,E08000033,Metropolitan
+Kirklees,E08000034,Metropolitan
+Leeds,E08000035,Metropolitan
+Wakefield,E08000036,Metropolitan
+Gateshead,E08000037,Metropolitan
+City of London,E09000001,Sui Generis
+Barking and Dagenham,E09000002,London
+Barnet,E09000003,London
+Bexley,E09000004,London
+Brent,E09000005,London
+Bromley,E09000006,London
+Camden,E09000007,London
+Croydon,E09000008,London
+Ealing,E09000009,London
+Enfield,E09000010,London
+Greenwich,E09000011,London
+Hackney,E09000012,London
+Hammersmith and Fulham,E09000013,London
+Haringey,E09000014,London
+Harrow,E09000015,London
+Havering,E09000016,London
+Hillingdon,E09000017,London
+Hounslow,E09000018,London
+Islington,E09000019,London
+Kensington and Chelsea,E09000020,London
+Kingston upon Thames,E09000021,London
+Lambeth,E09000022,London
+Lewisham,E09000023,London
+Merton,E09000024,London
+Newham,E09000025,London
+Redbridge,E09000026,London
+Richmond upon Thames,E09000027,London
+Southwark,E09000028,London
+Sutton,E09000029,London
+Tower Hamlets,E09000030,London
+Waltham Forest,E09000031,London
+Wandsworth,E09000032,London
+Westminster,E09000033,London
+Buckinghamshire,E10000002,County
+Cambridgeshire,E10000003,County
+Cumbria,E10000006,County
+Derbyshire,E10000007,County
+Devon,E10000008,County
+Dorset,E10000009,County
+East Sussex,E10000011,County
+Essex,E10000012,County
+Gloucestershire,E10000013,County
+Hampshire,E10000014,County
+Hertfordshire,E10000015,County
+Kent,E10000016,County
+Lancashire,E10000017,County
+Leicestershire,E10000018,County
+Lincolnshire,E10000019,County
+Norfolk,E10000020,County
+Northamptonshire,E10000021,County
+North Yorkshire,E10000023,County
+Nottinghamshire,E10000024,County
+Oxfordshire,E10000025,County
+Somerset,E10000027,County
+Staffordshire,E10000028,County
+Suffolk,E10000029,County
+Surrey,E10000030,County
+Warwickshire,E10000031,County
+West Sussex,E10000032,County
+Worcestershire,E10000034,County
+Clackmannanshire,S12000005,Scotland
+Dumfries and Galloway,S12000006,Scotland
+East Ayrshire,S12000008,Scotland
+East Lothian,S12000010,Scotland
+East Renfrewshire,S12000011,Scotland
+Eilean Siar,S12000013,Scotland
+Falkirk,S12000014,Scotland
+Fife,S12000015,Scotland
+Highland,S12000017,Scotland
+Inverclyde,S12000018,Scotland
+Midlothian,S12000019,Scotland
+Moray,S12000020,Scotland
+North Ayrshire,S12000021,Scotland
+Orkney Islands,S12000023,Scotland
+Perth and Kinross,S12000024,Scotland
+Scottish Borders,S12000026,Scotland
+Shetland Islands,S12000027,Scotland
+South Ayrshire,S12000028,Scotland
+South Lanarkshire,S12000029,Scotland
+Stirling,S12000030,Scotland
+Aberdeen City,S12000033,Scotland
+Aberdeenshire,S12000034,Scotland
+Argyll and Bute,S12000035,Scotland
+City of Edinburgh,S12000036,Scotland
+Renfrewshire,S12000038,Scotland
+West Dunbartonshire,S12000039,Scotland
+West Lothian,S12000040,Scotland
+Angus,S12000041,Scotland
+Dundee City,S12000042,Scotland
+North Lanarkshire,S12000044,Scotland
+East Dunbartonshire,S12000045,Scotland
+Glasgow City,S12000046,Scotland
+Isle of Anglesey,W06000001,Wales
+Gwynedd,W06000002,Wales
+Conwy,W06000003,Wales
+Denbighshire,W06000004,Wales
+Flintshire,W06000005,Wales
+Wrexham,W06000006,Wales
+Ceredigion,W06000008,Wales
+Pembrokeshire,W06000009,Wales
+Carmarthenshire,W06000010,Wales
+Swansea,W06000011,Wales
+Neath Port Talbot,W06000012,Wales
+Bridgend,W06000013,Wales
+Vale of Glamorgan,W06000014,Wales
+Cardiff,W06000015,Wales
+Rhondda Cynon Taff,W06000016,Wales
+Caerphilly,W06000018,Wales
+Blaenau Gwent,W06000019,Wales
+Torfaen,W06000020,Wales
+Monmouthshire,W06000021,Wales
+Newport,W06000022,Wales
+Powys,W06000023,Wales
+Merthyr Tydfil,W06000024,Wales
+Antrim and Newtownabbey,N09000001,Northern Ireland
+"Armagh City, Banbridge and Craigavon",N09000002,Northern Ireland
+Belfast,N09000003,Northern Ireland
+Causeway Coast and Glens,N09000004,Northern Ireland
+Derry and Strabane,N09000005,Northern Ireland
+Fermanagh and Omagh,N09000006,Northern Ireland
+Lisburn and Castlereagh,N09000007,Northern Ireland
+Mid and East Antrim,N09000008,Northern Ireland
+Mid-Ulster,N09000009,Northern Ireland
+"Newry, Mourne and Down",N09000010,Northern Ireland
+North Down and Ards,N09000011,Northern Ireland

@@ -62,6 +62,20 @@
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
 "bes_2015"
 
+
+
+#' A tibble with the results of the 2017 general election.
+#' 
+#' A tibble with constituencies results from the 2017 general election, linked to census data for each constituency from the British Election Study 2015. Only covers Great Britain, so data on Northern Irish constituencies is not included.
+#' 
+#' Variable names have been converted to snake_case and variables have been converted to appropriate R classes.
+#' 
+#'
+#' @format A tibble, containing 632 row and 245 columns. For details on all variables in the dataset please see the vignette: \url{http://docs.evanodell.com/parlitools/articles/ge-2017.html}
+#' @source \url{researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979} \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
+"ge_2017"
+
+
 #' A tibble with details on the council make-up of local authorities across the UK.
 #' 
 #' This data is taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
