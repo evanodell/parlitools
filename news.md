@@ -1,5 +1,5 @@
 
-# parlitools 0.0.8
+# parlitools 0.1.0
 
 Changes to vignettes to comply with CRAN policies and to reduce the time needed to check the package.
 

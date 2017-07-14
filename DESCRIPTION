@@ -2,7 +2,7 @@ Package: parlitools
 Type: Package
 Title: Tools for Analysing UK Politics
 Date: 2017-07-14
-Version: 0.0.8
+Version: 0.1.0
 Authors@R: person("Evan Odell", email="evanodell91@gmail.com", role=c("aut", "cre"))
 Author: Evan Odell [aut, cre]
 Maintainer: Evan Odell <evanodell91@gmail.com>
