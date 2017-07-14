@@ -60,6 +60,7 @@
 
   
 ## General Election Data 2017 -----------------------------------------------------------
+  library(readxl)
   ge_2017 <- read_xlsx("./data-raw/GE2017.xlsx")
   facs <- c('Country' ,'ConstituencyName', 'Region', 'ConstituencyType', 'Winner17', 'Winner15', 'SeatChange1517')
   ge_2017[,facs] <- lapply(ge_2017[,facs], factor)

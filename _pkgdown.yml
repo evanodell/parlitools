@@ -48,6 +48,7 @@ reference:
   desc: Datasets included in parlitools
   contents:
   - bes_2015
+  - ge_2017
   - party_colour
   - council_data
   - leave_votes_west
