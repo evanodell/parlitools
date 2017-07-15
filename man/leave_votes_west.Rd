@@ -15,7 +15,7 @@
 \item{difference_estimate_known}{Difference between the estimate by Chris Hanretty and the actual result, if known.}
 }}
 \source{
-\url{https://secondreading.uk/brexit/brexit-votes-by-constituency/}
+\url{http://secondreading.uk/brexit/brexit-votes-by-constituency/}
 \url{http://www.bbc.co.uk/news/uk-northern-ireland-36616830}
 }
 \usage{
