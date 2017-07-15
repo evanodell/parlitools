@@ -2,7 +2,9 @@
 
 ## Resubmission
 
-This is a resubmission of the `parlitools` package to comply with CRAN policies on installing or updating packages during R CMD INSTALL and R CMD. The package was archived on 2017-07-13
+This is a resubmission of the `parlitools` package to comply with CRAN policies on installing or updating packages during R CMD INSTALL and R CMD. The package was archived on 2017-07-13.
+
+Note, the 
 
 ## Test environments
 

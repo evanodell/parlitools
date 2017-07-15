@@ -181,6 +181,6 @@
 #' \item{known_leave_vote_perc}{The percentage of votes cast for leave, if known.}
 #' \item{difference_estimate_known}{Difference between the estimate by Chris Hanretty and the actual result, if known.}
 #' }
-#' @source \url{http://secondreading.uk/brexit/brexit-votes-by-constituency/}
+#' @source \url{https://secondreading.uk/brexit/brexit-votes-by-constituency/}
 #' \url{http://www.bbc.co.uk/news/uk-northern-ireland-36616830}
 "leave_votes_west"
