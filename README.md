@@ -22,7 +22,19 @@ The most up-to-date documentation for the development version will always be at 
 
 ## Installing
 
-`parlitools` is not currently available on CRAN. To install from GitHub, run:
+`parlitools` is available on CRAN. To install on CRAN run:
+
+```
+install.packages("parlitools")
+```
+
+Or, if you use [pacman](https://cran.r-project.org/package=pacman):
+
+```
+pacman::p_load(parlitools)
+```
+
+To install the development version from GitHub, run:
 
 ```
 ##install.packages("parlitools")
