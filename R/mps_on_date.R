@@ -1,4 +1,6 @@
-#' Request information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information if the date is 2010-05-06 or later, or if the date range is entirely within 2010-05-06 and the present day.
+#' Retrieve information on all MPs who were members of the House of Commons on a date or between two dates. 
+#' 
+#' Returns information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if two are specified. Includes constituency and electoral information if the date is 2010-05-06 or later, or if the date range is entirely within 2010-05-06 and the present day.
 #'
 #' @param date1 The date to return the list of MPs from. Accepts character values in "YYYY-MM-DD" format, and objects of class Date, POSIXt, POSIXct, POSIXlt or anything else than can be coerced to a date with \code{as.Date()}. Defaults to current system date. 
 #' @param date2 An optional query parameter. Accepts character values in "YYYY-MM-DD" format, and objects of class Date, POSIXt, POSIXct, POSIXlt or anything else than can be coerced to a date with \code{as.Date()}. If a proper date, the function returns a list of all MPs who were members between date2 and date1. Defaults to NULL.
