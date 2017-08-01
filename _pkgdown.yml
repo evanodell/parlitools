@@ -24,7 +24,7 @@ navbar:
           href: articles/mapping-local-authorities.html
         - text: "British Election Study"
           href: articles/bes-2015.html
-        
+
     - text: "Packages"
       menu:
         - text: "Documentation"
@@ -36,6 +36,8 @@ navbar:
           href: http://docs.evanodell.com/mnis
         - text: "parlitools"
           href: http://docs.evanodell.com/parlitools
+        - text: "emisc"
+          href: http://docs.evanodell.com/emisc
 
   right:
     - icon: fa-github fa-lg
@@ -48,6 +50,7 @@ reference:
   desc: Datasets included in parlitools
   contents:
   - bes_2015
+  - ge_2017
   - party_colour
   - council_data
   - leave_votes_west
