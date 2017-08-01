@@ -39,7 +39,7 @@ elect2017 <- parlitools::bes_2017
 
 elect2017_win_colours <- left_join(elect2017, party_colour, by = c("winner_17" ="party_name")) #Join to current MP data
 
-gb_hex_map <- right_join(west_hex_map, elect2017_win_colours, by = c("gss_code"="onsconst_id")) #Join colours to hexagon map
+gb_hex_map <- right_join(west_hex_map, elect2017_win_colours, by = c("gss_code"="ons_const_id")) #Join colours to hexagon map
 
 gb_hex_map <- as(gb_hex_map, "Spatial")
 
