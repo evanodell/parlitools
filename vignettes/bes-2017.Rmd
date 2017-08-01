@@ -1,0 +1,141 @@
+---
+title: "British Election Study variables"
+author: "Evan Odell"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{British Election Study variables}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Variable names in `bes_2017` 
+
+Due to the 123 variables included in the `bes_2017` dataset, including information on each variable in the `parlitools` reference manual is very lengthy and not very user friendly. This vignette reproduces the table including with the British Election Study data, available [here](http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/). The 'Name' column refers to the variable name used in the `bes_2017` dataset, the 'Label' is the description of the variable, and the 'Data Type' column refers to the R data type.
+
+| Name | Label | Data Type |
+|-----------------|--------------------|-----------|
+| `pano` | Press Association Constituency ID | numeric |
+| `ons_const_id` | ONS Constituency ID | character |
+| `constituency_name` | Constituency Name | factor |
+| `country` | Country | factor |
+| `region` | Region | factor |
+| `constituency_type` | County or Borough Constituency | factor |
+| `winner_17` | 2017 Winning party | factor |
+| `con_17` | 2017 Conservative vote share | numeric |
+| `lab_17` | 2017 Labour vote share | numeric |
+| `ld_17` | 2017 Liberal Democrat vote share | numeric |
+| `snp_17` | 2017 Scottish National Party (SNP) vote share | numeric |
+| `pc_17` | 2017 Plaid Cymru vote share | numeric |
+| `ukip_17` | 2017 United Kingdom Independence Party (UKIP) vote share | numeric |
+| `green_17` | 2017 Green Party vote share | numeric |
+| `other_17` | 2017 Combined other vote share | numeric |
+| `majority_17` | 2017 Majority | numeric |
+| `turnout_17` | 2017 Turnout | numeric |
+| `con_vote_17` | 2017 Conservative number of votes | numeric |
+| `lab_vote_17` | 2017 Labour number of votes | numeric |
+| `ld_vote_17` | 2017 Liberal Democrat number of votes | numeric |
+| `snp_vote_17` | 2017 Scottish National Party (SNP) number of votes | numeric |
+| `pc_vote_17` | 2017 Plaid Cymru number of votes | numeric |
+| `ukip_vote_17` | 2017 United Kingdom Independence Party (UKIP) number of votes | numeric |
+| `green_vote_17` | 2017 Green Party number of votes | numeric |
+| `total_vote_17` | 2017 Total number of votes cast | numeric |
+| `rejected_vote_17` | 2017 Number of rejected ballots | numeric |
+| `electorate_17` | 2017 Size of electorate | numeric |
+| `seat_change_1517` | 2017 winning party gain from 2015 winning party | factor |
+| `con_1517` | 2015-17 Conservative vote share change | numeric |
+| `lab_1517` | 2015-17 Labour vote share change | numeric |
+| `ld_1517` | 2015-17 Liberal Democrat vote share change | numeric |
+| `snp_1517` | 2015-17 Scottish National Party (SNP) vote share change | numeric |
+| `pc_1517` | 2015-17 Plaid Cymru vote share change | numeric |
+| `ukip_1517` | 2015-17 United Kingdom Independence Party (UKIP) vote share change | numeric |
+| `green_1517` | 2015-17 Green Party vote share change | numeric |
+| `winner_15` | 2015 Winning party | factor |
+| `con_15` | 2015 Conservative vote share | numeric |
+| `lab_15` | 2015 Labour vote share | numeric |
+| `ld_15` | 2015 Liberal Democrat vote share | numeric |
+| `snp_15` | 2015 Scottish National Party (SNP) vote share | numeric |
+| `pc_15` | 2015 Plaid Cymru vote share | numeric |
+| `ukip_15` | 2015 United Kingdom Independence Party (UKIP) vote share | numeric |
+| `green_15` | 2015 Green Party vote share | numeric |
+| `other_15` | 2015 Combined other vote share | numeric |
+| `majority_15` | 2015 Majority | numeric |
+| `turnout_15` | 2015 Turnout | numeric |
+| `con_vote_15` | 2015 Conservative number of votes | numeric |
+| `lab_vote_15` | 2015 Labour number of votes | numeric |
+| `ld_vote_15` | 2015 Liberal Democrat number of votes | numeric |
+| `snp_vote_15` | 2015 Scottish National Party (SNP) number of votes | numeric |
+| `pc_vote_15` | 2015 Plaid Cymru number of votes | numeric |
+| `ukip_vote_15` | 2015 United Kingdom Independence Party (UKIP) number of votes | numeric |
+| `green_vote_15` | 2015 Green Party number of votes | numeric |
+| `bnp_vote_15` | 2015 British National Party (BNP) number of votes | numeric |
+| `total_vote_15` | 2015 Total number of votes cast | numeric |
+| `rejected_vote_15` | 2015 Number of rejected ballots | numeric |
+| `electorate_15` | 2015 Size of electorate | numeric |
+| `seat_change_1015` | 2015 winning party gain from 2010 winning party | factor |
+| `con_1015` | 2010-15 Conservative vote share change | numeric |
+| `lab_1015` | 2010-15 Labour vote share change | numeric |
+| `ld_1015` | 2010-15 Liberal Democrat vote share change | numeric |
+| `snp_1015` | 2010-15 Scottish National Party (SNP) vote share change | numeric |
+| `pc_1015` | 2010-15 Plaid Cymru vote share change | numeric |
+| `ukip_1015` | 2010-15 United Kingdom Independence Party (UKIP) vote share change | numeric |
+| `green_1015` | 2010-15 Green Party vote share change | numeric |
+| `winner_10` | 2010 Winning party | factor |
+| `con_10` | 2010 Conservative vote share | numeric |
+| `lab_10` | 2010 Labour vote share | numeric |
+| `ld_10` | 2010 Liberal Democrat vote share | numeric |
+| `snp_10` | 2010 Scottish National Party (SNP) vote share | numeric |
+| `pc_10` | 2010 Plaid Cymru vote share | numeric |
+| `ukip_10` | 2010 United Kingdom Independence Party (UKIP) vote share | numeric |
+| `green_10` | 2010 Green Party vote share | numeric |
+| `bnp_10` | 2010 British National Party (BNP) vote share | numeric |
+| `majority_10` | 2010 Majority | numeric |
+| `turn_10` | 2010 Turnout | numeric |
+| `con_vote_10` | 2010 Conservative number of votes | numeric |
+| `lab_vote_10` | 2010 Labour number of votes | numeric |
+| `ld_vote_10` | 2010 Liberal Democrat number of votes | numeric |
+| `snp_vote_10` | 2010 Scottish National Party (SNP) number of votes | numeric |
+| `pc_vote_10` | 2010 Plaid Cymru number of votes | numeric |
+| `ukip_vote_10` | 2010 United Kingdom Independence Party (UKIP) number of votes | numeric |
+| `green_vote_10` | 2010 Green Party number of votes | numeric |
+| `bnp_vote_10` | 2010 British National Party (BNP) number of votes | numeric |
+| `total_vote_10` | 2010 Total number of votes cast | numeric |
+| `electorate_10` | 2010 Size of electorate | numeric |
+| `leave_hanretty` | Hanretty (2017) Estimate of EU Referendum Leave % | numeric |
+| `remain_hanretty` | Hanretty (2017) Estimate of EU Referendum Remain % | numeric |
+| `con_ppc_17` | Conservative 2017 candidate name | character |
+| `con_ppc_sex_17` | Conservative 2017 candidate sex | factor |
+| `lab_ppc_17` | Labour 2017 candidate name | character |
+| `lab_ppc_sex_17` | Labour 2017 candidate sex | factor |
+| `ld_ppc_17` | Liberal Democrat 2017 candidate name | character |
+| `ld_ppc_sex_17` | Liberal Democrat 2017 candidate sex | factor |
+| `snp_ppc_17` | SNP 2017 candidate name | character |
+| `snp_ppc_sex_17` | SNP 2017 candidate sex | factor |
+| `pc_ppc_17` | Plaid Cymru 2017 candidate name | character |
+| `pc_ppc_sex_17` | Plaid Cymru 2017 candidate sex | factor |
+| `ukip_ppc_17` | UKIP 2017 candidate name | character |
+| `ukip_ppc_sex_17` | UKIP 2017 candidate sex | factor |
+| `green_ppc_17` | Green Party 2017 candidate name | character |
+| `green_ppc_sex_17` | Green Party 2017 candidate sex | factor |
+| `con_ppc_15` | Conservative 2015 candidate name | character |
+| `con_ppc_sex_15` | Conservative 2015 candidate sex | factor |
+| `con_ppc_race_15` | Conservative 2015 candidate race | factor |
+| `lab_ppc_15` | Labour 2015 candidate name | character |
+| `lab_ppc_sex_15` | Labour 2015 candidate sex | factor |
+| `lab_ppc_race_15` | Labour 2015 candidate race | factor |
+| `ld_ppc_15` | Liberal Democrat 2015 candidate name | character |
+| `ld_ppc_sex_15` | Liberal Democrat 2015 candidate sex | factor |
+| `ld_ppc_race_15` | Liberal Democrat 2015 candidate race | factor |
+| `snp_ppc_15` | SNP 2015 candidate name | character |
+| `snp_ppc_sex_15` | SNP 2015 candidate sex | factor |
+| `snp_ppc_race_15` | SNP 2015 candidate race | factor |
+| `pc_ppc_15` | Plaid Cymru 2015 candidate name | character |
+| `pc_ppc_sex_15` | Plaid Cymru 2015 candidate sex | factor |
+| `pc_ppc_race_15` | Plaid Cymru 2015 candidate race | factor |
+| `ukip_ppc_15` | UKIP 2015 candidate name | character |
+| `ukip_ppc_sex_15` | UKIP 2015 candidate sex | factor |
+| `ukip_ppc_race_15` | UKIP 2015 candidate race | factor |
+| `green_ppc_15` | Green Party 2015 candidate name | character |
+| `green_ppc_sex_15` | Green Party 2015 candidate sex | factor |
+| `green_ppc_race_15` | Green Party 2015 candidate race | factor |
+

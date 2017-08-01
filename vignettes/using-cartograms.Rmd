@@ -19,7 +19,7 @@ As the cartogram package requires SpatialPolygonsDataFrame objects, instead of s
 
 This map scales constituencies based on how marginal they are, by subtracting the majority (the difference in votes between the winning and second place candidate) from 100 and cubing that value. Larger constituencies are those deemed to be more marginal.
 
-It uses datasets included in this package, namely the British Election Study (`bes_2015`), `party_colours` and `west_hex_map`. As the BES only covers Wales, Scotland and England, Northern Ireland is not included in the map.
+It uses datasets included in this package, namely the British Election Study (`bes_2017`), `party_colours` and `west_hex_map`. As the BES only covers Wales, Scotland and England, Northern Ireland is not included in the map.
 
 ```{r fig.width=6, fig.height=7, message=FALSE, warning=FALSE}
 library(leaflet)
@@ -35,30 +35,30 @@ west_hex_map <- parlitools::west_hex_map
 
 party_colour <- parlitools::party_colour
 
-elect2015 <- parlitools::bes_2015
+elect2017 <- parlitools::bes_2017
 
-elect2015_win_colours <- left_join(elect2015, party_colour, by = c("winner_15" ="party_name")) #Join to current MP data
+elect2017_win_colours <- left_join(elect2017, party_colour, by = c("winner_17" ="party_name")) #Join to current MP data
 
-gb_hex_map <- right_join(west_hex_map, elect2015_win_colours, by = c("gss_code"="onsconst_id")) #Join colours to hexagon map
+gb_hex_map <- right_join(west_hex_map, elect2017_win_colours, by = c("gss_code"="onsconst_id")) #Join colours to hexagon map
 
 gb_hex_map <- as(gb_hex_map, "Spatial")
 
 gb_hex_map <- as(gb_hex_map, "SpatialPolygonsDataFrame")
 
-gb_hex_map$majority_15 <- round(gb_hex_map$majority_15, 2)
+gb_hex_map$majority_17 <- round(gb_hex_map$majority_17, 2)
 
-gb_hex_map$turnout_15 <- round(gb_hex_map$turnout_15, 2)
+gb_hex_map$turnout_17 <- round(gb_hex_map$turnout_17, 2)
 
-gb_hex_map$marginality <- (100-gb_hex_map$majority_15)^3
+gb_hex_map$marginality <- (100-gb_hex_map$majority_17)^3
 
 gp_hex_scaled <- cartogram(gb_hex_map, 'marginality')
 
 # Creating map labels
 labels <- paste0(
   "Constituency: ", gp_hex_scaled$constituency_name.y, "</br>",
-  "Most Recent Winner: ", gp_hex_scaled$winner_15, "</br>",
-  "Most Recent Majority: ", gp_hex_scaled$majority_15, "%","</br>",
-  "Turnout: ", gp_hex_scaled$turnout_15, "%"
+  "Most Recent Winner: ", gp_hex_scaled$winner_17, "</br>",
+  "Most Recent Majority: ", gp_hex_scaled$majority_17, "%","</br>",
+  "Turnout: ", gp_hex_scaled$turnout_17, "%"
 ) %>% lapply(htmltools::HTML)
 
 # Creating the map itself

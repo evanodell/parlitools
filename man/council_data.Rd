@@ -3,31 +3,14 @@
 \docType{data}
 \name{council_data}
 \alias{council_data}
-\title{A tibble with details on the council make-up of local authorities across the UK.}
-\format{A tibble, with 418 rows and 20 columns.
-\describe{
-\item{la_code}{The Local Authority code from the Office for National Statistics}
-\item{name}{Local Authority Name}
-\item{type}{The type of local authority}
-\item{majority_party}{The majority party on the council. The label 'No Overall Control' is used if no single party has a majority.}
-\item{majority_party_id}{The ID of the majority party on the council. The label 'noc' is used if no single party has a majority.}
-\item{governing_coalition}{The governing coalition of the council (if known)}
-\item{conservative_councillors}{The number of Conservative councillors}
-\item{labour_councillors}{The number of Labour councillors}
-\item{lib_dem_councillors}{The number of Liberal Democrat councillors}
-\item{green_councillors}{The number of Green councillors}
-\item{ukip_councillors}{The number of UKIP councillors}
-\item{plaid_cymru_councillors}{The number of Plaid Cymru councillors}
-\item{snp_councillors}{The number of SNP councillors}
-\item{independent_councillors}{The number of Independent councillors}
-\item{vacant}{The number of vacant seats on the council}
-\item{total_councillors}{Total number of vacant council seats}
-\item{boundary}{Notes on upcoming boundary changes}
-\item{notes}{Notes from Open Council Data UK}
-\item{url}{URL}
-\item{last_update}{Date of last update}
-}}
+\title{Constituency demographic information}
+\format{A tibble, containing 632 rows and 191 columns. For full details see the vignette: \url{http://docs.evanodell.com/parlitools/articles/census-11.html}}
 \source{
+\url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
+A tibble with details on the council make-up of local authorities across the UK.
+
+This data is taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
+
 \url{http://opencouncildata.co.uk/councils.php?model=}
 \url{http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0}
 }
@@ -35,6 +18,6 @@
 council_data
 }
 \description{
-This data is taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
+A tibble with demographic information on each constituency, taken from the 2011 census data included in the British Election Study. Can be linked to the \code{\link{bes_2017}} and \code{\link{bes_2015}} datasets using the \code{pano}, \code{ons_const_id} and \code{constituency_name} variables.
 }
 \keyword{datasets}

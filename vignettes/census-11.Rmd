@@ -1,0 +1,209 @@
+---
+title: "British Election Study variables"
+author: "Evan Odell"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{British Election Study variables}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Variable names in `census_11` 
+
+Due to the 191 variables included in the `census_11` dataset, including information on each variable in the `parlitools` reference manual is very lengthy and not very user friendly. This vignette reproduces the table including with the British Election Study data, available [here](http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/). The 'Name' column refers to the variable name used in the `bes_2015` dataset, the 'Data Type' column refers to the R data type, and the 'Census Table' column refers to the location in the 2011 Census that demographic data was retrieved from.
+
+| Name | Label | Data Type | Census table |
+|----------------------------------|------------------------------------------------------|-----------|-------------|
+| `pano` | Press Association Constituency ID | numeric |  
+| `ons_const_id` | ONS Constituency ID | character |  |
+| `constituency_name` | Constituency Name | factor |  |
+| `country` | Country | factor |  |
+| `region` | Region | factor |  |
+| `constituency_type` | County or Borough Constituency | factor |  |
+| `population` | Census 2011: Usual resident population | numeric | KS101 |
+| `population_density` | Census 2011: Population density | numeric | KS101 |
+| `male` | Census 2011: Male | numeric | KS101 |
+| `female` | Census 2011: Female | numeric | KS101 |
+| `households` | Census 2011: People living in households | numeric | KS101 |
+| `communal` | Census 2011: People living in Communal establishments | numeric | KS101 |
+| `age_0_to_4` | Census 2011: Age 0 to 4 | numeric | KS102 |
+| `age_5_to_7` | Census 2011: Age 5 to 7 | numeric | KS102 |
+| `age_8_to_9` | Census 2011: Age 8 to 9 | numeric | KS102 |
+| `age_10_to_14` | Census 2011: Age 10 to 14 | numeric | KS102 |
+| `age_15` | Census 2011: Age 15 | numeric | KS102 |
+| `age_16_to_17` | Census 2011: Age 16 to 17 | numeric | KS102 |
+| `age_18_to_19` | Census 2011: Age 18 to 19 | numeric | KS102 |
+| `age_20_to_24` | Census 2011: Age 20 to 24 | numeric | KS102 |
+| `age_25_to_29` | Census 2011: Age 25 to 29 | numeric | KS102 |
+| `age_30_to_44` | Census 2011: Age 30 to 44 | numeric | KS102 |
+| `age_45_to_59` | Census 2011: Age 45 to 59 | numeric | KS102 |
+| `age_60_to_64` | Census 2011: Age 60 to 64 | numeric | KS102 |
+| `age_65_to_74` | Census 2011: Age 65 to 74 | numeric | KS102 |
+| `age_75_to_84` | Census 2011: Age 75 to 84 | numeric | KS102 |
+| `age_85_to_89` | Census 2011: Age 85 to 89 | numeric | KS102 |
+| `age_90_plus` | Census 2011: Age 90 plus | numeric | KS102 |
+| `house_owned` | Census 2011: Housing tenure - Owned | numeric | KS402 |
+| `house_outright` | Census 2011: Housing tenure - Owned outright | numeric | KS402 |
+| `house_mortgage` | Census 2011: Housing tenure - Owned with a mortgage | numeric | KS402 |
+| `house_shared` | Census 2011: Housing tenure - Shared ownership | numeric | KS402 |
+| `house_social` | Census 2011: Housing tenure - Social rented | numeric | KS402 |
+| `house_social_la` | Census 2011: Housing tenure - Social rented from council (Local Authority) | numeric | KS402 |
+| `house_social_other` | Census 2011: Housing tenure - Other social rented | numeric | KS402 |
+| `house_private` | Census 2011: Housing tenure - Private rented | numeric | KS402 |
+| `house_private_landlord` | Census 2011: Housing tenure - Private rented from landlord or letting agency | numeric | KS402 |
+| `house_private_other` | Census 2011: Housing tenure - Other private rented | numeric | KS402 |
+| `house_rent_free` | Census 2011: Housing tenure - Living rent free | numeric | KS402 |
+| `household_one_person` | Census 2011: Household -  One person | numeric | KS105 |
+| `household_one_person_65_plus` | Census 2011: Household -  One person aged 65 and older | numeric | KS105 |
+| `household_one_person_other` | Census 2011: Household -  One person other | numeric | KS105 |
+| `household_one_family` | Census 2011: Household -  One family | numeric | KS105 |
+| `household_one_family_65_plus` | Census 2011: Household -  One family all 65 and older | numeric | KS105 |
+| `household_married` | Census 2011: Household - Married | numeric | KS105 |
+| `household_married_no_children` | Census 2011: Household - Married no children | numeric | KS105 |
+| `household_married_dependents` | Census 2011: Household - Married with dependent children | numeric | KS105 |
+| `household_married_nondependents` | Census 2011: Household - Married with no dependent children | numeric | KS105 |
+| `household_cohabit` | Census 2011: Household - Cohabitating | numeric | KS105 |
+| `household_cohabit_no_children` | Census 2011: Household - Cohabitating no children | numeric | KS105 |
+| `household_cohabit_dependents` | Census 2011: Household - Cohabitating with dependent children | numeric | KS105 |
+| `household_cohabit_nodependents` | Census 2011: Household - Cohabitating with no dependent children | numeric | KS105 |
+| `household_lone` | Census 2011: Household - Lone parent | numeric | KS105 |
+| `household_lone_dependents` | Census 2011: Household - Lone parent with dependent children | numeric | KS105 |
+| `household_lone_nodependents` | Census 2011: Household - Lone parent with no dependent children | numeric | KS105 |
+| `household_other` | Census 2011: Household - Other | numeric | KS105 |
+| `household_other_dependents` | Census 2011: Household - Other with dependent children | numeric | KS105 |
+| `household_all_students` | Census 2011: Household - All full-time students | numeric | KS105 |
+| `household_all_65_plus` | Census 2011: Household - Other all 65 plus | numeric | KS105 |
+| `household_any_other` | Census 2011: Household - Any other | numeric | KS105 |
+| `cars_none` | Census 2011: No cars or vans in household | numeric | KS404 |
+| `cars_one` | Census 2011: one car or van in household | numeric | KS404 |
+| `cars_two` | Census 2011: Two cars or vans in household | numeric | KS404 |
+| `cars_three` | Census 2011: Three cars or vans in household | numeric | KS404 |
+| `cars_four` | Census 2011: Four cars or vans in household | numeric | KS404 |
+| `ethnicity_white` | Census 2011: Ethnicity - White | numeric | KS201 |
+| `ethnicity_mixed` | Census 2011: Ethnicity - Mixed | numeric | KS201 |
+| `ethnicity_asian` | Census 2011: Ethnicity - Asian | numeric | KS201 |
+| `ethnicity_black` | Census 2011: Ethnicity - Black | numeric | KS201 |
+| `ethnicity_other` | Census 2011: Ethnicity - Other | numeric | KS201 |
+| `ethnicity_white_british` | Census 2011: Ethnicity detailed - White British/English/Scottish/Northern Irish | numeric | KS201 |
+| `ethnicity_white_irish` | Census 2011: Ethnicity detailed - White Irish | numeric | KS201 |
+| `ethnicity_white_traveller` | Census 2011: Ethnicity detailed - White Gypsy or Irish Traveller | numeric | KS201 |
+| `ethnicity_white_other` | Census 2011: Ethnicity detailed - White other | numeric | KS201 |
+| `ethnicity_mixed_caribbean` | Census 2011: Ethnicity detailed - Mixed White and Black Caribbean | numeric | KS201 |
+| `ethnicity_mixed_african` | Census 2011: Ethnicity detailed - Mixed White and Black African | numeric | KS201 |
+| `ethnicity_mixed_asian` | Census 2011: Ethnicity detailed - Mixed White and Asian | numeric | KS201 |
+| `ethnicity_mixed_other` | Census 2011: Ethnicity detailed - Mixed other | numeric | KS201 |
+| `ethnicity_indian` | Census 2011: Ethnicity detailed - Indian | numeric | KS201 |
+| `ethnicity_pakistani` | Census 2011: Ethnicity detailed - Pakistani | numeric | KS201 |
+| `ethnicity_bangladeshi` | Census 2011: Ethnicity detailed - Bangladeshi | numeric | KS201 |
+| `ethnicity_chinese` | Census 2011: Ethnicity detailed - Chinese | numeric | KS201 |
+| `ethnicity_other_asian` | Census 2011: Ethnicity detailed - Other Asian | numeric | KS201 |
+| `ethnicity_black_african` | Census 2011: Ethnicity detailed - Black African | numeric | KS201 |
+| `ethnicity_black_caribbean` | Census 2011: Ethnicity detailed - Black Caribbean | numeric | KS201 |
+| `ethnicity_black_other` | Census 2011: Ethnicity detailed - Black Other | numeric | KS201 |
+| `ethnicity_arab` | Census 2011: Ethnicity detailed - Arab | numeric | KS201 |
+| `ethnicity_any_other` | Census 2011: Ethnicity detailed - Any other ethnic group | numeric | KS201 |
+| `born_uk` | Census 2011: Country of birth - UK | numeric | KS204 |
+| `born_england` | Census 2011: Country of birth - England | numeric | KS204 |
+| `born_ni` | Census 2011: Country of birth - Northern Ireland | numeric | KS204 |
+| `born_scotland` | Census 2011: Country of birth - Scotland | numeric | KS204 |
+| `born_wales` | Census 2011: Country of birth - Wales | numeric | KS204 |
+| `born_uknot_specified` | Census 2011: Country of birth - Northern Ireland | numeric | KS204 |
+| `born_ireland` | Census 2011: Country of birth - Ireland | numeric | KS204 |
+| `born_other_eu` | Census 2011: Country of birth - Other EU (not Ireland) | numeric | KS204 |
+| `born_other_pre_2004_eu` | Census 2011: Country of birth - Other pre 2004 EU (not Ireland) | numeric | KS204 |
+| `born_post_2004_eu` | Census 2011: Country of birth - country joined EU 2004 or later | numeric | KS204 |
+| `born_other` | Census 2011: Country of birth - Other | numeric | KS204 |
+| `passport_none` | Census 2011: Passport held - None | numeric | KS205 |
+| `passport_any` | Census 2011: Passport held - Any | numeric | KS205 |
+| `passport_uk` | Census 2011: Passport held - United Kingdom | numeric | KS205 |
+| `passport_ireland` | Census 2011: Passport held - Republic of Ireland | numeric | KS205 |
+| `passport_eu` | Census 2011: Passport held - Other Europe EU Countries | numeric | KS205 |
+| `passport_europe_not_eu` | Census 2011: Passport held - Other Europe Non EU countries | numeric | KS205 |
+| `passport_africa` | Census 2011: Passport held - Africa | numeric | KS205 |
+| `passport_asia` | Census 2011: Passport held - Middle East and Asia | numeric | KS205 |
+| `passport_north_america` | Census 2011: Passport held - North America and the Caribbean | numeric | KS205 |
+| `passport_central_america` | Census 2011: Passport held - Central America | numeric | KS205 |
+| `passport_south_america` | Census 2011: Passport held - South America | numeric | KS205 |
+| `passport_oceania` | Census 2011: Passport held - Antarctica and Oceania | numeric | KS205 |
+| `english_all` | Census 2011: All 16+ have English (or Welsh in Wales) as main language | numeric | KS206 |
+| `english_one` | Census 2011: At least one 16+ has English (or Welsh in Wales) as main language | numeric | KS206 |
+| `english_child` | Census 2011: At least one 3-15 has English (or Welsh in Wales) as main language | numeric | KS206 |
+| `english_none` | Census 2011: No one 16+ has English (or Welsh in Wales) as main language | numeric | KS206 |
+| `christian` | Census 2011: Religion - Christian | numeric | KS209 |
+| `buddhist` | Census 2011: Religion - Buddhist | numeric | KS209 |
+| `hindu` | Census 2011: Religion - Hindu | numeric | KS209 |
+| `jewish` | Census 2011: Religion - Jewish | numeric | KS209 |
+| `muslim` | Census 2011: Religion - Muslim | numeric | KS209 |
+| `sikh` | Census 2011: Religion - Sikh | numeric | KS209 |
+| `religion_other` | Census 2011: Religion - Other | numeric | KS209 |
+| `no_religion` | Census 2011: Religion - No Religion | numeric | KS209 |
+| `religion_not_stated` | Census 2011: Religion - Not Stated | numeric | KS209 |
+| `nssechigher_manager` | Census 2011: NS-SeC Large employers, higher managerial and administrative | numeric | KS611 |
+| `nssechigher_professional` | Census 2011: NS-SeC Higher professional occupations | numeric | KS611 |
+| `nsseclower_manager` | Census 2011: NS-SeC Lower managerial, administrative and professional | numeric | KS611 |
+| `nssecintermediate` | Census 2011: NS-SeC Intermediate | numeric | KS611 |
+| `nssecsmall_employer` | Census 2011: NS-SeC Small employers and own account workers | numeric | KS611 |
+| `nsseclower_supervisor` | Census 2011: NS-SeC Lower supervisory and technical | numeric | KS611 |
+| `nssecsemi_routine` | Census 2011: NS-SeC Semi-routine occupations | numeric | KS611 |
+| `nssecroutine` | Census 2011: NS-SeC Routine | numeric | KS611 |
+| `nssecnever_worked` | Census 2011: NS-SeC Never worked | numeric | KS611 |
+| `nsseclongterm_unemployed` | Census 2011: NS-SeC Long-term unemployed | numeric | KS611 |
+| `economic_active` | Census 2011: Economically active - all | numeric | KS601 |
+| `employed` | Census 2011: Economically active - Employed | numeric | KS601 |
+| `employed_part_time` | Census 2011: Economically active - Employee: Part-time | numeric | KS601 |
+| `employed_full_time` | Census 2011: Economically active - Employee: Full-time | numeric | KS601 |
+| `self_employed` | Census 2011: Economically active - Self-employed | numeric | KS601 |
+| `unemployed` | Census 2011: Economically active - Unemployed | numeric | KS601 |
+| `economically_active_student` | Census 2011: Economically active - Full-time student | numeric | KS601 |
+| `economic_inactive` | Census 2011: Economically inactive - all | numeric | KS601 |
+| `retired` | Census 2011: Economically inactive - Retired | numeric | KS601 |
+| `economically_inactive_student` | Census 2011: Economically inactive - Student (including full-time students) | numeric | KS601 |
+| `looking_after_home` | Census 2011: Economically inactive - Looking after home or family | numeric | KS601 |
+| `long_term_sick` | Census 2011: Economically inactive - Long-term sick or disabled | numeric | KS601 |
+| `economic_inactive_other` | Census 2011: Economically inactive - Other | numeric | KS601 |
+| `unemployed_16_to_24` | Census 2011: Unemployed age 16 to 24 | numeric | KS601 |
+| `unemployed_50_to_74` | Census 2011: Unemployed age 50 to 74 | numeric | KS601 |
+| `neverworked` | Census 2011: Never worked | numeric | KS601 |
+| `long_term_unemployed` | Census 2011: Long-term unemployed | numeric | KS601 |
+| `fulltime_student` | Census 2011: Full-time students | numeric | KS611 |
+| `industry_agriculture` | Census 2011: Industry - Agriculture, forestry and fishing | numeric | KS605 |
+| `industry_mining` | Census 2011: Industry - Mining and quarrying | numeric | KS605 |
+| `industry_manufacturing` | Census 2011: Industry - Manufacturing | numeric | KS605 |
+| `industry_electricity_supply` | Census 2011: Industry - Electricity, gas, steam and air conditioning supply | numeric | KS605 |
+| `industry_water_supply` | Census 2011: Industry - Water supply | numeric | KS605 |
+| `industry_construction` | Census 2011: Industry - Construction | numeric | KS605 |
+| `industry_wholesale` | Census 2011: Industry - Wholesale and retail trade | numeric | KS605 |
+| `industry_transport` | Census 2011: Industry - Transport and storage | numeric | KS605 |
+| `industry_accommodation` | Census 2011: Industry - Accommodation and food service activities | numeric | KS605 |
+| `industry_communication` | Census 2011: Industry - Information and Communication | numeric | KS605 |
+| `industry_finance` | Census 2011: Industry - Financial and insurance activities | numeric | KS605 |
+| `industry_real_estate` | Census 2011: Industry - Real estate activities | numeric | KS605 |
+| `industry_professional` | Census 2011: Industry - Professional, scientific and technical activities | numeric | KS605 |
+| `industry_administrative` | Census 2011: Industry - Administrative and support service activities | numeric | KS605 |
+| `industry_public_administration` | Census 2011: Industry - Public administration and defence | numeric | KS605 |
+| `industry_education` | Census 2011: Industry - Education | numeric | KS605 |
+| `industry_social_work` | Census 2011: Industry - Human Health and Social Work Activities | numeric | KS605 |
+| `industry_other` | Census 2011: Industry - Other | numeric | KS605 |
+| `qual_none` | Census 2011: Highest qualification - None | numeric | KS501 |
+| `qual_level_1` | Census 2011: Highest qualification - Level 1 | numeric | KS501 |
+| `qual_level_2` | Census 2011: Highest qualification - Level 2 | numeric | KS501 |
+| `qual_apprentice` | Census 2011: Highest qualification - Apprenticeship | numeric | KS501 |
+| `qual_level_3` | Census 2011: Highest qualification - Level 3 | numeric | KS501 |
+| `qual_level_4` | Census 2011: Highest qualification - Level 4 and above | numeric | KS501 |
+| `qual_other` | Census 2011: Highest qualification - Other | numeric | KS501 |
+| `degree` | Census 2011: University Degree | numeric | QS502 |
+| `health_very_good` | Census 2011: Very good health | numeric | KS301 |
+| `health_good` | Census 2011: Good health | numeric | KS301 |
+| `health_fair` | Census 2011: Fair health | numeric | KS301 |
+| `health_bad` | Census 2011: Bad health | numeric | KS301 |
+| `health_very_bad` | Census 2011: Very bad health | numeric | KS301 |
+| `no_adults_employed` | Census 2011: No adults in employment in household | numeric | KS106 |
+| `no_adults_employed_children` | Census 2011: No adults in employment in household with dependent children | numeric | KS106 |
+| `no_adults_employed_no_children` | Census 2011: No adults in employment in household without dependent children | numeric | KS106 |
+| `deprived_none` | Census 2011: Household is not deprived on any dimension | numeric | QS119 |
+| `deprived_1` | Census 2011: Household deprived on one dimension | numeric | QS119 |
+| `deprived_2` | Census 2011: Household deprived on two dimensions | numeric | QS119 |
+| `deprived_3` | Census 2011: Household deprived on three dimensions | numeric | QS119 |
+| `deprived_4` | Census 2011: Household deprived on four dimensions | numeric | QS119 |
+

@@ -50,90 +50,46 @@
 "party_colour"
 
 
+#' 2015 General Election Results
+#' 
 #' A tibble with the British Election Study 2015 Constituency Results Version 2.21.
 #' 
-#' A tibble with constituencies results from the British Election Study 2015, linked to census data for each constituency. Only covers Great Britain, so data on Northern Irish constituencies is not included.
+#' A tibble with constituencies results from the British Election Study 2015. Census data from the BES has been moved to the \code{\link{census_11}} dataset, and can be linked through the with the \code{pano}, \code{ons_const_id} and \code{constituency_name} variables. Only contains detailed results from Great Britain; the only data included on Northern Irish constituencies is the party that won the seat.
 #' 
 #' Variable names have been converted to snake_case and variables have been converted to appropriate R classes.
 #' 
 #' @references Fieldhouse, Edward, Jane Green, Geoffrey Evans, Hermann Schmitt, Cees van der Eijk, Jonathan Mellon, and Christopher Prosser. "British Election Study, 2015: General Election Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 #'
-#' @format A tibble, containing 632 rows and 277 columns. For details on all variables in the dataset please see the vignette: \url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}
+#' @format A tibble, containing 650 rows and 92 columns. For full details see the vignette: \url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
 "bes_2015"
 
 
 
-#' A tibble with the results of the 2017 general election.
+#' 2017 General Election Results
 #' 
-#' A tibble with Great Britain constituencies results from the 2017 general election. This data can be linked to 2011 census information in \code{\link{bes_2015}}. 
+#' A tibble with the British Election Study 2017 Constituency Results Version 1.0.
+#' 
+#' A tibble with Great Britain constituencies results from the 2017 general election. This data can be linked to 2011 census information in \code{\link{census_11}} with the \code{pano}, \code{ons_const_id} and \code{constituency_name} variables.
 #' 
 #' Variable names have been converted to snake_case and variables have been converted to appropriate R classes.
 #' 
-#' @format A tibble, containing 632 row and 58 columns. 
-#' \describe{
-#'\item{pano}{Press Association Constituency ID. Numeric.}
-#'\item{onsconst_id}{ONS Constituency ID. Character.}
-#'\item{constituency_name}{Constituency Name. Factor.}
-#'\item{country}{Country. Factor.}
-#'\item{region}{Region. Factor.}
-#'\item{constituency_type}{County or Borough Constituency. Factor.}
-#'\item{winner_17}{2017 Winning party. Factor.}
-#'\item{electorate_17}{2017 Size of electorate. Numeric.}
-#'\item{total_vote_17}{2017 Total number of votes cast. Numeric.}
-#'\item{rejected_vote_17}{2017 Number of rejected ballots. Numeric.}
-#'\item{majority_17}{2017 Majority. Numeric.}
-#'\item{majority_17}{2017 Majority. Numeric.}
-#'\item{turnout_17}{2017 Turnout. Numeric.}
-#'\item{seat_change_1517}{2017 winning party gain from 2015 winning party. Factor.}
-#'\item{con_vote_17}{2017 Conservative number of votes. Numeric.}
-#'\item{lab_vote_17}{2017 Labour number of votes. Numeric.}
-#'\item{ld_vote_17}{2017 Liberal Democrat number of votes. Numeric.}
-#'\item{ukip_vote_17}{2017 United Kingdom Independence Party (UKIP) number of votes. Numeric.}
-#'\item{green_vote_17}{2017 Green Party number of votes. Numeric.}
-#'\item{snp_vote_17}{2017 Scottish National Party (SNP) number of votes. Numeric.}
-#'\item{pc_vote_17}{2017 Plaid Cymru number of votes. Numeric.}
-#'\item{other_vote_17}{2017 Other vote share. Numeric.}
-#'\item{con_17}{2017 Conservative vote share. Numeric.}
-#'\item{lab_17}{2017 Labour vote share. Numeric.}
-#'\item{ld_17}{2017 Liberal Democrat vote share. Numeric.}
-#'\item{snp_17}{2017 Scottish National Party (SNP) vote share. Numeric.}
-#'\item{pc_17}{2017 Plaid Cymru vote share. Numeric.}
-#'\item{ukip_17}{2017 United Kingdom Independence Party (UKIP) vote share. Numeric.}
-#'\item{green_17}{2017 Green Party vote share. Numeric.}
-#'\item{other_17}{2017 Combined other vote share. Numeric.}
-#'\item{con_1517}{2015-17 Conservative vote share change. Numeric.}
-#'\item{lab_1517}{2015-17 Labour vote share change. Numeric.}
-#'\item{ld_1517}{2015-17 Liberal Democrat vote share change. Numeric.}
-#'\item{snp_1517}{2015-17 Scottish National Party (SNP) vote share change. Numeric.}
-#'\item{pc_1517}{2015-17 Plaid Cymru vote share change. Numeric.}
-#'\item{ukip_1517}{2015-17 United Kingdom Independence Party (UKIP) vote share change. Numeric.}
-#'\item{green_1517}{2015-17 Green Party vote share change. Numeric.}
-#'\item{winner_15}{2015 Winning party. Factor.}
-#'\item{con_15}{2015 Conservative vote share. Numeric.}
-#'\item{lab_15}{2015 Labour vote share. Numeric.}
-#'\item{ld_15}{2015 Liberal Democrat vote share. Numeric.}
-#'\item{snp_15}{2015 Scottish National Party (SNP) vote share. Numeric.}
-#'\item{pc_15}{2015 Plaid Cymru vote share. Numeric.}
-#'\item{ukip_15}{2015 United Kingdom Independence Party (UKIP) vote share. Numeric.}
-#'\item{green_15}{2015 Green Party vote share. Numeric.}
-#'\item{other_15}{2015 Combined other vote share. Numeric.}
-#'\item{majority_15}{2015 Majority. Numeric.}
-#'\item{turnout_15}{2015 Turnout. Numeric.}
-#'\item{con_vote_15}{2015 Conservative number of votes. Numeric.}
-#'\item{lab_vote_15}{2015 Labour number of votes. Numeric.}
-#'\item{ldvote_15}{2015 Liberal Democrat number of votes. Numeric.}
-#'\item{snpvote_15}{2015 Scottish National Party (SNP) number of votes. Numeric.}
-#'\item{pcvote_15}{2015 Plaid Cymru number of votes. Numeric.}
-#'\item{ukipvote_15}{2015 United Kingdom Independence Party (UKIP) number of votes. Numeric.}
-#'\item{green_vote_15}{2015 Green Party number of votes. Numeric.}
-#'\item{bnpvote_15}{2015 British National Party (BNP) number of votes. Numeric.}
-#'\item{total_vote_15}{2015 Total number of votes cast. Numeric.}
-#'\item{rejected_vote_15}{2015 Number of rejected ballots. Numeric.}
-#'\item{electorate_15}{2015 Size of electorate. Numeric.}
-#' }
-#' @source \url{researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979} \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
-"ge_2017"
+#' @references Fieldhouse, E., J. Green., G. Evans., H. Schmitt, C. van der Eijk, J. Mellon & C. Prosser (2017) British Election Study 2017 Constituency Results file, version 1.0. 
+#' 
+#' @format A tibble, containing 632 rows and 123 columns. For full details see the vignette: \url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}
+#' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
+"bes_2017"
+
+
+#' Constituency demographic information
+#' 
+#' 
+#' A tibble with demographic information on each constituency, taken from the 2011 census data included in the British Election Study. Can be linked to the \code{\link{bes_2017}} and \code{\link{bes_2015}} datasets using the \code{pano}, \code{ons_const_id} and \code{constituency_name} variables.
+#' 
+#'@format A tibble, containing 632 rows and 191 columns. For full details see the vignette: \url{http://docs.evanodell.com/parlitools/articles/census-11.html}
+#' 
+#' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
+
 
 
 #' A tibble with details on the council make-up of local authorities across the UK.

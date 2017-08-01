@@ -1,4 +1,17 @@
 
+# parlitools 0.2.0
+
+## Data
+
+New `bes_2017` dataset, with results of 2017 General Election, taken from the 2017 British Election Study. This dataset replaces the `ge_2017` dataset. It also replicates some of the data in the `bes_2015` dataset.
+
+Census data from the British Election Study has been moved to its own seperate file, named `census11`.
+
+## Fixes
+
+Naming conventions for variables now places an underscore between each distinct word (eg `onsconst_id` is now `ons_const_id`)
+
+
 # parlitools 0.1.0
 
 Changes to vignettes to comply with CRAN policies and to reduce the time needed to check the package.

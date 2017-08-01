@@ -11,285 +11,101 @@ vignette: >
 
 # Variable names in `bes_2015` 
 
-Due to the 277 variables included in the `bes_2015` dataset, including information on each variable in the `parlitools` reference manual is very lengthy and not very user friendly. This vignette reproduces the table including with the British Election Study data, available [here](http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/). The 'Name' column refers to the variable name used in the `bes_2015` dataset, the 'Data Type' column refers to the R data type, and the 'Census Table' column refers to the location in the 2011 Census that demographic data was retrieved from, where applicable.
+Due to the 92 variables included in the `bes_2015` dataset, including information on each variable in the `parlitools` reference manual is very lengthy and not very user friendly. This vignette reproduces the table including with the British Election Study data, available [here](http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/). The 'Name' column refers to the variable name used in the `bes_2015` dataset, the 'Label' is the description of the variable, and the 'Data Type' column refers to the R data type.
 
-| Name | Label | Data Type | Census table |
-|----------------------------------|------------------------------------------------------|-----------|-------------|
-| `pano` | Press Association Constituency ID | numeric |  
-| `onsconst_id` | ONS Constituency ID | character |  |
-| `constituency_name` | Constituency Name | factor |  |
-| `country` | Country | factor |  |
-| `region` | Region | factor |  |
-| `constituency_type` | County or Borough Constituency | factor |  |
-| `winner_15` | 2015 Winning party | factor |  |
-| `con_15` | 2015 Conservative vote share | numeric |  |
-| `lab_15` | 2015 Labour vote share | numeric |  |
-| `ld_15` | 2015 Liberal Democrat vote share | numeric |  |
-| `snp_15` | 2015 Scottish National Party (SNP) vote share | numeric |  |
-| `pc_15` | 2015 Plaid Cymru vote share | numeric |  |
-| `ukip_15` | 2015 United Kingdom Independence Party (UKIP) vote share | numeric |  |
-| `green_15` | 2015 Green Party vote share | numeric |  |
-| `other_15` | 2015 Combined other vote share | numeric |  |
-| `majority_15` | 2015 Majority | numeric |  |
-| `turnout_15` | 2015 Turnout | numeric |  |
-| `con_vote_15` | 2015 Conservative number of votes | numeric |  |
-| `lab_vote_15` | 2015 Labour number of votes | numeric |  |
-| `ld_vote_15` | 2015 Liberal Democrat number of votes | numeric |  |
-| `snp_vote_15` | 2015 Scottish National Party (SNP) number of votes | numeric |  |
-| `pc_vote_15` | 2015 Plaid Cymru number of votes | numeric |  |
-| `ukip_vote_15` | 2015 United Kingdom Independence Party (UKIP) number of votes | numeric |  |
-| `green_vote_15` | 2015 Green Party number of votes | numeric |  |
-| `bnp_vote_15` | 2015 British National Party (BNP) number of votes | numeric |  |
-| `total_vote_15` | 2015 Total number of votes cast | numeric |  |
-| `rejected_vote_15` | 2015 Number of rejected ballots | numeric |  |
-| `electorate_15` | 2015 Size of electorate | numeric |  |
-| `seat_change_1015` | 2015 winning party gain from 2010 winning party | factor |  |
-| `con_1015` | 2010-15 Conservative vote share change | numeric |  |
-| `lab_1015` | 2010-15 Labour vote share change | numeric |  |
-| `ld_1015` | 2010-15 Liberal Democrat vote share change | numeric |  |
-| `snp_1015` | 2010-15 Scottish National Party (SNP) vote share change | numeric |  |
-| `pc_1015` | 2010-15 Plaid Cymru vote share change | numeric |  |
-| `ukip_1015` | 2010-15 United Kingdom Independence Party (UKIP) vote share change | numeric |  |
-| `green_1015` | 2010-15 Green Party vote share change | numeric |  |
-| `winner_10` | 2010 Winning party | factor |  |
-| `con_10` | 2010 Conservative vote share | numeric |  |
-| `lab_10` | 2010 Labour vote share | numeric |  |
-| `ld_10` | 2010 Liberal Democrat vote share | numeric |  |
-| `snp_10` | 2010 Scottish National Party (SNP) vote share | numeric |  |
-| `pc_10` | 2010 Plaid Cymru vote share | numeric |  |
-| `ukip_10` | 2010 United Kingdom Independence Party (UKIP) vote share | numeric |  |
-| `green_10` | 2010 Green Party vote share | numeric |  |
-| `bnp_10` | 2010 British National Party (BNP) vote share | numeric |  |
-| `majority_10` | 2010 Majority | numeric |  |
-| `turn_10` | 2010 Turnout | numeric |  |
-| `con_vote_10` | 2010 Conservative number of votes | numeric |  |
-| `lab_vote_10` | 2010 Labour number of votes | numeric |  |
-| `ld_vote_10` | 2010 Liberal Democrat number of votes | numeric |  |
-| `snp_vote_10` | 2010 Scottish National Party (SNP) number of votes | numeric |  |
-| `pc_vote_10` | 2010 Plaid Cymru number of votes | numeric |  |
-| `ukip_vote_10` | 2010 United Kingdom Independence Party (UKIP) number of votes | numeric |  |
-| `green_vote_10` | 2010 Green Party number of votes | numeric |  |
-| `bnp_vote_10` | 2010 British National Party (BNP) number of votes | numeric |  |
-| `total_vote_10` | 2010 Total number of votes cast | numeric |  |
-| `electorate_10` | 2010 Size of electorate | numeric |  |
-| `con_ppc` | Conservative candidate name | factor |  |
-| `con_ppcsex` | Conservative candidate sex | factor |  |
-| `con_ppcrace` | Conservative candidate race | factor |  |
-| `lab_ppc` | Labour Candidate name | factor |  |
-| `lab_ppcsex` | Labour Candidate sex | factor |  |
-| `lab_ppcrace` | Labour Candidate race | factor |  |
-| `ldppc` | Liberal Democrat candidate name | factor |  |
-| `ldppcsex` | Liberal Democrat candidate sex | factor |  |
-| `ldppcrace` | Liberal Democrat candidate race | factor |  |
-| `ukipppc` | UKIP candidate name | factor |  |
-| `ukipppcsex` | UKIP candidate sex | factor |  |
-| `ukipppcrace` | UKIP candidate race | factor |  |
-| `snpppc` | SNP candidate name | factor |  |
-| `snpppcsex` | SNP candidate sex | factor |  |
-| `snpppcrace` | SNP candidate race | factor |  |
-| `pcppc` | Plaid Cymru candidate name | factor |  |
-| `pcppcsex` | Plaid Cymru candidate sex | factor |  |
-| `pcppcrace` | Plaid Cymru candidate race | factor |  |
-| `green_ppc` | Green Party candidate name | factor |  |
-| `green_ppcsex` | Green Party candidate sex | factor |  |
-| `green_ppcrace` | Green Party candidate race | factor |  |
-| `c_11_population` | Census 2011: Usual resident population | numeric | KS101 |
-| `c_11_population_density` | Census 2011: Population density | numeric | KS101 |
-| `c_11_male` | Census 2011: Male | numeric | KS101 |
-| `c_11_female` | Census 2011: Female | numeric | KS101 |
-| `c_11_households` | Census 2011: People living in households | numeric | KS101 |
-| `c_11_communal` | Census 2011: People living in Communal establishments | numeric | KS101 |
-| `c_11_age_0_to_4` | Census 2011: Age 0 to 4 | numeric | KS102 |
-| `c_11_age_5_to_7` | Census 2011: Age 5 to 7 | numeric | KS102 |
-| `c_11_age_8_to_9` | Census 2011: Age 8 to 9 | numeric | KS102 |
-| `c_11_age_10_to_14` | Census 2011: Age 10 to 14 | numeric | KS102 |
-| `c_11_age_15` | Census 2011: Age 15 | numeric | KS102 |
-| `c_11_age_16_to_17` | Census 2011: Age 16 to 17 | numeric | KS102 |
-| `c_11_age_18_to_19` | Census 2011: Age 18 to 19 | numeric | KS102 |
-| `c_11_age_20_to_24` | Census 2011: Age 20 to 24 | numeric | KS102 |
-| `c_11_age_25_to_29` | Census 2011: Age 25 to 29 | numeric | KS102 |
-| `c_11_age_30_to_44` | Census 2011: Age 30 to 44 | numeric | KS102 |
-| `c_11_age_45_to_59` | Census 2011: Age 45 to 59 | numeric | KS102 |
-| `c_11_age_60_to_64` | Census 2011: Age 60 to 64 | numeric | KS102 |
-| `c_11_age_65_to_74` | Census 2011: Age 65 to 74 | numeric | KS102 |
-| `c_11_age_75_to_84` | Census 2011: Age 75 to 84 | numeric | KS102 |
-| `c_11_age_85_to_89` | Census 2011: Age 85 to 89 | numeric | KS102 |
-| `c_11_age_90_plus` | Census 2011: Age 90 plus | numeric | KS102 |
-| `c_11_house_owned` | Census 2011: Housing tenure - Owned | numeric | KS402 |
-| `c_11_house_outright` | Census 2011: Housing tenure - Owned outright | numeric | KS402 |
-| `c_11_house_mortgage` | Census 2011: Housing tenure - Owned with a mortgage | numeric | KS402 |
-| `c_11_house_shared` | Census 2011: Housing tenure - Shared ownership | numeric | KS402 |
-| `c_11_house_social` | Census 2011: Housing tenure - Social rented | numeric | KS402 |
-| `c_11_house_social_la` | Census 2011: Housing tenure - Social rented from council (Local Authority) | numeric | KS402 |
-| `c_11_house_social_other` | Census 2011: Housing tenure - Other social rented | numeric | KS402 |
-| `c_11_house_private` | Census 2011: Housing tenure - Private rented | numeric | KS402 |
-| `c_11_house_private_landlord` | Census 2011: Housing tenure - Private rented from landlord or letting agency | numeric | KS402 |
-| `c_11_house_private_other` | Census 2011: Housing tenure - Other private rented | numeric | KS402 |
-| `c_11_house_rent_free` | Census 2011: Housing tenure - Living rent free | numeric | KS402 |
-| `c_11_household_one_person` | Census 2011: Household -  One person | numeric | KS105 |
-| `c_11_household_one_person_65_plus` | Census 2011: Household -  One person aged 65 and older | numeric | KS105 |
-| `c_11_household_one_person_other` | Census 2011: Household -  One person other | numeric | KS105 |
-| `c_11_household_one_family` | Census 2011: Household -  One family | numeric | KS105 |
-| `c_11_household_one_family_65_plus` | Census 2011: Household -  One family all 65 and older | numeric | KS105 |
-| `c_11_household_married` | Census 2011: Household - Married | numeric | KS105 |
-| `c_11_household_married_no_children` | Census 2011: Household - Married no children | numeric | KS105 |
-| `c_11_household_married_dependents` | Census 2011: Household - Married with dependent children | numeric | KS105 |
-| `c_11_household_married_nondependents` | Census 2011: Household - Married with no dependent children | numeric | KS105 |
-| `c_11_household_cohabit` | Census 2011: Household - Cohabitating | numeric | KS105 |
-| `c_11_household_cohabit_no_children` | Census 2011: Household - Cohabitating no children | numeric | KS105 |
-| `c_11_household_cohabit_dependents` | Census 2011: Household - Cohabitating with dependent children | numeric | KS105 |
-| `c_11_household_cohabit_nodependents` | Census 2011: Household - Cohabitating with no dependent children | numeric | KS105 |
-| `c_11_household_lone` | Census 2011: Household - Lone parent | numeric | KS105 |
-| `c_11_household_lone_dependents` | Census 2011: Household - Lone parent with dependent children | numeric | KS105 |
-| `c_11_household_lone_nodependents` | Census 2011: Household - Lone parent with no dependent children | numeric | KS105 |
-| `c_11_household_other` | Census 2011: Household - Other | numeric | KS105 |
-| `c_11_household_other_dependents` | Census 2011: Household - Other with dependent children | numeric | KS105 |
-| `c_11_household_all_students` | Census 2011: Household - All full-time students | numeric | KS105 |
-| `c_11_household_all_65_plus` | Census 2011: Household - Other all 65 plus | numeric | KS105 |
-| `c_11_household_any_other` | Census 2011: Household - Any other | numeric | KS105 |
-| `c_11_cars_none` | Census 2011: No cars or vans in household | numeric | KS404 |
-| `c_11_cars_one` | Census 2011: one car or van in household | numeric | KS404 |
-| `c_11_cars_two` | Census 2011: Two cars or vans in household | numeric | KS404 |
-| `c_11_cars_three` | Census 2011: Three cars or vans in household | numeric | KS404 |
-| `c_11_cars_four` | Census 2011: Four cars or vans in household | numeric | KS404 |
-| `c_11_ethnicity_white` | Census 2011: Ethnicity - White | numeric | KS201 |
-| `c_11_ethnicity_mixed` | Census 2011: Ethnicity - Mixed | numeric | KS201 |
-| `c_11_ethnicity_asian` | Census 2011: Ethnicity - Asian | numeric | KS201 |
-| `c_11_ethnicity_black` | Census 2011: Ethnicity - Black | numeric | KS201 |
-| `c_11_ethnicity_other` | Census 2011: Ethnicity - Other | numeric | KS201 |
-| `c_11_ethnicity_white_british` | Census 2011: Ethnicity detailed - White British/English/Scottish/Northern Irish | numeric | KS201 |
-| `c_11_ethnicity_white_irish` | Census 2011: Ethnicity detailed - White Irish | numeric | KS201 |
-| `c_11_ethnicity_white_traveller` | Census 2011: Ethnicity detailed - White Gypsy or Irish Traveller | numeric | KS201 |
-| `c_11_ethnicity_white_other` | Census 2011: Ethnicity detailed - White other | numeric | KS201 |
-| `c_11_ethnicity_mixed_caribbean` | Census 2011: Ethnicity detailed - Mixed White and Black Caribbean | numeric | KS201 |
-| `c_11_ethnicity_mixed_african` | Census 2011: Ethnicity detailed - Mixed White and Black African | numeric | KS201 |
-| `c_11_ethnicity_mixed_asian` | Census 2011: Ethnicity detailed - Mixed White and Asian | numeric | KS201 |
-| `c_11_ethnicity_mixed_other` | Census 2011: Ethnicity detailed - Mixed other | numeric | KS201 |
-| `c_11_ethnicity_indian` | Census 2011: Ethnicity detailed - Indian | numeric | KS201 |
-| `c_11_ethnicity_pakistani` | Census 2011: Ethnicity detailed - Pakistani | numeric | KS201 |
-| `c_11_ethnicity_bangladeshi` | Census 2011: Ethnicity detailed - Bangladeshi | numeric | KS201 |
-| `c_11_ethnicity_chinese` | Census 2011: Ethnicity detailed - Chinese | numeric | KS201 |
-| `c_11_ethnicity_other_asian` | Census 2011: Ethnicity detailed - Other Asian | numeric | KS201 |
-| `c_11_ethnicity_black_african` | Census 2011: Ethnicity detailed - Black African | numeric | KS201 |
-| `c_11_ethnicity_black_caribbean` | Census 2011: Ethnicity detailed - Black Caribbean | numeric | KS201 |
-| `c_11_ethnicity_black_other` | Census 2011: Ethnicity detailed - Black Other | numeric | KS201 |
-| `c_11_ethnicity_arab` | Census 2011: Ethnicity detailed - Arab | numeric | KS201 |
-| `c_11_ethnicity_any_other` | Census 2011: Ethnicity detailed - Any other ethnic group | numeric | KS201 |
-| `c_11_born_uk` | Census 2011: Country of birth - UK | numeric | KS204 |
-| `c_11_born_england` | Census 2011: Country of birth - England | numeric | KS204 |
-| `c_11_born_ni` | Census 2011: Country of birth - Northern Ireland | numeric | KS204 |
-| `c_11_born_scotland` | Census 2011: Country of birth - Scotland | numeric | KS204 |
-| `c_11_born_wales` | Census 2011: Country of birth - Wales | numeric | KS204 |
-| `c_11_born_uknot_specified` | Census 2011: Country of birth - Northern Ireland | numeric | KS204 |
-| `c_11_born_ireland` | Census 2011: Country of birth - Ireland | numeric | KS204 |
-| `c_11_born_other_eu` | Census 2011: Country of birth - Other EU (not Ireland) | numeric | KS204 |
-| `c_11_born_other_pre_2004_eu` | Census 2011: Country of birth - Other pre 2004 EU (not Ireland) | numeric | KS204 |
-| `c_11_born_post_2004_eu` | Census 2011: Country of birth - country joined EU 2004 or later | numeric | KS204 |
-| `c_11_born_other` | Census 2011: Country of birth - Other | numeric | KS204 |
-| `c_11_passport_none` | Census 2011: Passport held - None | numeric | KS205 |
-| `c_11_passport_any` | Census 2011: Passport held - Any | numeric | KS205 |
-| `c_11_passport_uk` | Census 2011: Passport held - United Kingdom | numeric | KS205 |
-| `c_11_passport_ireland` | Census 2011: Passport held - Republic of Ireland | numeric | KS205 |
-| `c_11_passport_eu` | Census 2011: Passport held - Other Europe EU Countries | numeric | KS205 |
-| `c_11_passport_europe_not_eu` | Census 2011: Passport held - Other Europe Non EU countries | numeric | KS205 |
-| `c_11_passport_africa` | Census 2011: Passport held - Africa | numeric | KS205 |
-| `c_11_passport_asia` | Census 2011: Passport held - Middle East and Asia | numeric | KS205 |
-| `c_11_passport_north_america` | Census 2011: Passport held - North America and the Caribbean | numeric | KS205 |
-| `c_11_passport_central_america` | Census 2011: Passport held - Central America | numeric | KS205 |
-| `c_11_passport_south_america` | Census 2011: Passport held - South America | numeric | KS205 |
-| `c_11_passport_oceania` | Census 2011: Passport held - Antarctica and Oceania | numeric | KS205 |
-| `c_11_english_all` | Census 2011: All 16+ have English (or Welsh in Wales) as main language | numeric | KS206 |
-| `c_11_english_one` | Census 2011: At least one 16+ has English (or Welsh in Wales) as main language | numeric | KS206 |
-| `c_11_english_child` | Census 2011: At least one 3-15 has English (or Welsh in Wales) as main language | numeric | KS206 |
-| `c_11_english_none` | Census 2011: No one 16+ has English (or Welsh in Wales) as main language | numeric | KS206 |
-| `c_11_christian` | Census 2011: Religion - Christian | numeric | KS209 |
-| `c_11_buddhist` | Census 2011: Religion - Buddhist | numeric | KS209 |
-| `c_11_hindu` | Census 2011: Religion - Hindu | numeric | KS209 |
-| `c_11_jewish` | Census 2011: Religion - Jewish | numeric | KS209 |
-| `c_11_muslim` | Census 2011: Religion - Muslim | numeric | KS209 |
-| `c_11_sikh` | Census 2011: Religion - Sikh | numeric | KS209 |
-| `c_11_religion_other` | Census 2011: Religion - Other | numeric | KS209 |
-| `c_11_no_religion` | Census 2011: Religion - No Religion | numeric | KS209 |
-| `c_11_religion_not_stated` | Census 2011: Religion - Not Stated | numeric | KS209 |
-| `c_11_nssechigher_manager` | Census 2011: NS-SeC Large employers, higher managerial and administrative | numeric | KS611 |
-| `c_11_nssechigher_professional` | Census 2011: NS-SeC Higher professional occupations | numeric | KS611 |
-| `c_11_nsseclower_manager` | Census 2011: NS-SeC Lower managerial, administrative and professional | numeric | KS611 |
-| `c_11_nssecintermediate` | Census 2011: NS-SeC Intermediate | numeric | KS611 |
-| `c_11_nssecsmall_employer` | Census 2011: NS-SeC Small employers and own account workers | numeric | KS611 |
-| `c_11_nsseclower_supervisor` | Census 2011: NS-SeC Lower supervisory and technical | numeric | KS611 |
-| `c_11_nssecsemi_routine` | Census 2011: NS-SeC Semi-routine occupations | numeric | KS611 |
-| `c_11_nssecroutine` | Census 2011: NS-SeC Routine | numeric | KS611 |
-| `c_11_nssecnever_worked` | Census 2011: NS-SeC Never worked | numeric | KS611 |
-| `c_11_nsseclongterm_unemployed` | Census 2011: NS-SeC Long-term unemployed | numeric | KS611 |
-| `c_11_economic_active` | Census 2011: Economically active - all | numeric | KS601 |
-| `c_11_employed` | Census 2011: Economically active - Employed | numeric | KS601 |
-| `c_11_employed_part_time` | Census 2011: Economically active - Employee: Part-time | numeric | KS601 |
-| `c_11_employed_full_time` | Census 2011: Economically active - Employee: Full-time | numeric | KS601 |
-| `c_11_self_employed` | Census 2011: Economically active - Self-employed | numeric | KS601 |
-| `c_11_unemployed` | Census 2011: Economically active - Unemployed | numeric | KS601 |
-| `c_11_economically_active_student` | Census 2011: Economically active - Full-time student | numeric | KS601 |
-| `c_11_economic_inactive` | Census 2011: Economically inactive - all | numeric | KS601 |
-| `c_11_retired` | Census 2011: Economically inactive - Retired | numeric | KS601 |
-| `c_11_economically_inactive_student` | Census 2011: Economically inactive - Student (including full-time students) | numeric | KS601 |
-| `c_11_looking_after_home` | Census 2011: Economically inactive - Looking after home or family | numeric | KS601 |
-| `c_11_long_term_sick` | Census 2011: Economically inactive - Long-term sick or disabled | numeric | KS601 |
-| `c_11_economic_inactive_other` | Census 2011: Economically inactive - Other | numeric | KS601 |
-| `c_11_unemployed_16_to_24` | Census 2011: Unemployed age 16 to 24 | numeric | KS601 |
-| `c_11_unemployed_50_to_74` | Census 2011: Unemployed age 50 to 74 | numeric | KS601 |
-| `c_11_neverworked` | Census 2011: Never worked | numeric | KS601 |
-| `c_11_long_term_unemployed` | Census 2011: Long-term unemployed | numeric | KS601 |
-| `c_11_fulltime_student` | Census 2011: Full-time students | numeric | KS611 |
-| `c_11_industry_agriculture` | Census 2011: Industry - Agriculture, forestry and fishing | numeric | KS605 |
-| `c_11_industry_mining` | Census 2011: Industry - Mining and quarrying | numeric | KS605 |
-| `c_11_industry_manufacturing` | Census 2011: Industry - Manufacturing | numeric | KS605 |
-| `c_11_industry_electricity_supply` | Census 2011: Industry - Electricity, gas, steam and air conditioning supply | numeric | KS605 |
-| `c_11_industry_water_supply` | Census 2011: Industry - Water supply | numeric | KS605 |
-| `c_11_industry_construction` | Census 2011: Industry - Construction | numeric | KS605 |
-| `c_11_industry_wholesale` | Census 2011: Industry - Wholesale and retail trade | numeric | KS605 |
-| `c_11_industry_transport` | Census 2011: Industry - Transport and storage | numeric | KS605 |
-| `c_11_industry_accommodation` | Census 2011: Industry - Accommodation and food service activities | numeric | KS605 |
-| `c_11_industry_communication` | Census 2011: Industry - Information and Communication | numeric | KS605 |
-| `c_11_industry_finance` | Census 2011: Industry - Financial and insurance activities | numeric | KS605 |
-| `c_11_industry_real_estate` | Census 2011: Industry - Real estate activities | numeric | KS605 |
-| `c_11_industry_professional` | Census 2011: Industry - Professional, scientific and technical activities | numeric | KS605 |
-| `c_11_industry_administrative` | Census 2011: Industry - Administrative and support service activities | numeric | KS605 |
-| `c_11_industry_public_administration` | Census 2011: Industry - Public administration and defence | numeric | KS605 |
-| `c_11_industry_education` | Census 2011: Industry - Education | numeric | KS605 |
-| `c_11_industry_social_work` | Census 2011: Industry - Human Health and Social Work Activities | numeric | KS605 |
-| `c_11_industry_other` | Census 2011: Industry - Other | numeric | KS605 |
-| `c_11_qual_none` | Census 2011: Highest qualification - None | numeric | KS501 |
-| `c_11_qual_level_1` | Census 2011: Highest qualification - Level 1 | numeric | KS501 |
-| `c_11_qual_level_2` | Census 2011: Highest qualification - Level 2 | numeric | KS501 |
-| `c_11_qual_apprentice` | Census 2011: Highest qualification - Apprenticeship | numeric | KS501 |
-| `c_11_qual_level_3` | Census 2011: Highest qualification - Level 3 | numeric | KS501 |
-| `c_11_qual_level_4` | Census 2011: Highest qualification - Level 4 and above | numeric | KS501 |
-| `c_11_qual_other` | Census 2011: Highest qualification - Other | numeric | KS501 |
-| `c_11_degree` | Census 2011: University Degree | numeric | QS502 |
-| `c_11_health_very_good` | Census 2011: Very good health | numeric | KS301 |
-| `c_11_health_good` | Census 2011: Good health | numeric | KS301 |
-| `c_11_health_fair` | Census 2011: Fair health | numeric | KS301 |
-| `c_11_health_bad` | Census 2011: Bad health | numeric | KS301 |
-| `c_11_health_very_bad` | Census 2011: Very bad health | numeric | KS301 |
-| `c_11_no_adults_employed` | Census 2011: No adults in employment in household | numeric | KS106 |
-| `c_11_no_adults_employed_children` | Census 2011: No adults in employment in household with dependent children | numeric | KS106 |
-| `c_11_no_adults_employed_no_children` | Census 2011: No adults in employment in household without dependent children | numeric | KS106 |
-| `c_11_deprived_none` | Census 2011: Household is not deprived on any dimension | numeric | QS119 |
-| `c_11_deprived_1` | Census 2011: Household deprived on one dimension | numeric | QS119 |
-| `c_11_deprived_2` | Census 2011: Household deprived on two dimensions | numeric | QS119 |
-| `c_11_deprived_3` | Census 2011: Household deprived on three dimensions | numeric | QS119 |
-| `c_11_deprived_4` | Census 2011: Household deprived on four dimensions | numeric | QS119 |
-| `con_long_spend_percent` | Conservative Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `con_short_spend_percent` | Conservative Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `lab_long_spend_percent` | Labour Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `lab_short_spend_percent` | Labour Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `ldlong_spend_percent` | Liberal Democrat Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `ldshort_spend_percent` | Liberal Democrat Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `snplong_spend_percent` | SNP Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `snpshort_spend_percent` | SNP Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `pclong_spend_percent` | Plaid Cymru Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `pcshort_spend_percent` | Plaid Cymru Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `ukiplong_spend_percent` | UKIP Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `ukipshort_spend_percent` | UKIP Candidate Short Campaign Spending as % of Short Limit | numeric |  |
-| `green_long_spend_percent` | Green Party Candidate Long Campaign Spending as % of Long Limit | numeric |  |
-| `green_short_spend_percent` | Green Party Candidate Short Campaign Spending as % of Short Limit | numeric |  |     |
+
+| Name | Label | Data Type | 
+|-------------|---------------------------|-----------|
+| `pano` | Press Association Constituency ID | numeric |
+| `ons_const_id` | ONS Constituency ID | character |
+| `constituency_name` | Constituency Name | factor |
+| `country` | Country | factor |
+| `region` | Region | factor |
+| `constituency_type` | County or Borough Constituency | factor |
+| `winner_15` | 2015 Winning party | factor |
+| `con_15` | 2015 Conservative vote share | numeric |
+| `lab_15` | 2015 Labour vote share | numeric |
+| `ld_15` | 2015 Liberal Democrat vote share | numeric |
+| `snp_15` | 2015 Scottish National Party (SNP) vote share | numeric |
+| `pc_15` | 2015 Plaid Cymru vote share | numeric |
+| `ukip_15` | 2015 United Kingdom Independence Party (UKIP) vote share | numeric |
+| `green_15` | 2015 Green Party vote share | numeric |
+| `other_15` | 2015 Combined other vote share | numeric |
+| `majority_15` | 2015 Majority | numeric |
+| `turnout_15` | 2015 Turnout | numeric |
+| `con_vote_15` | 2015 Conservative number of votes | numeric |
+| `lab_vote_15` | 2015 Labour number of votes | numeric |
+| `ld_vote_15` | 2015 Liberal Democrat number of votes | numeric |
+| `snp_vote_15` | 2015 Scottish National Party (SNP) number of votes | numeric |
+| `pc_vote_15` | 2015 Plaid Cymru number of votes | numeric |
+| `ukip_vote_15` | 2015 United Kingdom Independence Party (UKIP) number of votes | numeric |
+| `green_vote_15` | 2015 Green Party number of votes | numeric |
+| `bnp_vote_15` | 2015 British National Party (BNP) number of votes | numeric |
+| `total_vote_15` | 2015 Total number of votes cast | numeric |
+| `rejected_vote_15` | 2015 Number of rejected ballots | numeric |
+| `electorate_15` | 2015 Size of electorate | numeric |
+| `seat_change_1015` | 2015 winning party gain from 2010 winning party | factor |
+| `con_1015` | 2010-15 Conservative vote share change | numeric |
+| `lab_1015` | 2010-15 Labour vote share change | numeric |
+| `ld_1015` | 2010-15 Liberal Democrat vote share change | numeric |
+| `snp_1015` | 2010-15 Scottish National Party (SNP) vote share change | numeric |
+| `pc_1015` | 2010-15 Plaid Cymru vote share change | numeric |
+| `ukip_1015` | 2010-15 United Kingdom Independence Party (UKIP) vote share change | numeric |
+| `green_1015` | 2010-15 Green Party vote share change | numeric |
+| `winner_10` | 2010 Winning party | factor |
+| `con_10` | 2010 Conservative vote share | numeric |
+| `lab_10` | 2010 Labour vote share | numeric |
+| `ld_10` | 2010 Liberal Democrat vote share | numeric |
+| `snp_10` | 2010 Scottish National Party (SNP) vote share | numeric |
+| `pc_10` | 2010 Plaid Cymru vote share | numeric |
+| `ukip_10` | 2010 United Kingdom Independence Party (UKIP) vote share | numeric |
+| `green_10` | 2010 Green Party vote share | numeric |
+| `bnp_10` | 2010 British National Party (BNP) vote share | numeric |
+| `majority_10` | 2010 Majority | numeric |
+| `turn_10` | 2010 Turnout | numeric |
+| `con_vote_10` | 2010 Conservative number of votes | numeric |
+| `lab_vote_10` | 2010 Labour number of votes | numeric |
+| `ld_vote_10` | 2010 Liberal Democrat number of votes | numeric |
+| `snp_vote_10` | 2010 Scottish National Party (SNP) number of votes | numeric |
+| `pc_vote_10` | 2010 Plaid Cymru number of votes | numeric |
+| `ukip_vote_10` | 2010 United Kingdom Independence Party (UKIP) number of votes | numeric |
+| `green_vote_10` | 2010 Green Party number of votes | numeric |
+| `bnp_vote_10` | 2010 British National Party (BNP) number of votes | numeric |
+| `total_vote_10` | 2010 Total number of votes cast | numeric |
+| `electorate_10` | 2010 Size of electorate | numeric |
+| `con_ppc` | Conservative candidate name | factor |
+| `con_ppcsex` | Conservative candidate sex | factor |
+| `con_ppcrace` | Conservative candidate race | factor |
+| `lab_ppc` | Labour Candidate name | factor |
+| `lab_ppcsex` | Labour Candidate sex | factor |
+| `lab_ppcrace` | Labour Candidate race | factor |
+| `ldppc` | Liberal Democrat candidate name | factor |
+| `ldppcsex` | Liberal Democrat candidate sex | factor |
+| `ldppcrace` | Liberal Democrat candidate race | factor |
+| `ukipppc` | UKIP candidate name | factor |
+| `ukipppcsex` | UKIP candidate sex | factor |
+| `ukipppcrace` | UKIP candidate race | factor |
+| `snpppc` | SNP candidate name | factor |
+| `snpppcsex` | SNP candidate sex | factor |
+| `snpppcrace` | SNP candidate race | factor |
+| `pcppc` | Plaid Cymru candidate name | factor |
+| `pcppcsex` | Plaid Cymru candidate sex | factor |
+| `pcppcrace` | Plaid Cymru candidate race | factor |
+| `green_ppc` | Green Party candidate name | factor |
+| `green_ppcsex` | Green Party candidate sex | factor |
+| `green_ppcrace` | Green Party candidate race | factor |
+| `con_long_spend_percent` | Conservative Candidate Long Campaign Spending as % of Long Limit | numeric |
+| `con_short_spend_percent` | Conservative Candidate Short Campaign Spending as % of Short Limit | numeric |
+| `lab_long_spend_percent` | Labour Candidate Long Campaign Spending as % of Long Limit | numeric |
+| `lab_short_spend_percent` | Labour Candidate Short Campaign Spending as % of Short Limit | numeric |
+| `ldlong_spend_percent` | Liberal Democrat Candidate Long Campaign Spending as % of Long Limit | numeric |
+| `ldshort_spend_percent` | Liberal Democrat Candidate Short Campaign Spending as % of Short Limit | numeric |
+| `snplong_spend_percent` | SNP Candidate Long Campaign Spending as % of Long Limit | numeric |
+| `snpshort_spend_percent` | SNP Candidate Short Campaign Spending as % of Short Limit | numeric |
+| `pclong_spend_percent` | Plaid Cymru Candidate Long Campaign Spending as % of Long Limit | numeric |
+| `pcshort_spend_percent` | Plaid Cymru Candidate Short Campaign Spending as % of Short Limit | numeric |
+| `ukiplong_spend_percent` | UKIP Candidate Long Campaign Spending as % of Long Limit | numeric |
+| `ukipshort_spend_percent` | UKIP Candidate Short Campaign Spending as % of Short Limit | numeric |
+| `green_long_spend_percent` | Green Party Candidate Long Campaign Spending as % of Long Limit | numeric |
+| `green_short_spend_percent` | Green Party Candidate Short Campaign Spending as % of Short Limit | numeric |
 
