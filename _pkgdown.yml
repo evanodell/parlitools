@@ -22,8 +22,12 @@ navbar:
           href: articles/using-cartograms.html
         - text: "Mapping Local Government"
           href: articles/mapping-local-authorities.html
-        - text: "British Election Study"
+        - text: "British Election Study 2015"
           href: articles/bes-2015.html
+        - text: "British Election Study 2017"
+          href: articles/bes-2017.html
+        - text: "Constituency Level Census Data"
+          href: articles/census-11.html
 
     - text: "Packages"
       menu:
@@ -50,7 +54,8 @@ reference:
   desc: Datasets included in parlitools
   contents:
   - bes_2015
-  - ge_2017
+  - bes_2017
+  - census_11
   - party_colour
   - council_data
   - leave_votes_west

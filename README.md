@@ -43,7 +43,7 @@ devtools::install_github("evanodell/parlitools")
 
 ## Functions and Data
 
-For more details see [the full documentation](http://docs.evanodell.com/parlitools/) or the [vignettes](https://docs.evanodell.com/parlitools/articles/).
+For more details see [the full documentation](https://docs.evanodell.com/parlitools/reference) or the [vignettes](https://docs.evanodell.com/parlitools/articles/).
 
 ### Included Data
 
@@ -51,20 +51,19 @@ For more details see [the full documentation](http://docs.evanodell.com/parlitoo
 
 `bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. For information on all the variables in this dataset, see the [bes-2015 vignette](http://docs.evanodell.com/parlitools/articles/bes-2015.html) (Source: http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/)
 
-`ge_2017` - A tibble with Great Britain constituencies results from the 2017 general election. This data can be linked to 2011 census information in [`bes_2015`](https://docs.evanodell.com/parlitools/reference/bes_2015.html).
+`bes_2017` - A tibble with Great Britain constituencies results from the 2017 general election. This data can be linked to 2011 census information in [`census_11`](https://docs.evanodell.com/parlitools/reference/census-11.html).
 
-`council_data` - A tibble with data on the size of each local council (in terms of councillors), and the party or parties controlling the council.  (Sources: http://opencouncildata.co.uk/councils.php?model=, http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0). Last updated 14 July 2017.
+`census_11` - A tibble with constituency-level census data.
 
-`leave_votes_west`- The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: https://secondreading.uk/brexit/brexit-votes-by-constituency/ http://www.bbc.co.uk/news/uk-northern-ireland-36616830)
+`council_data` - A tibble with data on the size of each local council (in terms of councillors), and the party or parties controlling the council. (Sources: http://opencouncildata.co.uk/councils.php?model=, http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0). Last updated 14 July 2017.
 
+`leave_votes_west` - The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: https://secondreading.uk/brexit/brexit-votes-by-constituency/ http://www.bbc.co.uk/news/uk-northern-ireland-36616830)
 
 ### Data Retrieval Functions
 
 `current_mps` - Uses functions from `hansard` and `mnis` to create a tibble with data on all current MPs, their party affiliation and their constituency.
 
-`mps_on_date`  - Uses functions from `hansard` and `mnis` to create a tibble with data on all MPs from a given date, their party affiliation and their constituency.
-
-### Included Maps
+`mps_on_date` - Uses functions from `hansard` and `mnis` to create a tibble with data on all MPs from a given date, their party affiliation and their constituency.
 
 `west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies. `west_hex_map` can be used to create maps like this:
 

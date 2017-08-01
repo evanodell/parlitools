@@ -183,7 +183,7 @@ devtools::install_github(&quot;evanodell/parlitools&quot;)
 
 <h2>Functions and Data</h2>
 
-<p>For more details see <a href="http://docs.evanodell.com/parlitools/">the full documentation</a> or the <a href="https://docs.evanodell.com/parlitools/articles/">vignettes</a>.</p>
+<p>For more details see <a href="https://docs.evanodell.com/parlitools/reference">the full documentation</a> or the <a href="https://docs.evanodell.com/parlitools/articles/">vignettes</a>.</p>
 
 <h3>Included Data</h3>
 
@@ -191,19 +191,19 @@ devtools::install_github(&quot;evanodell/parlitools&quot;)
 
 <p><code>bes_2015</code> - A tibble with the British Election Study 2015 Constituency Results Version 2.2. For information on all the variables in this dataset, see the <a href="http://docs.evanodell.com/parlitools/articles/bes-2015.html">bes-2015 vignette</a> (Source: <a href="http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/">http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/</a>)</p>
 
-<p><code>ge_2017</code> - A tibble with Great Britain constituencies results from the 2017 general election. This data can be linked to 2011 census information in <a href="https://docs.evanodell.com/parlitools/reference/bes_2015.html"><code>bes_2015</code></a>.</p>
+<p><code>bes_2017</code> - A tibble with Great Britain constituencies results from the 2017 general election. This data can be linked to 2011 census information in <a href="https://docs.evanodell.com/parlitools/reference/census-11.html"><code>census_11</code></a>.</p>
 
-<p><code>council_data</code> - A tibble with data on the size of each local council (in terms of councillors), and the party or parties controlling the council.  (Sources: <a href="http://opencouncildata.co.uk/councils.php?model=">http://opencouncildata.co.uk/councils.php?model=</a>, <a href="http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0">http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0</a>). Last updated 14 July 2017.</p>
+<p><code>census_11</code> - A tibble with constituency-level census data.</p>
 
-<p><code>leave_votes_west</code>- The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: <a href="https://secondreading.uk/brexit/brexit-votes-by-constituency/">https://secondreading.uk/brexit/brexit-votes-by-constituency/</a> <a href="http://www.bbc.co.uk/news/uk-northern-ireland-36616830">http://www.bbc.co.uk/news/uk-northern-ireland-36616830</a>)</p>
+<p><code>council_data</code> - A tibble with data on the size of each local council (in terms of councillors), and the party or parties controlling the council. (Sources: <a href="http://opencouncildata.co.uk/councils.php?model=">http://opencouncildata.co.uk/councils.php?model=</a>, <a href="http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0">http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0</a>). Last updated 14 July 2017.</p>
+
+<p><code>leave_votes_west</code> - The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: <a href="https://secondreading.uk/brexit/brexit-votes-by-constituency/">https://secondreading.uk/brexit/brexit-votes-by-constituency/</a> <a href="http://www.bbc.co.uk/news/uk-northern-ireland-36616830">http://www.bbc.co.uk/news/uk-northern-ireland-36616830</a>)</p>
 
 <h3>Data Retrieval Functions</h3>
 
 <p><code>current_mps</code> - Uses functions from <code>hansard</code> and <code>mnis</code> to create a tibble with data on all current MPs, their party affiliation and their constituency.</p>
 
-<p><code>mps_on_date</code>  - Uses functions from <code>hansard</code> and <code>mnis</code> to create a tibble with data on all MPs from a given date, their party affiliation and their constituency.</p>
-
-<h3>Included Maps</h3>
+<p><code>mps_on_date</code> - Uses functions from <code>hansard</code> and <code>mnis</code> to create a tibble with data on all MPs from a given date, their party affiliation and their constituency.</p>
 
 <p><code>west_hex_map</code> - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies. <code>west_hex_map</code> can be used to create maps like this:</p>
 
