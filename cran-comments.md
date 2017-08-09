@@ -2,12 +2,12 @@
 
 ## Resubmission
 
-This is a resubmission of the `parlitools` package to comply with CRAN policies on installing or updating packages during R CMD INSTALL and R CMD. The package was archived on 2017-07-13.
+This is a resubmission of the `parlitools` package, with updates to the included data, improvements to the documentation, and more consistent naming conventions on the variables in included data.
 
 ## Test environments
 
     Ubuntu 12.04.5 (on Travis-CI): devel and release
-    local MacOS 10.12.5 installation: R 3.4.1
+    local MacOS 10.12.6 installation: R 3.4.1
     local Windows 7 installation: R 3.4.1
     CRAN win-builder 
 

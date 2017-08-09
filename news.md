@@ -11,7 +11,6 @@ Census data from the British Election Study has been moved to its own seperate f
 
 Naming conventions for variables now places an underscore between each distinct word (eg `onsconst_id` is now `ons_const_id`)
 
-
 # parlitools 0.1.0
 
 Changes to vignettes to comply with CRAN policies and to reduce the time needed to check the package.
