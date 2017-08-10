@@ -11,11 +11,4 @@ This is a resubmission of the `parlitools` package, with updates to the included
     local Windows 7 installation: R 3.4.1
     CRAN win-builder 
 
-##R CMD check results 0 errors | 0 warnings | 1 notes
-
-*Note: 
-
-Maintainer: 'Evan Odell <evanodell91@gmail.com>'
-
-Possibly mis-spelled words in DESCRIPTION:
-  cartograms (9:99)
+##R CMD check results 0 errors | 0 warnings | 0 notes

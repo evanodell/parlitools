@@ -123,7 +123,7 @@
 "council_data"
 
 
-#' A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each  constituency. 
+#' A tibble with leave votes from the Brexit referendum in each constituency. 
 #' 
 #' A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each  constituency. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.
 #' @format A tibble, with 641 rows and 7 columns.
@@ -132,7 +132,7 @@
 #' \item{constituency}{The name of the constituency.}
 #' \item{party_2016}{The party holding the constituency on 23 June 2016, the date of the referendum.}
 #' \item{ch_leave_vote}{Estimates of the leave vote produced by Chris Hanretty.}
-#' \item{known_leave_vote}{A dummy variable indicating 'yes' if the actual leave vote percentage is known, and 'no' if the estimate by CHris Hanretty is available.}
+#' \item{known_leave_vote}{A dummy variable indicating 'yes' if the actual leave vote percentage is known, and 'no' if the estimate by Chris Hanretty is available.}
 #' \item{known_leave_vote_perc}{The percentage of votes cast for leave, if known.}
 #' \item{difference_estimate_known}{Difference between the estimate by Chris Hanretty and the actual result, if known.}
 #' }
