@@ -104,7 +104,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     
     if (tidy == TRUE) {
     
-      df <- parlitools::parlitools_tidy(df, tidy_style)
+      df <- parlitools_tidy(df, tidy_style)
     
       df
     
@@ -118,7 +118,7 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     
     if (tidy == TRUE) {
       
-      mps <- parlitools::parlitools_tidy(mps, tidy_style)
+      mps <- parlitools_tidy(mps, tidy_style)
       
       mps
       

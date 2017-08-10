@@ -2,7 +2,6 @@
 
 export(current_mps)
 export(mps_on_date)
-export(parlitools_tidy)
 import(dplyr)
 import(hansard)
 import(httr)
