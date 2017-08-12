@@ -19,50 +19,11 @@
 
 mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style="snake_case"){
   
-  message("Downloading MP data")
-  
-  baseurl <- "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/House=Commons|Membership=all|commonsmemberbetween="
-  
-  date1 <- as.Date(date1)
-  
-  if(is.null(date2)==FALSE) {
-    date2 <- as.Date(date2)
-  }
-  
-  if(is.null(date2)==TRUE) {
-    date2 <- date1
-  } else if (date1 > date2) {
-    date3 <- date1
-    date1 <- date2
-    date2 <- date3
-    rm(date3)
-  }
-  
-  query <- paste0(baseurl,date1,"and",date2,"/")
-  
-  got <- httr::GET(query, httr::accept_json())
-  
-  if (httr::http_type(got) != "application/json") {
-    stop("API did not return json", call. = FALSE)
-  }
-  
-  got <- mnis::tidy_bom(got)
-  
-  got <- jsonlite::fromJSON(got, flatten = TRUE)
-  
-  mps <- tibble::as_tibble(got$Members$Member)
-  
-  if(.Platform$OS.type=="windows"){
-    
-    mps$MemberFrom <- stringi::stri_trans_general(mps$MemberFrom, "latin-ascii")
-    
-    mps$MemberFrom <- gsub("Ynys MA\U00B4n", "Ynys M\U00F4n", mps$MemberFrom)
-    
-  }
+  mps <- mnis::mnis_mps_on_date(date1 = date1, date2=date2, tidy = date2, tidy_style=tidy_style)
     
   if(date1 >= "2010-05-06"){
     
-    mps <- mnis::mnis_tidy(mps, tidy_style = "snake_case")
+    mps <- parlitools_tidy(mps, tidy_style = "snake_case")
     
     message("Downloading constituency data")
     
@@ -106,27 +67,19 @@ mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style=
     
       df <- parlitools_tidy(df, tidy_style)
     
+    }
+    
       df
-    
-    } else {
-    
-    df
-    
-  }
   
   } else {
     
     if (tidy == TRUE) {
       
       mps <- parlitools_tidy(mps, tidy_style)
+
+    } 
       
       mps
-      
-    } else {
-      
-      mps
-      
-    }
     
   }
     
