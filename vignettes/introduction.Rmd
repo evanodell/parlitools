@@ -126,7 +126,6 @@ library(sf)
 library(htmlwidgets)
 library(dplyr)
 library(hansard)
-library(mnis)
 library(parlitools)
 
 west_hex_map <- parlitools::west_hex_map #Base map

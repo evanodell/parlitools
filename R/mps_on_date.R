@@ -19,7 +19,22 @@
 
 mps_on_date <- function(date1 = Sys.Date(), date2=NULL, tidy = TRUE, tidy_style="snake_case"){
   
-  mps <- mnis::mnis_mps_on_date(date1 = date1, date2=date2, tidy = date2, tidy_style=tidy_style)
+  date1 <- as.Date(date1)
+  
+  if(is.null(date2)==FALSE) {
+    date2 <- as.Date(date2)
+  }
+  
+  if(is.null(date2)==TRUE) {
+    date2 <- date1
+  } else if (date1 > date2) {
+    date3 <- date1
+    date1 <- date2
+    date2 <- date3
+    rm(date3)
+  }
+  
+  mps <- mnis::mnis_mps_on_date(date1 = date1, date2=date2, tidy = tidy, tidy_style=tidy_style)
     
   if(date1 >= "2010-05-06"){
     
