@@ -1,5 +1,5 @@
 ---
-title: "British Election Study variables"
+title: "British Election Study 2015 Variables"
 author: "Evan Odell"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
