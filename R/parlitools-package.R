@@ -7,8 +7,6 @@
 #'
 #' @docType package
 #' @name parlitools
-#' @import hansard
-#' @import mnis
 #' @import dplyr
 #' @import utils
 #' @import tibble
