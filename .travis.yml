@@ -1,8 +1,9 @@
 language: r
 r:
-  - devel
+  #- devel
+  - release
 os:
-  - linux
+  #- linux
   - osx
 cache: packages
 sudo: required
