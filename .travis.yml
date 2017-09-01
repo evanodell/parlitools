@@ -1,7 +1,9 @@
 language: r
 r:
   - devel
-  - release
+os:
+  - linux
+  - osx
 cache: packages
 sudo: required
 dist: trusty
