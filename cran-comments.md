@@ -6,7 +6,7 @@ This is a resubmission of the `parlitools` package, with updates to the included
 
 ## Test environments
 
-    Ubuntu 12.04.5 (on Travis-CI): devel and release
+    Ubuntu 14.04.5 (on Travis-CI): devel and release
     local MacOS 10.12.6 installation: R 3.4.1
     local Windows 7 installation: R 3.4.1
     CRAN win-builder 
