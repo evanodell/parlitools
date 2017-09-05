@@ -6,13 +6,13 @@
 \title{A tibble with leave votes from the Brexit referendum in each constituency.}
 \format{A tibble, with 641 rows and 7 columns.
 \describe{
-\item{gss_code}{ONS code for constituency}
-\item{constituency}{The name of the constituency.}
-\item{party_2016}{The party holding the constituency on 23 June 2016, the date of the referendum.}
-\item{ch_leave_vote}{Estimates of the leave vote produced by Chris Hanretty.}
-\item{known_leave_vote}{A dummy variable indicating 'yes' if the actual leave vote percentage is known, and 'no' if the estimate by Chris Hanretty is available.}
-\item{known_leave_vote_perc}{The percentage of votes cast for leave, if known.}
-\item{difference_estimate_known}{Difference between the estimate by Chris Hanretty and the actual result, if known.}
+\item{\code{gss_code}}{ONS code for constituency}
+\item{\code{constituency}}{The name of the constituency.}
+\item{\code{party_2016}}{The party holding the constituency on 23 June 2016, the date of the referendum.}
+\item{\code{ch_leave_vote}}{Estimates of the leave vote produced by Chris Hanretty.}
+\item{\code{known_leave_vote}}{A dummy variable indicating 'yes' if the actual leave vote percentage is known, and 'no' if the estimate by Chris Hanretty is available.}
+\item{\code{known_leave_vote_perc}}{The percentage of votes cast for leave, if known.}
+\item{\code{difference_estimate_known}}{Difference between the estimate by Chris Hanretty and the actual result, if known.}
 }}
 \source{
 \url{https://secondreading.uk/brexit/brexit-votes-by-constituency/}

@@ -8,6 +8,8 @@ Updating of `council_data` dataset to be accurate as of 2017-09-05.
 
 Removed reliance on now-hidden functions from `mnis` and `hansard` packages.
 
+## General improvements
+
 
 
 # parlitools 0.2.0

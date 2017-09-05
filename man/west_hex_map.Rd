@@ -6,14 +6,14 @@
 \title{A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature.}
 \format{An sf and data.frame object, containing 650 elements and 8 variables.
 \describe{
-  \item{object_id}{Row Name}
-  \item{constituency_name}{The name of the constituency}
-  \item{description}{Description of constituency type}
-  \item{gss_code}{The constituency GSS (Government Statistical Service) code}
-  \item{region_name}{Name of region within the UK}
-  \item{shape_length}{The lengths of the shape}
-  \item{shape_area}{The area of shape}
-  \item{geometry}{Shape geometry/projection}
+  \item{\code{object_id}}{Row Name}
+  \item{\code{constituency_name}}{The name of the constituency}
+  \item{\code{description}}{Description of constituency type}
+  \item{\code{gss_code}}{The constituency GSS (Government Statistical Service) code}
+  \item{\code{region_name}}{Name of region within the UK}
+  \item{\code{shape_length}}{The lengths of the shape}
+  \item{\code{shape_area}}{The area of shape}
+  \item{\code{geometry}}{Shape geometry/projection}
 }}
 \source{
 \url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}

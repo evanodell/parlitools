@@ -6,12 +6,12 @@
 \title{Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland.}
 \format{An sf and data.frame object, containing 650 elements and 8 variables.
 \describe{
-  \item{object_id}{Row Name}
-  \item{la_code}{Local Authority identifier code}
-  \item{la_name}{Local Authority Name}
-  \item{shape_length}{The lengths of the shape}
-  \item{shape_area}{The area of the shape}
-  \item{geometry}{Shape geometry/projection}
+  \item{\code{object_id}}{Row Name}
+  \item{\code{la_code}}{Local Authority identifier code}
+  \item{\code{la_name}}{Local Authority Name}
+  \item{\code{shape_length}}{The lengths of the shape}
+  \item{\code{shape_area}}{The area of the shape}
+  \item{\code{geometry}}{Shape geometry/projection}
 }}
 \source{
 \url{http://www.arcgis.com/home/item.html?id=593037bc399e460bb7c6c631ceff67b4}
