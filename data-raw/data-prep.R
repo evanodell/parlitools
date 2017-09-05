@@ -122,7 +122,7 @@
   
   council_data$total_councillors <- rowSums(council_data[, c("conservative_councillors", "labour_councillors", "lib_dem_councillors", "green_councillors", "ukip_councillors", "snp_councillors", "independent_councillors", "vacant_seats")])
   
-  ## Recoding council_data$majority_party into council_data$majority_party_rec
+## Recoding council_data$majority_party into council_data$majority_party_rec
 council_data$majority_party <- recode(council_data$majority_party,
                "IND" = "Independent",
                "CON" = "Conservative",

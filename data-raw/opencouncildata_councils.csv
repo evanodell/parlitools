@@ -1,419 +1,419 @@
 id,name,model,type,total,majority,coalition,con,lab,ld,grn,ukip,pc,snp,ind,vacant,boundary,notes,url,last
-406,"City of London",,,125,IND,IND,0,5,0,0,0,0,0,119,1,,,http://democracy.cityoflondon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-405,"Isles of Scilly",,,16,IND,IND,0,0,0,0,0,0,0,16,0,,,http://committees.scilly.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-14
-1,Buckinghamshire,C1,LC,49,CON,CON,41,1,4,0,0,0,0,3,0,,,https://democracy.buckscc.gov.uk/mgMemberIndex.aspx?FN=GROUPING&VW=TABLE&PIC=1,2017-07-13
-2,Cambridgeshire,C1,LC,61,CON,CON,36,7,15,0,0,0,0,3,0,,,https://cmis.cambridgeshire.gov.uk/ccc_live/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-3,Cumbria,C1,LC,84,NOC,LAB/LD,37,26,16,0,0,0,0,5,0,,"2x West Cumbria Independent Group, 4x Independent Group, 2x Independents",http://councilportal.cumbria.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-4,Derbyshire,C1,LC,64,CON,CON,37,24,3,0,0,0,0,0,0,,,http://www.derbyshire.gov.uk/council/councillors/,2017-07-13
-5,Devon,C1,LC,60,CON,CON,42,7,7,1,0,0,0,3,0,,,http://democracy.devon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-6,Dorset,C1,LC,46,CON,CON,32,1,11,2,0,0,0,0,0,,,http://dorset.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-7,"East Sussex",C1,LC,50,CON,CON,30,4,11,0,0,0,0,5,0,,,https://democracy.eastsussex.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-8,Essex,C1,LC,75,CON,CON,56,6,7,1,0,0,0,5,0,,,http://cmis.essexcc.gov.uk/essexcmis5/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-9,Gloucestershire,C1,LC,53,CON,CON,31,5,14,2,0,0,0,1,0,,"People Against Beaurocracy 1, Independent 1.",http://glostext.gloucestershire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-10,Hampshire,C1,LC,78,CON,CON,56,2,19,0,0,0,0,1,0,,,http://democracy.hants.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-11,Hertfordshire,C1,LC,78,CON,CON,51,9,18,0,0,0,0,0,0,,,https://cmis.hertfordshire.gov.uk/hertfordshire/CountyCouncillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-12,Kent,C1,LC,81,CON,CON,67,5,7,1,0,0,0,1,0,,,https://democracy.kent.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2017-07-13
-13,Lancashire,C1,LC,84,CON,CON,46,30,4,1,1,0,0,2,0,,,http://council.lancashire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2017-07-13
-14,Leicestershire,C1,LC,55,CON,CON,36,6,13,0,0,0,0,0,0,,,http://politics.leics.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-15,Lincolnshire,C1,LC,70,CON,CON,58,6,1,0,0,0,0,5,0,,,http://lincolnshire.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-16,Norfolk,C1,LC,84,CON,CON,55,17,11,0,0,0,0,1,0,,,http://norfolkcc.cmis.uk.com/norfolkcc/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-17,"North Yorkshire",C1,LC,72,CON,CON,55,4,3,0,0,0,0,10,0,,"NY Independents 9, Liberals 2, Independents 2",http://democracy.northyorks.gov.uk/Committees.aspx?councillors=1,2017-07-13
-18,Northamptonshire,C1,LC,57,CON,CON,43,12,2,0,0,0,0,0,0,,,https://cmis.northamptonshire.gov.uk/cmis5live/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-19,Nottinghamshire,C1,LC,66,NOC,CON/IND,31,23,1,0,0,0,0,11,0,,"5 Ashfield Independents, 1 Independent, 3 Mansfield Independent Forum, 1 Selston Independent",http://www.nottinghamshire.gov.uk/council-and-democracy/councillors/contact-a-councillor,2017-07-13
-20,Oxfordshire,C1,LC,63,NOC,CON/IND,31,14,13,0,0,0,0,5,0,,,http://mycouncil.oxfordshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2017-07-13
-21,Somerset,C1,LC,55,CON,CON,35,3,12,2,0,0,0,3,0,,,http://www1.somerset.gov.uk/council/councillors.asp,2017-07-13
-22,Staffordshire,C1,LC,62,CON,CON,50,10,0,0,0,0,0,1,1,,,http://moderngov.staffordshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-23,Suffolk,C1,LC,75,CON,CON,52,11,5,3,0,0,0,4,0,,,http://www.suffolk.gov.uk/council-and-democracy/councillors-and-elected-representatives/find-your-councillor/?ward=&party=&name=&action=SEARCH,2017-07-13
-24,Surrey,C1,LC,81,CON,CON,61,1,9,1,0,0,0,9,0,,"9 Residents Association, 8 LD & 1 GRN in Surrey Opposition Forum, 1 Independent",http://mycouncil.surreycc.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC1=&FN=,2017-07-13
-25,Warwickshire,C1,LC,57,CON,CON,36,10,7,2,0,0,0,2,0,,,https://democratic.warwickshire.gov.uk/cmis5/Councillors.aspx,2017-07-13
-26,"West Sussex",C1,LC,70,CON,CON,56,5,9,0,0,0,0,0,0,,,https://www.westsussex.gov.uk/location-directories/find-your-councillor/?Keyword=&Location=&politicalParty=,2017-07-13
-27,Worcestershire,C1,LC,57,CON,CON,40,10,3,2,0,0,0,2,0,,,http://worcestershire.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-28,Allerdale,D1,LC,56,NOC,LAB/IND,15,28,0,0,2,0,0,11,0,,,http://democracy.allerdale.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-29,Arun,D1,LC,54,CON,CON,44,1,5,0,1,0,0,3,0,,,http://www1.arun.gov.uk/cgi-bin/aruncllrs.pl?ward=all,2017-07-13
-30,Ashfield,D1,LC,35,LAB,LAB,4,22,0,0,0,0,0,9,0,,"Ashfield Independents 6, Selston Parish Independents 2, Independent 1",https://democracy.ashfield-dc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-31,Ashford,D1,LC,43,CON,CON,34,3,1,0,2,0,0,3,0,,"Ashford Independents 2, Independent 1",http://www.ashford.gov.uk/councillors,2017-07-13
-32,"Aylesbury Vale",D1,LC,59,CON,CON,42,2,9,0,0,0,0,4,2,,,http://www.aylesburyvaledc.gov.uk/councillors/?scmOverrideRecord=21R0112Cmk,2017-07-13
-33,Babergh,D1,AA,43,CON,CON,28,1,3,0,0,0,0,10,1,,"Jennie Jenkins CON ok",http://baberghmidsuffolk.moderngov.co.uk/mgMemberIndexGroup.aspx?bcr=1&g=bdcc&m=bdccw,2017-07-14
-34,Barrow-in-Furness,D1,LC,36,LAB,LAB,9,26,0,0,0,0,0,1,0,,,http://www.barrowbc.gov.uk/about-the-council/councillors/borough-councillors/,2017-07-13
-35,Bassetlaw,D1,LC,48,LAB,LAB,12,32,0,0,0,0,0,4,0,,,http://www.bassetlaw.gov.uk/everything-else/about-us/local-councillors/your-local-councillor.aspx,2017-07-13
-36,Blaby,D1,LC,39,CON,CON,29,6,4,0,0,0,0,0,0,,,http://w3.blaby.gov.uk/decision-making/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-37,Bolsover,D1,LC,37,LAB,LAB,0,32,0,0,0,0,0,5,0,,,http://www.bolsover.gov.uk/index.php/your-council/committee-governance-constitution,2017-07-13
-38,Boston,D1,LC,30,NOC,"CON min",13,2,0,0,9,0,0,6,0,,,http://moderngov.boston.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-39,Braintree,D1,LC,49,CON,CON,43,3,0,1,0,0,0,2,0,,"Halstead Residents Association 2",http://braintree.cmis.uk.com/braintree/Councillors.aspx,2017-07-13
-40,Breckland,D1,LC,49,CON,CON,41,2,0,0,4,0,0,2,0,,,http://democracy.breckland.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-41,Broadland,D1,LC,47,CON,CON,42,0,5,0,0,0,0,0,0,,,https://www.broadland.gov.uk/councillors/name,2017-07-13
-42,Bromsgrove,D1,LC,31,CON,CON,17,7,0,0,0,0,0,7,0,,"Independents 3, Wythall Residents Association 3",http://moderngovwebpublic.bromsgrove.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-43,Broxtowe,D1,LC,44,CON,CON,27,12,4,0,0,0,0,1,0,,"Pat Lally ok. Mia Kee ok.",https://www.broxtowe.gov.uk/about-the-council/councillors-committees/your-councillor/councillors-a-z/,2017-07-13
-44,Canterbury,D1,LC,39,CON,CON,30,4,3,0,2,0,0,0,0,,,http://democracy.canterbury.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-45,Charnwood,D1,LC,52,CON,CON,41,8,1,0,0,0,0,1,1,,,https://www.charnwood.gov.uk/councillors/all,2017-07-13
-46,Chelmsford,D1,LC,57,CON,CON,52,0,5,0,0,0,0,0,0,,,https://www.chelmsford.gov.uk/your-council/councillors-and-decision-making/councillors/find-a-councillor/view-chelmsford-city-councillors/?cord=DESC&cid=50eeb79d-c47e-472c-a05d-49a3d5c8792b&p=1,2017-07-13
-47,Chesterfield,D1,LC,48,LAB,LAB,0,37,8,0,1,0,0,1,1,,,http://chesterfield.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-48,Chichester,D1,LC,48,CON,CON,41,0,4,0,0,0,0,3,0,,,http://chichester.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-49,Chiltern,D1,LC,40,CON,CON,37,0,2,0,0,0,0,1,0,,,https://isa.chiltern.gov.uk/democracy/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-50,Christchurch,D1,AA,24,CON,CON,21,0,0,0,1,0,0,2,0,,,http://www.dorsetforyou.com/councillors/christchurch,2017-07-13
-51,"Copeland (M)",D1,MC,51,LAB,"IND Mayor",18,29,0,0,0,0,0,4,0,,,http://copeland.moderngov.co.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-07-13
-52,Corby,D1,AA,29,LAB,LAB,5,24,0,0,0,0,0,0,0,,,http://www.corby.gov.uk/home/council/council-democracy/councillors-information-advice/councillors,2017-07-13
-53,Cotswold,D1,LC,34,CON,CON,22,0,12,0,0,0,0,0,0,,,http://www.cmis.cotswold.gov.uk/cmis5/People/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-54,Dacorum,D1,LC,51,CON,CON,44,2,4,0,0,0,0,1,0,,,https://democracy.dacorum.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-55,Dartford,D1,LC,44,CON,CON,34,7,0,0,0,0,0,3,0,,"Swanscombe and Greenhithe Residents Association 3",http://committeedmz.dartford.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2017-07-13
-56,"Derbyshire Dales",D1,AA,39,CON,CON,29,5,3,0,0,0,0,2,0,,,http://www.derbyshiredales.gov.uk/your-council/councillors/by-ward,2017-07-13
-57,Dover,D1,LC,45,CON,CON,25,18,0,0,2,0,0,0,0,,,http://moderngov.dover.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-58,"East Cambridgeshire",D1,AA,39,CON,CON,36,0,2,0,0,0,0,1,0,"28 wards from 2019","28 wards from 2019",http://www.eastcambs.gov.uk/council-and-democracy/search-for-councillors,2017-07-13
-59,"East Devon",D1,LC,59,CON,CON,35,0,7,0,0,0,0,17,0,,"Independent Group 15, Independent 1",http://eastdevon.gov.uk/council-and-democracy/councillors/,2017-07-13
-60,"East Dorset",D1,AA,29,CON,CON,26,0,3,0,0,0,0,0,0,,,http://moderngoveddc.christchurchandeastdorset.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-61,"East Hampshire",D1,LC,44,CON,CON,44,0,0,0,0,0,0,0,0,,,http://easthants.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-62,"East Hertfordshire",D1,LC,50,CON,CON,48,0,0,0,0,0,0,2,0,,,http://democracy.eastherts.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-63,"East Lindsey",D1,LC,55,CON,CON,34,4,1,0,6,0,0,10,0,,"Independent Group 8",https://democracy.e-lindsey.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-64,"East Northamptonshire",D1,AA,40,CON,CON,36,1,0,0,0,0,0,3,0,,,http://www.east-northamptonshire.gov.uk/councillors/name,2017-07-13
-65,"East Staffordshire",D1,LC,39,CON,CON,26,12,1,0,0,0,0,0,0,,,http://www.eaststaffsbc.gov.uk/council-democracy/councillors,2017-07-13
-66,Eastbourne,D1,LC,27,LD,LD,8,0,18,0,0,0,0,1,0,,,http://www.eastbourne.gov.uk/about-the-council/councillors-and-committees/find-a-councillor/,2017-07-13
-67,Eastleigh,D1,LC,44,LD,LD,5,0,39,0,0,0,0,0,0,"39 wards from 2018","39 wards from 2018",http://www.eastleigh.gov.uk/meetings/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-68,Eden,D1,LC,38,CON,CON,20,0,7,0,0,0,0,10,1,,,https://democracy.eden.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-69,"Epsom and Ewell",D1,AA,38,IND,IND,4,3,0,0,0,0,0,31,0,,"Residents Association 31",https://democracy.epsom-ewell.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-70,Erewash,D1,LC,47,CON,CON,30,17,0,0,0,0,0,0,0,,,http://moderngov.erewash.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-71,Fenland,D1,LC,39,CON,CON,34,0,2,0,0,0,0,3,0,,,http://www.fenland.gov.uk/egenda/main.pl?op=ListCurrentMembers,2017-07-13
-72,"Forest Heath",D1,AA,27,CON,CON,19,0,0,0,3,0,0,4,1,,"West Suffolk Independents 4, Ind 1",https://democracy.westsuffolk.gov.uk/mgMemberIndexGroup.aspx?bcr=1&G=FHDC&M=DHDC,2017-07-14
-73,"Forest of Dean",D1,LC,48,NOC,"CON min",20,9,0,3,5,0,0,11,0,,,http://meetings.fdean.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-74,Fylde,D1,LC,51,CON,CON,32,1,2,0,0,0,0,16,0,,"Ratepayers 1, Non-aligned 2, Independents 12",https://fylde.cmis.uk.com/fylde/CouncillorsandMP.aspx,2017-07-13
-75,Gedling,D1,LC,41,LAB,LAB,15,25,1,0,0,0,0,0,0,,,https://democracy.gedling.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-76,Gloucester,D1,LC,39,CON,CON,22,10,7,0,0,0,0,0,0,,,http://democracy.gloucester.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-77,Gravesham,D1,LC,44,CON,CON,24,20,0,0,0,0,0,0,0,,,https://democracy.gravesham.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-07-13
-78,Guildford,D1,LC,48,CON,CON,34,2,9,0,0,0,0,3,0,,"Guildford Greenbelt Group 3",http://www2.guildford.gov.uk/councilmeetings/mgMemberIndex.aspx?bcr=1,2017-07-13
-79,Hambleton,D1,LC,28,CON,CON,27,0,0,0,1,0,0,0,0,,,http://democracy.hambleton.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-80,Harborough,D1,LC,37,CON,CON,29,0,8,0,0,0,0,0,0,,,http://cmispublic.harborough.gov.uk/cmis5/Councillors.aspx,2017-07-13
-81,Harrogate,D1,LC,54,CON,CON,36,0,10,0,0,0,0,7,1,,"Manual. Harrogate Independent Group 5, Independent Group 2",https://localdemocracy.harrogate.gov.uk/political.asp,2017-07-14
-82,Hastings,D1,LC,32,LAB,LAB,8,23,0,0,0,0,0,1,0,,,http://hastings.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-83,Hertsmere,D1,LC,39,CON,CON,36,2,0,0,0,0,0,1,0,,,http://www5.hertsmere.gov.uk/democracy/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-84,"High Peak",D1,LC,43,CON,CON,23,17,2,0,0,0,0,1,0,,,https://democracy.highpeak.gov.uk/mgMemberIndexGroup.aspx?g=HPCLLRS&m=hpcllrs,2017-07-13
-85,"Hinckley & Bosworth",D1,LC,34,CON,CON,21,1,12,0,0,0,0,0,0,,,http://moderngov.hinckley-bosworth.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-86,Horsham,D1,LC,44,CON,CON,38,0,4,0,0,0,0,2,0,,,http://horsham.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-87,Huntingdonshire,D1,LC,52,CON,CON,32,2,6,0,3,0,0,9,0,,"Independents 8, Independent Conservative 1",http://applications.huntingdonshire.gov.uk/moderngov/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-88,Kettering,D1,LC,36,CON,CON,26,7,1,0,0,0,0,2,0,,,http://www.kettering.gov.uk/councillors/name,2017-07-13
-89,"King's Lynn and West Norfolk",D1,LC,62,CON,CON,49,7,0,0,0,0,0,5,1,,"Marg Wilkinson still LAB (lack of parish area for Gary Howman throwing it off)",http://democracy.west-norfolk.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-14
-90,Lancaster,D1,LC,60,NOC,"LAB min",18,30,0,7,0,0,0,4,1,,"Morcambe Bay Independents 2, Free Independents 1, Independent 1",http://committeeadmin.lancaster.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-91,Lewes,D1,LC,41,CON,CON,22,0,11,2,0,0,0,5,1,,,https://lewes.cmis.uk.com/CMIS5/,2017-07-13
-92,Lichfield,D1,LC,47,CON,CON,42,4,1,0,0,0,0,0,0,,,https://www.lichfielddc.gov.uk/Council/Councillors/District-councillors/Find-my-councillor.aspx,2017-07-13
-93,Maldon,D1,LC,31,CON,CON,27,0,0,0,1,0,0,3,0,,,https://democracy.maldon.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2017-07-13
-94,"Malvern Hills",D1,LC,38,CON,CON,23,0,5,3,0,0,0,7,0,,,http://moderngov.malvernhills.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=3,2017-07-13
-95,"Mansfield (M)",D1,MC,36,NOC,"IND Mayor",1,17,0,0,2,0,0,16,0,,"Mansfield Independent Forum 16, Indpendent 1",http://www.mansfield.gov.uk/cmadexternal/councillorslist.aspx,2017-07-13
-96,Melton,D1,AA,28,CON,CON,26,1,0,0,0,0,0,1,0,,,http://www.melton.gov.uk/councillors/name,2017-07-13
-97,Mendip,D1,LC,47,CON,CON,32,0,10,3,0,0,0,2,0,,,http://www.mendip.gov.uk/contactacouncillor,2017-07-13
-98,"Mid Devon",D1,LC,42,CON,CON,28,0,5,0,1,0,0,8,0,,"Independents 6, Liberal Party 1",https://democracy.middevon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-99,"Mid Suffolk",D1,LC,40,CON,CON,28,0,4,6,0,0,0,2,0,,,http://apps.midsuffolk.gov.uk/cmiswebpublic/Members.aspx,2017-07-13
-100,"Mid Sussex",D1,LC,54,CON,CON,53,0,1,0,0,0,0,0,0,,,http://mid-sussex.cmis.uk.com/Mid-Sussex/Councillors/FindMyCouncillorAlphabetically.aspx,2017-07-13
-101,"New Forest",D1,LC,60,CON,CON,58,0,2,0,0,0,0,0,0,,,https://democracy.newforest.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-102,"Newark & Sherwood",D1,LC,39,CON,CON,24,12,0,0,0,0,0,3,0,,,http://www.newark-sherwooddc.gov.uk/councillors/,2017-07-13
-103,Newcastle-under-Lyme,D1,LC,60,NOC,"LAB min",21,26,3,0,2,0,0,8,0,,"Borough Independent Group 4, Newcastle Independent Group 2",http://moderngov.newcastle-staffs.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-104,"North Devon",D1,LC,43,NOC,"CON min",20,0,12,0,0,0,0,11,0,,,http://www.northdevon.gov.uk/index/lgcl_council_government_and_democracy/lgcl_political_structure/nonlgcl_councillors.htm,2017-07-13
-105,"North Dorset",D1,LC,33,CON,CON,28,0,3,0,0,0,0,1,1,,,http://moderngovdcp.dorsetforyou.gov.uk/mgMemberIndexGroup.aspx?g=NDDC&m=NDDC,2017-07-13
-106,"North East Derbyshire",D1,LC,53,LAB,LAB,18,33,1,0,0,0,0,1,0,,Manual,http://www.ne-derbyshire.gov.uk/,2017-07-13
-107,"North Kesteven",D1,LC,43,CON,CON,28,0,0,0,0,0,0,15,0,,"Lincolnshire Independents NK 8, Hykeham Independents 2, Skellingthorpe Independent Group 2, Independent 1, NK Independent 1",https://nkdc.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-108,"North Norfolk",D1,LC,48,CON,CON,31,0,16,0,0,0,0,1,0,,,http://www.north-norfolk.gov.uk/apps/councillors/byname.asp,2017-07-13
-109,"North Warwickshire",D1,AA,35,CON,CON,21,13,0,0,0,0,0,1,0,,,https://www.northwarks.gov.uk/councillors/name,2017-07-14
-110,"North West Leicestershire",D1,LC,38,CON,CON,25,9,1,0,0,0,0,3,0,,"Susan McKendrick LAB->IND",http://minutes-1.nwleics.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-111,Northampton,D1,LC,45,CON,CON,25,17,3,0,0,0,0,0,0,,,http://www.northamptonboroughcouncil.com/councillors/mgMemberIndex.asp?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-112,"Oadby & Wigston",D1,AA,26,LD,LD,5,1,19,0,0,0,0,1,0,,,http://moderngov.oadby-wigston.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-113,Purbeck,D1,AA,25,CON,CON,20,0,4,0,0,0,0,1,0,,,https://www.dorsetforyou.com/politicalcomposition/purbeck,2017-07-13
-114,"Ribble Valley",D1,AA,40,CON,CON,35,1,4,0,0,0,0,0,0,,,https://www.ribblevalley.gov.uk/councillors/name,2017-07-13
-115,Richmondshire,D1,LC,34,CON,CON,22,0,1,0,0,0,0,10,1,,"Independents 5, Richmondshire Independents 5, Independent 1",http://www.richmondshire.gov.uk/council-democracy/councillors-committees/councillors-information,2017-07-13
-116,Rother,D1,LC,38,CON,CON,31,0,3,0,0,0,0,4,0,,"Association of Independents 3, Independent 2",http://www.rother.gov.uk/index.cfm?articleid=179,2017-07-13
-117,Rushcliffe,D1,LC,44,CON,CON,34,4,2,2,0,0,0,2,0,,,http://www.rushcliffe.gov.uk/councillors/councillorsbyname/,2017-07-13
-118,Ryedale,D1,AA,30,NOC,"CON min",13,0,2,0,0,0,0,15,0,,"Independents 8, Liberal Party 4, Independent Group 3",http://democracy.ryedale.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-119,Scarborough,D1,LC,50,NOC,"CON min",25,13,0,2,5,0,0,4,1,,,http://democracy.scarborough.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-120,Sedgemoor,D1,LC,48,CON,CON,35,10,1,0,2,0,0,0,0,,"Smedley LAB ok",http://www.sedgemoor.gov.uk/councillors,2017-07-13
-121,Selby,D1,LC,31,CON,CON,22,7,0,0,0,0,0,2,0,,,http://www.selby.gov.uk/councillors,2017-07-13
-122,Sevenoaks,D1,LC,54,CON,CON,47,1,2,0,2,0,0,1,1,,"54 total checked",http://cds.sevenoaks.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-123,Shepway,D1,LC,30,CON,CON,22,0,0,0,6,0,0,1,1,,,http://www.shepway.gov.uk/moderngov/mgMemberIndex.aspx?bcr=1,2017-07-13
-124,"South Bucks",D1,LC,28,CON,CON,27,0,0,0,0,0,0,1,0,,,http://sbdc-spider2.southbucks.gov.uk/democracy/mgMemberIndex.aspx?bcr=1,2017-07-13
-125,"South Cambridgeshire",D1,LC,57,CON,CON,36,1,14,0,0,0,0,6,0,,"Independent Group 5, Independent 1",http://scambs.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-126,"South Derbyshire",D1,AA,36,CON,CON,24,12,0,0,0,0,0,0,0,,,http://south-derbys.cmis.uk.com/south-derbys/Councillors.aspx,2017-07-13
-127,"South Hams",D1,LC,31,CON,CON,24,0,5,2,0,0,0,0,0,,"Huntley ok",http://old.southhams.gov.uk/article/2239/Councillors,2017-07-13
-128,"South Holland",D1,LC,37,CON,CON,27,0,0,0,2,0,0,7,1,,,https://democracy.sholland.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-129,"South Kesteven",D1,LC,56,CON,CON,42,3,0,0,0,0,0,11,0,,"SKDC Independents 4, Unaligned 1",http://moderngov.southkesteven.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2017-07-13
-130,"South Lakeland",D1,LC,51,LD,LD,16,2,32,0,0,0,0,1,0,,,http://democracy.southlakeland.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-131,"South Norfolk",D1,LC,46,CON,CON,40,0,6,0,0,0,0,0,0,,"Manual (AJAX)",http://www.south-norfolk.gov.uk/your-councillors,2017-07-13
-132,"South Northamptonshire",D1,LC,42,CON,CON,35,0,4,0,0,0,0,3,0,,,http://modgov.southnorthants.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-133,"South Oxfordshire",D1,LC,36,CON,CON,33,1,1,0,0,0,0,1,0,,"Henley Residents 1",http://democratic.southoxon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-14
-134,"South Ribble",D1,LC,50,CON,CON,28,18,3,0,0,0,0,1,0,,"Independent Conservative",http://egenda.southribble.gov.uk/akssribble/users/public/admin/main.pl?op=ListCurrentMembers,2017-07-13
-135,"South Somerset",D1,LC,60,NOC,"LD min",26,0,30,0,0,0,0,4,0,,,http://www.southsomerset.gov.uk/councillors-and-democracy/councillors/,2017-07-13
-136,"South Staffordshire",D1,LC,49,CON,CON,43,1,0,0,1,0,0,4,0,,,https://services.sstaffs.gov.uk/cmis/Councillors.aspx,2017-07-13
-137,Spelthorne,D1,LC,39,CON,CON,31,1,3,0,0,0,0,4,0,,,http://democracy.spelthorne.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-138,"St Edmundsbury",D1,LC,45,CON,CON,33,2,0,1,5,0,0,3,1,,,https://democracy.westsuffolk.gov.uk/mgMemberIndexGroup.aspx?bcr=1&G=SEBC&M=DHDC,2017-07-13
-407,Stafford,D1,LC,40,CON,CON,30,7,0,0,0,0,0,3,0,,,http://www.staffordbc.gov.uk/DemServCouncillors,2017-07-14
-139,"Staffordshire Moorlands",D1,LC,56,CON,CON,34,7,2,0,2,0,0,10,1,,"Independents 8, Moorlands Democratic Alliance 2, Non-aligned 1",https://democracy.staffsmoorlands.gov.uk/mgMemberIndexGroup.aspx?g=smcllrs&m=smcllrs,2017-07-13
-140,Stratford-on-Avon,D1,LC,36,CON,CON,30,1,4,0,0,0,0,1,0,,,https://democracy.stratford.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-141,"Suffolk Coastal",D1,LC,42,CON,CON,37,1,2,0,0,0,0,2,0,,,http://www.eastsuffolk.gov.uk/yourcouncil/councillors/suffolk-coastal-district-councillors/,2017-07-13
-142,"Surrey Heath",D1,LC,40,CON,CON,36,1,1,0,0,0,0,2,0,,,http://surreyheath.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-143,Swale,D1,LC,47,CON,CON,32,4,0,0,8,0,0,2,1,,,http://services.swale.gov.uk/meetings/mgMemberIndex.aspx?bcr=1,2017-07-13
-144,"Taunton Deane",D1,LC,56,CON,CON,33,2,15,0,1,0,0,5,0,,,http://www1.tauntondeane.gov.uk/tdbcsites/tdbcagendas/AllMembers.aspx,2017-07-14
-145,Teignbridge,D1,LC,46,CON,CON,26,0,15,0,0,0,0,5,0,,,https://www.teignbridge.gov.uk/council-and-democracy/district-councillors/teignbridge-councillors/,2017-07-13
-146,Tendring,D1,LC,60,NOC,CON/IND,28,5,1,0,13,0,0,13,0,,"Holland-on-Sea Residents Association 3, Tendring First 1, Independents 6, English Democrats 1 (Alex Porter)",http://tdcdemocracy.tendringdc.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-147,"Test Valley",D1,LC,48,CON,CON,37,0,9,0,0,0,0,2,0,,,http://testvalley.cmis.uk.com/testvalleypublic/ElectedRepresentatives/tabid/63/ScreenMode/Alphabetical/Default.aspx#MemberSectionA,2017-07-13
-148,Tewkesbury,D1,LC,38,CON,CON,33,0,2,0,0,0,0,3,0,,,http://minutes.tewkesbury.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2017-07-13
-149,Thanet,D1,LC,56,NOC,"UKIP min",20,5,0,0,28,0,0,2,1,,"Democratic Independent 2, Independent 1",http://democracy.thanet.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-150,"Tonbridge & Malling",D1,LC,54,CON,CON,48,0,4,0,0,0,0,2,0,,,https://democracy.tmbc.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-151,Torridge,D1,AA,36,CON,CON,19,1,2,2,4,0,0,8,0,,,https://democracy.torridge.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-152,Uttlesford,D1,LC,39,CON,CON,24,0,4,0,0,0,0,11,0,,"Residents for Uttlesford 9, Independent 1",https://uttlesford.cmis.uk.com/uttlesford/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-153,"Vale of White Horse",D1,LC,38,CON,CON,29,0,9,0,0,0,0,0,0,,,http://democratic.whitehorsedc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-154,Warwick,D1,LC,46,CON,CON,30,9,2,1,0,0,0,3,1,,"CON defended Myton & Heathcote 1 Dec, Whitnash Residents Association 3. CON hold 16-12-01",https://estates4.warwickdc.gov.uk/cmis/CouncillorsAtoZ/tabid/39/ScreenMode/Ward/Default.aspx,2017-07-13
-155,Waveney,D1,LC,48,CON,CON,26,17,0,1,0,0,0,3,1,,,http://www.eastsuffolk.gov.uk/yourcouncil/councillors/waveney-district-councillors/,2017-07-13
-156,Waverley,D1,LC,57,CON,CON,51,0,0,0,0,0,0,6,0,,"Farnham Residents 5, Independent 1",https://modgov.waverley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-157,Wealden,D1,LC,55,CON,CON,48,0,1,0,0,0,0,5,1,"45 wards from 2019","45 wards from May 2019. Independent Democrats 4, Independent 1",http://council.wealden.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-158,Wellingborough,D1,AA,36,CON,CON,27,9,0,0,0,0,0,0,0,,,http://www.wellingborough.gov.uk/councillors/name,2017-07-13
-159,"West Devon",D1,AA,31,CON,CON,21,0,0,0,0,0,0,10,0,,,http://old.westdevon.gov.uk/article/2499/Councillors,2017-07-13
-404,"West Dorset",D1,LC,42,CON,CON,30,0,12,0,0,0,0,0,0,,,https://www.dorsetforyou.gov.uk/councillors/west,2017-07-13
-160,"West Lindsey",D1,AA,36,CON,CON,23,3,7,0,0,0,0,2,1,,"Independent 1, Lincolnshire Independent 1",https://www.west-lindsey.gov.uk/my-council/my-councillors/councillor-pages-and-declaration-of-interests/,2017-07-13
-161,"West Somerset",D1,LC,28,CON,CON,20,1,1,0,4,0,0,2,0,,,http://www.westsomersetonline.gov.uk/Council---Democracy/Councillors/Find-a-Councillor,2017-07-13
-162,Wychavon,D1,LC,45,CON,CON,40,0,5,0,0,0,0,0,0,,,http://mgov.wychavon.gov.uk/modern.gov/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-163,Wycombe,D1,LC,60,CON,CON,49,6,1,0,0,0,0,4,0,,,https://councillors.wycombe.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-164,Wyre,D1,LC,50,CON,CON,37,12,0,0,0,0,0,0,1,,,http://www.wyre.gov.uk/councillors/name,2017-07-13
-165,Adur,D2,LC,29,CON,CON,16,3,0,0,7,0,0,3,0,,"Middlesbrough Independent Councillors Association 4, Independents 4, Marton Independent Group 2. Jacob Young CON, Lewis Young LAB",https://www.adur-worthing.gov.uk/councillors-and-mps/councillors-adur/,2017-07-14
-166,Cheltenham,D2,LC,40,LD,LD,7,0,29,0,0,0,0,4,0,,"People Against Bureaucracy Action Group 3, Independent 1",https://democracy.cheltenham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-189,Fareham,D2,LC,31,CON,CON,25,0,4,0,1,0,0,1,0,,,http://moderngov.fareham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2017-07-13
-167,Gosport,D2,AA,34,CON,CON,21,4,9,0,0,0,0,0,0,,,https://www.gosport.gov.uk/sections/democratic-services/councillor-details/,2017-07-13
-168,"Nuneaton & Bedworth",D2,LC,34,LAB,LAB,8,24,0,2,0,0,0,0,0,,,https://www.nuneatonandbedworth.gov.uk/councillors/name,2017-07-13
-169,Oxford,D2,LC,48,LAB,LAB,0,35,8,4,0,0,0,1,0,,,http://mycouncil.oxford.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-170,"Amber Valley",D3,LC,45,CON,CON,23,22,0,0,0,0,0,0,0,,Manual,"http://www.ambervalley.gov.uk/council-and-democracy/councillors,-democracy-and-elections/borough-councillor-lookup.aspx",2017-07-13
-171,Basildon,D3,LC,42,NOC,UKI/LAB/IND,19,9,0,0,10,0,0,4,0,,"Wickford Independents 2, Independentce from the EU 2",http://www.basildonmeetings.info/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-172,"Basingstoke & Deane",D3,LC,60,CON,CON,33,20,6,0,0,0,0,1,0,,"Independent Forum 2",https://democracy.basingstoke.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-173,Brentwood,D3,AA,37,CON,CON,24,2,10,0,0,0,0,1,0,,Manual,http://brentwood.moderngov.co.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=ALPHA,2017-07-13
-174,Broxbourne,D3,LC,30,CON,CON,27,2,0,0,1,0,0,0,0,,,http://www.broxbourne.gov.uk/council-councillors/councillors,2017-07-13
-175,Burnley,D3,LC,45,LAB,LAB,4,27,10,0,1,0,0,3,0,,,http://www.burnley.gov.uk/about-council/your-councillors-executive/your-councillor,2017-07-13
-176,Cambridge,D3,LC,42,LAB,LAB,0,26,13,1,0,0,0,2,0,,,http://democracy.cambridge.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-177,"Cannock Chase",D3,LC,41,LAB,LAB,12,21,1,1,3,0,0,2,1,,,http://www.cannockchasedc.gov.uk/council/about-council/your-councillors,2017-07-13
-178,Carlisle,D3,LC,52,NOC,"LAB min",21,26,1,0,0,0,0,4,0,,,http://cmis.carlisle.gov.uk/cmis/CarlisleCityCouncillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-179,"Castle Point",D3,LC,41,CON,CON,23,0,0,0,2,0,0,16,0,,,https://www.castlepoint.gov.uk/councillors,2017-07-13
-180,Cherwell,D3,LC,48,CON,CON,38,8,0,0,0,0,0,2,0,,,http://modgov.cherwell.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-181,Chorley,D3,LC,47,LAB,LAB,14,30,0,0,0,0,0,3,0,,"National Health Action Party 1, Independent Group 2",https://democracy.chorley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-182,Colchester,D3,LC,51,NOC,LD/LAB/IND,22,11,14,0,0,0,0,3,1,,"Highwoods and Stanway Independent Group 3",http://colchester.cmis.uk.com/colchester/Councillors.aspx,2017-07-14
-183,Craven,D3,AA,30,CON,CON,17,3,1,1,1,0,0,7,0,,,http://www.cravendc.gov.uk/article/387/List-of-Councillors/,2017-07-13
-184,Crawley,D3,LC,37,LAB,LAB,17,20,0,0,0,0,0,0,0,,"Lisa Vitler is CON",http://www.crawley.gov.uk/pw/Council_Services_and_Democracy/Councillors__MPs_and_Mayor/WardCouncillors/index.htm,2017-07-13
-185,Daventry,D3,AA,36,CON,CON,30,3,1,0,2,0,0,0,0,,,http://cmis.daventrydc.gov.uk/daventry/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-186,Elmbridge,D3,LC,48,NOC,IND/LD,21,0,8,0,0,0,0,19,0,,"Molesey Residents 6, Thames Ditton & Weston Green Residents' Association 4, The Walton Society 3, Hersham Village Society 2, Hinchley Wood Residents' Association 2, Esher Residents Association 1, Weybridge & St. George's Independents 1",http://mygov.elmbridge.gov.uk/mgMemberIndex.aspx?FN=ALPHA,2017-07-13
-187,"Epping Forest",D3,LC,58,CON,CON,35,0,3,2,1,0,0,17,0,,"Lesley Wagland 22/12/2016. Loughton Residents Association 13, Independent 3",http://rds.eppingforestdc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-188,Exeter,D3,LC,39,LAB,LAB,8,29,1,1,0,0,0,0,0,,,http://committees.exeter.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-190,"Great Yarmouth",D3,LC,39,NOC,CON/UKIP,14,11,0,0,12,0,0,2,0,,,https://great-yarmouth.cmis.uk.com/great-yarmouth/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-191,Harlow,D3,AA,33,LAB,LAB,12,19,0,0,2,0,0,0,0,,,http://moderngov.harlow.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-192,Hart,D3,LC,33,NOC,IND/LD,14,0,8,0,0,0,0,11,0,,"Community Campaign Hart 10, Independent 1",http://www.hart.gov.uk/district-councillors,2017-07-13
-193,Havant,D3,LC,38,CON,CON,29,2,1,0,4,0,0,2,0,,,http://havant.moderngov.co.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-07-13
-194,Hyndburn,D3,LC,35,LAB,LAB,7,26,0,0,2,0,0,0,0,,,https://democracy.hyndburnbc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-195,Ipswich,D3,LC,48,LAB,LAB,13,33,2,0,0,0,0,0,0,,,https://democracy.ipswich.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-196,Lincoln,D3,LC,33,LAB,LAB,6,26,0,0,0,0,0,1,0,,,http://democratic.lincoln.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-14
-197,Maidstone,D3,LC,55,NOC,"LD min",23,2,22,0,4,0,0,4,0,,,https://services.maidstone.gov.uk/meetings/mgMemberIndex.aspx?bcr=1,2017-07-13
-198,"Mole Valley",D3,LC,41,CON,CON,21,0,13,0,0,0,0,7,0,,"Beare Green Independents 1",http://www.molevalley.gov.uk/index.cfm?articleid=17184,2017-07-14
-199,"North Hertfordshire",D3,LC,49,CON,CON,34,12,3,0,0,0,0,0,0,,,http://web.north-herts.gov.uk/aksnherts/users/public/admin/main.pl?op=ListCurrentMembers,2017-07-13
-200,Norwich,D3,LC,39,LAB,LAB,0,26,3,10,0,0,0,0,0,,,https://cmis.norwich.gov.uk/live/Councillors.aspx,2017-07-13
-201,Pendle,D3,LC,49,NOC,LAB/LD,23,15,9,0,0,0,0,2,0,,"BNP 1",http://www.pendle.gov.uk/councillors/name,2017-07-13
-202,Preston,D3,LC,57,LAB,LAB,19,33,5,0,0,0,0,0,0,,,http://preston.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-203,Redditch,D3,LC,29,LAB,LAB,13,15,0,0,1,0,0,0,0,,,http://moderngovwebpublic.redditchbc.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-204,"Reigate & Banstead",D3,LC,51,CON,CON,40,0,2,2,0,0,0,7,0,,"Residents' Associations 6, Independent 1",https://democracy.reigate-banstead.gov.uk/aksreigate/users/public/admin/main.pl?op=ListCurrentMembers,2017-07-13
-205,Rochford,D3,LC,39,CON,CON,21,0,4,3,4,0,0,7,0,,"Rochford District Residents 6, Rayleigh Independent 1",https://rochford.cmis.uk.com/rochford/Members/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-206,Rossendale,D3,LC,36,LAB,LAB,13,22,0,0,0,0,0,1,0,,"Community First 1",http://www.rossendale.gov.uk/councillors/name,2017-07-13
-207,Rugby,D3,LC,42,CON,CON,23,9,8,0,0,0,0,2,0,,,https://www.rugby.gov.uk/councillors/name,2017-07-13
-208,Runnymede,D3,AA,42,CON,CON,36,0,0,0,0,0,0,6,0,,"Runnymede Independent Residents Group 6",https://www.runnymede.gov.uk/article/4744/Councillors,2017-07-13
-209,Rushmoor,D3,LC,39,CON,CON,26,11,0,0,2,0,0,0,0,,,http://www.rushmoor.gov.uk/councillors,2017-07-14
-210,"St Albans",D3,LC,58,CON,CON,31,7,17,1,0,0,0,2,0,,,http://stalbans.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-211,Stevenage,D3,LC,39,LAB,LAB,8,28,3,0,0,0,0,0,0,,,http://www.stevenage.gov.uk/about-the-council/councillors-and-democracy/local-councillors/,2017-07-13
-212,Stroud,D3,LC,51,NOC,LAB/GRN/LD,22,18,2,8,0,0,0,1,0,,"Studdert Non aligned CON (IND)",https://www.stroud.gov.uk/council-and-democracy/your-councillors/your-councillors-by-name,2017-07-13
-213,Tamworth,D3,LC,30,CON,CON,20,7,0,0,3,0,0,0,0,,,http://democracy.tamworth.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&,2017-07-13
-214,Tandridge,D3,AA,42,CON,CON,30,0,6,0,0,0,0,6,0,,"Independent 4, Oxted and Limpsfield Residents Group 2",http://www.councillors.tandridge.gov.uk/cmis5/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-215,"Three Rivers",D3,LC,39,LD,LD,16,3,20,0,0,0,0,0,0,,,http://www.threerivers.gov.uk/egcl-page/ward-councillors,2017-07-14
-216,"Tunbridge Wells",D3,LC,48,CON,CON,43,2,3,0,0,0,0,0,0,,,http://democracy.tunbridgewells.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-217,Watford,D3,MC,36,LD,LD,0,11,25,0,0,0,0,0,0,,,http://watford.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-218,"Welwyn Hatfield",D3,LC,48,CON,CON,27,16,5,0,0,0,0,0,0,,,http://www.welhat.gov.uk/members,2017-07-13
-219,"West Lancashire",D3,LC,54,LAB,LAB,21,31,0,0,0,0,0,2,0,,"Our West Lancashire 2",https://democracy.westlancs.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-220,"West Oxfordshire",D3,LC,49,CON,CON,40,4,5,0,0,0,0,0,0,,,http://cmis.westoxon.gov.uk/cmis/Councillors.aspx,2017-07-14
-221,"Weymouth & Portland",D3,AA,36,NOC,CON/LAB/LD/GRN/IND/U,14,12,5,2,1,0,0,2,0,,,http://moderngovdcp.dorsetforyou.gov.uk/mgMemberIndexGroup.aspx?g=WPBC&m=WPBC,2017-07-13
-222,Winchester,D3,LC,45,CON,CON,24,0,20,0,0,0,0,1,0,,,http://www.winchester.gov.uk/meetings/councillors?page=2,2017-07-13
-223,Woking,D3,LC,30,CON,CON,17,3,7,0,0,0,0,3,0,,,https://www.woking.gov.uk/council/councillors2,2017-07-13
-224,Worcester,D3,LC,35,NOC,CON/LAB/GRN,17,16,0,2,0,0,0,0,0,,,http://committee.cityofworcester.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-225,Worthing,D3,LC,37,CON,CON,30,0,2,1,2,0,0,1,1,,,https://www.adur-worthing.gov.uk/councillors-and-mps/councillors-worthing/,2017-07-13
-226,"Wyre Forest",D3,LC,33,CON,CON,21,4,2,0,0,0,0,6,0,,"Independents 3, Health Concern 2",http://www.wyreforestdc.gov.uk/the-council/councillors-committees-and-meetings/your-district-councillor.aspx,2017-07-13
-227,"Barking & Dagenham",L1,LC,51,LAB,LAB,0,49,0,0,0,0,0,2,0,,,http://moderngov.barking-dagenham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-228,Barnet,L1,LC,63,CON,CON,32,30,1,0,0,0,0,0,0,,,https://barnet.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-229,Bexley,L1,LC,63,CON,CON,45,15,0,0,3,0,0,0,0,,,http://democracy.bexley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-230,Brent,L1,LC,63,LAB,LAB,4,56,0,0,0,0,0,3,0,,"Brondesbury Park Conservative 3",http://democracy.brent.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-231,Bromley,L1,LC,60,CON,CON,51,7,0,0,2,0,0,0,0,,,http://cds.bromley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-232,Camden,L1,LC,54,LAB,LAB,11,39,1,1,0,0,0,2,0,,,http://democracy.camden.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-233,Croydon,L1,LC,70,LAB,LAB,30,38,0,0,0,0,0,1,1,,,https://www.croydon.gov.uk/democracy/elected/allcouncillors,2017-07-13
-234,Ealing,L1,LC,69,LAB,LAB,12,53,4,0,0,0,0,0,0,,,http://ealing.cmis.uk.com/ealing/Councillors.aspx,2017-07-13
-235,Enfield,L1,LC,63,LAB,LAB,22,40,0,0,0,0,0,1,0,,"Daniel Anderson ok.",https://governance.enfield.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-236,Greenwich,L1,LC,51,LAB,LAB,9,42,0,0,0,0,0,0,0,,,http://www.royalgreenwich.gov.uk/info/200033/councillors_democracy_and_elections/598/find_your_councillor,2017-07-13
-237,"Hackney (M)",L1,MC,57,LAB,"LAB Mayor",4,50,3,0,0,0,0,0,0,,,http://mginternet.hackney.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-238,"Hammersmith & Fulham",L1,LC,46,LAB,LAB,20,26,0,0,0,0,0,0,0,,,http://democracy.lbhf.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-239,Haringey,L1,LC,57,LAB,LAB,0,49,8,0,0,0,0,0,0,,,http://www.minutes.haringey.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-240,Harrow,L1,LC,63,LAB,LAB,27,33,1,0,0,0,0,2,0,,,http://www.harrow.gov.uk/www2/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2017-07-13
-241,Havering,L1,LC,54,NOC,CON/IND,22,2,0,0,6,0,0,24,0,,"Residents' Group 11, East Havering Residents' Group (in governing coalition) 8, Independent Residents 5",http://democracy.havering.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-242,Hillingdon,L1,LC,65,CON,CON,42,23,0,0,0,0,0,0,0,,,http://modgov.hillingdon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-243,Hounslow,L1,LC,60,LAB,LAB,11,48,0,0,0,0,0,1,0,,,http://democraticservices.hounslow.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-244,Islington,L1,LC,48,LAB,LAB,0,47,0,1,0,0,0,0,0,,,http://democracy.islington.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-245,"Kensington & Chelsea",L1,LC,50,CON,CON,37,11,2,0,0,0,0,0,0,,,https://www.rbkc.gov.uk/committees/Members/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-246,"Kingston upon Thames",L1,LC,48,CON,CON,27,2,18,0,0,0,0,1,0,,,https://moderngov.kingston.gov.uk/mgMemberIndex.aspx,2017-07-13
-247,Lambeth,L1,LC,63,LAB,LAB,3,58,0,1,0,0,0,1,0,,"Lead for Brixton 1, Independent Labour 1",https://moderngov.lambeth.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-248,"Lewisham (M)",L1,MC,54,LAB,"LAB Mayor",0,53,0,1,0,0,0,0,0,,,http://councilmeetings.lewisham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-249,Merton,L1,LC,60,LAB,LAB,20,35,1,0,0,0,0,3,1,,"Merton Park Ward Independent Residents 3",http://democracy.merton.gov.uk/mgMemberIndex.aspx?bcr=1&FN=GROUPING&VW=LIST&PIC=0,2017-07-13
-250,"Newham (M)",L1,MC,60,LAB,"LAB Mayor",0,59,0,0,0,0,0,1,0,,,https://mgov.newham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-251,Redbridge,L1,LC,63,LAB,LAB,24,36,3,0,0,0,0,0,0,,,http://moderngov.redbridge.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-252,"Richmond upon Thames",L1,LC,54,CON,CON,38,1,15,0,0,0,0,0,0,,,https://cabnet.richmond.gov.uk/mgMemberIndex.aspx,2017-07-13
-253,Southwark,L1,LC,63,LAB,LAB,2,48,13,0,0,0,0,0,0,,,http://moderngov.southwarksites.com/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode&,2017-07-13
-254,Sutton,L1,LC,54,LD,LD,8,0,44,0,0,0,0,2,0,,,https://moderngov.sutton.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-255,"Tower Hamlets (M)",L1,LC,45,NOC,"LAB Mayor",5,22,1,0,0,0,0,17,0,,"Independent group 9, Peoples Alliance of Tower Hamlets 5, Independents 3",http://democracy.towerhamlets.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-256,"Waltham Forest",L1,LC,60,LAB,LAB,16,43,0,0,0,0,0,1,0,,,http://walthamforest.moderngov.co.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2017-07-13
-257,Wandsworth,L1,LC,60,CON,CON,39,19,0,0,0,0,0,2,0,,"Wandsworth Independent Alliance 2",https://democracy.wandsworth.gov.uk/mgMemberIndex.aspx,2017-07-13
-258,Westminster,L1,LC,60,CON,CON,45,15,0,0,0,0,0,0,0,,"Gassanly is CON",http://committees.westminster.gov.uk/mgMemberIndex.aspx?bcr=11,2017-07-13
-259,Birmingham,M1,LC,120,LAB,LAB,29,80,10,0,0,0,0,1,0,"101 wards from 2018","101 wards from 2018",https://www.birmingham.gov.uk/councillors/name,2017-07-13
-260,"Doncaster (M)",M1,MC,55,LAB,"LAB Mayor",7,43,0,0,0,0,0,5,0,,"Mexborough First 3, Independent 1",http://doncaster.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-261,Leeds,M1,LC,99,LAB,LAB,19,60,9,3,0,0,0,8,0,,"Morley Borough Independents 5, Garforth and Swillington Independents",http://democracy.leeds.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-262,Manchester,M1,LC,96,LAB,LAB,0,94,1,0,0,0,0,0,1,,,http://www.manchester.gov.uk/site/custom_scripts/councillors/?cllr-type=all,2017-07-13
-263,"Newcastle upon Tyne",M1,LC,78,LAB,LAB,0,55,20,0,0,0,0,3,0,,,http://democracy.newcastle.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-278,Rotherham,M1,LC,63,LAB,LAB,0,48,1,0,13,0,0,1,0,,,http://www.rotherham.gov.uk/councillors/name,2017-07-13
-264,Barnsley,M3,LC,63,LAB,LAB,4,55,0,0,0,0,0,4,0,,"Barnsley Independent Group 4",http://barnsleymbc.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-265,Bolton,M3,LC,60,LAB,LAB,16,37,2,0,4,0,0,1,0,,,http://democracy.bolton.gov.uk/cmis5/People.aspx,2017-07-13
-266,Bradford,M3,LC,90,LAB,LAB,21,49,10,3,1,0,0,6,0,,"The Independents 2, Independents 3, Queensbury Ward Independents 2",https://bradford.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-07-13
-267,Bury,M3,LC,51,LAB,LAB,16,32,3,0,0,0,0,0,0,,,https://councildecisions.bury.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2017-07-13
-268,Calderdale,M3,LC,51,NOC,"LAB min",21,23,5,0,0,0,0,2,0,,,http://www.calderdale.gov.uk/council/councillors/councillors/search/browse.jsp,2017-07-13
-269,Coventry,M3,LC,54,LAB,LAB,14,39,0,0,0,0,0,1,0,,,http://www.coventry.gov.uk/councillors/name,2017-07-13
-270,Dudley,M3,LC,72,NOC,"CON min",29,35,0,0,8,0,0,0,0,,Manual,http://councillors.dudley.gov.uk/conservative/,2017-07-13
-271,Gateshead,M3,LC,66,LAB,LAB,0,54,12,0,0,0,0,0,0,,,http://democracy.gateshead.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-272,Kirklees,M3,LC,69,NOC,"LAB min",20,33,9,3,0,0,0,4,0,,"Valley Independents 3",http://democracy.kirklees.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-273,Knowsley,M3,LC,45,LAB,LAB,0,41,3,0,0,0,0,0,1,,,http://councillors.knowsley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-274,"Liverpool (M)",M3,MC,90,LAB,"LAB Mayor",0,80,4,4,0,0,0,2,0,,"Liberal Party 2",http://councillors.liverpool.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-275,"North Tyneside",M3,MC,60,LAB,LAB,7,51,2,0,0,0,0,0,0,,,http://my.northtyneside.gov.uk/category/312/councillors,2017-07-13
-276,Oldham,M3,LC,60,LAB,LAB,2,46,9,0,2,0,0,1,0,,,http://www.oldham.gov.uk/councillors/name,2017-07-13
-277,Rochdale,M3,LC,60,LAB,LAB,10,48,2,0,0,0,0,0,0,,,http://democracy.rochdale.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-279,"Salford (M)",M3,LC,60,LAB,"LAB Mayor",9,49,0,0,0,0,0,1,1,,,http://www.salford.gov.uk/your-council/councillors/councillors-by-name/,2017-07-13
-280,Sandwell,M3,LC,72,LAB,LAB,0,70,0,0,1,0,0,1,0,,,https://cmis.sandwell.gov.uk/cmis5/People/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-281,Sefton,M3,LC,66,LAB,LAB,6,38,16,0,0,0,0,6,0,,"Formby Residents Action Group 2, Independent 2, Conservative Independent 1",http://modgov.sefton.gov.uk/moderngov/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-282,Sheffield,M3,LC,84,LAB,LAB,0,56,20,4,4,0,0,0,0,,,http://sheffielddemocracy.moderngov.co.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-283,Solihull,M3,LC,51,CON,CON,32,1,6,10,2,0,0,0,0,,,http://eservices.solihull.gov.uk/mgInternet/mgMemberIndex.aspx?bcr=1,2017-07-13
-284,"South Tyneside",M3,LC,54,LAB,LAB,0,53,0,0,0,0,0,1,0,,"Independent Putting People First 1",https://portal.southtyneside.info/councillorsandcommittees/councillorlistbyname.aspx,2017-07-13
-285,"St Helens",M3,LC,48,LAB,LAB,3,42,3,0,0,0,0,0,0,,,http://moderngov.sthelens.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-286,Stockport,M3,LC,63,NOC,"LAB min",14,23,21,0,0,0,0,5,0,,"Independent Ratepayers 3, Independent 2",http://democracy.stockport.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-287,Sunderland,M3,LC,75,LAB,LAB,6,66,2,0,0,0,0,1,0,,,http://www.sunderland.gov.uk/committees/cmis5/Members.aspx,2017-07-13
-288,Tameside,M3,LC,57,LAB,LAB,6,51,0,0,0,0,0,0,0,,,http://public.tameside.gov.uk/forms/know_your_councillor.asp,2017-07-13
-289,Trafford,M3,LC,63,CON,CON,34,25,3,0,0,0,0,1,0,,,https://democratic.trafford.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-290,Wakefield,M3,LC,63,LAB,LAB,7,53,0,0,1,0,0,2,0,,,http://mg.wakefield.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-07-13
-291,Walsall,M3,LC,60,NOC,"LAB/LD min",25,28,2,0,3,0,0,2,0,,,https://cmispublic.walsall.gov.uk/cmis/Councillors.aspx,2017-07-13
-292,Wigan,M3,LC,75,LAB,LAB,5,65,0,0,0,0,0,5,0,,"Wigan Independent Network 2, Standish Independent 2, Independent 1",http://democracy.wigan.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-293,Wirral,M3,LC,66,LAB,LAB,21,39,5,1,0,0,0,0,0,,,http://democracy.wirral.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-294,Wolverhampton,M3,LC,60,LAB,LAB,10,49,0,0,1,0,0,0,0,,,http://wolverhampton.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-07-13
-1001,"Antrim and Newtownabbey",N1,,40,NOC,,0,0,0,0,0,0,0,0,1,,,http://www.antrimandnewtownabbey.gov.uk/Council/Your-Councillors?utm_source=PP&utm_medium=web&utm_campaign=Councillors&utm_content=9,2017-07-05
-1002,"Armagh City, Banbridge and Craigavon",N1,,41,NOC,,0,0,0,0,0,0,0,3,0,,"UKIP 1, Independent 1",https://www.armaghbanbridgecraigavon.gov.uk/council/find-a-councillor/,2017-07-05
-1003,Belfast,N1,,60,NOC,,0,0,0,1,0,0,0,6,1,,"People Before Profit Alliance 1, Independent 1",https://minutes3.belfastcity.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-05
-1004,"Causeway Coast and Glens",N1,,40,NOC,,0,0,0,0,0,0,0,2,0,,"Conservative 1, Independent 1",https://www.causewaycoastandglens.gov.uk/council/councillors,2017-07-05
-1005,"Derry and Strabane",N1,,40,NOC,,0,0,0,0,0,0,0,7,0,,"Independent 7",http://meetings.derrycityandstrabanedistrict.com/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-05
-1006,"Fermanagh and Omagh",N1,,40,NOC,,0,0,0,0,0,0,0,4,0,,,http://www.fermanaghomagh.com/your-council/councillors/,2017-07-05
-1007,"Lisburn and Castlereagh",N1,,40,NOC,,0,0,0,0,0,0,0,2,0,,,https://www.lisburncastlereagh.gov.uk/council/elected-members,2017-07-05
-1008,"Mid and East Antrim",N1,,40,NOC,,0,0,0,0,0,0,0,5,0,,"UKIP 2, Independent 3",https://www.midandeastantrim.gov.uk/council/councillors,2017-07-05
-1009,Mid-Ulster,N1,,40,NOC,,0,0,0,0,0,0,0,2,0,,,http://www.midulstercouncil.org/Council/Councillors,2017-07-05
-1010,"Newry, Mourne and Down",N1,,41,NOC,,0,0,0,0,0,0,0,5,0,,,http://www.newrymournedown.org/elected_members#prettyPhoto,2017-07-05
-1011,"North Down and Ards",N1,,40,NOC,,0,0,0,2,0,0,0,2,0,,,http://www.ardsandnorthdown.gov.uk/about-the-council/find-my-councillor/view-all,2017-07-05
-295,Aberdeen,S1,,45,NOC,CON/LAB/IND,11,9,3,0,0,0,19,3,0,,"Independent Alliance Group 3",http://committees.aberdeencity.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-296,Aberdeenshire,S1,,70,NOC,CON/LD/IND,22,1,14,1,0,0,21,10,1,,,http://committees.aberdeenshire.gov.uk/Committees.aspx?councillors=1,2017-07-13
-297,Angus,S1,,28,NOC,CON/IND/LD,8,0,2,0,0,0,9,9,0,,,https://www.angus.gov.uk/councillors,2017-07-13
-298,"Argyll & Bute",S1,,36,NOC,CON/LD/IND,9,0,6,0,0,0,11,10,0,,"Argyll First 3, Independents 18",https://www.argyll-bute.gov.uk/councillor_list,2017-07-13
-299,Clackmannanshire,S1,,18,NOC,"SNP min",5,5,0,0,0,0,8,0,0,,,http://www.clacks.gov.uk/council/wards/,2017-07-14
-300,"Dumfries & Galloway",S1,,43,NOC,LAB/SNP,16,11,1,0,0,0,11,4,0,,,http://egenda.dumgal.gov.uk/aksdumgal/users/public/admin/main.pl?op=ListCurrentMembers,2017-07-13
-301,Dundee,S1,,29,NOC,SNP/IND,3,9,2,0,0,0,14,1,0,,,https://www.dundeecity.gov.uk/councillors/cllorsurname/,2017-07-13
-302,"East Ayrshire",S1,,32,NOC,"SNP min",6,9,0,0,0,0,14,3,0,,,https://www.east-ayrshire.gov.uk/CouncilAndGovernment/About-the-Council/Councillors-and-Provost/YourCouncillor.aspx,2017-07-13
-303,"East Dunbartonshire",S1,,22,NOC,"SNP min",6,2,6,0,0,0,7,1,0,,"Gary Pews LD ok.",https://www.eastdunbarton.gov.uk/council/committees-councillors/councillors-2017,2017-07-13
-304,"East Lothian",S1,,22,NOC,"LAB min",7,9,0,0,0,0,6,0,0,,,http://www.eastlothian.gov.uk/councillors/name,2017-07-13
-305,"East Renfrewshire",S1,,18,NOC,SNP/LAB,7,4,0,0,0,0,5,2,0,,,http://www.eastrenfrewshire.gov.uk/councillors-democracy,2017-07-14
-306,Edinburgh,S1,,63,NOC,SNP/LAB,18,12,6,8,0,0,19,0,0,,,http://www.edinburgh.gov.uk/councillors/name,2017-07-13
-307,"Eilean Siar",S1,,31,IND,IND,2,0,0,0,0,0,7,22,0,,,http://www.cne-siar.gov.uk/members/,2017-07-13
-308,Falkirk,S1,,30,NOC,"SNP min",7,9,0,0,0,0,12,2,0,,,http://www.falkirk.gov.uk/services/council-democracy/councillors-decision-making/councillors/,2017-07-13
-309,Fife,S1,,75,NOC,SNP/LAB,15,25,7,0,0,0,28,0,0,,,http://www.fifedirect.org.uk/news/index.cfm?fuseaction=cllr.home,2017-07-13
-310,Glasgow,S1,,85,NOC,"SNP min",8,30,0,7,0,0,39,0,1,,,http://www.glasgow.gov.uk/councillorsandcommittees/allMembers.asp?sort=0&page=0&rec=78,2017-07-13
-311,Highland,S1,,74,NOC,IND/LD/LAB,10,3,10,1,0,0,22,28,0,,"Highland Alliance 6",http://www.highland.gov.uk/councillors/name,2017-07-13
-312,Inverclyde,S1,,22,NOC,"LAB min",2,8,1,0,0,0,7,4,0,,,http://www.inverclyde.gov.uk/meetings/councillors,2017-07-13
-313,Midlothian,S1,,18,NOC,"LAB min",5,7,0,0,0,0,6,0,0,,,https://midlothian.cmis.uk.com/Live/Councillors.aspx,2017-07-13
-314,Moray,S1,,26,NOC,CON/IND,8,1,0,0,0,0,9,7,1,,,http://www.moray.gov.uk/moray_standard/page_1247.html,2017-07-13
-315,"North Ayrshire",S1,,33,NOC,"LAB min",7,11,0,0,0,0,11,4,0,,,https://north-ayrshire.cmis.uk.com/North-Ayrshire/-ayrshire.cmis.uk.com/north-ayrshire/Councillors/CurrentCouncillors/tabid/98/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-316,"North Lanarkshire",S1,,77,NOC,"LAB min",9,32,0,0,0,0,33,2,1,,"Cumbernauld Independent Councillors Alliance 1, Independents 15",https://mars.northlanarkshire.gov.uk/egenda/public/main.pl?op=ListCurrentMembers,2017-07-13
-317,Orkney,S1,,21,IND,IND,0,0,0,0,0,0,0,21,0,,,http://www.orkney.gov.uk/Council/Councillors/councillor-profiles.htm,2017-07-13
-318,"Perth & Kinross",S1,,40,NOC,CON/LD/IND,17,1,4,0,0,0,15,3,0,,,https://perth-and-kinross.cmis.uk.com/perth-and-kinross/Councillors/OverviewofCouncillors.aspx,2017-07-13
-319,Renfrewshire,S1,,43,NOC,"SNP min",8,13,1,0,0,0,19,2,0,,,http://renfrewshire.cmis.uk.com/renfrewshire/Councillors.aspx,2017-07-13
-320,"Scottish Borders",S1,,34,NOC,CON/IND,15,0,2,0,0,0,9,8,0,,,https://www.scotborders.gov.uk/councillors/name,2017-07-13
-321,Shetland,S1,,22,IND,IND,0,0,0,0,0,0,1,21,0,,,http://www.shetland.gov.uk/about_your_councillors/,2017-07-13
-322,"South Ayrshire",S1,,28,NOC,SNP/LAB/IND,12,5,0,0,0,0,9,2,0,,,http://www.south-ayrshire.gov.uk/councillors/all/,2017-07-13
-323,"South Lanarkshire",S1,,64,NOC,"SNP min",14,19,1,0,0,0,25,5,0,,,http://www.southlanarkshire.gov.uk/councillors/name,2017-07-14
-324,Stirling,S1,,23,NOC,SNP/LAB,7,4,0,1,0,0,9,2,0,,,http://my.stirling.gov.uk/councillors/index?theme=MyStirling,2017-07-13
-325,"West Dunbartonshire",S1,,22,NOC,SNP/IND,2,8,0,0,0,0,10,2,0,,"Brian Walker ok.",http://www.west-dunbarton.gov.uk/council/councillors-and-committees/councillor/councillors-by-name/,2017-07-13
-326,"West Lothian",S1,,33,NOC,"LAB min",7,12,0,0,0,0,13,1,0,,,https://www.westlothian.gov.uk/article/1956/Councillors-and-Wards,2017-07-13
-327,"Bath and North East Somerset",U1,,65,CON,CON,37,6,16,1,0,0,0,5,0,,,https://democracy.bathnes.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-328,"Bedford (M)",U1,,40,NOC,"LD Mayor",15,14,9,0,0,0,0,2,0,,,http://www.councillorsupport.bedford.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode&,2017-07-13
-329,Blackpool,U1,,42,LAB,LAB,13,29,0,0,0,0,0,0,0,,,http://democracy.blackpool.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-07-13
-330,Bournemouth,U1,,54,CON,CON,51,0,0,1,0,0,0,2,0,,,http://www.bournemouth.gov.uk/councildemocratic/Councillors/Councillors.aspx?CouncillorsListing_DisplayMode=Party,2017-07-13
-331,"Bracknell Forest",U1,,42,CON,CON,41,1,0,0,0,0,0,0,0,,,http://democratic.bracknell-forest.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-332,"Brighton & Hove",U1,,54,NOC,"LAB min",20,22,0,11,0,0,0,1,0,,,http://present.brighton-hove.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-366,"Bristol (M)",U1,,70,LAB,"LAB Mayor",14,37,8,11,0,0,0,0,0,,,https://democracy.bristol.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-333,"Central Bedfordshire",U1,,59,CON,CON,53,2,1,0,0,0,0,3,0,,,http://centralbeds.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-334,"Cheshire East",U1,,82,CON,CON,51,16,2,0,0,0,0,13,0,,"Sam Gardner CON->IND. Middlewich First 3, Handford Ratepayers Association 2, Nantwich First 2, Alderley Edge First 1, Bollington First 2, Independent 1, Residents of Wilmslow 1",http://moderngov.cheshireeast.gov.uk/ecminutes/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-335,"Cheshire West & Chester",U1,,75,LAB,LAB,36,38,0,0,0,0,0,1,0,,,http://cmttpublic.cheshirewestandchester.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-336,Cornwall,U1,LC,123,NOC,LD/IND,46,5,38,0,0,0,0,34,0,,"Mebyon Kernow 4",https://democracy.cornwall.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-337,Darlington,U1,,50,LAB,LAB,17,28,3,0,0,0,0,1,1,,,http://www.darlington.gov.uk/your-council/democracy/councillors/,2017-07-13
-338,Durham,U1,LC,126,LAB,LAB,10,73,14,0,0,0,0,28,1,,"Durham Independent Group 13, Durham County Council Independent Group 2, Independents 2",https://democracy.durham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-339,"East Riding of Yorkshire",U1,,67,CON,CON,48,6,3,0,3,0,0,7,0,,,http://www2.eastriding.gov.uk/council/councillors-and-members-of-parliament/councillor-finder/,2017-07-13
-340,Herefordshire,U1,,53,CON,CON,29,0,2,3,0,0,0,19,0,,"It's Our County 12, Herefordshire Independents 7, Independent 1",http://councillors.herefordshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=2&zTS=undefined,2017-07-13
-341,Hull,U1,,59,LAB,LAB,2,39,17,0,0,0,0,1,0,,,https://cmis.hullcc.gov.uk/cmis/YourCouncillors/Councillors.aspx,2017-07-13
-342,"Isle of Wight",U1,LC,40,CON,CON,25,1,2,1,0,0,0,11,0,,,https://www.iwight.com/councillor/azCouncillors.aspx,2017-07-13
-343,"Leicester (M)",U1,,54,LAB,"LAB Mayor",1,52,1,0,0,0,0,0,0,,,http://www.cabinet.leicester.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-07-13
-344,Luton,U1,,48,LAB,LAB,5,34,8,0,0,0,0,1,0,,,http://democracy.luton.gov.uk/cmis5public/Councillors.aspx,2017-07-13
-345,Medway,U1,,55,CON,CON,38,15,0,0,2,0,0,0,0,,,https://democracy.medway.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-346,"Middlesbrough (M)",U1,,46,LAB,"LAB Mayor",5,31,0,0,0,0,0,10,0,,,https://www.middlesbrough.gov.uk/mayor-council-and-councillors/councillors-and-council-meetings/councillors,2017-07-14
-347,"North Lincolnshire",U1,,43,CON,CON,26,17,0,0,0,0,0,0,0,,,http://www.northlincs.gov.uk/your-council/have-your-say/councillors-and-mps/councillors/,2017-07-13
-348,"North Somerset",U1,,50,CON,CON,36,3,4,1,0,0,0,5,1,,,http://www.n-somerset.gov.uk/my-council/councillors/councillor/find-your-councillors/list-of-councillors/,2017-07-13
-349,Northumberland,U1,LC,67,NOC,"CON min",33,24,3,0,0,0,0,7,0,,,http://committee.northumberland.gov.uk/CouncillorSearch.aspx,2017-07-13
-350,Nottingham,U1,,55,LAB,LAB,3,51,0,0,0,0,0,1,0,,,http://www.nottinghamcity.gov.uk/about-the-council/councillors-and-leadership/find-a-councillor/,2017-07-13
-351,Poole,U1,,42,CON,CON,29,0,7,0,1,0,0,5,0,,,http://www.poole.gov.uk/your-council/councillors/meet-your-councillor/,2017-07-13
-352,"Redcar & Cleveland",U1,,59,NOC,"LAB min",11,28,10,0,0,0,0,10,0,,,http://www.redcar-cleveland.gov.uk/Councill1.nsf/Councillors?ReadForm=&search=parties&select=All+Parties,2017-07-13
-353,Rutland,U1,,26,CON,CON,17,0,1,0,0,0,0,6,2,,,http://rutlandcounty.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-354,Shropshire,U1,LC,74,CON,CON,49,8,12,0,0,0,0,5,0,,,http://shropshire.gov.uk/committee-services/mgMemberIndex.aspx?FN=PARTY,2017-07-13
-355,"South Gloucestershire",U1,,70,CON,CON,40,14,16,0,0,0,0,0,0,,,https://council.southglos.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-14
-356,Stockton-on-Tees,U1,,56,LAB,LAB,13,29,1,0,0,0,0,12,1,,"Ingleby Barwick Independent Society 5, Thornaby Independent Association 3, Independents 2, West Words 2",http://www.egenda.stockton.gov.uk/aksstockton/users/public/admin/main.pl?op=ListCurrentMembers,2017-07-13
-357,Stoke-on-Trent,U1,,44,NOC,IND/CON/UKIP,7,20,0,0,1,0,0,16,0,,"City Independents 16",http://www.moderngov.stoke.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-358,"Telford & Wrekin",U1,,54,LAB,LAB,21,28,3,0,0,0,0,2,0,,,http://apps.telford.gov.uk/CouncilAndDemocracy/Councillors?page=1,2017-07-13
-359,"Torbay (M)",U1,,36,CON,"CON Mayor",24,0,8,0,1,0,0,3,0,,,http://www.torbay.gov.uk/DemocraticServices/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-360,Warrington,U1,LC,58,LAB,LAB,2,45,11,0,0,0,0,0,0,,,https://www.warrington.gov.uk/councillors/name,2017-07-13
-361,"West Berkshire",U1,,52,CON,CON,48,0,4,0,0,0,0,0,0,,,http://decisionmaking.westberks.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=ALPHA,2017-07-13
-362,Wiltshire,U1,,98,CON,CON,68,3,20,0,0,0,0,7,0,,,http://cms.wiltshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-363,"Windsor & Maidenhead",U1,,57,CON,CON,51,0,1,0,0,0,0,5,0,,"Old Windsor Residents' Association 2",http://rbwm.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-364,York,U1,,47,NOC,CON/LD,14,15,12,4,0,0,0,2,0,,,http://democracy.york.gov.uk/mgMemberIndex.aspx,2017-07-13
-365,"Blackburn with Darwen",U3,,64,LAB,LAB,17,44,3,0,0,0,0,0,0,,"Julie Daley CON ok",http://blackburn.cmis.uk.com/blackburn/Councillors.aspx,2017-07-14
-367,Derby,U3,,51,LAB,LAB,18,26,5,0,2,0,0,0,0,,,https://cmis.derby.gov.uk/cmis5/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-07-13
-368,Halton,U3,,56,LAB,LAB,2,52,2,0,0,0,0,0,0,,,http://councillors.halton.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-07-13
-369,Hartlepool,U3,,33,LAB,LAB,3,19,0,0,6,0,0,5,0,,"Mike McLaughlin ok. Independents 3, Putting Hartlepool First 2",https://www.hartlepool.gov.uk/councillors/name,2017-07-13
-370,"Milton Keynes",U3,,57,NOC,"LAB min",22,22,13,0,0,0,0,0,0,,,http://milton-keynes.cmis.uk.com/milton-keynes/Councillors.aspx,2017-07-13
-371,"North East Lincolnshire",U3,,42,NOC,"LAB min",14,18,4,0,4,0,0,2,0,,,https://www.nelincs.gov.uk/councillors-and-democracy/councillors-mps-meps/councillors-by-party/,2017-07-13
-372,Peterborough,U3,,60,NOC,"CON min",29,14,7,0,2,0,0,6,2,,"Liberal Party 3, Werrington First 3, Independent 1",http://democracy.peterborough.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-373,Plymouth,U3,,57,NOC,CON/UKIP,27,27,0,0,3,0,0,0,0,,,http://web.plymouth.gov.uk/modgov?modgovlink=http://democracy.plymouth.gov.uk/mgMemberIndex.aspx,2017-07-13
-374,Portsmouth,U3,,42,NOC,"CON min",20,2,15,0,2,0,0,3,0,,,http://democracy.portsmouth.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-375,Reading,U3,,46,LAB,LAB,10,31,2,3,0,0,0,0,0,,Manual,http://www.reading.gov.uk/cllrdavidabsolom,2017-07-14
-376,Slough,U3,,42,LAB,LAB,8,33,0,0,1,0,0,0,0,,,http://www.slough.gov.uk/moderngov/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-377,Southampton,U3,,48,LAB,LAB,19,25,0,0,0,0,0,4,0,,"Putting People First 3, Independent 1",http://www.southampton.gov.uk/modernGov/mgMemberIndex.aspx?bcr=1,2017-07-13
-378,Southend-on-Sea,U3,,51,CON,CON,27,9,2,0,0,0,0,13,0,,"Independent Group 9, Southend Independence Group 3, non-aligned Independent 1",http://democracy.southend.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-379,Swindon,U3,,57,CON,CON,30,25,2,0,0,0,0,0,0,,,http://ww5.swindon.gov.uk/moderngov/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=2,2017-07-13
-380,Thurrock,U3,,49,NOC,"CON min",18,14,0,0,17,0,0,0,0,,,https://www.thurrock.gov.uk/current-councillors,2017-07-13
-381,Wokingham,U3,,54,CON,CON,45,1,7,0,0,0,0,1,0,,,http://wokingham.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-382,"Blaenau Gwent",W1,,41,IND,IND,0,12,0,0,0,1,0,28,0,,,https://www.blaenau-gwent.gov.uk/council/councillors-committees/councillor-directory/?L=0,2017-07-14
-383,Bridgend,W1,,54,NOC,"LAB min",11,26,1,0,0,3,0,13,0,,,https://democratic.bridgend.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=TABLE&PIC=1,2017-07-13
-384,Caerphilly,W1,,73,LAB,LAB,0,50,0,0,0,18,0,5,0,,,http://www.democracy.caerphilly.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=,2017-07-14
-385,Cardiff,W1,,75,LAB,LAB,20,40,11,0,0,3,0,1,0,,,http://cardiff.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-386,Carmarthenshire,W1,,74,NOC,PC/IND,0,22,0,0,0,36,0,16,0,,,http://democracy.carmarthenshire.gov.wales/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-387,Ceredigion,W1,,42,NOC,PC/IND,0,0,8,0,0,20,0,14,0,,,https://www.ceredigion.gov.uk/English/Your-Council/Councillors-Committees/Councillors/Pages/default.aspx,2017-07-13
-388,Conwy,W1,,59,NOC,CON/IND,16,8,4,0,0,7,0,24,0,,"Conwy First 15, Independents 5",http://modgoveng.conwy.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2017-07-14
-389,Denbighshire,W1,,47,NOC,CON/PC/IND,15,13,0,0,0,9,0,10,0,,,https://moderngov.denbighshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&LLL=0,2017-07-13
-390,Flintshire,W1,,70,NOC,"LAB min",6,34,5,0,0,0,0,25,0,,"Independent Alliance 9, New Independets 6, Independents 6",http://cyfarfodyddpwyllgor.siryfflint.gov.uk/mgMemberIndex.aspx?FN=GROUPING&VW=LIST&PIC=0&LLL=1,2017-07-13
-391,Gwynedd,W1,,75,PC,PC,0,1,1,0,0,41,0,32,0,,"Llais Gwynedd 7, Independent Group 21, Independent 1",https://democracy.cyngor.gwynedd.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-392,"Isle of Anglesey",W1,,30,NOC,PC/IND,0,2,1,0,0,14,0,13,0,,"Revolutionist Group 2, Independent Group 10, Independents 2. Aled Jones is LD in Ind Gp.",http://democracy.anglesey.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&LLL=0,2017-07-13
-393,"Merthyr Tydfil",W1,,33,IND,IND,0,15,0,0,0,0,0,18,0,,,http://democracy.merthyr.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-07-13
-394,Monmouthshire,W1,,43,CON,CON,25,10,3,0,0,0,0,5,0,,,https://democracy.monmouthshire.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-395,"Neath Port Talbot",W1,,64,LAB,LAB,0,43,1,0,0,15,0,5,0,,,https://democracy.npt.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-07-14
-396,Newport,W1,,50,LAB,LAB,12,31,2,0,0,0,0,5,0,,,https://democracy.newport.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-397,Pembrokeshire,W1,,60,IND,IND,12,7,1,0,0,6,0,34,0,,,http://mgenglish.pembrokeshire.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-13
-398,Powys,W1,,73,NOC,IND/CON,20,7,13,0,0,2,0,31,0,,"Powys Independent Alliance 20, Independent Group 10, Non-political Group 9, Non-aligned 5, Independent Conservative 1",http://powys.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-07-13
-399,"Rhondda Cynon Taff",W1,,75,LAB,LAB,4,47,1,0,0,18,0,5,0,,,http://www.rctcbc.gov.uk/EN/Council/CouncillorsCommitteesandMeetings/Councillors/Councillors.aspx?CouncillorsListing_DisplayMode=Party,2017-07-13
-400,Swansea,W1,,72,LAB,LAB,9,48,7,0,0,0,0,8,0,,,http://democracy.swansea.gov.uk/mgMemberIndex.aspx?bcr=1&LLL=0?Lang=eng,2017-07-13
-401,Torfaen,W1,,44,LAB,LAB,4,29,0,0,0,0,0,10,1,,,http://moderngov.torfaen.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-07-13
-402,"Vale of Glamorgan",W1,,47,NOC,CON/IND,23,14,0,0,0,4,0,6,0,,,http://www.valeofglamorgan.gov.uk/en/our_council/Council-Structure/councillors/Councillor-Search.aspx,2017-07-13
-403,Wrexham,W1,,52,NOC,IND/LAB/CON/PC/LD,9,12,2,0,0,3,0,26,0,,,http://moderngov.wrexham.gov.uk/mgMemberIndex.aspx?FN=GROUPING&VW=LIST&PIC=0&LLL=undefined,2017-07-13
+406,"City of London",,,125,IND,IND,0,5,0,0,0,0,0,118,2,,,http://democracy.cityoflondon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+405,"Isles of Scilly",,,16,IND,IND,0,0,0,0,0,0,0,16,0,,,http://committees.scilly.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+1,Buckinghamshire,C1,LC,49,CON,CON,41,1,4,0,0,0,0,3,0,,,https://democracy.buckscc.gov.uk/mgMemberIndex.aspx?FN=GROUPING&VW=TABLE&PIC=1,2017-08-13
+2,Cambridgeshire,C1,LC,61,CON,CON,36,7,15,0,0,0,0,3,0,,,https://cmis.cambridgeshire.gov.uk/ccc_live/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-08-13
+3,Cumbria,C1,LC,84,NOC,LAB/LD,37,26,16,0,0,0,0,5,0,,"2x West Cumbria Independent Group, 4x Independent Group, 2x Independents",http://councilportal.cumbria.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+4,Derbyshire,C1,LC,64,CON,CON,37,24,3,0,0,0,0,0,0,,,http://www.derbyshire.gov.uk/council/councillors/,2017-08-13
+5,Devon,C1,LC,60,CON,CON,42,7,7,1,0,0,0,3,0,,,http://democracy.devon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+6,Dorset,C1,LC,46,CON,CON,32,1,11,2,0,0,0,0,0,,,http://dorset.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+7,"East Sussex",C1,LC,50,CON,CON,30,4,11,0,0,0,0,5,0,,,https://democracy.eastsussex.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+8,Essex,C1,LC,75,CON,CON,56,6,7,1,0,0,0,5,0,,,http://cmis.essexcc.gov.uk/essexcmis5/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-13
+9,Gloucestershire,C1,LC,53,CON,CON,31,5,14,2,0,0,0,1,0,,"People Against Beaurocracy 1, Independent 1.",http://glostext.gloucestershire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+10,Hampshire,C1,LC,78,CON,CON,56,2,19,0,0,0,0,1,0,,,http://democracy.hants.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-20
+11,Hertfordshire,C1,LC,78,CON,CON,51,9,18,0,0,0,0,0,0,,,https://cmis.hertfordshire.gov.uk/hertfordshire/CountyCouncillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-08-13
+12,Kent,C1,LC,81,CON,CON,67,5,7,1,0,0,0,1,0,,,https://democracy.kent.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2017-08-13
+13,Lancashire,C1,LC,84,CON,CON,44,30,4,1,1,0,0,4,0,,,http://council.lancashire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2017-08-13
+14,Leicestershire,C1,LC,55,CON,CON,36,6,13,0,0,0,0,0,0,,,http://politics.leics.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+15,Lincolnshire,C1,LC,70,CON,CON,58,6,1,0,0,0,0,5,0,,,http://lincolnshire.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+16,Norfolk,C1,LC,84,CON,CON,55,17,11,0,0,0,0,1,0,,,http://norfolkcc.cmis.uk.com/norfolkcc/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-08-13
+17,"North Yorkshire",C1,LC,72,CON,CON,55,4,3,0,0,0,0,10,0,,"NY Independents 9, Liberals 2, Independents 2",http://democracy.northyorks.gov.uk/Committees.aspx?councillors=1,2017-08-13
+18,Northamptonshire,C1,LC,57,CON,CON,43,12,2,0,0,0,0,0,0,,,https://cmis.northamptonshire.gov.uk/cmis5live/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-13
+19,Nottinghamshire,C1,LC,66,NOC,CON/IND,31,23,1,0,0,0,0,11,0,,"5 Ashfield Independents, 1 Independent, 3 Mansfield Independent Forum, 1 Selston Independent",http://www.nottinghamshire.gov.uk/council-and-democracy/councillors/contact-a-councillor,2017-08-20
+20,Oxfordshire,C1,LC,63,NOC,CON/IND,31,14,13,0,0,0,0,5,0,,,http://mycouncil.oxfordshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2017-08-13
+21,Somerset,C1,LC,55,CON,CON,35,3,12,2,0,0,0,3,0,,,http://www1.somerset.gov.uk/council/councillors.asp,2017-08-13
+22,Staffordshire,C1,LC,62,CON,CON,50,10,0,0,0,0,0,1,1,,,http://moderngov.staffordshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+23,Suffolk,C1,LC,75,CON,CON,52,10,5,3,0,0,0,4,1,,,http://www.suffolk.gov.uk/council-and-democracy/councillors-and-elected-representatives/find-your-councillor/?ward=&party=&name=&action=SEARCH,2017-08-13
+24,Surrey,C1,LC,81,CON,CON,61,1,9,1,0,0,0,9,0,,"9 Residents Association, 8 LD & 1 GRN in Surrey Opposition Forum, 1 Independent",http://mycouncil.surreycc.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC1=&FN=,2017-08-13
+25,Warwickshire,C1,LC,57,CON,CON,36,10,7,2,0,0,0,2,0,,,https://democratic.warwickshire.gov.uk/cmis5/Councillors.aspx,2017-08-13
+26,"West Sussex",C1,LC,70,CON,CON,56,5,9,0,0,0,0,0,0,,,https://www.westsussex.gov.uk/location-directories/find-your-councillor/?Keyword=&Location=&politicalParty=,2017-08-13
+27,Worcestershire,C1,LC,57,CON,CON,40,10,3,2,0,0,0,2,0,,,http://worcestershire.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+28,Allerdale,D1,LC,56,NOC,LAB/IND,15,28,0,0,2,0,0,11,0,,,http://democracy.allerdale.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+29,Arun,D1,LC,54,CON,CON,43,1,5,0,1,0,0,3,1,,,http://www1.arun.gov.uk/cgi-bin/aruncllrs.pl?ward=all,2017-08-18
+30,Ashfield,D1,LC,35,LAB,LAB,4,22,0,0,0,0,0,9,0,,"Ashfield Independents 6, Selston Parish Independents 2, Independent 1",https://democracy.ashfield-dc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-20
+31,Ashford,D1,LC,43,CON,CON,34,3,1,0,2,0,0,3,0,,"Ashford Independents 2, Independent 1",http://www.ashford.gov.uk/councillors,2017-08-20
+32,"Aylesbury Vale",D1,LC,59,CON,CON,43,2,10,0,0,0,0,4,0,,,http://www.aylesburyvaledc.gov.uk/councillors/?scmOverrideRecord=21R0112Cmk,2017-08-18
+33,Babergh,D1,AA,43,CON,CON,28,1,3,0,0,0,0,10,1,,"Jennie Jenkins CON ok",http://baberghmidsuffolk.moderngov.co.uk/mgMemberIndexGroup.aspx?bcr=1&g=bdcc&m=bdccw,2017-08-20
+34,Barrow-in-Furness,D1,LC,36,LAB,LAB,9,26,0,0,0,0,0,1,0,,,http://www.barrowbc.gov.uk/about-the-council/councillors/borough-councillors/,2017-08-13
+35,Bassetlaw,D1,LC,48,LAB,LAB,12,32,0,0,0,0,0,4,0,,,http://www.bassetlaw.gov.uk/everything-else/about-us/local-councillors/your-local-councillor.aspx,2017-08-13
+36,Blaby,D1,LC,39,CON,CON,29,6,4,0,0,0,0,0,0,,,http://w3.blaby.gov.uk/decision-making/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+37,Bolsover,D1,LC,37,LAB,LAB,0,32,0,0,0,0,0,5,0,,,http://www.bolsover.gov.uk/index.php/your-council/committee-governance-constitution,2017-08-20
+38,Boston,D1,LC,30,NOC,"CON min",13,2,0,0,9,0,0,6,0,,,http://moderngov.boston.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+39,Braintree,D1,LC,49,CON,CON,43,3,0,1,0,0,0,2,0,,"Halstead Residents Association 2",http://braintree.cmis.uk.com/braintree/Councillors.aspx,2017-08-13
+40,Breckland,D1,LC,49,CON,CON,40,2,0,0,4,0,0,2,1,,,http://democracy.breckland.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-20
+41,Broadland,D1,LC,47,CON,CON,42,0,5,0,0,0,0,0,0,,,https://www.broadland.gov.uk/councillors/name,2017-08-13
+42,Bromsgrove,D1,LC,31,CON,CON,17,7,0,0,0,0,0,7,0,,"Independents 3, Wythall Residents Association 3",http://moderngovwebpublic.bromsgrove.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+43,Broxtowe,D1,LC,44,CON,CON,27,12,4,0,0,0,0,1,0,,"Pat Lally ok. Mia Kee ok.",https://www.broxtowe.gov.uk/about-the-council/councillors-committees/your-councillor/councillors-a-z/,2017-08-20
+44,Canterbury,D1,LC,39,CON,CON,30,4,3,0,2,0,0,0,0,,,http://democracy.canterbury.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-13
+45,Charnwood,D1,LC,52,CON,CON,41,9,1,0,0,0,0,1,0,,,https://www.charnwood.gov.uk/councillors/all,2017-08-13
+46,Chelmsford,D1,LC,57,CON,CON,52,0,5,0,0,0,0,0,0,,,https://www.chelmsford.gov.uk/your-council/councillors-and-decision-making/councillors/find-a-councillor/view-chelmsford-city-councillors/?cord=DESC&cid=50eeb79d-c47e-472c-a05d-49a3d5c8792b&p=1,2017-08-13
+47,Chesterfield,D1,LC,48,LAB,LAB,0,37,8,0,1,0,0,1,1,,,http://chesterfield.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-18
+48,Chichester,D1,LC,48,CON,CON,41,0,4,0,0,0,0,3,0,,,http://chichester.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+49,Chiltern,D1,LC,40,CON,CON,36,0,2,0,0,0,0,1,1,,,https://isa.chiltern.gov.uk/democracy/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-20
+50,Christchurch,D1,AA,24,CON,CON,21,0,0,0,1,0,0,2,0,,,http://www.dorsetforyou.com/councillors/christchurch,2017-08-13
+51,"Copeland (M)",D1,MC,51,LAB,"IND Mayor",18,28,0,0,0,0,0,4,1,,,http://copeland.moderngov.co.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-08-18
+52,Corby,D1,AA,29,LAB,LAB,5,24,0,0,0,0,0,0,0,,,http://www.corby.gov.uk/home/council/council-democracy/councillors-information-advice/councillors,2017-08-13
+53,Cotswold,D1,LC,34,CON,CON,22,0,12,0,0,0,0,0,0,,,http://www.cmis.cotswold.gov.uk/cmis5/People/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-13
+54,Dacorum,D1,LC,51,CON,CON,44,2,4,0,0,0,0,1,0,,,https://democracy.dacorum.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+55,Dartford,D1,LC,44,CON,CON,34,7,0,0,0,0,0,3,0,,"Swanscombe and Greenhithe Residents Association 3",http://committeedmz.dartford.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2017-08-13
+56,"Derbyshire Dales",D1,AA,39,CON,CON,29,5,3,0,0,0,0,2,0,,,http://www.derbyshiredales.gov.uk/your-council/councillors/by-ward,2017-08-13
+57,Dover,D1,LC,45,CON,CON,25,18,0,0,2,0,0,0,0,,,http://moderngov.dover.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+58,"East Cambridgeshire",D1,AA,39,CON,CON,35,0,2,0,0,0,0,1,1,"28 wards from 2019","28 wards from 2019",http://www.eastcambs.gov.uk/council-and-democracy/search-for-councillors,2017-08-18
+59,"East Devon",D1,LC,59,CON,CON,35,0,7,0,0,0,0,17,0,,"Independent Group 15, Independent 1",http://eastdevon.gov.uk/council-and-democracy/councillors/,2017-08-13
+60,"East Dorset",D1,AA,29,CON,CON,26,0,3,0,0,0,0,0,0,,,http://moderngoveddc.christchurchandeastdorset.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+61,"East Hampshire",D1,LC,44,CON,CON,44,0,0,0,0,0,0,0,0,,,http://easthants.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+62,"East Hertfordshire",D1,LC,50,CON,CON,48,0,0,0,0,0,0,2,0,,,http://democracy.eastherts.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+63,"East Lindsey",D1,LC,55,CON,CON,34,4,1,0,6,0,0,10,0,,"Independent Group 8",https://democracy.e-lindsey.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+64,"East Northamptonshire",D1,AA,40,CON,CON,36,1,0,0,0,0,0,3,0,,,http://www.east-northamptonshire.gov.uk/councillors/name,2017-08-13
+65,"East Staffordshire",D1,LC,39,CON,CON,26,12,1,0,0,0,0,0,0,,,http://www.eaststaffsbc.gov.uk/council-democracy/councillors,2017-08-13
+66,Eastbourne,D1,LC,27,LD,LD,8,0,18,0,0,0,0,1,0,,,http://www.eastbourne.gov.uk/about-the-council/councillors-and-committees/find-a-councillor/,2017-08-13
+67,Eastleigh,D1,LC,44,LD,LD,5,0,37,0,0,0,0,2,0,"39 wards from 2018","39 wards from 2018",http://www.eastleigh.gov.uk/meetings/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+68,Eden,D1,LC,38,CON,CON,20,1,7,0,0,0,0,10,0,,,https://democracy.eden.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-13
+69,"Epsom and Ewell",D1,AA,38,IND,IND,4,3,0,0,0,0,0,31,0,,"Residents Association 31",https://democracy.epsom-ewell.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-13
+70,Erewash,D1,LC,47,CON,CON,30,17,0,0,0,0,0,0,0,,,http://moderngov.erewash.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-13
+71,Fenland,D1,LC,39,CON,CON,34,0,2,0,0,0,0,3,0,,,http://www.fenland.gov.uk/egenda/main.pl?op=ListCurrentMembers,2017-08-13
+72,"Forest Heath",D1,AA,27,CON,CON,20,0,0,0,3,0,0,4,0,,"West Suffolk Independents 4, Ind 1",https://democracy.westsuffolk.gov.uk/mgMemberIndexGroup.aspx?bcr=1&G=FHDC&M=DHDC,2017-08-18
+73,"Forest of Dean",D1,LC,48,NOC,"CON min",20,9,0,3,5,0,0,11,0,,,http://meetings.fdean.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-13
+74,Fylde,D1,LC,51,CON,CON,32,1,2,0,0,0,0,16,0,,"Ratepayers 1, Non-aligned 2, Independents 12",https://fylde.cmis.uk.com/fylde/CouncillorsandMP.aspx,2017-08-13
+75,Gedling,D1,LC,41,LAB,LAB,15,25,1,0,0,0,0,0,0,,,https://democracy.gedling.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+76,Gloucester,D1,LC,39,CON,CON,22,10,7,0,0,0,0,0,0,,,http://democracy.gloucester.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-13
+77,Gravesham,D1,LC,44,CON,CON,23,20,0,0,0,0,0,0,1,,,https://democracy.gravesham.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-08-18
+78,Guildford,D1,LC,48,CON,CON,34,2,9,0,0,0,0,3,0,,"Guildford Greenbelt Group 3",http://www2.guildford.gov.uk/councilmeetings/mgMemberIndex.aspx?bcr=1,2017-08-13
+79,Hambleton,D1,LC,28,CON,CON,27,0,0,0,1,0,0,0,0,,,http://democracy.hambleton.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+80,Harborough,D1,LC,37,CON,CON,29,0,8,0,0,0,0,0,0,,,http://cmispublic.harborough.gov.uk/cmis5/Councillors.aspx,2017-08-13
+81,Harrogate,D1,LC,54,CON,CON,36,0,10,0,0,0,0,7,1,,"Manual. Harrogate Independent Group 5, Independent Group 2",https://localdemocracy.harrogate.gov.uk/political.asp,2017-08-18
+82,Hastings,D1,LC,32,LAB,LAB,8,23,0,0,0,0,0,1,0,,,http://hastings.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+83,Hertsmere,D1,LC,39,CON,CON,36,2,0,0,0,0,0,1,0,,,http://www5.hertsmere.gov.uk/democracy/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+84,"High Peak",D1,LC,43,CON,CON,23,17,2,0,0,0,0,1,0,,,https://democracy.highpeak.gov.uk/mgMemberIndexGroup.aspx?g=HPCLLRS&m=hpcllrs,2017-08-13
+85,"Hinckley & Bosworth",D1,LC,34,CON,CON,21,1,12,0,0,0,0,0,0,,,http://moderngov.hinckley-bosworth.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+86,Horsham,D1,LC,44,CON,CON,38,0,4,0,0,0,0,2,0,,,http://horsham.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+87,Huntingdonshire,D1,LC,52,CON,CON,32,2,6,0,3,0,0,9,0,,"Independents 8, Independent Conservative 1",http://applications.huntingdonshire.gov.uk/moderngov/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+88,Kettering,D1,LC,36,CON,CON,26,7,1,0,0,0,0,2,0,,,http://www.kettering.gov.uk/councillors/name,2017-08-13
+89,"King's Lynn and West Norfolk",D1,LC,62,CON,CON,51,7,0,0,0,0,0,4,0,,"Marg Wilkinson still LAB (lack of parish area for Gary Howman throwing it off)",http://democracy.west-norfolk.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-20
+90,Lancaster,D1,LC,60,NOC,"LAB min",18,30,0,7,0,0,0,3,2,,"Morcambe Bay Independents 2, Free Independents 1, Independent 1",http://committeeadmin.lancaster.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+91,Lewes,D1,LC,41,CON,CON,22,0,11,2,0,0,0,5,1,,,https://lewes.cmis.uk.com/CMIS5/,2017-08-13
+92,Lichfield,D1,LC,47,CON,CON,42,4,1,0,0,0,0,0,0,,,https://www.lichfielddc.gov.uk/Council/Councillors/District-councillors/Find-my-councillor.aspx,2017-08-13
+93,Maldon,D1,LC,31,CON,CON,27,0,0,0,1,0,0,3,0,,,https://democracy.maldon.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2017-08-13
+94,"Malvern Hills",D1,LC,38,CON,CON,23,0,5,3,0,0,0,7,0,,,http://moderngov.malvernhills.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=3,2017-08-13
+95,"Mansfield (M)",D1,MC,36,NOC,"IND Mayor",1,17,0,0,0,0,0,18,0,,"Mansfield Independent Forum 16, Indpendent 1",http://www.mansfield.gov.uk/cmadexternal/councillorslist.aspx,2017-08-13
+96,Melton,D1,AA,28,CON,CON,26,1,0,0,0,0,0,1,0,,,http://www.melton.gov.uk/councillors/name,2017-08-13
+97,Mendip,D1,LC,47,CON,CON,32,0,10,3,0,0,0,2,0,,,http://www.mendip.gov.uk/contactacouncillor,2017-08-13
+98,"Mid Devon",D1,LC,42,CON,CON,28,0,5,0,1,0,0,7,1,,"Independents 5, Liberal Party 1",https://democracy.middevon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+99,"Mid Suffolk",D1,LC,40,CON,CON,28,0,4,6,0,0,0,2,0,,,http://apps.midsuffolk.gov.uk/cmiswebpublic/Members.aspx,2017-08-20
+100,"Mid Sussex",D1,LC,54,CON,CON,53,0,1,0,0,0,0,0,0,,,http://mid-sussex.cmis.uk.com/Mid-Sussex/Councillors/FindMyCouncillorAlphabetically.aspx,2017-08-13
+101,"New Forest",D1,LC,60,CON,CON,58,0,2,0,0,0,0,0,0,,,https://democracy.newforest.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+102,"Newark & Sherwood",D1,LC,39,CON,CON,24,12,0,0,0,0,0,3,0,,,http://www.newark-sherwooddc.gov.uk/councillors/,2017-08-13
+103,Newcastle-under-Lyme,D1,LC,60,NOC,"LAB min",22,25,3,0,2,0,0,7,1,,"Borough Independent Group 4, Newcastle Independent Group 2",http://moderngov.newcastle-staffs.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-18
+104,"North Devon",D1,LC,43,NOC,"CON min",20,0,12,0,0,0,0,11,0,,,http://www.northdevon.gov.uk/index/lgcl_council_government_and_democracy/lgcl_political_structure/nonlgcl_councillors.htm,2017-08-18
+105,"North Dorset",D1,LC,33,CON,CON,29,0,3,0,0,0,0,1,0,,,http://moderngovdcp.dorsetforyou.gov.uk/mgMemberIndexGroup.aspx?g=NDDC&m=NDDC,2017-08-20
+106,"North East Derbyshire",D1,LC,53,LAB,LAB,18,33,1,0,0,0,0,1,0,,Manual,http://www.ne-derbyshire.gov.uk/,2017-08-20
+107,"North Kesteven",D1,LC,43,CON,CON,28,0,0,0,0,0,0,15,0,,"Lincolnshire Independents NK 8, Hykeham Independents 2, Skellingthorpe Independent Group 2, Independent 1, NK Independent 1",https://nkdc.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+108,"North Norfolk",D1,LC,48,CON,CON,31,0,16,0,0,0,0,1,0,,,http://www.north-norfolk.gov.uk/apps/councillors/byname.asp,2017-08-13
+109,"North Warwickshire",D1,AA,35,CON,CON,21,13,0,0,0,0,0,1,0,,"Symonds con ok",https://www.northwarks.gov.uk/councillors/name,2017-08-13
+110,"North West Leicestershire",D1,LC,38,CON,CON,25,9,1,0,0,0,0,3,0,,"Susan McKendrick LAB->IND",http://minutes-1.nwleics.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+111,Northampton,D1,LC,45,CON,CON,25,17,3,0,0,0,0,0,0,,,http://www.northamptonboroughcouncil.com/councillors/mgMemberIndex.asp?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+112,"Oadby & Wigston",D1,AA,26,LD,LD,5,0,19,0,0,0,0,1,1,,,http://moderngov.oadby-wigston.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+113,Purbeck,D1,AA,25,CON,CON,20,0,4,0,0,0,0,1,0,,,https://www.dorsetforyou.com/politicalcomposition/purbeck,2017-08-14
+114,"Ribble Valley",D1,AA,40,CON,CON,35,1,4,0,0,0,0,0,0,,,https://www.ribblevalley.gov.uk/councillors/name,2017-08-14
+115,Richmondshire,D1,LC,34,CON,CON,22,0,1,0,0,0,0,10,1,,"Independents 5, Richmondshire Independents 5, Independent 1",http://www.richmondshire.gov.uk/council-democracy/councillors-committees/councillors-information,2017-08-14
+116,Rother,D1,LC,38,CON,CON,31,0,3,0,0,0,0,4,0,,"Association of Independents 3, Independent 2",http://www.rother.gov.uk/index.cfm?articleid=179,2017-08-20
+117,Rushcliffe,D1,LC,44,CON,CON,34,4,2,2,0,0,0,2,0,,,http://www.rushcliffe.gov.uk/councillors/councillorsbyname/,2017-08-14
+118,Ryedale,D1,AA,30,NOC,"CON min",13,0,2,0,0,0,0,15,0,,"Independents 8, Liberal Party 4, Independent Group 3",http://democracy.ryedale.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+119,Scarborough,D1,LC,50,NOC,"CON min",25,13,0,2,4,0,0,5,1,,,http://democracy.scarborough.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+120,Sedgemoor,D1,LC,48,CON,CON,35,10,1,0,2,0,0,0,0,,"Smedley LAB ok",http://www.sedgemoor.gov.uk/councillors,2017-08-18
+121,Selby,D1,LC,31,CON,CON,22,7,0,0,0,0,0,2,0,,,http://www.selby.gov.uk/councillors,2017-08-14
+122,Sevenoaks,D1,LC,54,CON,CON,48,1,2,0,2,0,0,1,0,,"54 total checked",http://cds.sevenoaks.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-20
+123,Shepway,D1,LC,30,CON,CON,23,0,0,0,6,0,0,1,0,,,http://www.shepway.gov.uk/moderngov/mgMemberIndex.aspx?bcr=1,2017-08-14
+124,"South Bucks",D1,LC,28,CON,CON,26,0,0,0,0,0,0,1,1,,,http://sbdc-spider2.southbucks.gov.uk/democracy/mgMemberIndex.aspx?bcr=1,2017-08-14
+125,"South Cambridgeshire",D1,LC,57,CON,CON,36,1,14,0,0,0,0,6,0,,"Independent Group 5, Independent 1",http://scambs.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+126,"South Derbyshire",D1,AA,36,CON,CON,24,12,0,0,0,0,0,0,0,,,http://south-derbys.cmis.uk.com/south-derbys/Councillors.aspx,2017-08-14
+127,"South Hams",D1,LC,31,CON,CON,24,0,5,2,0,0,0,0,0,,"Huntley ok",http://old.southhams.gov.uk/article/2239/Councillors,2017-08-20
+128,"South Holland",D1,LC,37,CON,CON,27,0,0,0,2,0,0,7,1,,,https://democracy.sholland.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+129,"South Kesteven",D1,LC,56,CON,CON,42,3,0,0,0,0,0,11,0,,"SKDC Independents 4, Unaligned 1",http://moderngov.southkesteven.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2017-08-14
+130,"South Lakeland",D1,LC,51,LD,LD,16,2,32,0,0,0,0,1,0,,,http://democracy.southlakeland.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+131,"South Norfolk",D1,LC,46,CON,CON,40,0,6,0,0,0,0,0,0,,"Manual (AJAX)",http://www.south-norfolk.gov.uk/your-councillors,2017-08-20
+132,"South Northamptonshire",D1,LC,42,CON,CON,35,0,4,0,0,0,0,3,0,,,http://modgov.southnorthants.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+133,"South Oxfordshire",D1,LC,36,CON,CON,33,1,1,0,0,0,0,1,0,,"Henley Residents 1",http://democratic.southoxon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+134,"South Ribble",D1,LC,50,CON,CON,28,18,3,0,0,0,0,1,0,,"Independent Conservative",http://egenda.southribble.gov.uk/akssribble/users/public/admin/main.pl?op=ListCurrentMembers,2017-08-14
+135,"South Somerset",D1,LC,60,NOC,"LD min",26,0,30,0,0,0,0,4,0,,,http://www.southsomerset.gov.uk/councillors-and-democracy/councillors/,2017-08-14
+136,"South Staffordshire",D1,LC,49,CON,CON,43,1,0,0,1,0,0,4,0,,,https://services.sstaffs.gov.uk/cmis/Councillors.aspx,2017-08-14
+137,Spelthorne,D1,LC,39,CON,CON,31,1,3,0,0,0,0,4,0,,,http://democracy.spelthorne.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+138,"St Edmundsbury",D1,LC,45,CON,CON,33,2,0,1,5,0,0,3,1,,,https://democracy.westsuffolk.gov.uk/mgMemberIndexGroup.aspx?bcr=1&G=SEBC&M=DHDC,2017-08-14
+407,Stafford,D1,LC,40,CON,CON,30,7,0,0,0,0,0,3,0,,,http://www.staffordbc.gov.uk/DemServCouncillors,2017-08-20
+139,"Staffordshire Moorlands",D1,LC,56,CON,CON,34,8,2,0,2,0,0,10,0,,"Independents 8, Moorlands Democratic Alliance 2, Non-aligned 1",https://democracy.staffsmoorlands.gov.uk/mgMemberIndexGroup.aspx?g=smcllrs&m=smcllrs,2017-08-14
+140,Stratford-on-Avon,D1,LC,36,CON,CON,30,1,4,0,0,0,0,1,0,,,https://democracy.stratford.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+141,"Suffolk Coastal",D1,LC,42,CON,CON,37,1,2,0,0,0,0,2,0,,,http://www.eastsuffolk.gov.uk/yourcouncil/councillors/suffolk-coastal-district-councillors/,2017-08-14
+142,"Surrey Heath",D1,LC,40,CON,CON,36,1,1,0,0,0,0,2,0,,,http://surreyheath.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+143,Swale,D1,LC,47,CON,CON,32,5,0,0,8,0,0,2,0,,,http://services.swale.gov.uk/meetings/mgMemberIndex.aspx?bcr=1,2017-08-14
+144,"Taunton Deane",D1,LC,56,CON,CON,33,2,15,0,1,0,0,5,0,,,http://www1.tauntondeane.gov.uk/tdbcsites/tdbcagendas/AllMembers.aspx,2017-08-18
+145,Teignbridge,D1,LC,46,CON,CON,26,0,15,0,0,0,0,5,0,,,https://www.teignbridge.gov.uk/council-and-democracy/district-councillors/teignbridge-councillors/,2017-08-14
+146,Tendring,D1,LC,60,NOC,CON/IND,30,4,1,0,9,0,0,16,0,,"Holland-on-Sea Residents Association 3, Tendring First 1, Independents 6, English Democrats 1 (Alex Porter)",http://tdcdemocracy.tendringdc.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-18
+147,"Test Valley",D1,LC,48,CON,CON,38,0,9,0,0,0,0,1,0,,,http://testvalley.cmis.uk.com/testvalleypublic/ElectedRepresentatives/tabid/63/ScreenMode/Alphabetical/Default.aspx#MemberSectionA,2017-08-14
+148,Tewkesbury,D1,LC,38,CON,CON,33,0,2,0,0,0,0,3,0,,,http://minutes.tewkesbury.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2017-08-14
+149,Thanet,D1,LC,56,NOC,"UKIP min",21,6,0,0,25,0,0,4,0,,"Democratic Independent 2, Independent 1",http://democracy.thanet.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-20
+150,"Tonbridge & Malling",D1,LC,54,CON,CON,48,0,4,0,0,0,0,2,0,,,https://democracy.tmbc.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+151,Torridge,D1,AA,36,CON,CON,19,1,2,2,4,0,0,8,0,,,https://democracy.torridge.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+152,Uttlesford,D1,LC,39,CON,CON,24,0,4,0,0,0,0,11,0,,"Residents for Uttlesford 9, Independent 1",https://uttlesford.cmis.uk.com/uttlesford/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+153,"Vale of White Horse",D1,LC,38,CON,CON,29,0,9,0,0,0,0,0,0,,,http://democratic.whitehorsedc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+154,Warwick,D1,LC,46,CON,CON,30,9,2,1,0,0,0,3,1,,"CON defended Myton & Heathcote 1 Dec, Whitnash Residents Association 3. CON hold 16-12-01",https://estates4.warwickdc.gov.uk/cmis/CouncillorsAtoZ/tabid/39/ScreenMode/Ward/Default.aspx,2017-08-14
+155,Waveney,D1,LC,48,CON,CON,26,17,0,1,0,0,0,3,1,,,http://www.eastsuffolk.gov.uk/yourcouncil/councillors/waveney-district-councillors/,2017-08-18
+156,Waverley,D1,LC,57,CON,CON,51,0,0,0,0,0,0,6,0,,"Farnham Residents 5, Independent 1",https://modgov.waverley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+157,Wealden,D1,LC,55,CON,CON,49,0,1,0,0,0,0,5,0,"45 wards from 2019","45 wards from May 2019. Independent Democrats 4, Independent 1",http://council.wealden.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+158,Wellingborough,D1,AA,36,CON,CON,27,9,0,0,0,0,0,0,0,,,http://www.wellingborough.gov.uk/councillors/name,2017-08-14
+159,"West Devon",D1,AA,31,CON,CON,21,0,0,0,0,0,0,10,0,,,http://old.westdevon.gov.uk/article/2499/Councillors,2017-08-18
+404,"West Dorset",D1,LC,42,CON,CON,29,0,12,0,0,0,0,0,1,,,https://www.dorsetforyou.gov.uk/councillors/west,2017-08-14
+160,"West Lindsey",D1,AA,36,CON,CON,24,3,7,0,0,0,0,2,0,,"Independent 1, Lincolnshire Independent 1",https://www.west-lindsey.gov.uk/my-council/my-councillors/councillor-pages-and-declaration-of-interests/,2017-08-14
+161,"West Somerset",D1,LC,28,CON,CON,20,1,1,0,4,0,0,2,0,,,http://www.westsomersetonline.gov.uk/Council---Democracy/Councillors/Find-a-Councillor,2017-08-14
+162,Wychavon,D1,LC,45,CON,CON,40,0,5,0,0,0,0,0,0,,,http://mgov.wychavon.gov.uk/modern.gov/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+163,Wycombe,D1,LC,60,CON,CON,49,6,1,0,0,0,0,4,0,,,https://councillors.wycombe.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+164,Wyre,D1,LC,50,CON,CON,37,12,0,0,0,0,0,0,1,,,http://www.wyre.gov.uk/councillors/name,2017-08-14
+165,Adur,D2,LC,29,CON,CON,16,3,0,0,6,0,0,3,1,,"Ken Bushop IND.",https://www.adur-worthing.gov.uk/councillors-and-mps/councillors-adur/,2017-08-14
+166,Cheltenham,D2,LC,40,LD,LD,7,0,29,0,0,0,0,4,0,,"People Against Bureaucracy Action Group 3, Independent 1",https://democracy.cheltenham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+189,Fareham,D2,LC,31,CON,CON,25,0,4,0,1,0,0,1,0,,,http://moderngov.fareham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2017-08-14
+167,Gosport,D2,AA,34,CON,CON,21,4,9,0,0,0,0,0,0,,,https://www.gosport.gov.uk/sections/democratic-services/councillor-details/,2017-08-14
+168,"Nuneaton & Bedworth",D2,LC,34,LAB,LAB,8,24,0,2,0,0,0,0,0,,,https://www.nuneatonandbedworth.gov.uk/councillors/name,2017-08-14
+169,Oxford,D2,LC,48,LAB,LAB,0,35,8,4,0,0,0,1,0,,,http://mycouncil.oxford.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+170,"Amber Valley",D3,LC,45,CON,CON,23,22,0,0,0,0,0,0,0,,Manual,"http://www.ambervalley.gov.uk/council-and-democracy/councillors,-democracy-and-elections/borough-councillor-lookup.aspx",2017-08-20
+171,Basildon,D3,LC,42,NOC,UKI/LAB/IND,19,9,0,0,10,0,0,4,0,,"Wickford Independents 2, Independentce from the EU 2",http://www.basildonmeetings.info/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+172,"Basingstoke & Deane",D3,LC,60,CON,CON,33,20,6,0,0,0,0,1,0,,"Independent Forum 2",https://democracy.basingstoke.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+173,Brentwood,D3,AA,37,CON,CON,24,2,10,0,0,0,0,1,0,,Manual,http://brentwood.moderngov.co.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=ALPHA,2017-08-20
+174,Broxbourne,D3,LC,30,CON,CON,27,2,0,0,1,0,0,0,0,,,http://www.broxbourne.gov.uk/council-councillors/councillors,2017-08-14
+175,Burnley,D3,LC,45,LAB,LAB,4,27,10,0,1,0,0,3,0,,,http://www.burnley.gov.uk/about-council/your-councillors-executive/your-councillor,2017-08-14
+176,Cambridge,D3,LC,42,LAB,LAB,0,26,13,1,0,0,0,2,0,,,http://democracy.cambridge.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+177,"Cannock Chase",D3,LC,41,LAB,LAB,13,21,1,1,1,0,0,2,2,,,http://www.cannockchasedc.gov.uk/council/about-council/your-councillors,2017-08-14
+178,Carlisle,D3,LC,52,NOC,"LAB min",21,26,1,0,0,0,0,4,0,,,http://cmis.carlisle.gov.uk/cmis/CarlisleCityCouncillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+179,"Castle Point",D3,LC,41,CON,CON,23,0,0,0,2,0,0,16,0,,,https://www.castlepoint.gov.uk/councillors,2017-08-14
+180,Cherwell,D3,LC,48,CON,CON,38,8,0,0,0,0,0,2,0,,,http://modgov.cherwell.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+181,Chorley,D3,LC,47,LAB,LAB,14,30,0,0,0,0,0,3,0,,"National Health Action Party 1, Independent Group 2",https://democracy.chorley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+182,Colchester,D3,LC,51,NOC,LD/LAB/IND,22,11,14,0,0,0,0,3,1,,"Highwoods and Stanway Independent Group 3",http://colchester.cmis.uk.com/colchester/Councillors.aspx,2017-08-14
+183,Craven,D3,AA,30,CON,CON,17,3,1,1,1,0,0,7,0,,,http://www.cravendc.gov.uk/article/387/List-of-Councillors/,2017-08-18
+184,Crawley,D3,LC,37,LAB,LAB,17,20,0,0,0,0,0,0,0,,"Lisa Vitler is CON",http://www.crawley.gov.uk/pw/Council_Services_and_Democracy/Councillors__MPs_and_Mayor/WardCouncillors/index.htm,2017-08-14
+185,Daventry,D3,AA,36,CON,CON,30,3,1,0,2,0,0,0,0,,,http://cmis.daventrydc.gov.uk/daventry/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+186,Elmbridge,D3,LC,48,NOC,IND/LD,21,0,8,0,0,0,0,19,0,,"Molesey Residents 6, Thames Ditton & Weston Green Residents' Association 4, The Walton Society 3, Hersham Village Society 2, Hinchley Wood Residents' Association 2, Esher Residents Association 1, Weybridge & St. George's Independents 1",http://mygov.elmbridge.gov.uk/mgMemberIndex.aspx?FN=ALPHA,2017-08-20
+187,"Epping Forest",D3,LC,58,CON,CON,34,0,3,2,1,0,0,17,1,,"Loughton Residents Association 13, Independent 3",http://rds.eppingforestdc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+188,Exeter,D3,LC,39,LAB,LAB,8,28,1,1,0,0,0,1,0,,,http://committees.exeter.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-18
+190,"Great Yarmouth",D3,LC,39,NOC,CON/UKIP,14,11,0,0,12,0,0,2,0,,,https://great-yarmouth.cmis.uk.com/great-yarmouth/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+191,Harlow,D3,AA,33,LAB,LAB,12,18,0,0,2,0,0,0,1,,,http://moderngov.harlow.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-18
+192,Hart,D3,LC,33,NOC,IND/LD,14,0,8,0,0,0,0,11,0,,"Community Campaign Hart 10, Independent 1",http://www.hart.gov.uk/district-councillors,2017-08-14
+193,Havant,D3,LC,38,CON,CON,29,2,1,0,4,0,0,2,0,,,http://havant.moderngov.co.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-08-14
+194,Hyndburn,D3,LC,35,LAB,LAB,7,26,0,0,2,0,0,0,0,,,https://democracy.hyndburnbc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+195,Ipswich,D3,LC,48,LAB,LAB,13,33,2,0,0,0,0,0,0,,,https://democracy.ipswich.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+196,Lincoln,D3,LC,33,LAB,LAB,6,26,0,0,0,0,0,1,0,,,http://democratic.lincoln.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+197,Maidstone,D3,LC,55,NOC,"LD min",23,2,22,0,4,0,0,4,0,,,https://services.maidstone.gov.uk/meetings/mgMemberIndex.aspx?bcr=1,2017-08-14
+198,"Mole Valley",D3,LC,41,CON,CON,21,0,13,0,0,0,0,7,0,,"Beare Green Independents 1",http://www.molevalley.gov.uk/index.cfm?articleid=17184,2017-08-14
+199,"North Hertfordshire",D3,LC,49,CON,CON,34,12,3,0,0,0,0,0,0,,,http://web.north-herts.gov.uk/aksnherts/users/public/admin/main.pl?op=ListCurrentMembers,2017-08-14
+200,Norwich,D3,LC,39,LAB,LAB,0,26,3,10,0,0,0,0,0,,,https://cmis.norwich.gov.uk/live/Councillors.aspx,2017-08-14
+201,Pendle,D3,LC,49,NOC,LAB/LD,23,15,9,0,0,0,0,2,0,,"BNP 1",http://www.pendle.gov.uk/councillors/name,2017-08-14
+202,Preston,D3,LC,57,LAB,LAB,19,33,5,0,0,0,0,0,0,,,http://preston.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+203,Redditch,D3,LC,29,LAB,LAB,13,15,0,0,1,0,0,0,0,,,http://moderngovwebpublic.redditchbc.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+204,"Reigate & Banstead",D3,LC,51,CON,CON,40,0,2,2,0,0,0,7,0,,"Residents' Associations 6, Independent 1",https://democracy.reigate-banstead.gov.uk/aksreigate/users/public/admin/main.pl?op=ListCurrentMembers,2017-08-14
+205,Rochford,D3,LC,39,CON,CON,21,0,4,3,4,0,0,7,0,,"Rochford District Residents 6, Rayleigh Independent 1",https://rochford.cmis.uk.com/rochford/Members/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+206,Rossendale,D3,LC,36,LAB,LAB,13,22,0,0,0,0,0,1,0,,"Community First 1",http://www.rossendale.gov.uk/councillors/name,2017-08-18
+207,Rugby,D3,LC,42,CON,CON,23,9,8,0,0,0,0,2,0,,,https://www.rugby.gov.uk/councillors/name,2017-08-14
+208,Runnymede,D3,AA,42,CON,CON,36,0,0,0,0,0,0,6,0,,"Runnymede Independent Residents Group 6",https://www.runnymede.gov.uk/article/4744/Councillors,2017-08-14
+209,Rushmoor,D3,LC,39,CON,CON,26,11,0,0,2,0,0,0,0,,,http://www.rushmoor.gov.uk/councillors,2017-08-14
+210,"St Albans",D3,LC,58,CON,CON,31,7,17,1,0,0,0,2,0,,,http://stalbans.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+211,Stevenage,D3,LC,39,LAB,LAB,8,28,3,0,0,0,0,0,0,,,http://www.stevenage.gov.uk/about-the-council/councillors-and-democracy/local-councillors/,2017-08-18
+212,Stroud,D3,LC,51,NOC,LAB/GRN/LD,22,18,2,8,0,0,0,1,0,,"Studdert Non aligned CON (IND)",https://www.stroud.gov.uk/council-and-democracy/your-councillors/your-councillors-by-name,2017-08-14
+213,Tamworth,D3,LC,30,CON,CON,20,7,0,0,3,0,0,0,0,,,http://democracy.tamworth.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&,2017-08-14
+214,Tandridge,D3,AA,42,CON,CON,30,0,6,0,0,0,0,6,0,,"Independent 4, Oxted and Limpsfield Residents Group 2",http://www.councillors.tandridge.gov.uk/cmis5/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+215,"Three Rivers",D3,LC,39,LD,LD,16,3,20,0,0,0,0,0,0,,"Williams LD ok",http://www.threerivers.gov.uk/egcl-page/ward-councillors,2017-08-14
+216,"Tunbridge Wells",D3,LC,48,CON,CON,43,2,3,0,0,0,0,0,0,,,http://democracy.tunbridgewells.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+217,Watford,D3,MC,36,LD,LD,0,11,25,0,0,0,0,0,0,,,http://watford.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+218,"Welwyn Hatfield",D3,LC,48,CON,CON,27,16,5,0,0,0,0,0,0,,"TMlyons ok (still listed as vacant)",http://www.welhat.gov.uk/members,2017-08-20
+219,"West Lancashire",D3,LC,54,LAB,LAB,21,31,0,0,0,0,0,2,0,,"Our West Lancashire 2",https://democracy.westlancs.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+220,"West Oxfordshire",D3,LC,49,CON,CON,40,4,5,0,0,0,0,0,0,,,http://cmis.westoxon.gov.uk/cmis/Councillors.aspx,2017-08-14
+221,"Weymouth & Portland",D3,AA,36,NOC,CON/LAB/LD/GRN/IND/U,14,12,5,2,1,0,0,2,0,,,http://moderngovdcp.dorsetforyou.gov.uk/mgMemberIndexGroup.aspx?g=WPBC&m=WPBC,2017-08-14
+222,Winchester,D3,LC,45,CON,CON,24,0,20,0,0,0,0,1,0,,,http://www.winchester.gov.uk/meetings/councillors?page=2,2017-08-14
+223,Woking,D3,LC,30,CON,CON,17,3,7,0,0,0,0,3,0,,,https://www.woking.gov.uk/council/councillors2,2017-08-14
+224,Worcester,D3,LC,35,NOC,CON/LAB/GRN,17,16,0,2,0,0,0,0,0,,,http://committee.cityofworcester.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+225,Worthing,D3,LC,37,CON,CON,30,1,2,1,2,0,0,1,0,,,https://www.adur-worthing.gov.uk/councillors-and-mps/councillors-worthing/,2017-08-20
+226,"Wyre Forest",D3,LC,33,CON,CON,21,4,2,0,0,0,0,6,0,,"Independents 3, Health Concern 2",http://www.wyreforestdc.gov.uk/the-council/councillors-committees-and-meetings/your-district-councillor.aspx,2017-08-14
+227,"Barking & Dagenham",L1,LC,51,LAB,LAB,0,49,0,0,0,0,0,2,0,,,http://moderngov.barking-dagenham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+228,Barnet,L1,LC,63,CON,CON,32,30,1,0,0,0,0,0,0,,,https://barnet.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+229,Bexley,L1,LC,63,CON,CON,45,15,0,0,3,0,0,0,0,,,http://democracy.bexley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+230,Brent,L1,LC,63,LAB,LAB,4,56,0,0,0,0,0,3,0,,"Brondesbury Park Conservative 3",http://democracy.brent.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+231,Bromley,L1,LC,60,CON,CON,51,7,0,0,2,0,0,0,0,,,http://cds.bromley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+232,Camden,L1,LC,54,LAB,LAB,11,39,1,1,0,0,0,2,0,,,http://democracy.camden.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+233,Croydon,L1,LC,70,LAB,LAB,30,38,0,0,0,0,0,1,1,,,https://www.croydon.gov.uk/democracy/elected/allcouncillors,2017-08-14
+234,Ealing,L1,LC,69,LAB,LAB,12,53,4,0,0,0,0,0,0,,,http://ealing.cmis.uk.com/ealing/Councillors.aspx,2017-08-14
+235,Enfield,L1,LC,63,LAB,LAB,22,40,0,0,0,0,0,1,0,,"Daniel Anderson ok.",https://governance.enfield.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+236,Greenwich,L1,LC,51,LAB,LAB,9,42,0,0,0,0,0,0,0,,,http://www.royalgreenwich.gov.uk/info/200033/councillors_democracy_and_elections/598/find_your_councillor,2017-08-14
+237,"Hackney (M)",L1,MC,57,LAB,"LAB Mayor",4,50,3,0,0,0,0,0,0,,,http://mginternet.hackney.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+238,"Hammersmith & Fulham",L1,LC,46,LAB,LAB,20,26,0,0,0,0,0,0,0,,,http://democracy.lbhf.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+239,Haringey,L1,LC,57,LAB,LAB,0,49,8,0,0,0,0,0,0,,,http://www.minutes.haringey.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+240,Harrow,L1,LC,63,LAB,LAB,27,32,1,0,0,0,0,3,0,,,http://www.harrow.gov.uk/www2/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2017-08-14
+241,Havering,L1,LC,54,NOC,CON/IND,22,2,0,0,6,0,0,24,0,,"Residents' Group 11, East Havering Residents' Group (in governing coalition) 8, Independent Residents 5",http://democracy.havering.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+242,Hillingdon,L1,LC,65,CON,CON,42,23,0,0,0,0,0,0,0,,,http://modgov.hillingdon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+243,Hounslow,L1,LC,60,LAB,LAB,11,48,0,0,0,0,0,1,0,,,http://democraticservices.hounslow.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+244,Islington,L1,LC,48,LAB,LAB,0,47,0,1,0,0,0,0,0,,,http://democracy.islington.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+245,"Kensington & Chelsea",L1,LC,50,CON,CON,37,11,2,0,0,0,0,0,0,,,https://www.rbkc.gov.uk/committees/Members/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+246,"Kingston upon Thames",L1,LC,48,CON,CON,27,2,18,0,0,0,0,1,0,,,https://moderngov.kingston.gov.uk/mgMemberIndex.aspx,2017-08-14
+247,Lambeth,L1,LC,63,LAB,LAB,3,58,0,1,0,0,0,1,0,,"Lead for Brixton 1, Independent Labour 1",https://moderngov.lambeth.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+248,"Lewisham (M)",L1,MC,54,LAB,"LAB Mayor",0,53,0,1,0,0,0,0,0,,,http://councilmeetings.lewisham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+249,Merton,L1,LC,60,LAB,LAB,20,36,1,0,0,0,0,3,0,,"Merton Park Ward Independent Residents 3",http://democracy.merton.gov.uk/mgMemberIndex.aspx?bcr=1&FN=GROUPING&VW=LIST&PIC=0,2017-08-14
+250,"Newham (M)",L1,MC,60,LAB,"LAB Mayor",0,59,0,0,0,0,0,1,0,,,https://mgov.newham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+251,Redbridge,L1,LC,63,LAB,LAB,24,36,3,0,0,0,0,0,0,,,http://moderngov.redbridge.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+252,"Richmond upon Thames",L1,LC,54,CON,CON,38,1,15,0,0,0,0,0,0,,,https://cabnet.richmond.gov.uk/mgMemberIndex.aspx,2017-08-14
+253,Southwark,L1,LC,63,LAB,LAB,2,48,13,0,0,0,0,0,0,,,http://moderngov.southwarksites.com/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode&,2017-08-14
+254,Sutton,L1,LC,54,LD,LD,8,0,44,0,0,0,0,2,0,,,https://moderngov.sutton.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+255,"Tower Hamlets (M)",L1,LC,45,NOC,"LAB Mayor",5,22,1,0,0,0,0,17,0,,"Independent group 9, Peoples Alliance of Tower Hamlets 5, Independents 3",http://democracy.towerhamlets.gov.uk/mgMemberIndex.aspx?bcr=1,2017-07-29
+256,"Waltham Forest",L1,LC,60,LAB,LAB,16,43,0,0,0,0,0,1,0,,,http://walthamforest.moderngov.co.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2017-08-14
+257,Wandsworth,L1,LC,60,CON,CON,39,19,0,0,0,0,0,2,0,,"Wandsworth Independent Alliance 2",https://democracy.wandsworth.gov.uk/mgMemberIndex.aspx,2017-08-14
+258,Westminster,L1,LC,60,CON,CON,45,15,0,0,0,0,0,0,0,,"Gassanly is CON",http://committees.westminster.gov.uk/mgMemberIndex.aspx?bcr=11,2017-08-14
+259,Birmingham,M1,LC,120,LAB,LAB,29,80,10,0,0,0,0,1,0,"101 wards from 2018","101 wards from 2018",https://www.birmingham.gov.uk/councillors/name,2017-08-14
+260,"Doncaster (M)",M1,MC,55,LAB,"LAB Mayor",7,43,0,0,0,0,0,5,0,,"Mexborough First 3, Independent 1",http://doncaster.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+261,Leeds,M1,LC,99,LAB,LAB,19,60,9,3,0,0,0,8,0,,"Morley Borough Independents 5, Garforth and Swillington Independents",http://democracy.leeds.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+262,Manchester,M1,LC,96,LAB,LAB,0,95,1,0,0,0,0,0,0,,,http://www.manchester.gov.uk/site/custom_scripts/councillors/?cllr-type=all,2017-08-14
+263,"Newcastle upon Tyne",M1,LC,78,LAB,LAB,0,55,20,0,0,0,0,3,0,,,http://democracy.newcastle.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+278,Rotherham,M1,LC,63,LAB,LAB,0,48,1,0,13,0,0,1,0,,,http://www.rotherham.gov.uk/councillors/name,2017-08-14
+264,Barnsley,M3,LC,63,LAB,LAB,4,55,0,0,0,0,0,4,0,,"Barnsley Independent Group 4",http://barnsleymbc.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-18
+265,Bolton,M3,LC,60,LAB,LAB,16,37,2,0,4,0,0,1,0,,,http://democracy.bolton.gov.uk/cmis5/People.aspx,2017-08-14
+266,Bradford,M3,LC,90,LAB,LAB,21,49,10,3,1,0,0,6,0,,"The Independents 2, Independents 3, Queensbury Ward Independents 2",https://bradford.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-08-14
+267,Bury,M3,LC,51,LAB,LAB,16,32,3,0,0,0,0,0,0,,,https://councildecisions.bury.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2017-08-14
+268,Calderdale,M3,LC,51,NOC,"LAB min",21,23,5,0,0,0,0,2,0,,,http://www.calderdale.gov.uk/council/councillors/councillors/search/browse.jsp,2017-08-14
+269,Coventry,M3,LC,54,LAB,LAB,14,39,0,0,0,0,0,1,0,,,http://www.coventry.gov.uk/councillors/name,2017-08-14
+270,Dudley,M3,LC,72,NOC,"CON min",29,35,0,0,8,0,0,0,0,,Manual,http://councillors.dudley.gov.uk/conservative/,2017-08-20
+271,Gateshead,M3,LC,66,LAB,LAB,0,54,12,0,0,0,0,0,0,,,http://democracy.gateshead.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+272,Kirklees,M3,LC,69,NOC,"LAB min",20,33,9,3,0,0,0,4,0,,"Valley Independents 3",http://democracy.kirklees.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+273,Knowsley,M3,LC,45,LAB,LAB,0,42,3,0,0,0,0,0,0,,,http://councillors.knowsley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+274,"Liverpool (M)",M3,MC,90,LAB,"LAB Mayor",0,80,4,4,0,0,0,2,0,,"Liberal Party 2",http://councillors.liverpool.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-18
+275,"North Tyneside",M3,MC,60,LAB,LAB,7,51,2,0,0,0,0,0,0,,,http://my.northtyneside.gov.uk/category/312/councillors,2017-08-14
+276,Oldham,M3,LC,60,LAB,LAB,2,46,9,0,2,0,0,1,0,,"Phythian LAB ok",http://www.oldham.gov.uk/councillors/name,2017-08-20
+277,Rochdale,M3,LC,60,LAB,LAB,10,48,2,0,0,0,0,0,0,,,http://democracy.rochdale.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+279,"Salford (M)",M3,LC,60,LAB,"LAB Mayor",9,49,0,0,0,0,0,1,1,,,http://www.salford.gov.uk/your-council/councillors/councillors-by-name/,2017-08-14
+280,Sandwell,M3,LC,72,LAB,LAB,0,68,0,0,1,0,0,3,0,,,https://cmis.sandwell.gov.uk/cmis5/People/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+281,Sefton,M3,LC,66,LAB,LAB,6,38,14,0,0,0,0,8,0,,"Formby Residents Action Group 2, Independent 2, Conservative Independent 1",http://modgov.sefton.gov.uk/moderngov/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+282,Sheffield,M3,LC,84,LAB,LAB,0,56,20,4,4,0,0,0,0,,,http://sheffielddemocracy.moderngov.co.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+283,Solihull,M3,LC,51,CON,CON,32,1,6,10,2,0,0,0,0,,,http://eservices.solihull.gov.uk/mgInternet/mgMemberIndex.aspx?bcr=1,2017-08-14
+284,"South Tyneside",M3,LC,54,LAB,LAB,0,53,0,0,0,0,0,1,0,,"Independent Putting People First 1",https://portal.southtyneside.info/councillorsandcommittees/councillorlistbyname.aspx,2017-08-20
+285,"St Helens",M3,LC,48,LAB,LAB,3,42,3,0,0,0,0,0,0,,,http://moderngov.sthelens.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+286,Stockport,M3,LC,63,NOC,"LAB min",14,23,21,0,0,0,0,5,0,,"Independent Ratepayers 3, Independent 2",http://democracy.stockport.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+287,Sunderland,M3,LC,75,LAB,LAB,6,66,2,0,0,0,0,1,0,,,http://www.sunderland.gov.uk/committees/cmis5/Members.aspx,2017-08-14
+288,Tameside,M3,LC,57,LAB,LAB,6,51,0,0,0,0,0,0,0,,,http://public.tameside.gov.uk/forms/know_your_councillor.asp,2017-08-14
+289,Trafford,M3,LC,63,CON,CON,33,25,3,0,0,0,0,1,1,,,https://democratic.trafford.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+290,Wakefield,M3,LC,63,LAB,LAB,7,53,0,0,1,0,0,2,0,,,http://mg.wakefield.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-08-14
+291,Walsall,M3,LC,60,NOC,"LAB/LD min",25,28,2,0,3,0,0,2,0,,,https://cmispublic.walsall.gov.uk/cmis/Councillors.aspx,2017-08-14
+292,Wigan,M3,LC,75,LAB,LAB,5,65,0,0,0,0,0,5,0,,"Wigan Independent Network 2, Standish Independent 2, Independent 1",http://democracy.wigan.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+293,Wirral,M3,LC,66,LAB,LAB,21,39,5,1,0,0,0,0,0,,,http://democracy.wirral.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+294,Wolverhampton,M3,LC,60,LAB,LAB,10,49,0,0,1,0,0,0,0,,,http://wolverhampton.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-08-14
+1001,"Antrim and Newtownabbey",N1,,40,NOC,,0,0,0,0,0,0,0,0,1,,,http://www.antrimandnewtownabbey.gov.uk/Council/Your-Councillors?utm_source=PP&utm_medium=web&utm_campaign=Councillors&utm_content=9,2017-08-13
+1002,"Armagh City, Banbridge and Craigavon",N1,,41,NOC,,0,0,0,0,0,0,0,3,0,,"UKIP 1, Independent 1",https://www.armaghbanbridgecraigavon.gov.uk/council/find-a-councillor/,2017-08-13
+1003,Belfast,N1,,60,NOC,,0,0,0,1,0,0,0,6,1,,"People Before Profit Alliance 1, Independent 1",https://minutes3.belfastcity.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+1004,"Causeway Coast and Glens",N1,,40,NOC,,0,0,0,0,0,0,0,2,0,,"Conservative 1, Independent 1",https://www.causewaycoastandglens.gov.uk/council/councillors,2017-08-13
+1005,"Derry and Strabane",N1,,40,NOC,,0,0,0,0,0,0,0,7,0,,"Independent 7",http://meetings.derrycityandstrabanedistrict.com/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-13
+1006,"Fermanagh and Omagh",N1,,40,NOC,,0,0,0,0,0,0,0,4,0,,,http://www.fermanaghomagh.com/your-council/councillors/,2017-08-13
+1007,"Lisburn and Castlereagh",N1,,40,NOC,,0,0,0,0,0,0,0,2,0,,,https://www.lisburncastlereagh.gov.uk/council/elected-members,2017-08-13
+1008,"Mid and East Antrim",N1,,40,NOC,,0,0,0,0,0,0,0,5,0,,"UKIP 2, Independent 3",https://www.midandeastantrim.gov.uk/council/councillors,2017-08-13
+1009,Mid-Ulster,N1,,40,NOC,,0,0,0,0,0,0,0,2,0,,,http://www.midulstercouncil.org/Council/Councillors,2017-08-13
+1010,"Newry, Mourne and Down",N1,,41,NOC,,0,0,0,0,0,0,0,4,1,,,http://www.newrymournedown.org/elected_members#prettyPhoto,2017-08-13
+1011,"North Down and Ards",N1,,40,NOC,,0,0,0,2,0,0,0,2,0,,,http://www.ardsandnorthdown.gov.uk/about-the-council/find-my-councillor/view-all,2017-08-13
+295,Aberdeen,S1,,45,NOC,CON/LAB/IND,11,9,3,0,0,0,19,3,0,,"Independent Alliance Group 3",http://committees.aberdeencity.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-18
+296,Aberdeenshire,S1,,70,NOC,CON/LD/IND,22,1,14,1,0,0,21,10,1,,,http://committees.aberdeenshire.gov.uk/Committees.aspx?councillors=1,2017-08-14
+297,Angus,S1,,28,NOC,CON/IND/LD,8,0,2,0,0,0,9,9,0,,,https://www.angus.gov.uk/councillors,2017-08-14
+298,"Argyll & Bute",S1,,36,NOC,CON/LD/IND,9,0,6,0,0,0,11,10,0,,"Argyll First 3, Independents 18",https://www.argyll-bute.gov.uk/councillor_list,2017-08-14
+299,Clackmannanshire,S1,,18,NOC,"SNP min",5,5,0,0,0,0,8,0,0,,,http://www.clacks.gov.uk/council/wards/,2017-08-14
+300,"Dumfries & Galloway",S1,,43,NOC,LAB/SNP,16,11,1,0,0,0,11,4,0,,,http://egenda.dumgal.gov.uk/aksdumgal/users/public/admin/main.pl?op=ListCurrentMembers,2017-08-14
+301,Dundee,S1,,29,NOC,SNP/IND,3,9,2,0,0,0,14,1,0,,,https://www.dundeecity.gov.uk/councillors/cllorsurname/,2017-08-14
+302,"East Ayrshire",S1,,32,NOC,"SNP min",6,9,0,0,0,0,14,3,0,,,https://www.east-ayrshire.gov.uk/CouncilAndGovernment/About-the-Council/Councillors-and-Provost/YourCouncillor.aspx,2017-08-14
+303,"East Dunbartonshire",S1,,22,NOC,"SNP min",6,2,6,0,0,0,7,1,0,,"Gary Pews LD ok.",https://www.eastdunbarton.gov.uk/council/committees-councillors/councillors-2017,2017-08-20
+304,"East Lothian",S1,,22,NOC,"LAB min",7,9,0,0,0,0,6,0,0,,,http://www.eastlothian.gov.uk/councillors/name,2017-08-14
+305,"East Renfrewshire",S1,,18,NOC,SNP/LAB,7,4,0,0,0,0,5,2,0,,,http://www.eastrenfrewshire.gov.uk/councillors-democracy,2017-08-14
+306,Edinburgh,S1,,63,NOC,SNP/LAB,18,12,6,8,0,0,19,0,0,,,http://www.edinburgh.gov.uk/councillors/name,2017-08-14
+307,"Eilean Siar",S1,,31,IND,IND,2,0,0,0,0,0,7,22,0,,,http://www.cne-siar.gov.uk/members/,2017-08-14
+308,Falkirk,S1,,30,NOC,"SNP min",7,9,0,0,0,0,12,2,0,,,http://www.falkirk.gov.uk/services/council-democracy/councillors-decision-making/councillors/,2017-08-14
+309,Fife,S1,,75,NOC,SNP/LAB,15,25,7,0,0,0,28,0,0,,,http://www.fifedirect.org.uk/news/index.cfm?fuseaction=cllr.home,2017-08-14
+310,Glasgow,S1,,85,NOC,"SNP min",8,30,0,7,0,0,39,0,1,,,http://www.glasgow.gov.uk/councillorsandcommittees/allMembers.asp?sort=0&page=0&rec=78,2017-08-14
+311,Highland,S1,,74,NOC,IND/LD/LAB,10,3,9,1,0,0,22,28,1,,"Highland Alliance 6",http://www.highland.gov.uk/councillors/name,2017-08-14
+312,Inverclyde,S1,,22,NOC,"LAB min",2,8,1,0,0,0,7,4,0,,,http://www.inverclyde.gov.uk/meetings/councillors,2017-08-14
+313,Midlothian,S1,,18,NOC,"LAB min",5,7,0,0,0,0,6,0,0,,,https://midlothian.cmis.uk.com/Live/Councillors.aspx,2017-08-14
+314,Moray,S1,,26,NOC,CON/IND,9,1,0,0,0,0,9,7,0,,,http://www.moray.gov.uk/moray_standard/page_1247.html,2017-08-14
+315,"North Ayrshire",S1,,33,NOC,"LAB min",7,11,0,0,0,0,11,4,0,,,https://north-ayrshire.cmis.uk.com/North-Ayrshire/-ayrshire.cmis.uk.com/north-ayrshire/Councillors/CurrentCouncillors/tabid/98/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+316,"North Lanarkshire",S1,,77,NOC,"LAB min",9,32,0,0,0,0,33,2,1,,"Cumbernauld Independent Councillors Alliance 1, Independents 15",https://mars.northlanarkshire.gov.uk/egenda/public/main.pl?op=ListCurrentMembers,2017-08-14
+317,Orkney,S1,,21,IND,IND,0,0,0,0,0,0,0,21,0,,,http://www.orkney.gov.uk/Council/Councillors/councillor-profiles.htm,2017-08-14
+318,"Perth & Kinross",S1,,40,NOC,CON/LD/IND,17,1,4,0,0,0,15,3,0,,,https://perth-and-kinross.cmis.uk.com/perth-and-kinross/Councillors/OverviewofCouncillors.aspx,2017-08-14
+319,Renfrewshire,S1,,43,NOC,"SNP min",8,13,1,0,0,0,19,2,0,,,http://renfrewshire.cmis.uk.com/renfrewshire/Councillors.aspx,2017-08-14
+320,"Scottish Borders",S1,,34,NOC,CON/IND,15,0,2,0,0,0,9,8,0,,,https://www.scotborders.gov.uk/councillors/name,2017-08-14
+321,Shetland,S1,,22,IND,IND,0,0,0,0,0,0,1,21,0,,,http://www.shetland.gov.uk/about_your_councillors/,2017-08-20
+322,"South Ayrshire",S1,,28,NOC,SNP/LAB/IND,12,5,0,0,0,0,9,2,0,,,http://www.south-ayrshire.gov.uk/councillors/all/,2017-08-14
+323,"South Lanarkshire",S1,,64,NOC,"SNP min",14,19,1,0,0,0,25,5,0,,,http://www.southlanarkshire.gov.uk/councillors/name,2017-08-14
+324,Stirling,S1,,23,NOC,SNP/LAB,7,4,0,1,0,0,9,2,0,,,http://my.stirling.gov.uk/councillors/index?theme=MyStirling,2017-08-14
+325,"West Dunbartonshire",S1,,22,NOC,SNP/IND,2,8,0,0,0,0,10,2,0,,"Brian Walker ok.",http://www.west-dunbarton.gov.uk/council/councillors-and-committees/councillor/councillors-by-name/,2017-08-20
+326,"West Lothian",S1,,33,NOC,"LAB min",7,12,0,0,0,0,13,1,0,,,https://www.westlothian.gov.uk/article/1956/Councillors-and-Wards,2017-08-14
+327,"Bath and North East Somerset",U1,,65,CON,CON,37,6,16,1,0,0,0,5,0,,,https://democracy.bathnes.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+328,"Bedford (M)",U1,,40,NOC,"LD Mayor",15,14,9,0,0,0,0,2,0,,,http://www.councillorsupport.bedford.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode&,2017-08-14
+329,Blackpool,U1,,42,LAB,LAB,13,29,0,0,0,0,0,0,0,,,http://democracy.blackpool.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-08-14
+330,Bournemouth,U1,,54,CON,CON,51,0,0,1,0,0,0,2,0,,,http://www.bournemouth.gov.uk/councildemocratic/Councillors/Councillors.aspx?CouncillorsListing_DisplayMode=Party,2017-08-14
+331,"Bracknell Forest",U1,,42,CON,CON,41,1,0,0,0,0,0,0,0,,,http://democratic.bracknell-forest.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+332,"Brighton & Hove",U1,,54,NOC,"LAB min",20,22,0,11,0,0,0,1,0,,,http://present.brighton-hove.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+366,"Bristol (M)",U1,,70,LAB,"LAB Mayor",14,37,8,11,0,0,0,0,0,,,https://democracy.bristol.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+333,"Central Bedfordshire",U1,,59,CON,CON,53,2,1,0,0,0,0,3,0,,,http://centralbeds.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+334,"Cheshire East",U1,,82,CON,CON,51,15,2,0,0,0,0,13,1,,"Sam Gardner CON->IND. Middlewich First 3, Handford Ratepayers Association 2, Nantwich First 2, Alderley Edge First 1, Bollington First 2, Independent 1, Residents of Wilmslow 1",http://moderngov.cheshireeast.gov.uk/ecminutes/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-18
+335,"Cheshire West & Chester",U1,,75,LAB,LAB,36,38,0,0,0,0,0,1,0,,,http://cmttpublic.cheshirewestandchester.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+336,Cornwall,U1,LC,123,NOC,LD/IND,46,5,38,0,0,0,0,34,0,,"Mebyon Kernow 4",https://democracy.cornwall.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+337,Darlington,U1,,50,LAB,LAB,17,28,3,0,0,0,0,1,1,,,http://www.darlington.gov.uk/your-council/democracy/councillors/,2017-08-14
+338,Durham,U1,LC,126,LAB,LAB,10,73,14,0,0,0,0,28,1,,"Durham Independent Group 13, Durham County Council Independent Group 2, Independents 2",https://democracy.durham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+339,"East Riding of Yorkshire",U1,,67,CON,CON,48,6,3,0,3,0,0,7,0,,,http://www2.eastriding.gov.uk/council/councillors-and-members-of-parliament/councillor-finder/,2017-08-14
+340,Herefordshire,U1,,53,CON,CON,28,0,2,3,0,0,0,19,1,,"It's Our County 12, Herefordshire Independents 7, Independent 1",http://councillors.herefordshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=2&zTS=undefined,2017-08-14
+341,Hull,U1,,59,LAB,LAB,2,39,17,0,0,0,0,1,0,,,https://cmis.hullcc.gov.uk/cmis/YourCouncillors/Councillors.aspx,2017-08-14
+342,"Isle of Wight",U1,LC,40,CON,CON,25,1,2,1,0,0,0,11,0,,,https://www.iwight.com/councillor/azCouncillors.aspx,2017-08-14
+343,"Leicester (M)",U1,,54,LAB,"LAB Mayor",1,52,1,0,0,0,0,0,0,,,http://www.cabinet.leicester.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-08-14
+344,Luton,U1,,48,LAB,LAB,5,34,8,0,0,0,0,1,0,,,http://democracy.luton.gov.uk/cmis5public/Councillors.aspx,2017-08-14
+345,Medway,U1,,55,CON,CON,38,15,0,0,2,0,0,0,0,,,https://democracy.medway.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+346,"Middlesbrough (M)",U1,,46,LAB,"LAB Mayor",5,31,0,0,0,0,0,10,0,,,https://www.middlesbrough.gov.uk/mayor-council-and-councillors/councillors-and-council-meetings/councillors,2017-08-14
+347,"North Lincolnshire",U1,,43,CON,CON,26,17,0,0,0,0,0,0,0,,,http://www.northlincs.gov.uk/your-council/have-your-say/councillors-and-mps/councillors/,2017-08-14
+348,"North Somerset",U1,,50,CON,CON,36,3,4,1,0,0,0,5,1,,,http://www.n-somerset.gov.uk/my-council/councillors/councillor/find-your-councillors/list-of-councillors/,2017-08-14
+349,Northumberland,U1,LC,67,NOC,"CON min",33,24,3,0,0,0,0,7,0,,,http://committee.northumberland.gov.uk/CouncillorSearch.aspx,2017-08-14
+350,Nottingham,U1,,55,LAB,LAB,3,50,0,0,0,0,0,1,1,,,http://www.nottinghamcity.gov.uk/about-the-council/councillors-and-leadership/find-a-councillor/,2017-07-28
+351,Poole,U1,,42,CON,CON,29,0,7,0,1,0,0,5,0,,,http://www.poole.gov.uk/your-council/councillors/meet-your-councillor/,2017-08-14
+352,"Redcar & Cleveland",U1,,59,NOC,"LAB min",11,28,9,0,0,0,0,10,1,,,http://www.redcar-cleveland.gov.uk/Councill1.nsf/Councillors?ReadForm=&search=parties&select=All+Parties,2017-08-14
+353,Rutland,U1,,26,CON,CON,18,0,1,0,0,0,0,7,0,,,http://rutlandcounty.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-20
+354,Shropshire,U1,LC,74,CON,CON,49,8,12,0,0,0,0,5,0,,,http://shropshire.gov.uk/committee-services/mgMemberIndex.aspx?FN=PARTY,2017-08-14
+355,"South Gloucestershire",U1,,70,CON,CON,40,14,16,0,0,0,0,0,0,,,https://council.southglos.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+356,Stockton-on-Tees,U1,,56,LAB,LAB,12,30,1,0,0,0,0,13,0,,"Ingleby Barwick Independent Society 5, Thornaby Independent Association 3, Independents 2, West Words 2",http://www.egenda.stockton.gov.uk/aksstockton/users/public/admin/main.pl?op=ListCurrentMembers,2017-08-20
+357,Stoke-on-Trent,U1,,44,NOC,IND/CON/UKIP,7,20,0,0,1,0,0,16,0,,"City Independents 16",http://www.moderngov.stoke.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+358,"Telford & Wrekin",U1,,54,LAB,LAB,21,28,3,0,0,0,0,2,0,,,http://apps.telford.gov.uk/CouncilAndDemocracy/Councillors?page=1,2017-08-14
+359,"Torbay (M)",U1,,36,CON,"CON Mayor",24,0,8,0,1,0,0,3,0,,,http://www.torbay.gov.uk/DemocraticServices/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+360,Warrington,U1,LC,58,LAB,LAB,2,44,11,0,0,0,0,0,1,,,https://www.warrington.gov.uk/councillors/name,2017-08-14
+361,"West Berkshire",U1,,52,CON,CON,48,0,4,0,0,0,0,0,0,,,http://decisionmaking.westberks.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=ALPHA,2017-08-14
+362,Wiltshire,U1,,98,CON,CON,68,3,20,0,0,0,0,7,0,,,http://cms.wiltshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+363,"Windsor & Maidenhead",U1,,57,CON,CON,51,0,1,0,0,0,0,5,0,,"Old Windsor Residents' Association 2",http://rbwm.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+364,York,U1,,47,NOC,CON/LD,14,15,12,4,0,0,0,2,0,,,http://democracy.york.gov.uk/mgMemberIndex.aspx,2017-08-14
+365,"Blackburn with Darwen",U3,,64,LAB,LAB,17,44,3,0,0,0,0,0,0,,"Julie Daley CON ok",http://blackburn.cmis.uk.com/blackburn/Councillors.aspx,2017-08-18
+367,Derby,U3,,51,LAB,LAB,18,26,5,0,2,0,0,0,0,,,https://cmis.derby.gov.uk/cmis5/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2017-08-14
+368,Halton,U3,,56,LAB,LAB,2,52,2,0,0,0,0,0,0,,,http://councillors.halton.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2017-08-14
+369,Hartlepool,U3,,33,LAB,LAB,3,19,0,0,6,0,0,5,0,,"Mike McLaughlin ok. Independents 3, Putting Hartlepool First 2",https://www.hartlepool.gov.uk/councillors/name,2017-08-14
+370,"Milton Keynes",U3,,57,NOC,"LAB min",22,22,13,0,0,0,0,0,0,,,http://milton-keynes.cmis.uk.com/milton-keynes/Councillors.aspx,2017-08-14
+371,"North East Lincolnshire",U3,,42,NOC,"LAB min",14,18,4,0,4,0,0,2,0,,,https://www.nelincs.gov.uk/councillors-and-democracy/councillors-mps-meps/councillors-by-party/,2017-08-14
+372,Peterborough,U3,,60,NOC,"CON min",29,15,7,0,2,0,0,6,1,,"Liberal Party 3, Werrington First 3, Independent 1",http://democracy.peterborough.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-18
+373,Plymouth,U3,,57,NOC,CON/UKIP,27,27,0,0,3,0,0,0,0,,,http://web.plymouth.gov.uk/modgov?modgovlink=http://democracy.plymouth.gov.uk/mgMemberIndex.aspx,2017-08-14
+374,Portsmouth,U3,,42,NOC,"CON min",20,2,15,0,2,0,0,3,0,,,http://democracy.portsmouth.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+375,Reading,U3,,46,LAB,LAB,10,31,2,3,0,0,0,0,0,,Manual,http://www.reading.gov.uk/cllrdavidabsolom,2017-08-18
+376,Slough,U3,,42,LAB,LAB,8,33,0,0,1,0,0,0,0,,,http://www.slough.gov.uk/moderngov/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+377,Southampton,U3,,48,LAB,LAB,19,25,0,0,0,0,0,4,0,,"Putting People First 3, Independent 1",http://www.southampton.gov.uk/modernGov/mgMemberIndex.aspx?bcr=1,2017-08-14
+378,Southend-on-Sea,U3,,51,CON,CON,27,9,2,0,0,0,0,13,0,,"Independent Group 9, Southend Independence Group 3, non-aligned Independent 1",http://democracy.southend.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+379,Swindon,U3,,57,CON,CON,30,25,2,0,0,0,0,0,0,,,http://ww5.swindon.gov.uk/moderngov/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=2,2017-08-14
+380,Thurrock,U3,,49,NOC,"CON min",18,14,0,0,17,0,0,0,0,,,https://www.thurrock.gov.uk/current-councillors,2017-08-14
+381,Wokingham,U3,,54,CON,CON,45,1,7,0,0,0,0,1,0,,,http://wokingham.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+382,"Blaenau Gwent",W1,,41,IND,IND,0,12,0,0,0,1,0,28,0,,"Wayne Hodgins IND ok",https://www.blaenau-gwent.gov.uk/council/councillors-committees/councillor-directory/?L=0,2017-08-20
+383,Bridgend,W1,,54,NOC,"LAB min",11,26,1,0,0,3,0,13,0,,,https://democratic.bridgend.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=TABLE&PIC=1,2017-08-14
+384,Caerphilly,W1,,73,LAB,LAB,0,50,0,0,0,18,0,5,0,,,http://www.democracy.caerphilly.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=,2017-08-14
+385,Cardiff,W1,,75,LAB,LAB,20,40,11,0,0,3,0,1,0,,,http://cardiff.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+386,Carmarthenshire,W1,,74,NOC,PC/IND,0,22,0,0,0,36,0,16,0,,,http://democracy.carmarthenshire.gov.wales/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+387,Ceredigion,W1,,42,NOC,PC/IND,0,0,8,0,0,20,0,14,0,,,https://www.ceredigion.gov.uk/English/Your-Council/Councillors-Committees/Councillors/Pages/default.aspx,2017-08-18
+388,Conwy,W1,,59,NOC,CON/IND,16,8,4,0,0,7,0,24,0,,"Conwy First 15, Independents 5",http://modgoveng.conwy.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2017-08-14
+389,Denbighshire,W1,,47,NOC,CON/PC/IND,15,13,0,0,0,9,0,10,0,,,https://moderngov.denbighshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&LLL=0,2017-08-18
+390,Flintshire,W1,,70,NOC,"LAB min",6,33,5,0,0,0,0,25,1,,"Independent Alliance 9, New Independets 6, Independents 6",http://cyfarfodyddpwyllgor.siryfflint.gov.uk/mgMemberIndex.aspx?FN=GROUPING&VW=LIST&PIC=0&LLL=1,2017-08-14
+391,Gwynedd,W1,,75,PC,PC,0,1,1,0,0,41,0,32,0,,"Llais Gwynedd 7, Independent Group 21, Independent 1",https://democracy.cyngor.gwynedd.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+392,"Isle of Anglesey",W1,,30,NOC,PC/IND,0,2,1,0,0,14,0,13,0,,"Revolutionist Group 2, Independent Group 10, Independents 2. Aled Jones is LD in Ind Gp.",http://democracy.anglesey.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&LLL=0,2017-08-14
+393,"Merthyr Tydfil",W1,,33,IND,IND,0,15,0,0,0,0,0,18,0,,,http://democracy.merthyr.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-08-14
+394,Monmouthshire,W1,,43,CON,CON,25,10,3,0,0,0,0,5,0,,,https://democracy.monmouthshire.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-14
+395,"Neath Port Talbot",W1,,64,LAB,LAB,0,43,1,0,0,15,0,5,0,,,https://democracy.npt.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2017-08-14
+396,Newport,W1,,50,LAB,LAB,12,31,2,0,0,0,0,5,0,,,https://democracy.newport.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+397,Pembrokeshire,W1,,60,IND,IND,12,7,1,0,0,6,0,34,0,,,http://mgenglish.pembrokeshire.gov.uk/mgMemberIndex.aspx?bcr=1,2017-08-18
+398,Powys,W1,,73,NOC,IND/CON,20,7,13,0,0,2,0,31,0,,"Powys Independent Alliance 20, Independent Group 10, Non-political Group 9, Non-aligned 5, Independent Conservative 1",http://powys.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2017-08-14
+399,"Rhondda Cynon Taff",W1,,75,LAB,LAB,4,47,1,0,0,18,0,5,0,,,http://www.rctcbc.gov.uk/EN/Council/CouncillorsCommitteesandMeetings/Councillors/Councillors.aspx?CouncillorsListing_DisplayMode=Party,2017-08-14
+400,Swansea,W1,,72,LAB,LAB,9,48,7,0,0,0,0,8,0,,,http://democracy.swansea.gov.uk/mgMemberIndex.aspx?bcr=1&LLL=0?Lang=eng,2017-08-14
+401,Torfaen,W1,,44,LAB,LAB,4,29,0,0,0,0,0,10,1,,,http://moderngov.torfaen.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2017-08-14
+402,"Vale of Glamorgan",W1,,47,NOC,CON/IND,23,14,0,0,0,4,0,6,0,,,http://www.valeofglamorgan.gov.uk/en/our_council/Council-Structure/councillors/Councillor-Search.aspx,2017-08-14
+403,Wrexham,W1,,52,NOC,IND/LAB/CON/PC/LD,9,12,2,0,0,3,0,26,0,,,http://moderngov.wrexham.gov.uk/mgMemberIndex.aspx?FN=GROUPING&VW=LIST&PIC=0&LLL=undefined,2017-08-14

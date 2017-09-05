@@ -1,5 +1,6 @@
 
 
+# west_hex_map ------------------------------------------------------------
 #' A hexagonal cartogram of Westminster parliamentary constituencies, stored as a simple feature. 
 #' 
 #' Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. The coordinates in the original shapefile were converted into Latitude and Longitude in QGIS, and the hexagon representing Ynys Mon was moved to be closer to the mainland of Wales.
@@ -18,6 +19,7 @@
 #' @source \url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}
 "west_hex_map"
 
+# local_hex_map ------------------------------------------------------------
 #' Hexagonal cartogram, of all Local Authorities in England, Wales and Scotland. 
 #' 
 #' Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
@@ -34,7 +36,7 @@
 #' @source \url{http://www.arcgis.com/home/item.html?id=593037bc399e460bb7c6c631ceff67b4}
 "local_hex_map"
 
-
+# party_colour ------------------------------------------------------------
 #' A tibble with the ID, name and hex code for the official colour of a variety of political parties. 
 #' 
 #' Includes all political parties with MPs and a number without MPs. It also contains a 'No Overall Control' party for local government. Hex codes are taken from Wikipedia.
@@ -50,6 +52,7 @@
 "party_colour"
 
 
+# bes_2015 ------------------------------------------------------------
 #' 2015 General Election Results
 #' 
 #' A tibble with the British Election Study 2015 Constituency Results Version 2.21.
@@ -65,7 +68,7 @@
 "bes_2015"
 
 
-
+# bes_2017 ------------------------------------------------------------
 #' 2017 General Election Results
 #' 
 #' A tibble with the British Election Study 2017 Constituency Results Version 1.0.
@@ -80,7 +83,7 @@
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
 "bes_2017"
 
-
+# census_11 ------------------------------------------------------------
 #' Constituency demographic information
 #' 
 #' A tibble with demographic information on each constituency, taken from the 2011 census data included in the British Election Study. Can be linked to the \code{\link{bes_2017}} and \code{\link{bes_2015}} datasets using the \code{pano}, \code{ons_const_id} and \code{constituency_name} variables.
@@ -90,7 +93,7 @@
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
 "census_11"
 
-
+# council_data ------------------------------------------------------------
 #' A tibble with details on the council make-up of local authorities across the UK.
 #' 
 #' This data is taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
@@ -122,7 +125,7 @@
 #' \url{http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0}
 "council_data"
 
-
+# leave_votes_west ------------------------------------------------------------
 #' A tibble with leave votes from the Brexit referendum in each constituency. 
 #' 
 #' A tibble with details on percentage of votes cast for leave in the 2016 referendum on British membership of the European Union in each  constituency. Numbers for Britian were compiled by the House of Commons using data from Chris Hanretty's estimates of leave vote, and supplemented with data from BBC Freedom of Information requests for more finely grained voting data. Numbers for Northern Ireland, which reported results by constituency, are taken from the BBC.

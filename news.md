@@ -1,3 +1,14 @@
+# parlitools 0.2.1
+
+## Data
+
+Updating of `council_data` dataset to be accurate as of 2017-09-05.
+
+## Dependency changes
+
+Removed reliance on now-hidden functions from `mnis` and `hansard` packages.
+
+
 
 # parlitools 0.2.0
 
