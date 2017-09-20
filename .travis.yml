@@ -3,7 +3,7 @@ r:
   - devel
   - release
   - oldrel
-cache: packages
+#cache: packages
 sudo: required
 dist: trusty
 
