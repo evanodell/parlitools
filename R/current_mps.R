@@ -1,6 +1,6 @@
 #' All current MPs
 #' 
-#' Request data on all MPs eligible currently to sit in the House of Commons. Includes information on their constituency.
+#' Request data on all MPs eligible currently (i.e. on the current system date) to sit in the House of Commons. Includes information on their constituency.
 #' 
 #' @param tidy If \code{TRUE}, fixes the variable names in the tibble to remove special characters and superfluous text, and converts the variable names to a consistent style. Defaults to \code{TRUE}.
 #' @param tidy_style The style to convert variable names to, if \code{tidy=TRUE}. Accepts one of \code{'snake_case'}, \code{'camelCase'} and \code{'period.case'}. Defaults to \code{'snake_case'}.
@@ -13,7 +13,7 @@
  
 current_mps <- function(tidy=TRUE, tidy_style="snake_case"){
   
-  suppressMessages(constit <- hansard::constituencies(tidy=FALSE))
+  suppressMessages(constit <- hansard::constituencies(current=TRUE, tidy=FALSE))
     
   current <- mnis::mnis_eligible(house="commons", tidy=FALSE)
     

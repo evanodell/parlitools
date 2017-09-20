@@ -2,6 +2,7 @@ language: r
 r:
   - devel
   - release
+  - oldrel
 cache: packages
 sudo: required
 dist: trusty

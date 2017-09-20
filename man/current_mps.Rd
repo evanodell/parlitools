@@ -15,7 +15,7 @@ current_mps(tidy = TRUE, tidy_style = "snake_case")
 A tibble of all MPs currently eligible to sit in the House of Commons.
 }
 \description{
-Request data on all MPs eligible currently to sit in the House of Commons. Includes information on their constituency.
+Request data on all MPs eligible currently (i.e. on the current system date) to sit in the House of Commons. Includes information on their constituency.
 }
 \examples{
 \dontrun{

@@ -10,7 +10,6 @@
 #' @import hansard
 #' @import mnis
 #' @import dplyr
-#' @import utils
 #' @import tibble
 #' @import httr
 #' @import jsonlite

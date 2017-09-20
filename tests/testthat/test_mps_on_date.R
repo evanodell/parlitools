@@ -9,6 +9,7 @@ test_that("mps_on_date return expected format", {
   expect_length(xmpon, 38)
   expect_type(xmpon, "list")
   expect_true(tibble::is_tibble(xmpon))
+  expect_true(is.na(xmpon$election_type[1])==FALSE)
   #expect_true(nrow(xmpon)==649)
   
   xmpon2 <- mps_on_date(date1="1990-04-30", date2="2015-05-10")

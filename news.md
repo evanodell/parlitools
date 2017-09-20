@@ -2,7 +2,11 @@
 
 ## Data
 
-Updating of `council_data` dataset to be accurate as of 2017-09-05.
+Updating of `council_data` dataset to be accurate as of 2017-09-13.
+
+Added `combined_leave_vote` column to `leave_votes_west` dataset with the actual leave vote if known and the Chris Hanretty estimate if not known. 
+
+Vote percentages in `leave_votes_west` are now all numeric class.
 
 ## Dependency changes
 
@@ -10,7 +14,11 @@ Removed reliance on now-hidden functions from `mnis` and `hansard` packages.
 
 ## General improvements
 
+Improvements to documentation to improve clarity and readability. 
 
+Better example plots in introductory vignette.
+
+The tidying functions are now all internal to the package and not exported.
 
 # parlitools 0.2.0
 
