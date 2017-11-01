@@ -25,3 +25,4 @@ vignettes/*.pdf
 .Rproj.user
 inst/doc
 testing.R
+*.html
