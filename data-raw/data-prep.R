@@ -94,7 +94,7 @@
   library(readr)
   library(dplyr)
   library(readxl)
-  council_data <- read_csv("~/GitHub/parlitools/data-raw/opencouncildata_councils.csv")
+  council_data <- read_csv("data-raw/opencouncildata_councils.csv")
   council_data$type <- NULL
   council_data$id <- NULL
   council_data$model <- NULL
@@ -182,7 +182,7 @@ council_data$majority_party <- recode(council_data$majority_party,
                               "Telford & Wrekin" = "Telford and Wrekin",
                               "Windsor & Maidenhead" = "Windsor and Maidenhead")
   
-  la_codes <- read_csv("./data-raw/la_codes.csv")
+  la_codes <- read_csv("data-raw/la_codes.csv")
   
   council_data <- left_join(council_data, la_codes)
   

@@ -96,7 +96,7 @@
 # council_data ------------------------------------------------------------
 #' A tibble with details on the council make-up of local authorities across the UK.
 #' 
-#' This data is taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-06-02.
+#' This data is taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-11-24.
 #' 
 #' @format A tibble, with 418 rows and 20 columns.
 #' \describe{

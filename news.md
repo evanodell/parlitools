@@ -1,3 +1,10 @@
+
+# parlitools 0.2.2
+
+## Data
+
+Updating of `council_data` dataset to be accurate as of 2017-11-24.
+
 # parlitools 0.2.1
 
 ## Data
