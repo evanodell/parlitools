@@ -8,22 +8,45 @@ mps_on_date(date1 = Sys.Date(), date2 = NULL, tidy = TRUE,
   tidy_style = "snake_case")
 }
 \arguments{
-\item{date1}{The date to return the list of MPs from. Accepts character values in \code{'YYYY-MM-DD'} format, and objects of class \code{Date}, \code{POSIXt}, \code{POSIXct}, \code{POSIXlt} or anything else than can be coerced to a date with \code{as.Date()}. Defaults to current system date.}
+\item{date1}{The date to return the list of MPs from. Accepts character 
+values in \code{'YYYY-MM-DD'} format, and objects of class \code{Date}, 
+\code{POSIXt}, \code{POSIXct}, \code{POSIXlt} or anything else than can 
+be coerced to a date with \code{as.Date()}. Defaults to current system date.}
 
-\item{date2}{An optional query parameter. Accepts character values in \code{'YYYY-MM-DD'} format, and objects of class \code{Date}, \code{POSIXt}, \code{POSIXct}, \code{POSIXlt} or anything else than can be coerced to a date with \code{as.Date()}. If a proper date, the function returns a list of all MPs who were members between \code{date2} and \code{date1}. Defaults to \code{NULL}.}
+\item{date2}{An optional query parameter. Accepts character values in 
+\code{'YYYY-MM-DD'} format, and objects of class \code{Date}, 
+\code{POSIXt}, \code{POSIXct}, \code{POSIXlt} or anything else than can 
+be coerced to a date with \code{as.Date()}. If a proper date, the function 
+returns a list of all MPs who were members between \code{date2} and 
+\code{date1}. Defaults to \code{NULL}.}
 
-\item{tidy}{If \code{TRUE}, fixes the variable names in the tibble to remove special characters and superfluous text, and converts the variable names to a consistent style. Defaults to \code{TRUE}.}
+\item{tidy}{If \code{TRUE}, fixes the variable names in the tibble to 
+remove special characters and superfluous text, and converts the variable 
+names to a consistent style. Defaults to \code{TRUE}.}
 
-\item{tidy_style}{The style to convert variable names to, if \code{tidy=TRUE}. Accepts one of \code{'snake_case'}, \code{'camelCase'} and \code{'period.case'}. Defaults to \code{'snake_case'}.}
+\item{tidy_style}{The style to convert variable names to, 
+if \code{tidy=TRUE}. Accepts one of \code{'snake_case'}, 
+\code{'camelCase'} and \code{'period.case'}. Defaults to \code{'snake_case'}.}
 }
 \value{
-A tibble with information on all MPs who were members of the House of Commons on the date specificed (if only \code{date1} is included as a parameter), or on or between the two dates if both \code{date1} and \code{date2} are specified.
+A tibble with information on all MPs who were members of the House 
+of Commons on the date specificed (if only \code{date1} is included as a 
+parameter), or on or between the two dates if both \code{date1} and 
+\code{date2} are specified.
 }
 \description{
-Retrieve information on all MPs who were members of the House of Commons on a date or between two dates.
+Retrieve information on all MPs who were members of the House of Commons 
+on a date or between two dates.
 }
 \details{
-Returns information on all MPs who were members of the House of Commons on the date specificed (if only one date is included as a parameter), or on or between the two dates if both are specified. Includes constituency and electoral information if the date is 2010-05-06 or later, or if the date range is entirely between 2010-05-06 and the present day. This function is identical to the \code{\link[mnis]{mnis_mps_on_date}} function from the \code{mnis} package, except it includes consituency data from the 2010 General Election (on 2010-05-06) onwards.
+Returns information on all MPs who were members of the House of Commons on 
+the date specificed (if only one date is included as a parameter), or on or 
+between the two dates if both are specified. Includes constituency and 
+electoral information if the date is 2010-05-06 or later, or if the date 
+range is entirely between 2010-05-06 and the present day. This function 
+is identical to the \code{\link[mnis]{mnis_mps_on_date}} function from 
+the \code{mnis} package, except it includes consituency data from the 
+2010 General Election (on 2010-05-06) onwards.
 }
 \examples{
 \dontrun{

@@ -20,6 +20,7 @@
 local_hex_map
 }
 \description{
-Originally created by Ben Flanagan at ESRI, with coordinates in Easting and Northing. Converted coordinates into Latitude and Longitude in QGIS.
+Originally created by Ben Flanagan at ESRI, with coordinates in Easting and 
+Northing. Converted coordinates into Latitude and Longitude in QGIS.
 }
 \keyword{datasets}

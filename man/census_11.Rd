@@ -4,7 +4,8 @@
 \name{census_11}
 \alias{census_11}
 \title{Constituency demographic information}
-\format{A tibble, containing 632 rows and 191 columns. For full details see the vignette: \url{http://docs.evanodell.com/parlitools/articles/census-11.html}}
+\format{A tibble, containing 632 rows and 191 columns. For full details see 
+the vignette: \url{http://docs.evanodell.com/parlitools/articles/census-11.html}}
 \source{
 \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
 }
@@ -12,6 +13,10 @@
 census_11
 }
 \description{
-A tibble with demographic information on each constituency, taken from the 2011 census data included in the British Election Study. Can be linked to the \code{\link{bes_2017}} and \code{\link{bes_2015}} datasets using the \code{pano}, \code{ons_const_id} and \code{constituency_name} variables.
+A tibble with demographic information on each constituency, taken from 
+the 2011 census data included in the British Election Study. Can be 
+linked to the \code{\link{bes_2017}} and \code{\link{bes_2015}} datasets 
+using the \code{pano}, \code{ons_const_id} and 
+\code{constituency_name} variables.
 }
 \keyword{datasets}

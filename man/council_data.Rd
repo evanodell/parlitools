@@ -3,15 +3,20 @@
 \docType{data}
 \name{council_data}
 \alias{council_data}
-\title{A tibble with details on the council make-up of local authorities across the UK.}
+\title{A tibble with details on the council make-up of local authorities 
+across the UK.}
 \format{A tibble, with 418 rows and 20 columns.
 \describe{
-\item{\code{la_code}}{The Local Authority code from the Office for National Statistics}
+\item{\code{la_code}}{The Local Authority code from the Office for 
+National Statistics}
 \item{\code{name}}{Local Authority Name}
 \item{\code{type}}{The type of local authority}
-\item{\code{majority_party}}{The majority party on the council. The label 'No Overall Control' is used if no single party has a majority.}
-\item{\code{majority_party_id}}{The ID of the majority party on the council. The label 'noc' is used if no single party has a majority.}
-\item{\code{governing_coalition}}{The governing coalition of the council (if known)}
+\item{\code{majority_party}}{The majority party on the council. The 
+label 'No Overall Control' is used if no single party has a majority.}
+\item{\code{majority_party_id}}{The ID of the majority party on the 
+council. The label 'noc' is used if no single party has a majority.}
+\item{\code{governing_coalition}}{The governing coalition of the 
+council (if known)}
 \item{\code{conservative_councillors}}{The number of Conservative councillors}
 \item{\code{labour_councillors}}{The number of Labour councillors}
 \item{\code{lib_dem_councillors}}{The number of Liberal Democrat councillors}
@@ -35,6 +40,10 @@
 council_data
 }
 \description{
-This data is taken from \url{http://opencouncildata.co.uk/}, run by Jon Lawson. Variable names have been converted to snake_case and variables have been converted to appropriate R classes. ONS local authority codes have been taken from the \code{local_hex_map} data, and from the ONS's Open Geography Portal. This data is accurate as of 2017-11-24.
+This data is taken from \url{http://opencouncildata.co.uk/}, run by 
+Jon Lawson. Variable names have been converted to snake_case and variables 
+have been converted to appropriate R classes. ONS local authority codes 
+have been taken from the \code{local_hex_map} data, and from the ONS's 
+Open Geography Portal. This data is accurate as of 2017-11-24.
 }
 \keyword{datasets}

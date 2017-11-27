@@ -6,5 +6,6 @@
 \alias{parlitools-package}
 \title{parlitools: Tools for Analysing UK Politics with R}
 \description{
-The parlitools package provides various useful tools and functions for analysing UK politics, creating political maps and retrieving data.
+The parlitools package provides various useful tools and functions for 
+analysing UK politics, creating political maps and retrieving data.
 }
