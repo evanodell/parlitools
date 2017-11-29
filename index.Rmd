@@ -36,7 +36,7 @@ pacman::p_load(parlitools)
 To install the development version from GitHub, run:
 
 ```
-##install.packages("parlitools")
+#install.packages("parlitools")
 devtools::install_github("evanodell/parlitools")
 ```
 
@@ -123,9 +123,9 @@ leaflet(options=leafletOptions(
 
 Instructions and examples of each function, along with maps and datasets, are available [here](https://docs.evanodell.com/parlitools/reference).
 
-For more details, please see the [introductory vignette](https://docs.evanodell.com/parlitools/articles/introduction.html), [using `parlitools` with `cartogram`](https://docs.evanodell.com/parlitools/articles/using-cartograms.html), [mapping local authorities](https://docs.evanodell.com/parlitools/articles/mapping-local-authorities.html) and the vignette detailing [British Election Study 2015](https://docs.evanodell.com/parlitools/articles/bes-2015.html) variables.
+For more details, please see the [introductory vignette](https://docs.evanodell.com/parlitools/articles/introduction.html), [using `parlitools` with `cartogram`](https://docs.evanodell.com/parlitools/articles/using-cartograms.html), [mapping local authorities](https://docs.evanodell.com/parlitools/articles/mapping-local-authorities.html) and the vignette detailing the [British Election Study 2015](https://docs.evanodell.com/parlitools/articles/bes-2015.html) and [British Election Study 2017](https://docs.evanodell.com/parlitools/articles/bes-2015.html) variables.
 
-## Data Sources
+## Additional Data Sources
 
 There are a variety of potentially relevant data sources and datasets on UK politics, far too many for me to include them all in this package.
 
@@ -134,5 +134,7 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 * [British Election Study](http://www.britishelectionstudy.com/data/) - A large selection of open data, including panel surveys, linked data and aggregated Twitter data, covering elections and referenda.
 
 * My [`hansard`](https://cran.r-project.org/package=hansard) & [`mnis`](https://cran.r-project.org/package=mnis) data retrieval packages for parliamentary APIs.
+
+* The [Qualitative Election Study of Britain](https://qesb.info/) - A collection of qualitiative interviews and questionnares covering the 2010, 2015 and 2017 General Elections, the 2016 EU referendum and the 2014 Scottish independence referendum.
 
 * [Open Council Data](http://opencouncildata.co.uk/) has data on the names, parties, and wards of all UK councillors, updated more or less weekly.

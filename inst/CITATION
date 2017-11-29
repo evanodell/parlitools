@@ -4,7 +4,7 @@ note <- sprintf("R package version %s", meta$Version)
 bibentry(bibtype = "Manual",
          title = "{parlitools}: Tools for analysing UK politics in R",
          author = c(person("Evan", "Odell")),
-         year = year,
+         year = 2017,
          note = note,
          doi = "10.5281/zenodo.591586",
          url = "https://cran.r-project.org/package=parlitools")
