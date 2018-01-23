@@ -4,7 +4,7 @@
   library(readxl)
   party_colour <- read_excel("./data-raw/party_colour.xlsx")
   party_colour$party_name <- as.factor(party_colour$party_name)
-  party_colour$party_id <- as.factor(party_colour$party_id)
+  party_colour$party_id <- as.character(party_colour$party_id)
   devtools::use_data(party_colour, overwrite = TRUE)
 
 # Maps -----------------------------------------------------------

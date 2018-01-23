@@ -36,7 +36,7 @@ navbar:
 
     - text: "Packages"
       menu:
-        - text: "Documentation"
+        - text: "Documentation Home"
           href: http://docs.evanodell.com
         - text: "---------"
         - text: "hansard"
@@ -45,6 +45,8 @@ navbar:
           href: http://docs.evanodell.com/mnis
         - text: "parlitools"
           href: http://docs.evanodell.com/parlitools
+        - text: "nomisr"
+          href: http://docs.evanodell.com/nomisr
         - text: "emisc"
           href: http://docs.evanodell.com/emisc
 
