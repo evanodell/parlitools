@@ -1,4 +1,8 @@
 
+# parlitools 0.2.3
+
+Changed `party_id` in the `party_colour` dataset to a character vector.
+
 # parlitools 0.2.2
 
 ## Data
