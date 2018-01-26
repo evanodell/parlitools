@@ -5,7 +5,6 @@ r:
   - oldrel
 #cache: packages
 sudo: required
-dist: trusty
 
 warnings_are_errors: true
 
@@ -21,6 +20,7 @@ r_packages:
   - leaflet
   - htmlwidgets
   - sf
+  - devtools
 
 apt_packages:
 - libudunits2-dev
