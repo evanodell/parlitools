@@ -11,7 +11,7 @@ URL: http://docs.evanodell.com/parlitools
 BugReports: https://github.com/EvanOdell/parlitools/issues
 License: MIT + file LICENSE
 LazyData: TRUE
-Depends: R(>= 3.3.3)
+Depends: R(>= 3.3.0)
 Imports:
     hansard,
     mnis,
