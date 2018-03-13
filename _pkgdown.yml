@@ -33,7 +33,6 @@ navbar:
           href: articles/bes-2017.html
         - text: "Constituency Level Census Data"
           href: articles/census-11.html
-
     - text: "Packages"
       menu:
         - text: "Documentation Home"
