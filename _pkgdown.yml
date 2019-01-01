@@ -64,7 +64,6 @@ reference:
   - bes_2017
   - census_11
   - party_colour
-  - council_data
   - leave_votes_west
 - title: Data Retrieval
   desc: Data retrieval functions

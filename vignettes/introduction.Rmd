@@ -24,8 +24,6 @@ In addition to this introductory vignette, there are vignettes on [using `parlit
 
 `bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. For information on all the variables in this dataset, see the [bes-2015 vignette](http://docs.evanodell.com/parlitools/articles/bes-2015.html) (Source: http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/)
 
-`council_data` - A tibble with data on the size of each local council (in terms of councillors), and the party or parties controlling the council.  (Sources: http://opencouncildata.co.uk/councils.php?model=, http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0)
-
 `leave_votes_west` - The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: https://secondreading.uk/brexit/brexit-votes-by-constituency/ http://www.bbc.co.uk/news/uk-northern-ireland-36616830)
 
 ### Data Retrieval Functions
@@ -38,7 +36,7 @@ In addition to this introductory vignette, there are vignettes on [using `parlit
 
 `west_hex_map` - A hexagonal cartogram, stored as a simple feature and data frame, of Westminster parliamentary constituencies. `west_hex_map` can be used to create maps like this:
 
-`local_hex_map` - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland. 
+`local_hex_map` - Hexagonal cartogram, A hexagonal cartogram, stored as a simple feature and data frame, of all Local Authorities in England, Wales and Scotland.
 
 ## Other Data Sources
 
@@ -59,7 +57,7 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 
 Create a hexagonal map of all constituency MPs, at the time Parliament was dissolved for the 2017 General Election.
 
-The code below creates a hexagonal map of UK constituency MPs, as of 20 June 2017. 
+The code below creates a hexagonal map of UK constituency MPs, as of 20 June 2017.
 
 ### Creating a leaflet map:
 
@@ -101,7 +99,7 @@ leaflet(options=leafletOptions(
     opacity = 0.5,
     fillOpacity = 1,
     fillColor = ~party_colour,
-    label=labels)  %>% 
+    label=labels)  %>%
   htmlwidgets::onRender(
     "function(x, y) {
         var myMap = this;
@@ -114,7 +112,7 @@ leaflet(options=leafletOptions(
 
 The [UK Parliamentary Petition site](https://petition.parliament.uk/) has facilities for mapping which parliamentary constituencies signatories of petitions live in. However, it only produces geographic maps, not hexagrams.
 
-I have the petition 'Prevent Donald Trump from making a State Visit to the United Kingdom', both of which attracted  1,863,565 signatures. 
+I have the petition 'Prevent Donald Trump from making a State Visit to the United Kingdom', both of which attracted  1,863,565 signatures.
 
 ### Anti-Trump petition signatories
 
@@ -153,12 +151,12 @@ leaflet(options=leafletOptions(
     label = label_no) %>%
   addLegend("topright", pal = pal, values = ~number_of_signatures,
     title = "Number of Signatures",
-    opacity = 1)  %>% 
+    opacity = 1)  %>%
   htmlwidgets::onRender(
     "function(x, y) {
         var myMap = this;
         myMap._container.style['background'] = '#fff';
-    }")%>% 
+    }")%>%
   mapOptions(zoomToLimits = "first")
 ```
 
@@ -178,12 +176,9 @@ bes_2017 <- parlitools::bes_2017
 
 elect_results <- left_join(census_11, bes_2017)
 
-degree_plot <- ggplot(elect_results, aes(y=lab_17, x=degree)) + geom_point(alpha=0.75) + 
+degree_plot <- ggplot(elect_results, aes(y=lab_17, x=degree)) + geom_point(alpha=0.75) +
   geom_smooth(size=1.75, colour = "#DC241F") + ylab("Share of Votes Cast for Labour") + xlab("Percentage of Population with a University Degree")
 
 degree_plot
 
 ```
-
-
-

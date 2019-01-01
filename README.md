@@ -1,5 +1,5 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<!-- rmarkdown v1 --> 
+<!-- rmarkdown v1 -->
 
 <!--to accomodate pandoc bug on windows-->
 
@@ -18,7 +18,7 @@
 
 A collection of useful tools for UK politics, including base maps and datasets. Initially inspired by Bhaskar Karambelkar's [`tilegrams`](https://cran.r-project.org/package=tilegramsR) package, but with the ability to create a hexagonal map of UK parliamentary constituencies. The package also includes functions for data retrieval of current MPs and their consituency details (as it requires calls to two different APIs, this function is not included in my [`hansard`](https://cran.r-project.org/package=hansard) or [`mnis`](https://cran.r-project.org/package=mnis) packages), and data from the 2015 UK General Election, courtesy of the British Election Study.
 
-The most up-to-date documentation for the development version will always be at http://docs.evanodell.com/parlitools/. 
+The most up-to-date documentation for the development version will always be at http://docs.evanodell.com/parlitools/.
 
 ## Installing
 
@@ -54,8 +54,6 @@ For more details see [the full documentation](https://docs.evanodell.com/parlito
 `bes_2017` - A tibble with Great Britain constituencies results from the 2017 general election. This data can be linked to 2011 census information in [`census_11`](https://docs.evanodell.com/parlitools/reference/census-11.html).
 
 `census_11` - A tibble with constituency-level census data.
-
-`council_data` - A tibble with data on the size of each local council (in terms of councillors), and the party or parties controlling the council. (Sources: http://opencouncildata.co.uk/councils.php?model=, http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0). Last updated 14 July 2017.
 
 `leave_votes_west` - The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: https://secondreading.uk/brexit/brexit-votes-by-constituency/ http://www.bbc.co.uk/news/uk-northern-ireland-36616830)
 

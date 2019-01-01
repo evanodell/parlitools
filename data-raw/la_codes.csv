@@ -1,4 +1,4 @@
-﻿name,la_code,type
+name,la_code,type
 Hartlepool,E06000001,Unitary
 Middlesbrough,E06000002,Unitary
 Redcar and Cleveland,E06000003,Unitary
@@ -8,7 +8,7 @@ Halton,E06000006,Unitary
 Warrington,E06000007,Unitary
 Blackburn with Darwen,E06000008,Unitary
 Blackpool,E06000009,Unitary
-Hull,E06000010,Unitary
+Kingston upon Hull,E06000010,Unitary
 East Riding of Yorkshire,E06000011,Unitary
 North East Lincolnshire,E06000012,Unitary
 North Lincolnshire,E06000013,Unitary
@@ -139,7 +139,7 @@ Dover,E07000108,District
 Gravesham,E07000109,District
 Maidstone,E07000110,District
 Sevenoaks,E07000111,District
-Shepway,E07000112,District
+Folkestone and Hythe,E07000112,District
 Swale,E07000113,District
 Thanet,E07000114,District
 Tonbridge and Malling,E07000115,District
@@ -268,7 +268,7 @@ Trafford,E08000009,Metropolitan
 Wigan,E08000010,Metropolitan
 Knowsley,E08000011,Metropolitan
 Liverpool,E08000012,Metropolitan
-St. Helens,E08000013,Metropolitan
+St Helens,E08000013,Metropolitan
 Sefton,E08000014,Metropolitan
 Wirral,E08000015,Metropolitan
 Barnsley,E08000016,Metropolitan
@@ -357,7 +357,7 @@ Dumfries and Galloway,S12000006,Scotland
 East Ayrshire,S12000008,Scotland
 East Lothian,S12000010,Scotland
 East Renfrewshire,S12000011,Scotland
-Eilean Siar,S12000013,Scotland
+Na h-Eileanan Siar,S12000013,Scotland
 Falkirk,S12000014,Scotland
 Fife,S12000015,Scotland
 Highland,S12000017,Scotland
@@ -372,7 +372,7 @@ Shetland Islands,S12000027,Scotland
 South Ayrshire,S12000028,Scotland
 South Lanarkshire,S12000029,Scotland
 Stirling,S12000030,Scotland
-Aberdeen City,S12000033,Scotland
+Aberdeen,S12000033,Scotland
 Aberdeenshire,S12000034,Scotland
 Argyll and Bute,S12000035,Scotland
 City of Edinburgh,S12000036,Scotland
@@ -380,7 +380,7 @@ Renfrewshire,S12000038,Scotland
 West Dunbartonshire,S12000039,Scotland
 West Lothian,S12000040,Scotland
 Angus,S12000041,Scotland
-Dundee City,S12000042,Scotland
+Dundee,S12000042,Scotland
 North Lanarkshire,S12000044,Scotland
 East Dunbartonshire,S12000045,Scotland
 Glasgow City,S12000046,Scotland

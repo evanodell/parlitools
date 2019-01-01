@@ -14,7 +14,8 @@
 #'   \item{\code{object_id}}{Row Name}
 #'   \item{\code{constituency_name}}{The name of the constituency}
 #'   \item{\code{description}}{Description of constituency type}
-#'   \item{\code{gss_code}}{The constituency GSS (Government Statistical Service) code}
+#'   \item{\code{gss_code}}{The constituency GSS (Government Statistical 
+#'   Service) code}
 #'   \item{\code{region_name}}{Name of region within the UK}
 #'   \item{\code{shape_length}}{The lengths of the shape}
 #'   \item{\code{shape_area}}{The area of shape}
@@ -86,8 +87,10 @@
 #' Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 #'
 #' @format A tibble, containing 650 rows and 92 columns. For full details see 
-#' the vignette: \url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}
+#' the vignette: 
+#' <\url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}>
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
+#' @rdname bes
 "bes_2015"
 
 
@@ -110,8 +113,10 @@
 #' 2017 Constituency Results file, version 1.0. 
 #' 
 #' @format A tibble, containing 632 rows and 123 columns. For full details 
-#' see the vignette: \url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}
+#' see the vignette: 
+#' <\url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}>
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
+#' @rdname bes
 "bes_2017"
 
 # census_11 ------------------------------------------------------------
@@ -124,51 +129,28 @@
 #' \code{constituency_name} variables.
 #' 
 #'@format A tibble, containing 632 rows and 191 columns. For full details see 
-#'the vignette: \url{http://docs.evanodell.com/parlitools/articles/census-11.html}
+#' the vignette: 
+#' <\url{http://docs.evanodell.com/parlitools/articles/census-11.html}>
 #' 
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
+#' @rdname bes
 "census_11"
 
-# council_data ------------------------------------------------------------
-#' A tibble with details on the council make-up of local authorities 
-#' across the UK.
+# la_codes ------------------------------------------------------------
+#' A tibble with the name, ONS code and local authority type for UK
+#' local authorities.
 #' 
-#' This data is taken from \url{http://opencouncildata.co.uk/}, run by 
-#' Jon Lawson. Variable names have been converted to snake_case and variables 
-#' have been converted to appropriate R classes. ONS local authority codes 
-#' have been taken from the \code{local_hex_map} data, and from the ONS's 
-#' Open Geography Portal. This data is accurate as of 2017-11-24.
 #' 
-#' @format A tibble, with 418 rows and 20 columns.
+#' @format A tibble, with 418 rows and 3 columns.
 #' \describe{
+#' #' \item{\code{name}}{Local Authority Name}
 #' \item{\code{la_code}}{The Local Authority code from the Office for 
 #' National Statistics}
-#' \item{\code{name}}{Local Authority Name}
 #' \item{\code{type}}{The type of local authority}
-#' \item{\code{majority_party}}{The majority party on the council. The 
-#' label 'No Overall Control' is used if no single party has a majority.}
-#' \item{\code{majority_party_id}}{The ID of the majority party on the 
-#' council. The label 'noc' is used if no single party has a majority.}
-#' \item{\code{governing_coalition}}{The governing coalition of the 
-#' council (if known)}
-#' \item{\code{conservative_councillors}}{The number of Conservative councillors}
-#' \item{\code{labour_councillors}}{The number of Labour councillors}
-#' \item{\code{lib_dem_councillors}}{The number of Liberal Democrat councillors}
-#' \item{\code{green_councillors}}{The number of Green councillors}
-#' \item{\code{ukip_councillors}}{The number of UKIP councillors}
-#' \item{\code{plaid_cymru_councillors}}{The number of Plaid Cymru councillors}
-#' \item{\code{snp_councillors}}{The number of SNP councillors}
-#' \item{\code{independent_councillors}}{The number of Independent councillors}
-#' \item{\code{vacant}}{The number of vacant seats on the council}
-#' \item{\code{total_councillors}}{Total number of vacant council seats}
-#' \item{\code{boundary}}{Notes on upcoming boundary changes}
-#' \item{\code{notes}}{Notes from Open Council Data UK}
-#' \item{\code{url}}{URL}
-#' \item{\code{last_update}}{Date of last update}
 #' }
 #' @source \url{http://opencouncildata.co.uk/councils.php?model=}
 #' \url{http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0}
-"council_data"
+"la_codes"
 
 # leave_votes_west ------------------------------------------------------------
 #' A tibble with leave votes from the Brexit referendum in each constituency. 
@@ -186,9 +168,9 @@
 #' \item{\code{constituency}}{The name of the constituency.}
 #' \item{\code{party_2016}}{The party holding the constituency on 23 June 2016, 
 #' the date of the referendum.}
-#' \item{\code{known_leave_vote}}{A dummy variable indicating 'yes' if the actual
-#'  leave vote percentage is known, and 'no' if the estimate by Chris Hanretty 
-#'  is available.}
+#' \item{\code{known_leave_vote}}{A dummy variable indicating 'yes' if the 
+#' actual leave vote percentage is known, and 'no' if the estimate by 
+#' Chris Hanretty is available.}
 #' \item{\code{ch_leave_vote}}{Estimates of the leave vote produced by 
 #' Chris Hanretty.}
 #' \item{\code{known_leave_vote_perc}}{The percentage of votes cast for leave, 

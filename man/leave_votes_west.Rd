@@ -10,9 +10,9 @@
 \item{\code{constituency}}{The name of the constituency.}
 \item{\code{party_2016}}{The party holding the constituency on 23 June 2016,
 the date of the referendum.}
-\item{\code{known_leave_vote}}{A dummy variable indicating 'yes' if the actual
-leave vote percentage is known, and 'no' if the estimate by Chris Hanretty
-is available.}
+\item{\code{known_leave_vote}}{A dummy variable indicating 'yes' if the
+actual leave vote percentage is known, and 'no' if the estimate by
+Chris Hanretty is available.}
 \item{\code{ch_leave_vote}}{Estimates of the leave vote produced by
 Chris Hanretty.}
 \item{\code{known_leave_vote_perc}}{The percentage of votes cast for leave,

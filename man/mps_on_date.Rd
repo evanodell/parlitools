@@ -44,12 +44,14 @@ the date specificed (if only one date is included as a parameter), or on or
 between the two dates if both are specified. Includes constituency and
 electoral information if the date is 2010-05-06 or later, or if the date
 range is entirely between 2010-05-06 and the present day. This function
-is identical to the \code{\link[mnis]{mnis_mps_on_date}} function from
-the \code{mnis} package, except it includes consituency data from the
+is identical to the \code{mnis_mps_on_date} function from
+the \code{[mnis](https://cran.r-project.org/package=mnis)} package, except it
+includes consituency data from the
 2010 General Election (on 2010-05-06) onwards.
 }
 \examples{
 \dontrun{
-x <- mps_on_date(date1="2017-04-19", date2="2010-05-04")
+x <- mps_on_date(date1 = "2017-04-19", date2 = "2010-05-04")
 }
+
 }

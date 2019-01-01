@@ -4,17 +4,34 @@
 \alias{council_seats}
 \title{Council Seats}
 \usage{
-council_seats(councillors = FALSE)
+council_seats(councillors = FALSE, tidy = TRUE,
+  tidy_style = "snake_case")
 }
 \arguments{
 \item{councillors}{If \code{TRUE}, downloads details on each individual
-councillor. Defaults to \code{FALSE} and downloads summary data for each council.}
+councillor for each local council. If \code{FALSE}, downloads summary data
+for each council. Defaults to \code{FALSE}.}
+
+\item{tidy}{If \code{TRUE``, fixes the variable names in the tibble to remove special characters and superfluous text, and converts the variable names to a consistent style. Defaults to }TRUE`.}
+
+\item{tidy_style}{The style to convert variable names to, if
+\code{tidy=TRUE}. Accepts one of \code{'snake_case'}, \code{'camelCase'}
+and \code{'period.case'}. Defaults to \code{'snake_case'}.}
 }
 \value{
-A tibble with council seat distribution
+A tibble with the most recent available council seat distribution
+or councillor affiliations.
 }
 \description{
 Downloads data from
-<\url{http://opencouncildata.co.uk/}>, with the
-composition of each local council in Great Britain.
+<\href{http://opencouncildata.co.uk/}{opencouncildata.co.uk/}>, with the
+composition of each local council in Great Britain. If using this data,
+please cite the above site as the source.
+}
+\examples{
+\dontrun{
+a <- council_seats(councillors = FALSE)
+
+b <- council_seats(councillors = TRUE)
+}
 }
