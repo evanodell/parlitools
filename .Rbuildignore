@@ -9,7 +9,6 @@
 ^testing\.R$
 ^docs$
 ^_pkgdown\.yml$
-^news\.md$
 ^hex_amp\.png$
 ^parlitools\.bib$
 ^\.gitignore$
@@ -18,7 +17,6 @@
 ^swing-dev\.R$
 ^index\.Rmd$
 ^README\.html$
-^README\.md$
 ^appveyor\.yml$
 ^index\.html$
 ^LICENSE\.md$
