@@ -1,6 +1,6 @@
-pandoc: 2.1.3
-pkgdown: 0.1.0.9000
-pkgdown_sha: 966bc9d667ab87806ef684bab22e39effe62c8a5
+pandoc: 2.3.1
+pkgdown: 1.1.0
+pkgdown_sha: ~
 articles:
   bes-2015: bes-2015.html
   bes-2017: bes-2017.html

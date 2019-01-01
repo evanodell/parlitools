@@ -90,10 +90,10 @@
   devtools::use_data(bes_2017, overwrite = TRUE)
 
 ## Local Authority Control Data --------------------------------------------
-#http://opencouncildata.co.uk/councils.php?model=
   library(readr)
   library(dplyr)
   library(readxl)
+  x <- read_csv("http://opencouncildata.co.uk/csv1.php")
   council_data <- read_csv("data-raw/opencouncildata_councils.csv")
   council_data$type <- NULL
   council_data$id <- NULL
@@ -183,6 +183,8 @@ council_data$majority_party <- recode(council_data$majority_party,
                               "Windsor & Maidenhead" = "Windsor and Maidenhead")
   
   la_codes <- read_csv("data-raw/la_codes.csv")
+  
+  devtools::use_data(la_codes, overwrite = TRUE)
   
   council_data <- left_join(council_data, la_codes)
   

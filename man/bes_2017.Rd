@@ -4,7 +4,7 @@
 \name{bes_2017}
 \alias{bes_2017}
 \title{2017 General Election Results}
-\format{A tibble, containing 632 rows and 123 columns. For full details 
+\format{A tibble, containing 632 rows and 123 columns. For full details
 see the vignette: \url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}}
 \source{
 \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
@@ -13,21 +13,21 @@ see the vignette: \url{http://docs.evanodell.com/parlitools/articles/bes-2017.ht
 bes_2017
 }
 \description{
-A tibble with the British Election Study 2017 
+A tibble with the British Election Study 2017
 Constituency Results Version 1.0.
 }
 \details{
-A tibble with Great Britain constituencies results from the 
-2017 General Election. This data can be linked to 2011 census 
-information in \code{\link{census_11}} with the \code{pano}, 
+A tibble with Great Britain constituencies results from the
+2017 General Election. This data can be linked to 2011 census
+information in \code{\link{census_11}} with the \code{pano},
 \code{ons_const_id} and \code{constituency_name} variables.
 
-Variable names have been converted to snake_case and variables have been 
+Variable names have been converted to snake_case and variables have been
 converted to appropriate R classes.
 }
 \references{
-Fieldhouse, E., J. Green., G. Evans., H. Schmitt, 
-C. van der Eijk, J. Mellon & C. Prosser (2017) British Election Study 
+Fieldhouse, E., J. Green., G. Evans., H. Schmitt,
+C. van der Eijk, J. Mellon & C. Prosser (2017) British Election Study
 2017 Constituency Results file, version 1.0.
 }
 \keyword{datasets}

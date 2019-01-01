@@ -16,4 +16,6 @@
 #' @import jsonlite
 #' @import stringi
 #' @import sf
+#' @importFrom snakecase to_snake_case
+#' @importFrom readr read_csv cols
 NULL

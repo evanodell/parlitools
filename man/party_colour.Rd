@@ -3,14 +3,14 @@
 \docType{data}
 \name{party_colour}
 \alias{party_colour}
-\title{A tibble with the ID, name and hex code for the official colour of a 
+\title{A tibble with the ID, name and hex code for the official colour of a
 variety of political parties.}
 \format{A tibble, containing 47 rows and 3 columns.
 \describe{
-\item{\code{party_id}}{The party ID, as assigned by the Members Name 
+\item{\code{party_id}}{The party ID, as assigned by the Members Name
 Information Service}
 \item{\code{party_name}}{The name of the political party}
-\item{\code{party_colour}}{A hex code for the party colour, 
+\item{\code{party_colour}}{A hex code for the party colour,
 as used by Wikipedia}
 }}
 \source{
@@ -21,8 +21,8 @@ as used by Wikipedia}
 party_colour
 }
 \description{
-Includes all political parties with MPs and a number without MPs. It 
-also contains a 'No Overall Control' party for local government. Hex 
+Includes all political parties with MPs and a number without MPs. It
+also contains a 'No Overall Control' party for local government. Hex
 codes are taken from Wikipedia.
 }
 \keyword{datasets}

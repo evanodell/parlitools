@@ -21,6 +21,7 @@
 #'   \item{\code{geometry}}{Shape geometry/projection}
 #' }
 #' @source \url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}
+#' @rdname maps
 "west_hex_map"
 
 # local_hex_map ------------------------------------------------------------
@@ -39,6 +40,7 @@
 #'   \item{\code{geometry}}{Shape geometry/projection}
 #' }
 #' @source \url{http://www.arcgis.com/home/item.html?id=593037bc399e460bb7c6c631ceff67b4}
+#' @rdname maps
 "local_hex_map"
 
 # party_colour ------------------------------------------------------------

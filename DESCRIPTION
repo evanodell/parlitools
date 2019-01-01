@@ -20,8 +20,12 @@ Imports:
     httr,
     jsonlite,
     stringi,
-    sf
-RoxygenNote: 6.0.1
+    sf,
+    snakecase,
+    readr
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
 Suggests: knitr,
     rmarkdown,
     testthat,
