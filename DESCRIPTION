@@ -35,5 +35,6 @@ Suggests:
     htmltools,
     cartogram,
     htmlwidgets,
-    ggplot2
+    ggplot2,
+    tibble
 VignetteBuilder: knitr
