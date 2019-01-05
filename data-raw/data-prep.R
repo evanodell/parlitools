@@ -35,16 +35,26 @@ names(local_hex_map)[names(local_hex_map) == "LAD12NM"] <- "la_name"
 names(local_hex_map)[names(local_hex_map) == "Shape_Leng"] <- "shape_length"
 names(local_hex_map)[names(local_hex_map) == "Shape_Area"] <- "shape_area"
 local_hex_map <- st_zm(local_hex_map, drop = TRUE, what = "ZM")
-local_hex_map$la_name <- gsub("Rhondda Cynon Taf", "Rhondda Cynon Taff",
-                              local_hex_map$la_name)
-local_hex_map$la_name <- gsub("Kingston upon Hull, City of",
-                              "Kingston upon Hull", local_hex_map$la_name)
-local_hex_map$la_name <- gsub("Shepway",
-                              "Folkestone and Hythe", local_hex_map$la_name)
-local_hex_map$la_name <- gsub("Aberdeen City",
-                              "Aberdeen", local_hex_map$la_name)
-local_hex_map$la_name <- gsub("Dundee City",
-                              "Dundee", local_hex_map$la_name)
+local_hex_map$la_name <- gsub(
+  "Rhondda Cynon Taf", "Rhondda Cynon Taff",
+  local_hex_map$la_name
+)
+local_hex_map$la_name <- gsub(
+  "Kingston upon Hull, City of",
+  "Kingston upon Hull", local_hex_map$la_name
+)
+local_hex_map$la_name <- gsub(
+  "Shepway",
+  "Folkestone and Hythe", local_hex_map$la_name
+)
+local_hex_map$la_name <- gsub(
+  "Aberdeen City",
+  "Aberdeen", local_hex_map$la_name
+)
+local_hex_map$la_name <- gsub(
+  "Dundee City",
+  "Dundee", local_hex_map$la_name
+)
 
 usethis::use_data(local_hex_map, overwrite = TRUE)
 
@@ -110,25 +120,46 @@ usethis::use_data(bes_2017, overwrite = TRUE)
 
 
 ## Brexit Votes by Constituency --------------------------------------------
-# https://secondreading.uk/brexit/brexit-votes-by-constituency/
+# https://medium.com/@chrishanretty/final-estimates-of-the-leave-vote-or-areal-interpolation-and-the-uks-referendum-on-eu-membership-5490b6cab878
+# https://docs.google.com/spreadsheets/d/1b71SDKPFbk-ktmUTXmDpUP5PT299qq24orEA0_TOpmw/edit#gid=579044181
 # http://www.bbc.co.uk/news/uk-northern-ireland-36616830
 
 library(readxl)
-leave_votes_west <- read_excel("~/GitHub/parlitools/data-raw/Estimates-of-constituency-level-EU-referendum-result.xlsx")
-leave_votes_west$known_leave_vote <- as.factor(leave_votes_west$known_leave_vote)
+library(dplyr)
+library(snakecase)
+leave_votes_west1 <- read_excel("data-raw/Estimates-of-constituency-level-EU-referendum-result.xlsx")
 
-leave_votes_west$party_2016 <- factor(leave_votes_west$party_2016, levels = c("Conservative", "Green", "Independent", "Labour", "Liberal Democrat", "Other", "Plaid Cymru", "Scottish National Party", "UKIP", "DUP", "Sinn Fein", "SDLP", "UUP"))
+leave_votes_west1 <- leave_votes_west1 %>% select(gss_code, constituency, party_2016)
 
-leave_votes_west$combined_leave_vote <- ifelse(leave_votes_west$known_leave_vote == "No", leave_votes_west$ch_leave_vote, leave_votes_west$known_leave_vote_perc)
+leave_votes_west1$party_2016 <- factor(leave_votes_west1$party_2016, 
+                                      levels = c("Conservative", "Green",
+                                                 "Independent", "Labour",
+                                                 "Liberal Democrat", "Other",
+                                                 "Plaid Cymru",
+                                                 "Scottish National Party",
+                                                 "UKIP", "DUP", "Sinn Fein",
+                                                 "SDLP", "UUP"))
 
-leave_votes_west$combined_leave_vote <- as.numeric(leave_votes_west$combined_leave_vote)
+leave_votes_west2 <- read_excel("data-raw/Final estimates of the Leave vote share in the EU referendum.xlsx", 
+                                range = "A1:F633")
 
-leave_votes_west$known_leave_vote_perc <- as.numeric(leave_votes_west$known_leave_vote_perc)
+names(leave_votes_west2) <- to_snake_case(names(leave_votes_west2))
 
-leave_votes_west$difference_estimate_known <- as.numeric(leave_votes_west$difference_estimate_known)
+leave_votes_west2 <- leave_votes_west2 %>%
+  rename(gss_code = pcon_11_cd, 
+         constituency = constituency_name)
 
-leave_votes_west$ch_leave_vote <- as.numeric(leave_votes_west$ch_leave_vote)
+leave_votes_west <- left_join(leave_votes_west1, leave_votes_west2)
 
-leave_votes_west <- leave_votes_west[c("gss_code", "constituency", "party_2016", "known_leave_vote", "ch_leave_vote", "known_leave_vote_perc", "combined_leave_vote", "difference_estimate_known")]
+leave_votes_west$known_leave_vote <- ifelse(
+  !is.na(leave_votes_west$known_leave_vote_share), "Yes", "No")
+
+leave_ni <- read_excel("data-raw/brexit-ni-constituencies.xlsx")
+
+leave_votes_west <- bind_rows(leave_votes_west, leave_ni)
+
+leave_votes_west <- leave_votes_west %>%
+  rename(ch_leave_vote = estimated_leave_vote_share,
+         known_leave_vote_perc = known_leave_vote_share)
 
 usethis::use_data(leave_votes_west, overwrite = TRUE)

@@ -6,9 +6,6 @@
 #'
 #' @docType package
 #' @name parlitools
-#' @import tibble
-#' @import httr
-#' @import jsonlite
 #' @import sf
 #' @importFrom stringi stri_trans_general
 #' @importFrom hansard constituencies elections election_results

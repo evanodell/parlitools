@@ -34,4 +34,5 @@ a <- council_seats(councillors = FALSE)
 
 b <- council_seats(councillors = TRUE)
 }
+
 }

@@ -62,8 +62,10 @@ mps_on_date <- function(date1 = Sys.Date(), date2 = NULL,
     rm(date3)
   }
 
-  mps <- mnis::mnis_mps_on_date(date1 = date1, date2 = date2,
-                                tidy = tidy, tidy_style = tidy_style)
+  mps <- mnis::mnis_mps_on_date(
+    date1 = date1, date2 = date2,
+    tidy = tidy, tidy_style = tidy_style
+  )
   ## As the API only works for the 2010 General Election onwards
   if (date1 >= "2010-05-06") {
     mps <- parlitools_tidy(mps, tidy_style = "snake_case")
@@ -78,27 +80,36 @@ mps_on_date <- function(date1 = Sys.Date(), date2 = NULL,
 
     suppressMessages(elect_res <- hansard::election_results())
 
-    elect_res$election_about <- gsub("http://data.parliament.uk/resources/",
-                                     "", elect_res$election_about)
+    elect_res$election_about <- gsub(
+      "http://data.parliament.uk/resources/",
+      "", elect_res$election_about
+    )
 
     elect_res2 <- dplyr::left_join(elect_res, elect,
-                                   by = c("election_about" = "about"))
+      by = c("election_about" = "about")
+    )
 
     elect_res2 <- elect_res2[elect_res2$date_value <= date2, ]
 
     elect_res2 <- elect_res2[rev(order(elect_res2$date_value)), ]
 
-    elect_res2 <- subset(elect_res2,
-                         !duplicated(elect_res2$constituency_about))
+    elect_res2 <- subset(
+      elect_res2,
+      !duplicated(elect_res2$constituency_about)
+    )
 
-    constit$about <- gsub("http://data.parliament.uk/resources/",
-                          "", constit$about)
+    constit$about <- gsub(
+      "http://data.parliament.uk/resources/",
+      "", constit$about
+    )
 
     const_elect <- dplyr::left_join(constit, elect_res2,
-                             by = c("about" = "constituency_about"))
+      by = c("about" = "constituency_about")
+    )
 
     df <- dplyr::left_join(mps, const_elect,
-                           by = c("member_from" = "constituency_label_value"))
+      by = c("member_from" = "constituency_label_value")
+    )
 
     df$label_value.y <- NULL
     df$label_value.x <- NULL

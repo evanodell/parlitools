@@ -9,7 +9,7 @@
 #' @param tidy_style The style to convert variable names to, if
 #' `tidy=TRUE`. Accepts one of `'snake_case'`, `'camelCase'`
 #' and `'period.case'`. Defaults to `'snake_case'`.
-#' @return A tibble of all MPs currently eligible to sit in the 
+#' @return A tibble of all MPs currently eligible to sit in the
 #' House of Commons.
 #' @export
 #'
@@ -17,23 +17,30 @@
 #' \dontrun{
 #' x <- current_mps()
 #' }
-
+#' 
 current_mps <- function(tidy = TRUE, tidy_style = "snake_case") {
-  suppressMessages(constit <- hansard::constituencies(current = TRUE,
-                                                      tidy = FALSE))
+  suppressMessages(constit <- hansard::constituencies(
+    current = TRUE,
+    tidy = FALSE
+  ))
 
   current <- mnis::mnis_eligible(house = "commons", tidy = FALSE)
 
   if (.Platform$OS.type == "windows") {
-    current$MemberFrom <- stringi::stri_trans_general(current$MemberFrom,
-                                                      "latin-ascii")
+    current$MemberFrom <- stringi::stri_trans_general(
+      current$MemberFrom,
+      "latin-ascii"
+    )
 
-    current$MemberFrom <- gsub("Ynys MA\U00B4n",
-                               "Ynys M\U00F4n", current$MemberFrom)
+    current$MemberFrom <- gsub(
+      "Ynys MA\U00B4n",
+      "Ynys M\U00F4n", current$MemberFrom
+    )
   }
 
   df <- dplyr::right_join(current, constit,
-                          by = c("MemberFrom" = "label._value"))
+    by = c("MemberFrom" = "label._value")
+  )
 
   if (tidy == TRUE) {
     df$startedDate._value <- as.POSIXct(df$startedDate._value)

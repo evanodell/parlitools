@@ -25,4 +25,5 @@ to sit in the House of Commons. Includes information on their constituency.
 \dontrun{
 x <- current_mps()
 }
+
 }

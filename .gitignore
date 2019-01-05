@@ -26,3 +26,4 @@ vignettes/*.pdf
 inst/doc
 testing.R
 *.html
+/data-raw/hex-prep.R

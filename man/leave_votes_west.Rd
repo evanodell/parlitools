@@ -10,20 +10,22 @@
 \item{\code{constituency}}{The name of the constituency.}
 \item{\code{party_2016}}{The party holding the constituency on 23 June 2016,
 the date of the referendum.}
-\item{\code{known_leave_vote}}{A dummy variable indicating 'yes' if the
-actual leave vote percentage is known, and 'no' if the estimate by
-Chris Hanretty is available.}
 \item{\code{ch_leave_vote}}{Estimates of the leave vote produced by
 Chris Hanretty.}
 \item{\code{known_leave_vote_perc}}{The percentage of votes cast for leave,
 if known.}
-\item{\code{combined_leave_vote}}{Combination of actual leave vote
-percentage, where know, and the Chris Hanretty esimate.}
-\item{\code{difference_estimate_known}}{Difference between the estimate
-by Chris Hanretty and the actual result, if known.}
+\item{\code{how_do_we_know}}{A character vector indicating the source of
+known constituency level Brexit votes. "Rosenbaum / Greenwood" refers to
+\href{https://www.bbc.co.uk/news/uk-politics-38762034}{BBC reporting}.}
+\item{\code{figure_to_use}}{Actual leave vote, where known, and
+\code{ch_leave_vote} otherwise.}
+#' \item{\code{known_leave_vote}}{A dummy variable indicating 'Yes' if the
+actual leave vote percentage is known, and 'No' if only the estimate by
+Chris Hanretty is available.}
 }}
 \source{
-\url{https://secondreading.uk/brexit/brexit-votes-by-constituency/}
+\url{https://medium.com/@chrishanretty/final-estimates-of-the-leave-vote-or-areal-interpolation-and-the-uks-referendum-on-eu-membership-5490b6cab878}
+\url{https://docs.google.com/spreadsheets/d/1b71SDKPFbk-ktmUTXmDpUP5PT299qq24orEA0_TOpmw/edit#gid=579044181}
 \url{http://www.bbc.co.uk/news/uk-northern-ireland-36616830}
 }
 \usage{

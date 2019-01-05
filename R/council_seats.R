@@ -7,20 +7,20 @@
 #' please cite the above site as the source.
 #'
 #' @param councillors If `TRUE`, downloads details on each individual
-#' councillor for each local council. If `FALSE`, downloads summary data 
+#' councillor for each local council. If `FALSE`, downloads summary data
 #' for each council. Defaults to `FALSE`.
 #' @inheritParams current_mps
 #'
 #' @return A tibble with the most recent available council seat distribution
 #' or councillor affiliations.
-#' @export 
+#' @export
 #' @examples
 #' \dontrun{
 #' a <- council_seats(councillors = FALSE)
 #' 
 #' b <- council_seats(councillors = TRUE)
 #' }
-
+#' 
 council_seats <- function(councillors = FALSE, tidy = TRUE,
                           tidy_style = "snake_case") {
   if (councillors == TRUE) {
@@ -40,7 +40,6 @@ council_seats <- function(councillors = FALSE, tidy = TRUE,
     df <- dplyr::left_join(councillor_data, council_data,
       by = c("councilID" = "id")
     )
-    
   } else {
     council_data <- readr::read_csv("http://opencouncildata.co.uk/csv1.php",
       col_types = readr::cols(
@@ -67,7 +66,7 @@ council_seats <- function(councillors = FALSE, tidy = TRUE,
     )
 
     names(council_data) <- snakecase::to_snake_case(names(council_data))
-    
+
     party_list <- c(
       "conservative_councillors",
       "labour_councillors",
@@ -78,7 +77,7 @@ council_seats <- function(councillors = FALSE, tidy = TRUE,
       "independent_councillors",
       "vacant_seats"
     )
-    
+
     council_data[party_list] <- lapply(council_data[party_list], as.numeric)
 
     council_data$total_councillors <- rowSums(
@@ -167,16 +166,10 @@ council_seats <- function(councillors = FALSE, tidy = TRUE,
       "boundary", "url", "last_update"
     )]
   }
-  
+
   if (tidy == TRUE) {
-    
     df <- parlitools_tidy(df, tidy_style)
-    
   }
-  
+
   df
 }
-
-
-
-
