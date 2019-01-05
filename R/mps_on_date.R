@@ -64,9 +64,8 @@ mps_on_date <- function(date1 = Sys.Date(), date2 = NULL,
 
   mps <- mnis::mnis_mps_on_date(date1 = date1, date2 = date2,
                                 tidy = tidy, tidy_style = tidy_style)
-
-  if (date1 >= "2010-05-06") { ## As the API only works for the 2010 General Election onwards
-
+  ## As the API only works for the 2010 General Election onwards
+  if (date1 >= "2010-05-06") {
     mps <- parlitools_tidy(mps, tidy_style = "snake_case")
 
     message("Downloading constituency data")
