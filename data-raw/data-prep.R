@@ -162,4 +162,15 @@ leave_votes_west <- leave_votes_west %>%
   rename(ch_leave_vote = estimated_leave_vote_share,
          known_leave_vote_perc = known_leave_vote_share)
 
+leave_votes_west$figure_to_use <- if_else(leave_votes_west$figure_to_use > 1, 
+                                          leave_votes_west$figure_to_use/100,
+                                          leave_votes_west$figure_to_use)
+
+
+leave_votes_west$how_do_we_know <- if_else(substr(leave_votes_west$gss_code, start = 1, stop = 1) == "N", 
+                                          "BBC Northern Ireland",
+                                          leave_votes_west$how_do_we_know)
+
+summary(leave_votes_west)
+
 usethis::use_data(leave_votes_west, overwrite = TRUE)

@@ -1,4 +1,9 @@
 
+# parlitools 0.3.1
+
+* Fixed formatting of percentages in the `leave_votes_west` dataset so they are 
+  all scaled on 0-1 rather than some on 0-1 and some on 0-100.
+
 
 # parlitools 0.3.0
 
