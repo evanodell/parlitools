@@ -8,7 +8,7 @@ Authors@R: person(
 Maintainer: Evan Odell <evanodell91@gmail.com>
 Description: Provides various tools for analysing UK political data, 
     including creating political cartograms and retrieving data.
-URL: http://docs.evanodell.com/parlitools
+URL: https://docs.evanodell.com/parlitools, https://github.com/EvanOdell/parlitools/
 BugReports: https://github.com/EvanOdell/parlitools/issues
 License: MIT + file LICENSE
 LazyData: TRUE
