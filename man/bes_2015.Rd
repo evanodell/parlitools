@@ -3,38 +3,19 @@
 \docType{data}
 \name{bes_2015}
 \alias{bes_2015}
-\alias{bes_2017}
-\alias{census_11}
 \title{2015 General Election Results}
-\format{A tibble, containing 650 rows and 92 columns. For full details see
-the vignette:
+\format{A tibble, containing 650 rows and 92 columns. For full details on
+the included variables see the vignette:
 <\url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}>}
 \source{
 \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
-
-\url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
-
-\url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
 }
 \usage{
 bes_2015
-
-bes_2017
-
-census_11
 }
 \description{
 A tibble with the British Election Study
 2015 Constituency Results Version 2.21.
-
-A tibble with the British Election Study 2017
-Constituency Results Version 1.0.
-
-A tibble with demographic information on each constituency, taken from
-the 2011 census data included in the British Election Study. Can be
-linked to the \code{\link{bes_2017}} and \code{\link{bes_2015}} datasets
-using the \code{pano}, \code{ons_const_id} and
-\code{constituency_name} variables.
 }
 \details{
 A tibble with constituencies results from the British Election Study 2015.
@@ -46,23 +27,16 @@ Irish constituencies is the party that won the seat.
 
 Variable names have been converted to snake_case and variables have been
 converted to appropriate R classes.
-
-A tibble with Great Britain constituencies results from the
-2017 General Election. This data can be linked to 2011 census
-information in \code{\link{census_11}} with the \code{pano},
-\code{ons_const_id} and \code{constituency_name} variables.
-
-Variable names have been converted to snake_case and variables have been
-converted to appropriate R classes.
 }
 \references{
 Fieldhouse, Edward, Jane Green, Geoffrey Evans,
 Hermann Schmitt, Cees van der Eijk, Jonathan Mellon, and
 Christopher Prosser. "British Election Study, 2015: General Election
 Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
+}
+\seealso{
+bes_2017
 
-Fieldhouse, E., J. Green., G. Evans., H. Schmitt,
-C. van der Eijk, J. Mellon & C. Prosser (2017) British Election Study
-2017 Constituency Results file, version 1.0.
+census_2011
 }
 \keyword{datasets}
