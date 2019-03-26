@@ -1,4 +1,10 @@
 
+# parlitools 0.3.1.9000
+
+* Changed `gss_code` to `ons_const_id` in the `leave_votes_west` dataset
+  to ensure consistent naming of parliamentary constituency codes
+
+
 # parlitools 0.3.1
 
 * Fixed formatting of percentages in the `leave_votes_west` dataset so they are 

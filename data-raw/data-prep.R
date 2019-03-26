@@ -171,6 +171,62 @@ leave_votes_west$how_do_we_know <- if_else(substr(leave_votes_west$gss_code, sta
                                           "BBC Northern Ireland",
                                           leave_votes_west$how_do_we_know)
 
+leave_votes_west <- leave_votes_west %>% rename(ons_const_id = gss_code)
+
 summary(leave_votes_west)
 
 usethis::use_data(leave_votes_west, overwrite = TRUE)
+
+
+
+
+
+# NI Results --------------------------------------------------------------
+
+library(readxl)
+library(dplyr)
+library(stringr)
+library(tidyr)
+library(snakecase)
+
+ge_2017 <- read_excel("data-raw/2017-UKPGE-Electoral-Data.xls", 
+                                         sheet = "Results", skip = 1) 
+
+admin_17 <- read_excel("data-raw/2017-UKPGE-Electoral-Data.xls", 
+                      sheet = "Administrative data", skip = 2) %>%
+  select(`ONS Code`, Electorate)
+
+names(ge_2017) <- to_snake_case(names(ge_2017))
+
+names(admin_17) <- to_snake_case(names(admin_17))
+
+ge_2017$party_identifer <- if_else(ge_2017$surname == "HERMON",
+                                     "Independent (Lady Hermon)",
+                                     ge_2017$party_identifer)
+
+ge_2017 <- ge_2017 %>% filter(str_detect(ons_code, "N")) %>%
+  select(ons_code, pano, constituency, party_identifer, valid_votes) %>% 
+  spread(party_identifer, valid_votes) %>%
+  mutate(total_votes = select(., Alliance:WP) %>% rowSums(na.rm = TRUE),
+         other_17 = select(., `CIST Alliance`, Conservative, Independent,
+                           `Independent (Lady Hermon)`, `PBP Alliance`,
+                           TUV, WP) %>%
+           rowSums(na.rm = TRUE)) %>%
+  
+  rename(alliance_17 = Alliance,
+         dup_17 = DUP,
+         green_17 = `Green Party`,
+         sf_17 = `Sinn Féin`,
+         sdlp_17 = `SDLP`,
+         uup_17 = `UUP`) %>%
+  select(ons_code, pano, constituency, alliance_17, dup_17, green_17,
+         sdlp_17, sf_17, uup_17, total_votes, other_17)
+
+ge_2017 
+
+check_vector <- rowSums(ge_2017[4:9], na.rm = TRUE) + ge_2017$other_17
+
+all(ge_2017$total_votes == check_vector)
+
+ge_2017 <- ge_2017 %>% left_join(admin_17)
+
