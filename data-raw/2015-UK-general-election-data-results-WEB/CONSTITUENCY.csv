@@ -1,0 +1,653 @@
+PANO,Constituency Name,Constituency ID,Constituency Type,Electorate,Valid Votes,,Region ID,County,Region,Country
+7,Aldershot,E14000530,Borough,72430,46191,,E12000008,Hampshire,South East,England
+8,Aldridge-Brownhills,E14000531,Borough,60215,39497,,E12000005,West Midlands,West Midlands,England
+9,Altrincham and Sale West,E14000532,Borough,71511,50517,,E12000002,Greater Manchester,North West,England
+11,Amber Valley,E14000533,County,69510,45717,,E12000004,Derbyshire,East Midlands,England
+18,Arundel and South Downs,E14000534,County,77242,56477,,E12000008,West Sussex,South East,England
+19,Ashfield,E14000535,County,77091,47409,,E12000004,Nottinghamshire,East Midlands,England
+20,Ashford,E14000536,County,85177,57372,,E12000008,Kent,South East,England
+21,Ashton-under-Lyne,E14000537,Borough,68343,38918,,E12000002,Greater Manchester,North West,England
+22,Aylesbury,E14000538,County,80315,55419,,E12000008,Buckinghamshire,South East,England
+26,Banbury,E14000539,County,86420,58008,,E12000008,Oxfordshire,South East,England
+28,Barking,E14000540,Borough,73977,43041,,E12000007,London,London,England
+29,Barnsley Central,E14000541,Borough,64534,36560,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+30,Barnsley East,E14000542,County,69135,38517,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+31,Barrow and Furness,E14000543,County,68338,43275,,E12000002,Cumbria,North West,England
+32,Basildon and Billericay,E14000544,Borough,66347,43028,,E12000006,Essex,East,England
+34,Basingstoke,E14000545,Borough,79665,53076,,E12000008,Hampshire,South East,England
+35,Bassetlaw,E14000546,County,76796,49289,,E12000004,Nottinghamshire,East Midlands,England
+36,Bath,E14000547,Borough,63084,47167,,E12000009,Avon,South West,England
+37,Batley and Spen,E14000548,Borough,78373,50479,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+38,Battersea,E14000549,Borough,76111,51031,,E12000007,London,London,England
+39,Beaconsfield,E14000550,County,74726,53163,,E12000008,Buckinghamshire,South East,England
+40,Beckenham,E14000551,Borough,67439,48803,,E12000007,London,London,England
+41,Bedford,E14000552,Borough,69311,46086,,E12000006,Bedfordshire,East,England
+49,Bermondsey and Old Southwark,E14000553,Borough,83298,51424,,E12000007,London,London,England
+50,Berwick-upon-Tweed,E14000554,County,56969,40423,,E12000001,Northumberland,North East,England
+52,Bethnal Green and Bow,E14000555,Borough,82727,52924,,E12000007,London,London,England
+53,Beverley and Holderness,E14000556,County,80805,52677,,E12000003,Humberside,Yorkshire and The Humber,England
+54,Bexhill and Battle,E14000557,County,78796,55218,,E12000008,East Sussex,South East,England
+55,Bexleyheath and Crayford,E14000558,Borough,64828,43685,,E12000007,London,London,England
+56,Birkenhead,E14000559,Borough,62410,39144,,E12000002,Merseyside,North West,England
+57,"Birmingham, Edgbaston",E14000560,Borough,65591,41293,,E12000005,West Midlands,West Midlands,England
+58,"Birmingham, Erdington",E14000561,Borough,65128,34684,,E12000005,West Midlands,West Midlands,England
+59,"Birmingham, Hall Green",E14000562,Borough,76330,47046,,E12000005,West Midlands,West Midlands,England
+60,"Birmingham, Hodge Hill",E14000563,Borough,75302,41039,,E12000005,West Midlands,West Midlands,England
+61,"Birmingham, Ladywood",E14000564,Borough,68128,35916,,E12000005,West Midlands,West Midlands,England
+62,"Birmingham, Northfield",E14000565,Borough,71428,42461,,E12000005,West Midlands,West Midlands,England
+63,"Birmingham, Perry Barr",E14000566,Borough,69943,41260,,E12000005,West Midlands,West Midlands,England
+64,"Birmingham, Selly Oak",E14000567,Borough,75092,45294,,E12000005,West Midlands,West Midlands,England
+65,"Birmingham, Yardley",E14000568,Borough,72146,41151,,E12000005,West Midlands,West Midlands,England
+66,Bishop Auckland,E14000569,County,66070,39389,,E12000001,Durham,North East,England
+67,Blackburn,E14000570,Borough,73260,43999,,E12000002,Lancashire,North West,England
+68,Blackley and Broughton,E14000571,Borough,71913,37112,,E12000002,Greater Manchester,North West,England
+69,Blackpool North and Cleveleys,E14000572,Borough,62468,39393,,E12000002,Lancashire,North West,England
+70,Blackpool South,E14000573,Borough,57411,32436,,E12000002,Lancashire,North West,England
+72,Blaydon,E14000574,Borough,67901,44936,,E12000001,Tyne and Wear,North East,England
+73,Blyth Valley,E14000575,Borough,61247,38461,,E12000001,Northumberland,North East,England
+74,Bognor Regis and Littlehampton,E14000576,County,72995,47116,,E12000008,West Sussex,South East,England
+75,Bolsover,E14000577,County,71979,43998,,E12000004,Derbyshire,East Midlands,England
+76,Bolton North East,E14000578,Borough,67895,43161,,E12000002,Greater Manchester,North West,England
+77,Bolton South East,E14000579,Borough,69687,40743,,E12000002,Greater Manchester,North West,England
+78,Bolton West,E14000580,County,72719,48592,,E12000002,Greater Manchester,North West,England
+79,Bootle,E14000581,Borough,70145,45152,,E12000002,Merseyside,North West,England
+80,Boston and Skegness,E14000582,County,67064,43339,,E12000004,Lincolnshire,East Midlands,England
+81,Bosworth,E14000583,County,79738,53582,,E12000004,Leicestershire,East Midlands,England
+82,Bournemouth East,E14000584,Borough,72275,44827,,E12000009,Dorset,South West,England
+83,Bournemouth West,E14000585,Borough,72082,41773,,E12000009,Dorset,South West,England
+84,Bracknell,E14000586,County,81271,53086,,E12000008,Berkshire,South East,England
+85,Bradford East,E14000587,Borough,66121,41406,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+86,Bradford South,E14000588,Borough,63674,37600,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+87,Bradford West,E14000589,Borough,63372,40290,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+88,Braintree,E14000590,County,73557,50283,,E12000006,Essex,East,England
+90,Brent Central,E14000591,Borough,77038,47032,,E12000007,London,London,England
+91,Brent North,E14000592,Borough,82196,52235,,E12000007,London,London,England
+92,Brentford and Isleworth,E14000593,Borough,84602,57355,,E12000007,London,London,England
+93,Brentwood and Ongar,E14000594,County,71918,51897,,E12000006,Essex,East,England
+95,Bridgwater and West Somerset,E14000595,County,80491,54447,,E12000009,Somerset,South West,England
+96,Brigg and Goole,E14000596,County,68488,43270,,E12000003,Humberside,Yorkshire and The Humber,England
+97,"Brighton, Kemptown",E14000597,Borough,67858,45306,,E12000008,East Sussex,South East,England
+98,"Brighton, Pavilion",E14000598,Borough,76557,54676,,E12000008,East Sussex,South East,England
+99,Bristol East,E14000599,Borough,71193,46213,,E12000009,Avon,South West,England
+100,Bristol North West,E14000600,Borough,74743,51805,,E12000009,Avon,South West,England
+101,Bristol South,E14000601,Borough,81496,50842,,E12000009,Avon,South West,England
+102,Bristol West,E14000602,Borough,91236,64218,,E12000009,Avon,South West,England
+103,Broadland,E14000603,County,73552,53089,,E12000006,Norfolk,East,England
+104,Bromley and Chislehurst,E14000604,Borough,65477,44066,,E12000007,London,London,England
+105,Bromsgrove,E14000605,County,73337,52245,,E12000005,Hereford and Worcester,West Midlands,England
+106,Broxbourne,E14000606,Borough,72944,46024,,E12000006,Hertfordshire,East,England
+107,Broxtowe,E14000607,County,71764,53440,,E12000004,Nottinghamshire,East Midlands,England
+108,Buckingham,E14000608,County,77425,53692,,E12000008,Buckinghamshire,South East,England
+109,Burnley,E14000609,Borough,64477,39746,,E12000002,Lancashire,North West,England
+110,Burton,E14000610,County,75248,48974,,E12000005,Staffordshire,West Midlands,England
+111,Bury North,E14000611,Borough,67580,45230,,E12000002,Greater Manchester,North West,England
+112,Bury South,E14000612,Borough,73883,47215,,E12000002,Greater Manchester,North West,England
+113,Bury St Edmunds,E14000613,County,85982,59341,,E12000006,Suffolk,East,England
+116,Calder Valley,E14000614,County,77754,53541,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+117,Camberwell and Peckham,E14000615,Borough,82746,51561,,E12000007,London,London,England
+118,Camborne and Redruth,E14000616,County,66944,45868,,E12000009,Cornwall,South West,England
+119,Cambridge,E14000617,Borough,83384,51774,,E12000006,Cambridgeshire,East,England
+124,Cannock Chase,E14000618,County,74532,47099,,E12000005,Staffordshire,West Midlands,England
+125,Canterbury,E14000619,County,81341,53465,,E12000008,Kent,South East,England
+130,Carlisle,E14000620,County,65827,42587,,E12000002,Cumbria,North West,England
+133,Carshalton and Wallington,E14000621,Borough,69981,47613,,E12000007,London,London,England
+134,Castle Point,E14000622,Borough,68170,45450,,E12000006,Essex,East,England
+188,Central Devon,E14000623,County,72737,54448,,E12000009,Devon,South West,England
+547,Central Suffolk and North Ipswich,E14000624,County,76666,54089,,E12000006,Suffolk,East,England
+136,Charnwood,E14000625,County,77269,52261,,E12000004,Leicestershire,East Midlands,England
+137,Chatham and Aylesford,E14000626,County,66355,43073,,E12000008,Kent,South East,England
+138,Cheadle,E14000627,Borough,73239,53095,,E12000002,Greater Manchester,North West,England
+139,Chelmsford,E14000628,Borough,78580,53817,,E12000006,Essex,East,England
+140,Chelsea and Fulham,E14000629,Borough,63478,40226,,E12000007,London,London,England
+141,Cheltenham,E14000630,Borough,77287,53735,,E12000009,Gloucestershire,South West,England
+142,Chesham and Amersham,E14000631,County,72547,52730,,E12000008,Buckinghamshire,South East,England
+144,Chesterfield,E14000632,Borough,71625,45567,,E12000004,Derbyshire,East Midlands,England
+145,Chichester,E14000633,County,83396,57139,,E12000008,West Sussex,South East,England
+146,Chingford and Woodford Green,E14000634,Borough,66680,43804,,E12000007,London,London,England
+147,Chippenham,E14000635,County,74218,55407,,E12000009,Wiltshire,South West,England
+148,Chipping Barnet,E14000636,Borough,77807,53013,,E12000007,London,London,England
+149,Chorley,E14000637,County,74679,51712,,E12000002,Lancashire,North West,England
+150,Christchurch,E14000638,County,69303,49707,,E12000009,Dorset,South West,England
+151,Cities of London and Westminster,E14000639,Borough,60992,36185,,E12000007,London,London,England
+143,City of Chester,E14000640,County,74485,51161,,E12000002,Cheshire,North West,England
+214,City of Durham,E14000641,County,68725,45669,,E12000001,Durham,North East,England
+152,Clacton,E14000642,County,68936,44207,,E12000006,Essex,East,England
+153,Cleethorpes,E14000643,County,71008,45089,,E12000003,Humberside,Yorkshire and The Humber,England
+157,Colchester,E14000644,Borough,74204,48593,,E12000006,Essex,East,England
+158,Colne Valley,E14000645,County,82516,56800,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+159,Congleton,E14000646,County,72503,50976,,E12000002,Cheshire,North West,England
+160,Copeland,E14000647,County,62087,39631,,E12000002,Cumbria,North West,England
+161,Corby,E14000648,County,79775,56174,,E12000004,Northamptonshire,East Midlands,England
+165,Coventry North East,E14000649,Borough,75462,42231,,E12000005,West Midlands,West Midlands,England
+166,Coventry North West,E14000650,Borough,73626,45246,,E12000005,West Midlands,West Midlands,England
+167,Coventry South,E14000651,Borough,70397,43699,,E12000005,West Midlands,West Midlands,England
+168,Crawley,E14000652,Borough,73936,48550,,E12000008,West Sussex,South East,England
+169,Crewe and Nantwich,E14000653,County,74169,49896,,E12000002,Cheshire,North West,England
+170,Croydon Central,E14000654,Borough,78171,52941,,E12000007,London,London,England
+171,Croydon North,E14000655,Borough,85941,53522,,E12000007,London,London,England
+172,Croydon South,E14000656,Borough,82010,57712,,E12000007,London,London,England
+175,Dagenham and Rainham,E14000657,Borough,69128,43050,,E12000007,London,London,England
+176,Darlington,E14000658,Borough,65851,41141,,E12000001,Durham,North East,England
+177,Dartford,E14000659,County,75209,52418,,E12000008,Kent,South East,England
+178,Daventry,E14000660,County,72873,52518,,E12000004,Northamptonshire,East Midlands,England
+180,Denton and Reddish,E14000661,Borough,66141,38681,,E12000002,Greater Manchester,North West,England
+181,Derby North,E14000662,Borough,69794,44745,,E12000004,Derbyshire,East Midlands,England
+182,Derby South,E14000663,Borough,70240,40820,,E12000004,Derbyshire,East Midlands,England
+183,Derbyshire Dales,E14000664,County,63476,47361,,E12000004,Derbyshire,East Midlands,England
+187,Devizes,E14000665,County,69205,49006,,E12000009,Wiltshire,South West,England
+193,Dewsbury,E14000666,County,79770,53630,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+194,Don Valley,E14000667,County,71299,42486,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+195,Doncaster Central,E14000668,Borough,71136,40420,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+196,Doncaster North,E14000669,County,70989,39501,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+201,Dover,E14000670,County,72930,50224,,E12000008,Kent,South East,England
+204,Dudley North,E14000671,Borough,60717,37992,,E12000005,West Midlands,West Midlands,England
+205,Dudley South,E14000672,Borough,60363,38210,,E12000005,West Midlands,West Midlands,England
+206,Dulwich and West Norwood,E14000673,Borough,76575,51362,,E12000007,London,London,England
+218,Ealing Central and Acton,E14000674,Borough,71422,50894,,E12000007,London,London,England
+219,Ealing North,E14000675,Borough,73881,48510,,E12000007,London,London,England
+220,"Ealing, Southall",E14000676,Borough,65606,43321,,E12000007,London,London,England
+221,Easington,E14000677,County,61659,34624,,E12000001,Durham,North East,England
+189,East Devon,E14000678,County,76519,54717,,E12000009,Devon,South West,England
+222,East Ham,E14000679,Borough,87382,52290,,E12000007,London,London,England
+287,East Hampshire,E14000680,County,71074,51649,,E12000008,Hampshire,South East,England
+552,East Surrey,E14000681,County,79654,56103,,E12000008,Surrey,South East,England
+638,East Worthing and Shoreham,E14000682,County,74775,49898,,E12000008,West Sussex,South East,England
+650,East Yorkshire,E14000683,County,81023,49991,,E12000003,Humberside,Yorkshire and The Humber,England
+225,Eastbourne,E14000684,Borough,78262,52907,,E12000008,East Sussex,South East,England
+226,Eastleigh,E14000685,Borough,79609,55505,,E12000008,Hampshire,South East,England
+227,Eddisbury,E14000686,County,68569,47352,,E12000002,Cheshire,North West,England
+233,Edmonton,E14000687,Borough,66016,41338,,E12000007,London,London,England
+234,Ellesmere Port and Neston,E14000688,County,69223,46727,,E12000002,Cheshire,North West,England
+235,Elmet and Rothwell,E14000689,County,79143,57797,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+236,Eltham,E14000690,Borough,63998,43157,,E12000007,London,London,England
+237,Enfield North,E14000691,Borough,68118,46137,,E12000007,London,London,England
+238,"Enfield, Southgate",E14000692,Borough,64937,45812,,E12000007,London,London,England
+239,Epping Forest,E14000693,County,73447,49348,,E12000006,Essex,East,England
+240,Epsom and Ewell,E14000694,Borough,78633,57143,,E12000008,Surrey,South East,England
+241,Erewash,E14000695,County,71943,48322,,E12000004,Derbyshire,East Midlands,England
+242,Erith and Thamesmead,E14000696,Borough,70397,42617,,E12000007,London,London,England
+243,Esher and Walton,E14000697,Borough,79894,56976,,E12000008,Surrey,South East,England
+244,Exeter,E14000698,Borough,76968,54018,,E12000009,Devon,South West,England
+246,Fareham,E14000699,County,77114,54700,,E12000008,Hampshire,South East,England
+247,Faversham and Mid Kent,E14000700,County,69523,45803,,E12000008,Kent,South East,England
+248,Feltham and Heston,E14000701,Borough,82340,49405,,E12000007,London,London,England
+251,Filton and Bradley Stoke,E14000702,County,71310,49101,,E12000009,Avon,South West,England
+252,Finchley and Golders Green,E14000703,Borough,72530,50759,,E12000007,London,London,England
+253,Folkestone and Hythe,E14000704,County,83651,55010,,E12000008,Kent,South East,England
+254,Forest of Dean,E14000705,County,69865,49520,,E12000009,Gloucestershire,South West,England
+256,Fylde,E14000706,County,65679,43557,,E12000002,Lancashire,North West,England
+257,Gainsborough,E14000707,County,74686,49261,,E12000004,Lincolnshire,East Midlands,England
+258,Garston and Halewood,E14000708,Borough,73719,48983,,E12000002,Merseyside,North West,England
+259,Gateshead,E14000709,Borough,64524,37949,,E12000001,Tyne and Wear,North East,England
+260,Gedling,E14000710,County,70000,47998,,E12000004,Nottinghamshire,East Midlands,England
+261,Gillingham and Rainham,E14000711,Borough,70984,47078,,E12000008,Kent,South East,England
+270,Gloucester,E14000712,Borough,82968,52575,,E12000009,Gloucestershire,South West,England
+272,Gosport,E14000713,Borough,73268,47665,,E12000008,Hampshire,South East,England
+274,Grantham and Stamford,E14000714,County,81150,53755,,E12000004,Lincolnshire,East Midlands,England
+275,Gravesham,E14000715,County,72043,50139,,E12000008,Kent,South East,England
+276,Great Grimsby,E14000716,Borough,59200,33731,,E12000003,Humberside,Yorkshire and The Humber,England
+277,Great Yarmouth,E14000717,County,69793,44469,,E12000006,Norfolk,East,England
+278,Greenwich and Woolwich,E14000718,Borough,73315,46716,,E12000007,London,London,England
+279,Guildford,E14000719,County,75733,53986,,E12000008,Surrey,South East,England
+280,Hackney North and Stoke Newington,E14000720,Borough,88153,49887,,E12000007,London,London,England
+281,Hackney South and Shoreditch,E14000721,Borough,84971,47580,,E12000007,London,London,England
+282,Halesowen and Rowley Regis,E14000722,Borough,66048,43818,,E12000005,West Midlands,West Midlands,England
+283,Halifax,E14000723,Borough,70462,43753,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+284,Haltemprice and Howden,E14000724,County,71195,48757,,E12000003,Humberside,Yorkshire and The Humber,England
+285,Halton,E14000725,County,72818,45023,,E12000002,Cheshire,North West,England
+286,Hammersmith,E14000726,Borough,72254,47960,,E12000007,London,London,England
+290,Hampstead and Kilburn,E14000727,Borough,80195,53964,,E12000007,London,London,England
+291,Harborough,E14000728,County,77760,52471,,E12000004,Leicestershire,East Midlands,England
+292,Harlow,E14000729,County,67994,44251,,E12000006,Essex,East,England
+293,Harrogate and Knaresborough,E14000730,County,76408,53376,,E12000003,North Yorkshire,Yorkshire and The Humber,England
+294,Harrow East,E14000731,Borough,70981,49000,,E12000007,London,London,England
+295,Harrow West,E14000732,Borough,69644,46603,,E12000007,London,London,England
+296,Hartlepool,E14000733,Borough,69947,39490,,E12000001,Cleveland,North East,England
+297,Harwich and North Essex,E14000734,County,69290,48432,,E12000006,Essex,East,England
+298,Hastings and Rye,E14000735,County,75095,50927,,E12000008,East Sussex,South East,England
+299,Havant,E14000736,Borough,70573,44828,,E12000008,Hampshire,South East,England
+300,Hayes and Harlington,E14000737,Borough,74874,45056,,E12000007,London,London,England
+301,Hazel Grove,E14000738,County,63098,43219,,E12000002,Greater Manchester,North West,England
+302,Hemel Hempstead,E14000739,County,74616,49633,,E12000006,Hertfordshire,East,England
+303,Hemsworth,E14000740,County,72714,42406,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+304,Hendon,E14000741,Borough,75285,49630,,E12000007,London,London,England
+305,Henley,E14000742,County,77946,55236,,E12000008,Oxfordshire,South East,England
+306,Hereford and South Herefordshire,E14000743,County,71485,47257,,E12000005,Hereford and Worcester,West Midlands,England
+308,Hertford and Stortford,E14000744,County,80610,56277,,E12000006,Hertfordshire,East,England
+311,Hertsmere,E14000745,County,73767,50091,,E12000006,Hertfordshire,East,England
+312,Hexham,E14000746,County,59708,43345,,E12000001,Northumberland,North East,England
+313,Heywood and Middleton,E14000747,County,79989,48538,,E12000002,Greater Manchester,North West,England
+314,High Peak,E14000748,County,73336,50789,,E12000004,Derbyshire,East Midlands,England
+315,Hitchin and Harpenden,E14000749,County,80333,55375,,E12000006,Hertfordshire,East,England
+316,Holborn and St Pancras,E14000750,Borough,86764,54917,,E12000007,London,London,England
+317,Hornchurch and Upminster,E14000751,Borough,79331,55236,,E12000007,London,London,England
+318,Hornsey and Wood Green,E14000752,Borough,79247,57785,,E12000007,London,London,England
+319,Horsham,E14000753,County,79085,56925,,E12000008,West Sussex,South East,England
+320,Houghton and Sunderland South,E14000754,Borough,68324,38489,,E12000001,Tyne and Wear,North East,England
+321,Hove,E14000755,Borough,73505,52214,,E12000008,East Sussex,South East,England
+322,Huddersfield,E14000756,Borough,65269,40478,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+326,Huntingdon,E14000757,County,82593,55927,,E12000006,Cambridgeshire,East,England
+327,Hyndburn,E14000758,Borough,68341,42887,,E12000002,Lancashire,North West,England
+328,Ilford North,E14000759,Borough,75294,48932,,E12000007,London,London,England
+329,Ilford South,E14000760,Borough,91987,51912,,E12000007,London,London,England
+332,Ipswich,E14000761,Borough,74499,48694,,E12000006,Suffolk,East,England
+333,Isle of Wight,E14000762,County,108804,70300,,E12000008,Isle of Wight,South East,England
+334,Islington North,E14000763,Borough,73326,49234,,E12000007,London,London,England
+335,Islington South and Finsbury,E14000764,Borough,68127,44270,,E12000007,London,London,England
+337,Jarrow,E14000765,Borough,64002,38564,,E12000001,Tyne and Wear,North East,England
+338,Keighley,E14000766,County,68865,49123,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+339,Kenilworth and Southam,E14000767,County,63957,48791,,E12000005,Warwickshire,West Midlands,England
+340,Kensington,E14000768,Borough,61133,34828,,E12000007,London,London,England
+341,Kettering,E14000769,County,70155,47218,,E12000004,Northamptonshire,East Midlands,England
+343,Kingston and Surbiton,E14000770,Borough,81238,59253,,E12000007,London,London,England
+323,Kingston upon Hull East,E14000771,Borough,65710,35144,,E12000003,Humberside,Yorkshire and The Humber,England
+324,Kingston upon Hull North,E14000772,Borough,64148,35336,,E12000003,Humberside,Yorkshire and The Humber,England
+325,Kingston upon Hull West and Hessle,E14000773,Borough,59100,31803,,E12000003,Humberside,Yorkshire and The Humber,England
+344,Kingswood,E14000774,Borough,68193,48125,,E12000009,Avon,South West,England
+346,Knowsley,E14000775,Borough,79108,50728,,E12000002,Merseyside,North West,England
+350,Lancaster and Fleetwood,E14000776,County,61922,41738,,E12000002,Lancashire,North West,England
+351,Leeds Central,E14000777,Borough,81799,45048,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+352,Leeds East,E14000778,Borough,64754,38196,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+353,Leeds North East,E14000779,Borough,69097,48291,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+354,Leeds North West,E14000780,Borough,61974,43357,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+355,Leeds West,E14000781,Borough,64950,38423,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+356,Leicester East,E14000782,Borough,75430,48068,,E12000004,Leicestershire,East Midlands,England
+357,Leicester South,E14000783,Borough,73518,45942,,E12000004,Leicestershire,East Midlands,England
+358,Leicester West,E14000784,Borough,63204,34522,,E12000004,Leicestershire,East Midlands,England
+361,Leigh,E14000785,County,75905,45123,,E12000002,Greater Manchester,North West,England
+362,Lewes,E14000786,County,69481,50540,,E12000008,East Sussex,South East,England
+364,Lewisham East,E14000787,Borough,66913,42923,,E12000007,London,London,England
+365,Lewisham West and Penge,E14000788,Borough,72290,48125,,E12000007,London,London,England
+363,"Lewisham, Deptford",E14000789,Borough,73428,47426,,E12000007,London,London,England
+366,Leyton and Wanstead,E14000790,Borough,64580,40703,,E12000007,London,London,England
+367,Lichfield,E14000791,County,74234,51467,,E12000005,Staffordshire,West Midlands,England
+368,Lincoln,E14000792,Borough,74121,46852,,E12000004,Lincolnshire,East Midlands,England
+370,"Liverpool, Riverside",E14000793,Borough,70829,44263,,E12000002,Merseyside,North West,England
+371,"Liverpool, Walton",E14000794,Borough,61908,38403,,E12000002,Merseyside,North West,England
+372,"Liverpool, Wavertree",E14000795,Borough,61549,40974,,E12000002,Merseyside,North West,England
+373,"Liverpool, West Derby",E14000796,Borough,63651,41031,,E12000002,Merseyside,North West,England
+377,Loughborough,E14000797,County,75217,52020,,E12000004,Leicestershire,East Midlands,England
+378,Louth and Horncastle,E14000798,County,74870,50336,,E12000004,Lincolnshire,East Midlands,England
+379,Ludlow,E14000799,County,66374,48063,,E12000005,Shropshire,West Midlands,England
+380,Luton North,E14000800,Borough,67329,42571,,E12000006,Bedfordshire,East,England
+381,Luton South,E14000801,Borough,67741,42216,,E12000006,Bedfordshire,East,England
+382,Macclesfield,E14000802,County,71712,49598,,E12000002,Cheshire,North West,England
+383,Maidenhead,E14000803,County,74187,53855,,E12000008,Berkshire,South East,England
+384,Maidstone and The Weald,E14000804,County,73181,50010,,E12000008,Kent,South East,England
+385,Makerfield,E14000805,County,74320,44788,,E12000002,Greater Manchester,North West,England
+386,Maldon,E14000806,County,69066,48045,,E12000006,Essex,East,England
+387,Manchester Central,E14000807,Borough,86078,45331,,E12000002,Greater Manchester,North West,England
+388,"Manchester, Gorton",E14000808,Borough,72992,42019,,E12000002,Greater Manchester,North West,England
+389,"Manchester, Withington",E14000809,Borough,74102,49966,,E12000002,Greater Manchester,North West,England
+390,Mansfield,E14000810,County,77534,47193,,E12000004,Nottinghamshire,East Midlands,England
+391,Meon Valley,E14000811,County,72738,51717,,E12000008,Hampshire,South East,England
+392,Meriden,E14000812,County,81928,52603,,E12000005,West Midlands,West Midlands,England
+42,Mid Bedfordshire,E14000813,County,78501,58060,,E12000006,Bedfordshire,East,England
+184,Mid Derbyshire,E14000814,County,67477,47729,,E12000004,Derbyshire,East Midlands,England
+197,Mid Dorset and North Poole,E14000815,County,64299,46499,,E12000009,Dorset,South West,England
+421,Mid Norfolk,E14000816,County,77154,52212,,E12000006,Norfolk,East,England
+555,Mid Sussex,E14000817,County,81034,57492,,E12000008,West Sussex,South East,England
+634,Mid Worcestershire,E14000818,County,73069,52225,,E12000005,Hereford and Worcester,West Midlands,England
+394,Middlesbrough,E14000819,Borough,61873,32706,,E12000001,Cleveland,North East,England
+395,Middlesbrough South and East Cleveland,E14000820,County,71154,45677,,E12000001,Cleveland,North East,England
+397,Milton Keynes North,E14000821,County,86826,57692,,E12000008,Buckinghamshire,South East,England
+398,Milton Keynes South,E14000822,Borough,89656,58949,,E12000008,Buckinghamshire,South East,England
+399,Mitcham and Morden,E14000823,Borough,68474,45142,,E12000007,London,London,England
+400,Mole Valley,E14000824,County,74038,55140,,E12000008,Surrey,South East,England
+404,Morecambe and Lunesdale,E14000825,County,66985,43242,,E12000002,Lancashire,North West,England
+405,Morley and Outwood,E14000826,County,75820,48250,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+409,New Forest East,E14000827,County,72697,49447,,E12000008,Hampshire,South East,England
+410,New Forest West,E14000828,County,68446,47410,,E12000008,Hampshire,South East,England
+411,Newark,E14000829,County,73747,52302,,E12000004,Nottinghamshire,East Midlands,England
+412,Newbury,E14000830,County,79512,57300,,E12000008,Berkshire,South East,England
+414,Newcastle upon Tyne Central,E14000831,Borough,58147,35085,,E12000001,Tyne and Wear,North East,England
+415,Newcastle upon Tyne East,E14000832,Borough,64243,39222,,E12000001,Tyne and Wear,North East,England
+416,Newcastle upon Tyne North,E14000833,Borough,67902,44891,,E12000001,Tyne and Wear,North East,England
+413,Newcastle-under-Lyme,E14000834,Borough,67619,42997,,E12000005,Staffordshire,West Midlands,England
+420,Newton Abbot,E14000835,County,69928,48253,,E12000009,Devon,South West,England
+426,"Normanton, Pontefract and Castleford",E14000836,County,82592,45897,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+162,North Cornwall,E14000837,County,67192,48245,,E12000009,Cornwall,South West,England
+190,North Devon,E14000838,County,74737,52320,,E12000009,Devon,South West,England
+198,North Dorset,E14000839,County,73759,53385,,E12000009,Dorset,South West,England
+215,North Durham,E14000840,County,65359,40146,,E12000001,Durham,North East,England
+43,North East Bedfordshire,E14000841,County,83551,58672,,E12000006,Bedfordshire,East,England
+120,North East Cambridgeshire,E14000842,County,82990,51780,,E12000006,Cambridgeshire,East,England
+185,North East Derbyshire,E14000843,County,71445,47948,,E12000004,Derbyshire,East Midlands,England
+288,North East Hampshire,E14000844,County,76918,54000,,E12000008,Hampshire,South East,England
+309,North East Hertfordshire,E14000845,County,74000,52287,,E12000006,Hertfordshire,East,England
+518,North East Somerset,E14000846,County,69380,51110,,E12000009,Avon,South West,England
+307,North Herefordshire,E14000847,County,67926,48023,,E12000005,Hereford and Worcester,West Midlands,England
+422,North Norfolk,E14000848,County,68867,49414,,E12000006,Norfolk,East,England
+511,North Shropshire,E14000849,County,78858,52573,,E12000005,Shropshire,West Midlands,England
+517,North Somerset,E14000850,County,80161,58942,,E12000009,Avon,South West,England
+560,North Swindon,E14000851,County,80983,52242,,E12000009,Wiltshire,South West,England
+567,North Thanet,E14000852,County,71478,47053,,E12000008,Kent,South East,England
+583,North Tyneside,E14000853,Borough,79300,46818,,E12000001,Tyne and Wear,North East,England
+602,North Warwickshire,E14000854,County,70152,47377,,E12000005,Warwickshire,West Midlands,England
+121,North West Cambridgeshire,E14000855,County,90318,61100,,E12000006,Cambridgeshire,East,England
+216,North West Durham,E14000856,County,69816,42818,,E12000001,Durham,North East,England
+289,North West Hampshire,E14000857,County,79223,55195,,E12000008,Hampshire,South East,England
+359,North West Leicestershire,E14000858,County,72193,51548,,E12000004,Leicestershire,East Midlands,England
+423,North West Norfolk,E14000859,County,74402,47371,,E12000006,Norfolk,East,England
+619,North Wiltshire,E14000860,County,67851,50556,,E12000009,Wiltshire,South West,England
+427,Northampton North,E14000861,Borough,59144,39411,,E12000004,Northamptonshire,East Midlands,England
+428,Northampton South,E14000862,Borough,61287,38884,,E12000004,Northamptonshire,East Midlands,England
+430,Norwich North,E14000863,Borough,64515,43592,,E12000006,Norfolk,East,England
+431,Norwich South,E14000864,Borough,74875,48463,,E12000006,Norfolk,East,England
+432,Nottingham East,E14000865,Borough,60464,35209,,E12000004,Nottinghamshire,East Midlands,England
+433,Nottingham North,E14000866,Borough,65918,35343,,E12000004,Nottinghamshire,East Midlands,England
+434,Nottingham South,E14000867,Borough,68987,43465,,E12000004,Nottinghamshire,East Midlands,England
+435,Nuneaton,E14000868,County,68037,45749,,E12000005,Warwickshire,West Midlands,England
+438,Old Bexley and Sidcup,E14000869,Borough,66035,46748,,E12000007,London,London,England
+439,Oldham East and Saddleworth,E14000870,County,71475,44483,,E12000002,Greater Manchester,North West,England
+440,Oldham West and Royton,E14000871,Borough,71652,43137,,E12000002,Greater Manchester,North West,England
+442,Orpington,E14000872,Borough,68129,49032,,E12000007,London,London,England
+443,Oxford East,E14000873,Borough,78978,50689,,E12000008,Oxfordshire,South East,England
+444,Oxford West and Abingdon,E14000874,County,76174,57247,,E12000008,Oxfordshire,South East,England
+447,Pendle,E14000875,Borough,64573,44448,,E12000002,Lancashire,North West,England
+448,Penistone and Stocksbridge,E14000876,County,70817,46854,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+449,Penrith and The Border,E14000877,County,65209,43921,,E12000002,Cumbria,North West,England
+451,Peterborough,E14000878,Borough,72530,47075,,E12000006,Cambridgeshire,East,England
+452,"Plymouth, Moor View",E14000879,Borough,68246,42606,,E12000009,Devon,South West,England
+453,"Plymouth, Sutton and Devonport",E14000880,Borough,73274,47963,,E12000009,Devon,South West,England
+455,Poole,E14000881,Borough,72557,47393,,E12000009,Dorset,South West,England
+456,Poplar and Limehouse,E14000882,Borough,82081,51044,,E12000007,London,London,England
+457,Portsmouth North,E14000883,Borough,73105,45390,,E12000008,Hampshire,South East,England
+458,Portsmouth South,E14000884,Borough,71639,41903,,E12000008,Hampshire,South East,England
+460,Preston,E14000885,Borough,59981,33469,,E12000002,Lancashire,North West,England
+461,Pudsey,E14000886,Borough,70533,50927,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+462,Putney,E14000887,Borough,63923,42813,,E12000007,London,London,England
+463,Rayleigh and Wickford,E14000888,County,77174,53220,,E12000006,Essex,East,England
+464,Reading East,E14000889,Borough,73232,50494,,E12000008,Berkshire,South East,England
+465,Reading West,E14000890,County,72567,48404,,E12000008,Berkshire,South East,England
+466,Redcar,E14000891,Borough,64826,40919,,E12000001,Cleveland,North East,England
+467,Redditch,E14000892,County,65531,44098,,E12000005,Hereford and Worcester,West Midlands,England
+468,Reigate,E14000893,Borough,73429,51349,,E12000008,Surrey,South East,England
+471,Ribble Valley,E14000894,County,77379,52243,,E12000002,Lancashire,North West,England
+472,Richmond (Yorks),E14000895,County,79062,53999,,E12000003,North Yorkshire,Yorkshire and The Humber,England
+473,Richmond Park,E14000896,Borough,77303,59101,,E12000007,London,London,England
+474,Rochdale,E14000897,County,77248,45430,,E12000002,Greater Manchester,North West,England
+475,Rochester and Strood,E14000898,County,77119,52516,,E12000008,Kent,South East,England
+476,Rochford and Southend East,E14000899,County,71935,43608,,E12000006,Essex,East,England
+477,Romford,E14000900,Borough,72594,49178,,E12000007,London,London,England
+478,Romsey and Southampton North,E14000901,County,66519,48398,,E12000008,Hampshire,South East,England
+480,Rossendale and Darwen,E14000902,Borough,73779,49024,,E12000002,Lancashire,North West,England
+481,Rother Valley,E14000903,County,74275,47019,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+482,Rotherham,E14000904,Borough,63698,37823,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+483,Rugby,E14000905,County,71655,49006,,E12000005,Warwickshire,West Midlands,England
+484,"Ruislip, Northwood and Pinner",E14000906,Borough,73216,51222,,E12000007,London,London,England
+485,Runnymede and Weybridge,E14000907,County,73771,50052,,E12000008,Surrey,South East,England
+486,Rushcliffe,E14000908,County,73278,55164,,E12000004,Nottinghamshire,East Midlands,England
+488,Rutland and Melton,E14000909,County,79693,54603,,E12000004,Leicestershire,East Midlands,England
+489,Saffron Walden,E14000910,County,80615,57563,,E12000006,Essex,East,England
+495,Salford and Eccles,E14000911,Borough,74291,43261,,E12000002,Greater Manchester,North West,England
+496,Salisbury,E14000912,County,69582,50705,,E12000009,Wiltshire,South West,England
+497,Scarborough and Whitby,E14000913,County,73511,47739,,E12000003,North Yorkshire,Yorkshire and The Humber,England
+498,Scunthorpe,E14000914,County,64025,36941,,E12000003,Humberside,Yorkshire and The Humber,England
+499,Sedgefield,E14000915,County,62844,38716,,E12000001,Durham,North East,England
+500,Sefton Central,E14000916,County,67744,49021,,E12000002,Merseyside,North West,England
+501,Selby and Ainsty,E14000917,County,76082,52804,,E12000003,North Yorkshire,Yorkshire and The Humber,England
+502,Sevenoaks,E14000918,County,71958,50124,,E12000008,Kent,South East,England
+504,Sheffield Central,E14000919,Borough,72321,44173,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+507,Sheffield South East,E14000920,Borough,70422,41685,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+503,"Sheffield, Brightside and Hillsborough",E14000921,Borough,70874,40053,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+505,"Sheffield, Hallam",E14000922,County,72351,55481,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+506,"Sheffield, Heeley",E14000923,Borough,67950,42048,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+508,Sherwood,E14000924,County,73349,50698,,E12000004,Nottinghamshire,East Midlands,England
+509,Shipley,E14000925,County,70464,50542,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+510,Shrewsbury and Atcham,E14000926,County,76400,54102,,E12000005,Shropshire,West Midlands,England
+512,Sittingbourne and Sheppey,E14000927,County,76018,49378,,E12000008,Kent,South East,England
+513,Skipton and Ripon,E14000928,County,76645,54559,,E12000003,North Yorkshire,Yorkshire and The Humber,England
+514,Sleaford and North Hykeham,E14000929,County,87972,61944,,E12000004,Lincolnshire,East Midlands,England
+515,Slough,E14000930,Borough,86366,48275,,E12000008,Berkshire,South East,England
+516,Solihull,E14000931,Borough,77956,54779,,E12000005,West Midlands,West Midlands,England
+519,Somerton and Frome,E14000932,County,83281,60309,,E12000009,Somerset,South West,England
+33,South Basildon and East Thurrock,E14000933,County,71155,45593,,E12000006,Essex,East,England
+122,South Cambridgeshire,E14000934,County,84132,61540,,E12000006,Cambridgeshire,East,England
+186,South Derbyshire,E14000935,County,73923,50762,,E12000004,Derbyshire,East Midlands,England
+199,South Dorset,E14000936,County,71534,48597,,E12000009,Dorset,South West,England
+123,South East Cambridgeshire,E14000937,County,84570,59506,,E12000006,Cambridgeshire,East,England
+163,South East Cornwall,E14000938,County,71071,50498,,E12000009,Cornwall,South West,England
+520,South Holland and The Deepings,E14000939,County,76460,49207,,E12000004,Lincolnshire,East Midlands,England
+360,South Leicestershire,E14000940,County,76851,53926,,E12000004,Leicestershire,East Midlands,England
+424,South Norfolk,E14000941,County,80721,57123,,E12000006,Norfolk,East,England
+429,South Northamptonshire,E14000942,County,85781,60862,,E12000004,Northamptonshire,East Midlands,England
+521,South Ribble,E14000943,County,76489,52370,,E12000002,Lancashire,North West,England
+522,South Shields,E14000944,Borough,62730,36265,,E12000001,Tyne and Wear,North East,England
+530,South Staffordshire,E14000945,County,72771,49598,,E12000005,Staffordshire,West Midlands,England
+549,South Suffolk,E14000946,County,73836,51907,,E12000006,Suffolk,East,England
+561,South Swindon,E14000947,County,73926,49263,,E12000009,Wiltshire,South West,England
+568,South Thanet,E14000948,County,70970,49401,,E12000008,Kent,South East,England
+44,South West Bedfordshire,E14000949,County,79285,51304,,E12000006,Bedfordshire,East,England
+191,South West Devon,E14000950,County,71035,50372,,E12000009,Devon,South West,England
+310,South West Hertfordshire,E14000951,County,79668,57267,,E12000006,Hertfordshire,East,England
+425,South West Norfolk,E14000952,County,76970,50110,,E12000006,Norfolk,East,England
+554,South West Surrey,E14000953,County,77548,57119,,E12000008,Surrey,South East,England
+620,South West Wiltshire,E14000954,County,73018,51643,,E12000009,Wiltshire,South West,England
+523,"Southampton, Itchen",E14000955,Borough,72281,44710,,E12000008,Hampshire,South East,England
+524,"Southampton, Test",E14000956,Borough,70270,43652,,E12000008,Hampshire,South East,England
+525,Southend West,E14000957,Borough,66876,44509,,E12000006,Essex,East,England
+526,Southport,E14000958,Borough,67326,44101,,E12000002,Merseyside,North West,England
+527,Spelthorne,E14000959,Borough,71592,49079,,E12000008,Surrey,South East,England
+490,St Albans,E14000960,County,75825,54433,,E12000006,Hertfordshire,East,England
+491,St Austell and Newquay,E14000961,County,76607,50361,,E12000009,Cornwall,South West,England
+492,St Helens North,E14000962,Borough,75262,46256,,E12000002,Merseyside,North West,England
+493,St Helens South and Whiston,E14000963,Borough,77720,48397,,E12000002,Merseyside,North West,England
+494,St Ives,E14000964,County,65570,48312,,E12000009,Cornwall,South West,England
+528,Stafford,E14000965,County,68705,48767,,E12000005,Staffordshire,West Midlands,England
+529,Staffordshire Moorlands,E14000966,County,63104,42587,,E12000005,Staffordshire,West Midlands,England
+531,Stalybridge and Hyde,E14000967,County,71357,41034,,E12000002,Greater Manchester,North West,England
+532,Stevenage,E14000968,County,70597,47799,,E12000006,Hertfordshire,East,England
+534,Stockport,E14000969,Borough,63931,39649,,E12000002,Greater Manchester,North West,England
+535,Stockton North,E14000970,Borough,66126,39571,,E12000001,Cleveland,North East,England
+536,Stockton South,E14000971,Borough,75111,51797,,E12000001,Cleveland,North East,England
+537,Stoke-on-Trent Central,E14000972,Borough,60634,31084,,E12000005,Staffordshire,West Midlands,England
+538,Stoke-on-Trent North,E14000973,Borough,71438,38654,,E12000005,Staffordshire,West Midlands,England
+539,Stoke-on-Trent South,E14000974,Borough,68091,39107,,E12000005,Staffordshire,West Midlands,England
+540,Stone,E14000975,County,67339,47031,,E12000005,Staffordshire,West Midlands,England
+541,Stourbridge,E14000976,Borough,69077,46029,,E12000005,West Midlands,West Midlands,England
+543,Stratford-on-Avon,E14000977,County,71304,51459,,E12000005,Warwickshire,West Midlands,England
+544,Streatham,E14000978,Borough,79137,49933,,E12000007,London,London,England
+545,Stretford and Urmston,E14000979,Borough,69026,46386,,E12000002,Greater Manchester,North West,England
+546,Stroud,E14000980,County,80544,60819,,E12000009,Gloucestershire,South West,England
+548,Suffolk Coastal,E14000981,County,77816,55594,,E12000006,Suffolk,East,England
+551,Sunderland Central,E14000982,Borough,72950,41762,,E12000001,Tyne and Wear,North East,England
+553,Surrey Heath,E14000983,County,79515,54431,,E12000008,Surrey,South East,England
+556,Sutton and Cheam,E14000984,Borough,69228,49905,,E12000007,London,London,England
+557,Sutton Coldfield,E14000985,Borough,74956,50854,,E12000005,West Midlands,West Midlands,England
+562,Tamworth,E14000986,County,71913,47174,,E12000005,Staffordshire,West Midlands,England
+563,Tatton,E14000987,County,65004,45298,,E12000002,Cheshire,North West,England
+564,Taunton Deane,E14000988,County,83221,57887,,E12000009,Somerset,South West,England
+565,Telford,E14000989,Borough,66166,40645,,E12000005,Shropshire,West Midlands,England
+566,Tewkesbury,E14000990,County,78910,55344,,E12000009,Gloucestershire,South West,England
+164,The Cotswolds,E14000991,County,78290,56667,,E12000009,Gloucestershire,South West,England
+640,The Wrekin,E14000992,County,65942,45437,,E12000005,Shropshire,West Midlands,England
+569,Thirsk and Malton,E14000993,County,77451,52365,,E12000003,North Yorkshire,Yorkshire and The Humber,England
+570,Thornbury and Yate,E14000994,County,66066,48570,,E12000009,Avon,South West,England
+571,Thurrock,E14000995,Borough,77559,49564,,E12000006,Essex,East,England
+572,Tiverton and Honiton,E14000996,County,76270,53763,,E12000009,Devon,South West,England
+573,Tonbridge and Malling,E14000997,County,74877,53670,,E12000008,Kent,South East,England
+574,Tooting,E14000998,Borough,76782,53529,,E12000007,London,London,England
+575,Torbay,E14000999,Borough,76350,48079,,E12000009,Devon,South West,England
+192,Torridge and West Devon,E14001000,County,78621,56584,,E12000009,Devon,South West,England
+577,Totnes,E14001001,County,68630,47097,,E12000009,Devon,South West,England
+578,Tottenham,E14001002,Borough,70803,42558,,E12000007,London,London,England
+579,Truro and Falmouth,E14001003,County,73601,51544,,E12000009,Cornwall,South West,England
+580,Tunbridge Wells,E14001004,County,73429,51428,,E12000008,Kent,South East,England
+581,Twickenham,E14001005,Borough,80250,62004,,E12000007,London,London,England
+582,Tynemouth,E14001006,Borough,77524,53495,,E12000001,Tyne and Wear,North East,England
+587,Uxbridge and South Ruislip,E14001007,Borough,70631,44811,,E12000007,London,London,England
+590,Vauxhall,E14001008,Borough,82231,47941,,E12000007,London,London,England
+591,Wakefield,E14001009,County,70521,42973,,E12000003,West Yorkshire,Yorkshire and The Humber,England
+592,Wallasey,E14001010,Borough,65495,43366,,E12000002,Merseyside,North West,England
+593,Walsall North,E14001011,Borough,67080,36883,,E12000005,West Midlands,West Midlands,England
+594,Walsall South,E14001012,Borough,67743,41838,,E12000005,West Midlands,West Midlands,England
+595,Walthamstow,E14001013,Borough,67015,41796,,E12000007,London,London,England
+596,Wansbeck,E14001014,County,60705,38528,,E12000001,Northumberland,North East,England
+597,Wantage,E14001015,County,82931,58320,,E12000008,Oxfordshire,South East,England
+598,Warley,E14001016,Borough,63738,37829,,E12000005,West Midlands,West Midlands,England
+599,Warrington North,E14001017,Borough,72104,45419,,E12000002,Cheshire,North West,England
+600,Warrington South,E14001018,Borough,84767,59353,,E12000002,Cheshire,North West,England
+601,Warwick and Leamington,E14001019,Borough,71578,50581,,E12000005,Warwickshire,West Midlands,England
+603,Washington and Sunderland West,E14001020,Borough,68190,37257,,E12000001,Tyne and Wear,North East,England
+604,Watford,E14001021,Borough,83535,56149,,E12000006,Hertfordshire,East,England
+605,Waveney,E14001022,County,80166,52196,,E12000006,Suffolk,East,England
+606,Wealden,E14001023,County,80236,57017,,E12000008,East Sussex,South East,England
+607,Weaver Vale,E14001024,County,68407,46867,,E12000002,Cheshire,North West,England
+608,Wellingborough,E14001025,County,74317,50430,,E12000004,Northamptonshire,East Midlands,England
+609,Wells,E14001026,County,79405,56904,,E12000009,Somerset,South West,England
+610,Welwyn Hatfield,E14001027,County,73247,50205,,E12000006,Hertfordshire,East,England
+611,Wentworth and Dearne,E14001028,County,74283,43189,,E12000003,South Yorkshire,Yorkshire and The Humber,England
+612,West Bromwich East,E14001029,Borough,63637,37492,,E12000005,West Midlands,West Midlands,England
+613,West Bromwich West,E14001030,Borough,65524,35026,,E12000005,West Midlands,West Midlands,England
+200,West Dorset,E14001031,County,78000,56458,,E12000009,Dorset,South West,England
+614,West Ham,E14001032,Borough,90640,52793,,E12000007,London,London,England
+349,West Lancashire,E14001033,County,70906,49676,,E12000002,Lancashire,North West,England
+550,West Suffolk,E14001034,County,76198,49232,,E12000006,Suffolk,East,England
+635,West Worcestershire,E14001035,County,73394,54100,,E12000005,Hereford and Worcester,West Midlands,England
+615,Westminster North,E14001036,Borough,62346,39514,,E12000007,London,London,England
+616,Westmorland and Lonsdale,E14001037,County,65857,48929,,E12000002,Cumbria,North West,England
+617,Weston-Super-Mare,E14001038,County,80309,52552,,E12000009,Avon,South West,England
+618,Wigan,E14001039,County,75990,45293,,E12000002,Greater Manchester,North West,England
+621,Wimbledon,E14001040,Borough,65853,48422,,E12000007,London,London,England
+622,Winchester,E14001041,County,74119,55316,,E12000008,Hampshire,South East,England
+623,Windsor,E14001042,County,71538,50160,,E12000008,Berkshire,South East,England
+624,Wirral South,E14001043,County,56956,41837,,E12000002,Merseyside,North West,England
+625,Wirral West,E14001044,County,55377,41858,,E12000002,Merseyside,North West,England
+626,Witham,E14001045,County,67090,47168,,E12000006,Essex,East,England
+627,Witney,E14001046,County,79767,58482,,E12000008,Oxfordshire,South East,England
+628,Woking,E14001047,County,74269,51964,,E12000008,Surrey,South East,England
+629,Wokingham,E14001048,County,77881,55999,,E12000008,Berkshire,South East,England
+630,Wolverhampton North East,E14001049,Borough,61065,34003,,E12000005,West Midlands,West Midlands,England
+631,Wolverhampton South East,E14001050,Borough,62556,34764,,E12000005,West Midlands,West Midlands,England
+632,Wolverhampton South West,E14001051,Borough,60368,40209,,E12000005,West Midlands,West Midlands,England
+633,Worcester,E14001052,Borough,72461,49723,,E12000005,Hereford and Worcester,West Midlands,England
+636,Workington,E14001053,County,58615,38463,,E12000002,Cumbria,North West,England
+637,Worsley and Eccles South,E14001054,County,72177,42048,,E12000002,Greater Manchester,North West,England
+639,Worthing West,E14001055,Borough,75617,50763,,E12000008,West Sussex,South East,England
+642,Wycombe,E14001056,County,76371,51439,,E12000008,Buckinghamshire,South East,England
+643,Wyre and Preston North,E14001057,County,70637,49893,,E12000002,Lancashire,North West,England
+644,Wyre Forest,E14001058,County,77407,49440,,E12000005,Hereford and Worcester,West Midlands,England
+645,Wythenshawe and Sale East,E14001059,Borough,75994,43263,,E12000002,Greater Manchester,North West,England
+646,Yeovil,E14001060,County,82447,56933,,E12000009,Somerset,South West,England
+648,York Central,E14001061,Borough,75351,47677,,E12000003,North Yorkshire,Yorkshire and The Humber,England
+649,York Outer,E14001062,County,78561,53903,,E12000003,North Yorkshire,Yorkshire and The Humber,England
+45,Belfast East,N06000001,Borough,63157,39682,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+46,Belfast North,N06000002,Borough,68553,40593,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+47,Belfast South,N06000003,Borough,64927,38957,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+48,Belfast West,N06000004,Borough,62697,35329,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+13,East Antrim,N06000005,County,62811,33497,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+376,East Londonderry,N06000006,County,66926,34714,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+249,Fermanagh and South Tyrone,N06000007,County,70108,50864,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+255,Foyle,N06000008,County,70036,37002,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+347,Lagan Valley,N06000009,County,71152,39795,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+585,Mid Ulster,N06000010,County,67832,40922,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+419,Newry and Armagh,N06000011,County,77633,49877,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+14,North Antrim,N06000012,County,75876,41907,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+202,North Down,N06000013,County,64207,35947,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+15,South Antrim,N06000014,County,67425,36523,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+203,South Down,N06000015,County,75220,42697,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+542,Strangford,N06000016,County,64289,33924,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+586,Upper Bann,N06000017,County,80060,47219,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+584,West Tyrone,N06000018,County,63856,38654,,N92000002,Northern Ireland,Northern Ireland,Northern Ireland
+3,Aberdeen North,S14000001,Burgh,67745,43936,,S92000003,Scotland,Scotland,Scotland
+4,Aberdeen South,S14000002,Burgh,68056,48551,,S92000003,Scotland,Scotland,Scotland
+6,Airdrie and Shotts,S14000003,County,66792,44286,,S92000003,Scotland,Scotland,Scotland
+12,Angus,S14000004,County,65792,44485,,S92000003,Scotland,Scotland,Scotland
+17,Argyll and Bute,S14000005,County,68875,51883,,S92000003,Scotland,Scotland,Scotland
+23,"Ayr, Carrick and Cumnock",S14000006,County,72995,52209,,S92000003,Scotland,Scotland,Scotland
+27,Banff and Buchan,S14000007,County,68609,45629,,S92000003,Scotland,Scotland,Scotland
+51,"Berwickshire, Roxburgh and Selkirk",S14000008,County,74214,55038,,S92000003,Scotland,Scotland,Scotland
+115,"Caithness, Sutherland and Easter Ross",S14000009,County,47558,34186,,S92000003,Scotland,Scotland,Scotland
+24,Central Ayrshire,S14000010,County,70021,50774,,S92000003,Scotland,Scotland,Scotland
+156,"Coatbridge, Chryston and Bellshill",S14000011,Burgh,73894,50698,,S92000003,Scotland,Scotland,Scotland
+173,"Cumbernauld, Kilsyth and Kirkintilloch East",S14000012,County,67088,49382,,S92000003,Scotland,Scotland,Scotland
+207,Dumfries and Galloway,S14000013,County,75249,56602,,S92000003,Scotland,Scotland,Scotland
+208,"Dumfriesshire, Clydesdale and Tweeddale",S14000014,County,68483,52134,,S92000003,Scotland,Scotland,Scotland
+211,Dundee East,S14000015,Burgh,67822,48185,,S92000003,Scotland,Scotland,Scotland
+212,Dundee West,S14000016,Burgh,65927,44714,,S92000003,Scotland,Scotland,Scotland
+213,Dunfermline and West Fife,S14000017,County,78037,55890,,S92000003,Scotland,Scotland,Scotland
+209,East Dunbartonshire,S14000018,County,66966,54871,,S92000003,Scotland,Scotland,Scotland
+223,"East Kilbride, Strathaven and Lesmahagow",S14000019,County,83205,60539,,S92000003,Scotland,Scotland,Scotland
+224,East Lothian,S14000020,County,79481,59014,,S92000003,Scotland,Scotland,Scotland
+469,East Renfrewshire,S14000021,County,69982,56730,,S92000003,Scotland,Scotland,Scotland
+228,Edinburgh East,S14000022,Burgh,67141,47089,,S92000003,Scotland,Scotland,Scotland
+229,Edinburgh North and Leith,S14000023,Burgh,80910,58008,,S92000003,Scotland,Scotland,Scotland
+230,Edinburgh South,S14000024,Burgh,65801,49286,,S92000003,Scotland,Scotland,Scotland
+231,Edinburgh South West,S14000025,Burgh,72149,51602,,S92000003,Scotland,Scotland,Scotland
+232,Edinburgh West,S14000026,Burgh,71717,54858,,S92000003,Scotland,Scotland,Scotland
+407,Na h-Eileanan an Iar,S14000027,County,21769,15938,,S92000003,Scotland,Scotland,Scotland
+245,Falkirk,S14000028,County,83380,60340,,S92000003,Scotland,Scotland,Scotland
+262,Glasgow Central,S14000029,Burgh,70945,39318,,S92000003,Scotland,Scotland,Scotland
+263,Glasgow East,S14000030,Burgh,70378,42417,,S92000003,Scotland,Scotland,Scotland
+264,Glasgow North,S14000031,Burgh,60169,36922,,S92000003,Scotland,Scotland,Scotland
+265,Glasgow North East,S14000032,Burgh,66678,37857,,S92000003,Scotland,Scotland,Scotland
+266,Glasgow North West,S14000033,Burgh,68418,43854,,S92000003,Scotland,Scotland,Scotland
+267,Glasgow South,S14000034,Burgh,74051,48778,,S92000003,Scotland,Scotland,Scotland
+268,Glasgow South West,S14000035,Burgh,66209,40921,,S92000003,Scotland,Scotland,Scotland
+269,Glenrothes,S14000036,County,69781,47598,,S92000003,Scotland,Scotland,Scotland
+271,Gordon,S14000037,County,79393,58161,,S92000003,Scotland,Scotland,Scotland
+330,Inverclyde,S14000038,County,59350,44607,,S92000003,Scotland,Scotland,Scotland
+331,"Inverness, Nairn, Badenoch and Strathspey",S14000039,County,77628,57613,,S92000003,Scotland,Scotland,Scotland
+342,Kilmarnock and Loudoun,S14000040,County,75250,53903,,S92000003,Scotland,Scotland,Scotland
+345,Kirkcaldy and Cowdenbeath,S14000041,County,75941,52892,,S92000003,Scotland,Scotland,Scotland
+348,Lanark and Hamilton East,S14000042,County,79962,55258,,S92000003,Scotland,Scotland,Scotland
+369,Linlithgow and East Falkirk,S14000043,County,86955,61597,,S92000003,Scotland,Scotland,Scotland
+374,Livingston,S14000044,County,82373,57547,,S92000003,Scotland,Scotland,Scotland
+396,Midlothian,S14000045,County,67875,48331,,S92000003,Scotland,Scotland,Scotland
+403,Moray,S14000046,County,71685,49280,,S92000003,Scotland,Scotland,Scotland
+406,Motherwell and Wishaw,S14000047,Burgh,70283,48237,,S92000003,Scotland,Scotland,Scotland
+25,North Ayrshire and Arran,S14000048,County,75791,53869,,S92000003,Scotland,Scotland,Scotland
+250,North East Fife,S14000049,County,62003,45263,,S92000003,Scotland,Scotland,Scotland
+436,Ochil and South Perthshire,S14000050,County,77370,57871,,S92000003,Scotland,Scotland,Scotland
+441,Orkney and Shetland,S14000051,County,34552,22728,,S92000003,Scotland,Scotland,Scotland
+445,Paisley and Renfrewshire North,S14000052,County,66206,50462,,S92000003,Scotland,Scotland,Scotland
+446,Paisley and Renfrewshire South,S14000053,County,61281,46226,,S92000003,Scotland,Scotland,Scotland
+450,Perth and North Perthshire,S14000054,County,72459,54200,,S92000003,Scotland,Scotland,Scotland
+479,"Ross, Skye and Lochaber",S14000055,County,54169,41811,,S92000003,Scotland,Scotland,Scotland
+487,Rutherglen and Hamilton West,S14000056,Burgh,82830,57615,,S92000003,Scotland,Scotland,Scotland
+533,Stirling,S14000057,County,67236,52135,,S92000003,Scotland,Scotland,Scotland
+5,West Aberdeenshire and Kincardine,S14000058,County,73445,55196,,S92000003,Scotland,Scotland,Scotland
+210,West Dunbartonshire,S14000059,County,69208,51141,,S92000003,Scotland,Scotland,Scotland
+647,Ynys Môn,W07000041,County,49939,34926,,W92000004,Gwynedd,Wales,Wales
+179,Delyn,W07000042,County,53639,37457,,W92000004,Clwyd,Wales,Wales
+10,Alyn and Deeside,W07000043,County,62016,41314,,W92000004,Clwyd,Wales,Wales
+641,Wrexham,W07000044,County,50992,32719,,W92000004,Clwyd,Wales,Wales
+375,Llanelli,W07000045,County,59314,38574,,W92000004,Dyfed,Wales,Wales
+273,Gower,W07000046,County,61820,42758,,W92000004,West Glamorgan,Wales,Wales
+559,Swansea West,W07000047,Borough,58776,35156,,W92000004,West Glamorgan,Wales,Wales
+558,Swansea East,W07000048,Borough,58011,33618,,W92000004,West Glamorgan,Wales,Wales
+1,Aberavon,W07000049,County,49821,31523,,W92000004,West Glamorgan,Wales,Wales
+126,Cardiff Central,W07000050,Borough,57456,38646,,W92000004,South Glamorgan,Wales,Wales
+127,Cardiff North,W07000051,Borough,67196,51151,,W92000004,South Glamorgan,Wales,Wales
+470,Rhondda,W07000052,County,51811,31538,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+576,Torfaen,W07000053,County,61896,37937,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+401,Monmouth,W07000054,County,62248,47462,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+417,Newport East,W07000055,County,56015,35108,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+418,Newport West,W07000056,County,62137,40347,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+16,Arfon,W07000057,County,40492,26837,,W92000004,Gwynedd,Wales,Wales
+2,Aberconwy,W07000058,County,45525,30148,,W92000004,Clwyd,Wales,Wales
+155,Clwyd West,W07000059,County,58644,38028,,W92000004,Clwyd,Wales,Wales
+588,Vale of Clwyd,W07000060,County,56505,35261,,W92000004,Clwyd,Wales,Wales
+217,Dwyfor Meirionnydd,W07000061,County,44394,28913,,W92000004,Gwynedd,Wales,Wales
+154,Clwyd South,W07000062,County,54996,35064,,W92000004,Clwyd,Wales,Wales
+402,Montgomeryshire,W07000063,County,48690,33757,,W92000004,Powys,Wales,Wales
+135,Ceredigion,W07000064,County,54242,37416,,W92000004,Dyfed,Wales,Wales
+459,Preseli Pembrokeshire,W07000065,County,57291,40556,,W92000004,Dyfed,Wales,Wales
+132,Carmarthen West and South Pembrokeshire,W07000066,County,57755,40350,,W92000004,Dyfed,Wales,Wales
+131,Carmarthen East and Dinefwr,W07000067,County,55750,39399,,W92000004,Dyfed,Wales,Wales
+89,Brecon and Radnorshire,W07000068,County,54441,40074,,W92000004,Powys,Wales,Wales
+408,Neath,W07000069,County,56097,37135,,W92000004,West Glamorgan,Wales,Wales
+174,Cynon Valley,W07000070,County,51422,30472,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+393,Merthyr Tydfil and Rhymney,W07000071,County,61716,32715,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+71,Blaenau Gwent,W07000072,County,51335,31683,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+94,Bridgend,W07000073,County,59998,39453,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+437,Ogmore,W07000074,County,55572,35250,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+454,Pontypridd,W07000075,County,58940,37882,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+114,Caerphilly,W07000076,County,63603,40283,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+336,Islwyn,W07000077,County,55697,35401,,W92000004,Gwent and Mid Glamorgan,Wales,Wales
+589,Vale of Glamorgan,W07000078,County,72794,51293,,W92000004,South Glamorgan,Wales,Wales
+129,Cardiff West,W07000079,Borough,66762,43792,,W92000004,South Glamorgan,Wales,Wales
+128,Cardiff South and Penarth,W07000080,Borough,76006,46667,,W92000004,South Glamorgan,Wales,Wales
+,,,,,,,,,,
+,,,,46354197,30697525,,,,,
