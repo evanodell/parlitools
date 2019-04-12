@@ -3,6 +3,8 @@
 
 * Changed `gss_code` to `ons_const_id` in the `leave_votes_west` dataset
   to ensure consistent naming of parliamentary constituency codes
+  
+* Added Northern Ireland GE results
 
 
 # parlitools 0.3.1

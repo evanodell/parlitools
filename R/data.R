@@ -104,7 +104,7 @@
 #' A tibble with Great Britain constituencies results from the
 #' 2017 General Election. This data can be linked to 2011 census
 #' information in \code{\link{census_11}} with the \code{pano},
-#' \code{ons_const_id} and \code{constituency_name} variables.
+#' \code{ons_const_id} and \code{constituency_name} variables. There are 
 #'
 #' Variable names have been converted to snake_case and variables have been
 #' converted to appropriate R classes.
@@ -113,7 +113,7 @@
 #' C. van der Eijk, J. Mellon & C. Prosser (2017) British Election Study
 #' 2017 Constituency Results file, version 1.0.
 #'
-#' @format A tibble, containing 632 rows and 123 columns. For full details on 
+#' @format A tibble, containing 650 rows and 123 columns. For full details on 
 #' the included variables see the vignette:
 #' <\url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}>
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
@@ -144,6 +144,25 @@
 #' @seealso bes_2017
 "census_11"
 
+
+
+
+# ni_ge_2017 --------------------------------------------------------------
+#' Northern Ireland GE Results
+#' 
+#' A tibble with results from UK General Elections in Northern Ireland
+#' in 2015 and 2017.
+#' 
+#' Data is taken from the Electoral Commission results. 
+#' 
+#' @format A tibble, with 18 rows and 62 columns.
+#' 
+#' @source \url{https://www.electoralcommission.org.uk/our-work/our-research/electoral-data/electoral-data-files-and-reports}
+#'
+"ni_ge_2017"
+
+
+
 # la_codes ------------------------------------------------------------
 #' A tibble with the name, ONS code and local authority type for UK
 #' local authorities.
@@ -171,8 +190,8 @@
 #' constituency, are taken from the BBC.
 #' @format A tibble, with 650 rows and 8 columns.
 #' \describe{
-#' \item{\code{gss_code}}{ONS code for constituency}
-#' \item{\code{constituency}}{The name of the constituency.}
+#' \item{\code{ons_const_id}}{ONS code for constituency}
+#' \item{\code{constituency_name}}{The name of the constituency.}
 #' \item{\code{party_2016}}{The party holding the constituency on 23 June 2016,
 #' the date of the referendum.}
 #' \item{\code{ch_leave_vote}}{Estimates of the leave vote produced by
