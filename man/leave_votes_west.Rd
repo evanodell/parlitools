@@ -6,8 +6,8 @@
 \title{A tibble with leave votes from the Brexit referendum in each constituency.}
 \format{A tibble, with 650 rows and 8 columns.
 \describe{
-\item{\code{gss_code}}{ONS code for constituency}
-\item{\code{constituency}}{The name of the constituency.}
+\item{\code{ons_const_id}}{ONS code for constituency}
+\item{\code{constituency_name}}{The name of the constituency.}
 \item{\code{party_2016}}{The party holding the constituency on 23 June 2016,
 the date of the referendum.}
 \item{\code{ch_leave_vote}}{Estimates of the leave vote produced by
