@@ -3,7 +3,7 @@
 #' Request data on all MPs eligible currently (i.e. on the current system date)
 #' to sit in the House of Commons. Includes information on their constituency.
 #'
-#' @param tidy If `TRUE``, fixes the variable names in the tibble to remove
+#' @param tidy If `TRUE`, fixes the variable names in the tibble to remove
 #' special characters and superfluous text, and converts the variable names to
 #' a consistent style. Defaults to `TRUE`.
 #' @param tidy_style The style to convert variable names to, if

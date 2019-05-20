@@ -1,3 +1,6 @@
+---
+output: github_document
+---
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, echo = FALSE}
@@ -19,9 +22,9 @@ knitr::opts_chunk$set(
 
 # parlitools
 
-A collection of useful tools for UK politics, including base maps and datasets. Initially inspired by Bhaskar Karambelkar's [`tilegrams`](https://cran.r-project.org/package=tilegramsR) package, but with the ability to create a hexagonal map of UK parliamentary constituencies. The package also includes functions for data retrieval of current MPs and their consituency details (as it requires calls to two different APIs, this function is not included in my [`hansard`](https://cran.r-project.org/package=hansard) or [`mnis`](https://cran.r-project.org/package=mnis) packages), and data from the 2015 UK General Election, courtesy of the British Election Study.
+A collection of useful tools for UK politics, including base maps and datasets. Initially inspired by Bhaskar Karambelkar's [`tilegrams`](https://cran.r-project.org/package=tilegramsR) package, but with the ability to create a hexagonal map of UK parliamentary constituencies and local authorities. The package also includes functions for data retrieval of current MPs and their consituency details (as it requires calls to two different APIs, this function is not included in my [`hansard`](https://cran.r-project.org/package=hansard) or [`mnis`](https://cran.r-project.org/package=mnis) packages), and local government composition. There are inbuilt datasets from the 2015 and 2017 UK General Elections and 2011 Census, courtesy of the British Election Study, estimates of EU referendum votes from Chris Hanretty, and hex codes for different party colours.
 
-The most up-to-date documentation for the development version will always be at http://docs.evanodell.com/parlitools/.
+The most up-to-date documentation will always be at http://docs.evanodell.com/parlitools/.
 
 ## Installing
 
@@ -88,4 +91,4 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 
 * My [`hansard`](https://cran.r-project.org/package=hansard) & [`mnis`](https://cran.r-project.org/package=mnis) data retrieval packages for parliamentary APIs.
 
-* [Open Council Data](http://opencouncildata.co.uk/) has data on the names, parties, and wards of all UK councillors, updated more or less weekly.
+* [Open Council Data](http://opencouncildata.co.uk/) has data on the names, parties, and wards of all UK councillors, updated more or less weekly. `parlitools` uses this site to power the `council_seats()` function.

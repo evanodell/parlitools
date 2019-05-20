@@ -86,11 +86,12 @@
 #' Christopher Prosser. "British Election Study, 2015: General Election
 #' Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 #'
-#' @format A tibble, containing 650 rows and 92 columns. For full details see
-#' the vignette:
+#' @format A tibble, containing 650 rows and 92 columns. For full details on 
+#' the included variables see the vignette:
 #' <\url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}>
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
-#' @rdname bes
+#' @seealso bes_2017
+#' @seealso census_2011
 "bes_2015"
 
 
@@ -103,7 +104,7 @@
 #' A tibble with Great Britain constituencies results from the
 #' 2017 General Election. This data can be linked to 2011 census
 #' information in \code{\link{census_11}} with the \code{pano},
-#' \code{ons_const_id} and \code{constituency_name} variables.
+#' \code{ons_const_id} and \code{constituency_name} variables. There are 
 #'
 #' Variable names have been converted to snake_case and variables have been
 #' converted to appropriate R classes.
@@ -112,11 +113,12 @@
 #' C. van der Eijk, J. Mellon & C. Prosser (2017) British Election Study
 #' 2017 Constituency Results file, version 1.0.
 #'
-#' @format A tibble, containing 632 rows and 123 columns. For full details
-#' see the vignette:
+#' @format A tibble, containing 650 rows and 123 columns. For full details on 
+#' the included variables see the vignette:
 #' <\url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}>
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
-#' @rdname bes
+#' @seealso bes_2015
+#' @seealso census_2011
 "bes_2017"
 
 # census_11 ------------------------------------------------------------
@@ -127,23 +129,47 @@
 #' linked to the \code{\link{bes_2017}} and \code{\link{bes_2015}} datasets
 #' using the \code{pano}, \code{ons_const_id} and
 #' \code{constituency_name} variables.
+#' 
+#' @references Fieldhouse, Edward, Jane Green, Geoffrey Evans,
+#' Hermann Schmitt, Cees van der Eijk, Jonathan Mellon, and
+#' Christopher Prosser. "British Election Study, 2015: General Election
+#' Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 #'
-#' @format A tibble, containing 632 rows and 191 columns. For full details see
-#' the vignette:
+#' @format A tibble, containing 632 rows and 191 columns. For full details on 
+#' the included variables see the vignette:
 #' <\url{http://docs.evanodell.com/parlitools/articles/census-11.html}>
 #'
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
-#' @rdname bes
+#' @seealso bes_2015
+#' @seealso bes_2017
 "census_11"
+
+
+
+
+# ni_ge_2017 --------------------------------------------------------------
+#' Northern Ireland GE Results
+#' 
+#' A tibble with results from UK General Elections in Northern Ireland
+#' in 2015 and 2017.
+#' 
+#' Data is taken from the Electoral Commission results. 
+#' 
+#' @format A tibble, with 18 rows and 62 columns.
+#' 
+#' @source \url{https://www.electoralcommission.org.uk/our-work/our-research/electoral-data/electoral-data-files-and-reports}
+#'
+"ni_ge_2017"
+
+
 
 # la_codes ------------------------------------------------------------
 #' A tibble with the name, ONS code and local authority type for UK
 #' local authorities.
 #'
-#'
 #' @format A tibble, with 418 rows and 3 columns.
 #' \describe{
-#' #' \item{\code{name}}{Local Authority Name}
+#' \item{\code{name}}{Local Authority Name}
 #' \item{\code{la_code}}{The Local Authority code from the Office for
 #' National Statistics}
 #' \item{\code{type}}{The type of local authority}
@@ -164,8 +190,8 @@
 #' constituency, are taken from the BBC.
 #' @format A tibble, with 650 rows and 8 columns.
 #' \describe{
-#' \item{\code{gss_code}}{ONS code for constituency}
-#' \item{\code{constituency}}{The name of the constituency.}
+#' \item{\code{ons_const_id}}{ONS code for constituency}
+#' \item{\code{constituency_name}}{The name of the constituency.}
 #' \item{\code{party_2016}}{The party holding the constituency on 23 June 2016,
 #' the date of the referendum.}
 #' \item{\code{ch_leave_vote}}{Estimates of the leave vote produced by
@@ -181,7 +207,13 @@
 #' actual leave vote percentage is known, and 'No' if only the estimate by
 #' Chris Hanretty is available.}
 #' }
-#' @source \url{https://medium.com/@chrishanretty/final-estimates-of-the-leave-vote-or-areal-interpolation-and-the-uks-referendum-on-eu-membership-5490b6cab878}
-#' \url{https://docs.google.com/spreadsheets/d/1b71SDKPFbk-ktmUTXmDpUP5PT299qq24orEA0_TOpmw/edit#gid=579044181}
-#' \url{http://www.bbc.co.uk/news/uk-northern-ireland-36616830}
+#' 
+#' 
+#' 
+#' @source Hanretty, C. (2017). Areal interpolation and the UK’s referendum on EU
+#' membership. _Journal of Elections, Public Opinion and Parties_, 27(4),
+#' 466–483. \url{https://doi.org/10.1080/17457289.2017.1287081}
+#' 
+#' @source \url{https://docs.google.com/spreadsheets/d/1b71SDKPFbk-ktmUTXmDpUP5PT299qq24orEA0_TOpmw/edit#gid=579044181}
+#' @source \url{http://www.bbc.co.uk/news/uk-northern-ireland-36616830}
 "leave_votes_west"

@@ -28,7 +28,7 @@
 #' remove special characters and superfluous text, and converts the variable
 #' names to a consistent style. Defaults to `TRUE`.
 #' @param tidy_style The style to convert variable names to,
-#' if `tidy=TRUE`. Accepts one of `'snake_case'`,
+#' if `tidy = TRUE`. Accepts one of `'snake_case'`,
 #' `'camelCase'` and `'period.case'`. Defaults to `'snake_case'`.
 #'
 #' @return A tibble with information on all MPs who were members of the House
@@ -37,11 +37,10 @@
 #' `date2` are specified.
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examples \dontrun{
 #' x <- mps_on_date(date1 = "2017-04-19", date2 = "2010-05-04")
 #' }
-#' 
+
 mps_on_date <- function(date1 = Sys.Date(), date2 = NULL,
                         tidy = TRUE, tidy_style = "snake_case") {
   date1 <- as.Date(date1)

@@ -25,7 +25,7 @@ remove special characters and superfluous text, and converts the variable
 names to a consistent style. Defaults to \code{TRUE}.}
 
 \item{tidy_style}{The style to convert variable names to,
-if \code{tidy=TRUE}. Accepts one of \code{'snake_case'},
+if \code{tidy = TRUE}. Accepts one of \code{'snake_case'},
 \code{'camelCase'} and \code{'period.case'}. Defaults to \code{'snake_case'}.}
 }
 \value{
@@ -53,5 +53,4 @@ includes consituency data from the
 \dontrun{
 x <- mps_on_date(date1 = "2017-04-19", date2 = "2010-05-04")
 }
-
 }

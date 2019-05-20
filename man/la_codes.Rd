@@ -7,7 +7,7 @@
 local authorities.}
 \format{A tibble, with 418 rows and 3 columns.
 \describe{
-#' \item{\code{name}}{Local Authority Name}
+\item{\code{name}}{Local Authority Name}
 \item{\code{la_code}}{The Local Authority code from the Office for
 National Statistics}
 \item{\code{type}}{The type of local authority}

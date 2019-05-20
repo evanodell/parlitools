@@ -12,7 +12,9 @@ council_seats(councillors = FALSE, tidy = TRUE,
 councillor for each local council. If \code{FALSE}, downloads summary data
 for each council. Defaults to \code{FALSE}.}
 
-\item{tidy}{If \code{TRUE``, fixes the variable names in the tibble to remove special characters and superfluous text, and converts the variable names to a consistent style. Defaults to }TRUE`.}
+\item{tidy}{If \code{TRUE}, fixes the variable names in the tibble to remove
+special characters and superfluous text, and converts the variable names to
+a consistent style. Defaults to \code{TRUE}.}
 
 \item{tidy_style}{The style to convert variable names to, if
 \code{tidy=TRUE}. Accepts one of \code{'snake_case'}, \code{'camelCase'}
