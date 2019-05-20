@@ -49,7 +49,7 @@ gb_hex_map$turnout_17 <- round(gb_hex_map$turnout_17, 2)
 
 gb_hex_map$marginality <- (100-gb_hex_map$majority_17)^3
 
-gp_hex_scaled <- cartogram(gb_hex_map, 'marginality')
+gp_hex_scaled <- cartogram_cont(gb_hex_map, 'marginality', itermax = 5)
 
 # Creating map labels
 labels <- paste0(

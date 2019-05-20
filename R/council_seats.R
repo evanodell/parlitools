@@ -62,7 +62,7 @@ council_seats <- function(councillors = FALSE, tidy = TRUE,
       independent_councillors = "ind",
       vacant_seats = "vacant",
       total_councillors = "total",
-      last_update = "last"
+      last_update = "last update"
     )
 
     names(council_data) <- snakecase::to_snake_case(names(council_data))
