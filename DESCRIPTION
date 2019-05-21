@@ -1,7 +1,7 @@
 Package: parlitools
 Type: Package
 Title: Tools for Analysing UK Politics
-Version: 0.3.1.9000
+Version: 0.3.2
 Authors@R: person(
     "Evan Odell", email="evanodell91@gmail.com", 
     role=c("aut", "cre"),  comment = c(ORCID = '0000-0003-1845-808X'))
