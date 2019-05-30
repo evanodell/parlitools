@@ -1,3 +1,6 @@
+# parlitools 0.3.3
+
+* Fixed broken links in README
 
 # parlitools 0.3.2
 

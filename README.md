@@ -75,7 +75,7 @@ vignette](http://docs.evanodell.com/parlitools/articles/bes-2015.html)
 `bes_2017` - A tibble with Great Britain constituencies results from the
 2017 general election. This data can be linked to 2011 census
 information in
-[`census_11`](https://docs.evanodell.com/parlitools/reference/census-11.html).
+[`census_11`](https://docs.evanodell.com/parlitools/reference/bes.html).
 
 `census_11` - A tibble with constituency-level census data.
 
@@ -83,8 +83,10 @@ information in
 EU referendum. Some constituencies have actual results and others only
 have estimates by Chris Hanretty; in cases where the actual cote count
 is known, both the estimates and the actual results are reported.
-(Sources:
-<https://secondreading.uk/brexit/brexit-votes-by-constituency/>
+(Sources: Hanretty, C. (2017). Areal interpolation and the UK’s
+referendum on EU membership. *Journal of Elections, Public Opinion and
+Parties*, 27(4), 466–483.
+<https://doi.org/10.1080/17457289.2017.1287081>,
 <http://www.bbc.co.uk/news/uk-northern-ireland-36616830>)
 
 ### Data Retrieval Functions

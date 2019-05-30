@@ -57,11 +57,11 @@ For more details see [the full documentation](https://docs.evanodell.com/parlito
 
 `bes_2015` - A tibble with the British Election Study 2015 Constituency Results Version 2.2. For information on all the variables in this dataset, see the [bes-2015 vignette](http://docs.evanodell.com/parlitools/articles/bes-2015.html) (Source: http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/)
 
-`bes_2017` - A tibble with Great Britain constituencies results from the 2017 general election. This data can be linked to 2011 census information in [`census_11`](https://docs.evanodell.com/parlitools/reference/census-11.html).
+`bes_2017` - A tibble with Great Britain constituencies results from the 2017 general election. This data can be linked to 2011 census information in [`census_11`](https://docs.evanodell.com/parlitools/reference/bes.html).
 
 `census_11` - A tibble with constituency-level census data.
 
-`leave_votes_west` - The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: https://secondreading.uk/brexit/brexit-votes-by-constituency/ http://www.bbc.co.uk/news/uk-northern-ireland-36616830)
+`leave_votes_west` - The percentage of votes cast for leave in the 2016 EU referendum. Some constituencies have actual results and others only have estimates by Chris Hanretty; in cases where the actual cote count is known, both the estimates and the actual results are reported. (Sources: Hanretty, C. (2017). Areal interpolation and the UK’s referendum on EU membership. _Journal of Elections, Public Opinion and Parties_, 27(4), 466–483. https://doi.org/10.1080/17457289.2017.1287081,  http://www.bbc.co.uk/news/uk-northern-ireland-36616830)
 
 ### Data Retrieval Functions
 

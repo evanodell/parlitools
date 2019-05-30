@@ -2,9 +2,8 @@
 
 ## Resubmission
 
-This is a resubmission of the `parlitools` package, adding another relevant 
-dataset and fixing some errors in one function. The last release, of 0.3.1, 
-was on 2019-03-22.
+This is a resubmission of the `parlitools` package, fixing some errors found in
+the previous submission 0.3.2 on 2019-05-21.
 
 ## Test environments
 
