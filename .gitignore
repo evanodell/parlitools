@@ -27,5 +27,5 @@ inst/doc
 testing.R
 *.html
 /data-raw/hex-prep.R
-^vignettes/mapping-local-authorities.Rmd
-^vignettes/using-cartograms.Rmd
+vignettes/mapping-local-authorities.Rmd
+vignettes/using-cartograms.Rmd
