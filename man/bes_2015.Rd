@@ -26,7 +26,8 @@ detailed results from Great Britain; the only data included on Northern
 Irish constituencies is the party that won the seat.
 
 Variable names have been converted to snake_case and variables have been
-converted to appropriate R classes.
+converted to appropriate R classes. If using in publications, please
+cite as below:
 }
 \references{
 Fieldhouse, Edward, Jane Green, Geoffrey Evans,
@@ -35,8 +36,8 @@ Christopher Prosser. "British Election Study, 2015: General Election
 Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 }
 \seealso{
-bes_2017
+\link{bes_2019}
 
-census_2011
+\link{census_2011}
 }
 \keyword{datasets}

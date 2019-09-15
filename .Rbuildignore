@@ -21,3 +21,5 @@
 ^appveyor\.yml$
 ^index\.html$
 ^LICENSE\.md$
+^vignettes/mapping-local-authorities.Rmd
+^vignettes/using-cartograms.Rmd
