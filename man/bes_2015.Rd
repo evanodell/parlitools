@@ -36,8 +36,8 @@ Christopher Prosser. "British Election Study, 2015: General Election
 Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 }
 \seealso{
-\link{bes_2019}
+bes_2017
 
-\link{census_2011}
+census_2011
 }
 \keyword{datasets}

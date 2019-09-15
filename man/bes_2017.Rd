@@ -33,8 +33,8 @@ C. van der Eijk, J. Mellon & C. Prosser (2017) British Election Study
 2017 Constituency Results file, version 1.0.
 }
 \seealso{
-\link{bes_2015}
+bes_2015
 
-\link{census_2011}
+census_2011
 }
 \keyword{datasets}
