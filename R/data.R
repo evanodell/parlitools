@@ -91,8 +91,8 @@
 #' the included variables see the vignette:
 #' <\url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}>
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
-#' @seealso [bes_2019]
-#' @seealso [census_2011]
+#' @seealso bes_2017
+#' @seealso census_2011
 "bes_2015"
 
 
@@ -119,8 +119,8 @@
 #' the included variables see the vignette:
 #' <\url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}>
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
-#' @seealso [bes_2015]
-#' @seealso [census_2011]
+#' @seealso bes_2015
+#' @seealso census_2011
 "bes_2017"
 
 # census_11 ------------------------------------------------------------
@@ -142,8 +142,8 @@
 #' <\url{http://docs.evanodell.com/parlitools/articles/census-11.html}>
 #'
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
-#' @seealso [bes_2015]
-#' @seealso [bes_2017]
+#' @seealso bes_2015
+#' @seealso bes_2017
 "census_11"
 
 

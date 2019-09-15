@@ -50,7 +50,7 @@ There are a variety of potentially relevant data sources and datasets on UK poli
 
 * [Open Council Data](http://opencouncildata.co.uk/) has data on the names, parties, and wards of all UK councillors, updated more or less weekly.
 
-
+<!--
 # Using `parlitools`
 
 ## Creating a hexagonal map of constituencies
@@ -164,7 +164,7 @@ leaflet(options=leafletOptions(
   mapOptions(zoomToLimits = "first")
 ```
 
-
+-->
 
 ### Graphing Demographics and Voting Trends
 
