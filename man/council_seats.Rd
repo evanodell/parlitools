@@ -4,8 +4,7 @@
 \alias{council_seats}
 \title{Council Seats}
 \usage{
-council_seats(councillors = FALSE, tidy = TRUE,
-  tidy_style = "snake_case")
+council_seats(councillors = FALSE, tidy = TRUE, tidy_style = "snake_case")
 }
 \arguments{
 \item{councillors}{If \code{TRUE}, downloads details on each individual

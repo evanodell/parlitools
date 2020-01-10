@@ -89,9 +89,10 @@
 #'
 #' @format A tibble, containing 650 rows and 92 columns. For full details on 
 #' the included variables see the vignette:
-#' <\url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}>
+#' <http://docs.evanodell.com/parlitools/articles/bes-2015.html>
 #' @source \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
 #' @seealso bes_2017
+#' @seealso bes_2019
 #' @seealso census_2011
 "bes_2015"
 
@@ -117,11 +118,38 @@
 #'
 #' @format A tibble, containing 650 rows and 123 columns. For full details on 
 #' the included variables see the vignette:
-#' <\url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}>
+#' <http://docs.evanodell.com/parlitools/articles/bes-2017.html>
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
 #' @seealso bes_2015
+#' @seealso bes_2019
 #' @seealso census_2011
 "bes_2017"
+
+
+# bes_2019 ------------------------------------------------------------
+#' 2019 General Election Results
+#'
+#' A tibble with the 2019 UK General Election results, taken from the House
+#' of Commons library and the Democracy Club crowd-sourced data on candidates.
+#'
+#' A tibble with Great Britain constituencies results from the
+#' 2019 General Election. This data can be linked to 2011 census
+#' information in \code{\link{census_11}} with the \code{pano},
+#' \code{ons_const_id} and \code{constituency_name} variables.
+#' 
+#' Although not taken from the official British Election Study I have preserved
+#' the `bes_{election}` naming convention. 
+#' Data from Northern Ireland is also included in this object.
+#'
+#' @format A tibble, containing 650 rows and 98 columns. For full details on 
+#' the included variables see the vignette:
+#' <http://docs.evanodell.com/parlitools/articles/bes-2019.html>
+#' @source \url{https://candidates.democracyclub.org.uk/api/docs/csv/#past}
+#' @source \url{https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-8749}
+#' @seealso bes_2015
+#' @seealso bes_2017
+#' @seealso census_2011
+"bes_2019"
 
 # census_11 ------------------------------------------------------------
 #' Constituency demographic information
@@ -139,11 +167,12 @@
 #'
 #' @format A tibble, containing 632 rows and 191 columns. For full details on 
 #' the included variables see the vignette:
-#' <\url{http://docs.evanodell.com/parlitools/articles/census-11.html}>
+#' <http://docs.evanodell.com/parlitools/articles/census-11.html>
 #'
 #' @source \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
 #' @seealso bes_2015
 #' @seealso bes_2017
+#' @seealso bes_2019
 "census_11"
 
 

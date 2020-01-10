@@ -6,7 +6,7 @@
 \title{2015 General Election Results}
 \format{A tibble, containing 650 rows and 92 columns. For full details on
 the included variables see the vignette:
-<\url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}>}
+\url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}}
 \source{
 \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
 }
@@ -37,6 +37,8 @@ Results Dataset," 2015. doi:10.13140/RG.2.1.1162.1844.
 }
 \seealso{
 bes_2017
+
+bes_2019
 
 census_2011
 }

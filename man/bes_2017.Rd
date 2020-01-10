@@ -6,7 +6,7 @@
 \title{2017 General Election Results}
 \format{A tibble, containing 650 rows and 123 columns. For full details on
 the included variables see the vignette:
-<\url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}>}
+\url{http://docs.evanodell.com/parlitools/articles/bes-2017.html}}
 \source{
 \url{http://www.britishelectionstudy.com/data-object/2017-bes-constituency-results-with-census-and-candidate-data/}
 }
@@ -34,6 +34,8 @@ C. van der Eijk, J. Mellon & C. Prosser (2017) British Election Study
 }
 \seealso{
 bes_2015
+
+bes_2019
 
 census_2011
 }

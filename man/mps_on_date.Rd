@@ -4,8 +4,12 @@
 \alias{mps_on_date}
 \title{MPs on or between two dates}
 \usage{
-mps_on_date(date1 = Sys.Date(), date2 = NULL, tidy = TRUE,
-  tidy_style = "snake_case")
+mps_on_date(
+  date1 = Sys.Date(),
+  date2 = NULL,
+  tidy = TRUE,
+  tidy_style = "snake_case"
+)
 }
 \arguments{
 \item{date1}{The date to return the list of MPs from. Accepts character
@@ -45,7 +49,7 @@ between the two dates if both are specified. Includes constituency and
 electoral information if the date is 2010-05-06 or later, or if the date
 range is entirely between 2010-05-06 and the present day. This function
 is identical to the \code{mnis_mps_on_date} function from
-the \code{[mnis](https://cran.r-project.org/package=mnis)} package, except it
+the \verb{[mnis](https://cran.r-project.org/package=mnis)} package, except it
 includes consituency data from the
 2010 General Election (on 2010-05-06) onwards.
 }

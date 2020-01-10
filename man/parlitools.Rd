@@ -3,7 +3,6 @@
 \docType{package}
 \name{parlitools}
 \alias{parlitools}
-\alias{parlitools-package}
 \title{parlitools: Tools for Analysing UK Politics with R}
 \description{
 The parlitools package provides various useful tools and functions for

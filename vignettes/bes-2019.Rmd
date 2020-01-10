@@ -1,0 +1,115 @@
+---
+title: "2019 General Election Variables"
+author: "Evan Odell"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{2019 General Election Variables}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Variable names in `bes_2019` 
+
+Due to the 98 variables included in the `bes_2019` dataset, including information on each variable in the `parlitools` reference manual is very lengthy and not very user friendly. The 'Name' column refers to the variable name used in the `bes_2019` dataset and the 'Label' is the description of the variable. 
+
+|Name| Label |
+|--------------------|-----------|
+|`pano`| Press Association Constituency ID |
+|`ons_const_id`| ONS Constituency ID |
+|`ons_region_id`| ONS Region ID |
+|`constituency_name`| Constituency Name |
+|`county`|County name|
+|`region`| Region |
+|`country`| Country |
+|`constituency_type`| County or Borough Constituency |
+|`seat_change_1719`| 2019 winning party gain from 2017 winning party|
+|`winner_19`| 2019 Winning party |
+|`electorate_19`| 2019 Size of electorate |
+|`total_vote_19`| 2019 Total number of votes cast |
+|`rejected_vote_19`| 2019 Number of rejected ballots |
+|`majority_19`| 2019 Majority |
+|`con_vote_19`| 2019 Conservative number of votes |
+|`lab_vote_19`| 2019 Labour number of votes |
+|`ld_vote_19`| 2019 Liberal Democrat number of votes |
+|`brexit_vote_19`| 2019 Brexit Party  number of votes |
+|`green_vote_19`| 2019 Green Party number of votes |
+|`snp_vote_19`| 2019 Scottish National Party (SNP) number of votes |
+|`pc_vote_19`| 2019 Plaid Cymru number of votes |
+|`dup_vote_19`|NA|
+|`sf_vote_19`|NA|
+|`sdlp_vote_19`|NA|
+|`uup_vote_19`|NA|
+|`alliance_vote_19`|NA|
+|`other_vote_19`|NA|
+|`speaker_vote_19`|NA|
+|`turnout_19`| 2019 Turnout |
+|`con_19`| 2019 Conservative vote share |
+|`lab_19`| 2019 Labour vote share |
+|`ld_19`| 2019 Liberal Democrat vote share |
+|`brexit_19`| 2019 Brexit Party vote share |
+|`green_19`| 2019 Green Party vote share |
+|`snp_19`| 2019 Scottish National Party (SNP) vote share |
+|`pc_19`| 2019 Plaid Cymru vote share |
+|`dup_19`|NA|
+|`sf_19`|NA|
+|`sdlp_19`|NA|
+|`uup_19`|NA|
+|`alliance_19`|NA|
+|`other_19`| 2019 Combined other vote share |
+|`speaker_19`|NA|
+|`con_1719`|2017-19 Conservative vote share change|
+|`lab_1719`|2017-19 Labour vote share change|
+|`ld_1719`|2017-19 Liberal Democrat vote share change|
+|`green_1719`|2017-19 Green vote share change|
+|`snp_1719`|2017-19 SNP vote share change|
+|`pc_1719`|2017-19 Plaid Cymru vote share change|
+|`winner_17`| 2017 Winning party |
+|`con_17`| 2017 Conservative vote share |
+|`lab_17`| 2017 Labour vote share |
+|`ld_17`| 2017 Liberal Democrat vote share |
+|`snp_17`| 2017 Scottish National Party (SNP) vote share |
+|`pc_17`| 2017 Plaid Cymru vote share |
+|`ukip_17`| 2017 United Kingdom Independence Party (UKIP) vote share |
+|`green_17`| 2017 Green Party vote share |
+|`other_17`| 2017 Combined other vote share |
+|`majority_17`| 2017 Majority |
+|`turnout_17`| 2017 Turnout |
+|`con_vote_17`| 2017 Conservative number of votes |
+|`lab_vote_17`| 2017 Labour number of votes |
+|`ld_vote_17`| 2017 Liberal Democrat number of votes |
+|`snp_vote_17`| 2017 Scottish National Party (SNP) number of votes |
+|`pc_vote_17`| 2017 Plaid Cymru number of votes |
+|`ukip_vote_17`| 2017 United Kingdom Independence Party (UKIP) number of votes |
+|`green_vote_17`| 2017 Green Party number of votes |
+|`total_vote_17`| 2017 Total number of votes cast |
+|`rejected_vote_17`| 2017 Number of rejected ballots |
+|`electorate_17`| 2017 Size of electorate |
+|`green_ppc_19`| Green Party 2019 candidate name |
+|`ld_ppc_19`| Liberal Democrat 2019 candidate name |
+|`lab_ppc_19`| Labour 2019 candidate name |
+|`ukip_ppc_19`|NA|
+|`pc_ppc_19`| Plaid Cymru 2019 candidate name |
+|`con_ppc_19`| Conservative 2019 candidate name |
+|`speaker_ppc_19`|NA|
+|`sdlp_ppc_19`|NA|
+|`snp_ppc_19`| SNP 2019 candidate name |
+|`dup_ppc_19`|NA|
+|`brexit_ppc_19`| Brexit Party 2019 candidate name |
+|`alliance_ppc_19`|NA|
+|`uup_ppc_19`|NA|
+|`green_ppc_sex_19`| Green Party 2019 candidate sex |
+|`ld_ppc_sex_19`| Liberal Democrat 2019 candidate sex |
+|`lab_ppc_sex_19`| Labour 2017 candidate sex |
+|`ukip_ppc_sex_19`|NA|
+|`pc_ppc_sex_19`| Plaid Cymru 2019 candidate sex |
+|`con_ppc_sex_19`| Conservative 2019 candidate sex |
+|`speaker_ppc_sex_19`|NA|
+|`sdlp_ppc_sex_19`|NA|
+|`snp_ppc_sex_19`| SNP 2019 candidate sex |
+|`dup_ppc_sex_19`|NA|
+|`brexit_ppc_sex_19`| Brexit Party 2019 candidate sex |
+|`alliance_ppc_sex_19`|NA|
+|`uup_ppc_sex_19`|NA|
+|`leave_hanretty`| Hanretty (2017) Estimate of EU Referendum Leave % |
+|`remain_hanretty`| Hanretty (2017) Estimate of EU Referendum Remain % |
