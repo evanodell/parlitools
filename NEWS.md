@@ -1,6 +1,8 @@
-# parlitools 0.3.4.9000
+# parlitools 0.4.0
 
 * Added 2019 UK General Election Results
+
+* Minor vignette improvements
 
 # parlitools 0.3.4
 

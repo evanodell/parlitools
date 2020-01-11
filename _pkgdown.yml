@@ -30,29 +30,8 @@ navbar:
           href: articles/bes-2017.html
         - text: "Constituency Level Census Data"
           href: articles/census-11.html
-    - text: "Packages"
-      menu:
-        - text: "Documentation Home"
-          href: http://docs.evanodell.com
-        - text: "---------"
-        - text: "hansard"
-          href: http://docs.evanodell.com/hansard
-        - text: "mnis"
-          href: http://docs.evanodell.com/mnis
-        - text: "parlitools"
-          href: http://docs.evanodell.com/parlitools
-        - text: "nomisr"
-          href: http://docs.evanodell.com/nomisr
-        - text: "fixerapi"
-          href: http://docs.evanodell.com/fixerapi
-        - text: "refuge"
-          href: http://docs.evanodell.com/refuge
-        - text: "guardianapi"
-          href: http://docs.evanodell.com/guardianapi
-        - text: "ukpolice"
-          href: http://docs.evanodell.com/ukpolice
-        - text: "emisc"
-          href: http://docs.evanodell.com/emisc
+    - text: "Documentation Home"
+      href: https://docs.evanodell.com
 
   right:
     - icon: fa-github fa-lg
