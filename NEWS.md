@@ -1,3 +1,7 @@
+# parlitools 0.4.1
+
+* Fixed some missing 2017 results from `bes_2019` data, spotted by Antony Unwin.
+
 # parlitools 0.4.0
 
 * Added 2019 UK General Election Results

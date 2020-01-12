@@ -2,8 +2,8 @@
 
 ## Resubmission
 
-This is a resubmission of the `parlitools` package, with new data on the 2019
-UK General Election as well as some minor vignette improvements.
+This is a resubmission of the `parlitools` package, which fixes missing data
+spotted in the previous version after it was submitted to CRAN.
 
 ## Test environments
 

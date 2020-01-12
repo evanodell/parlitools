@@ -55,7 +55,7 @@ ge_2017 <- ge_2017 %>% filter(str_detect(ons_code, "N")) %>%
   select(ons_code, pano, constituency, party_identifer, valid_votes) %>% 
   spread(party_identifer, valid_votes) %>%
   mutate(total_votes_17 = select(., Alliance:WP) %>% rowSums(na.rm = TRUE),
-         other_vote_17 = select(., `CIST Alliance`, Conservative, Independent,
+         other_vote_17 = select(., `CIST Alliance`, Independent,
                                 `Independent (Lady Hermon)`, `PBP Alliance`,
                                 TUV, WP) %>%  rowSums(na.rm = TRUE)) %>%
   rename(alliance_vote_17 = Alliance,
@@ -63,8 +63,9 @@ ge_2017 <- ge_2017 %>% filter(str_detect(ons_code, "N")) %>%
          green_vote_17 = `Green Party`,
          sf_vote_17 = `Sinn Féin`,
          sdlp_vote_17 = `SDLP`,
-         uup_vote_17 = `UUP`) %>%
-  select(-`CIST Alliance`, -Conservative, -Independent,
+         uup_vote_17 = `UUP`,
+         con_vote_17 = `Conservative`) %>%
+  select(-`CIST Alliance`, -Independent,
          -`Independent (Lady Hermon)`, -`PBP Alliance`,
          -TUV, -WP)
 
@@ -85,6 +86,7 @@ ge_2017 <- ge_2017 %>%
          sf_17 = (sf_vote_17/total_votes_17)*100,
          sdlp_17 = (sdlp_vote_17/total_votes_17)*100,
          uup_17 = (uup_vote_17/total_votes_17)*100,
+         con_17 = (con_vote_17/total_votes_17)*100,
          other_17 = (other_vote_17/total_votes_17)*100,
          ukip_17 = NA,
          turnout_17 = (total_votes_17/electorate_17)*100)
@@ -148,7 +150,7 @@ results_15 <- results_15 %>% filter(str_detect(ons_code, "N")) %>%
   spread(party_identifier, valid_votes) %>%
   mutate(total_votes_15 = select(., Alliance:`Workers Party`) %>% rowSums(na.rm = TRUE),
          other_vote_15 = select(., `Cannabis is Safer than Alcohol Party`,
-                                Conservative, Independent,
+                                Independent,
                                 `People Before Profit Alliance`,
                                 `Traditional Unionist Voice`,
                                 `Workers Party`) %>% rowSums(na.rm = TRUE)) %>%
@@ -158,8 +160,9 @@ results_15 <- results_15 %>% filter(str_detect(ons_code, "N")) %>%
          sf_vote_15 = `Sinn Fein`,
          sdlp_vote_15 = `Social Democratic and Labour Party`,
          uup_vote_15 = `Ulster Unionist Party`,
-         ukip_vote_15 = `UK Independence Party`) %>% 
-  select(-`Cannabis is Safer than Alcohol Party`, -Conservative, 
+         ukip_vote_15 = `UK Independence Party`,
+         con_vote_15 = `Conservative`) %>% 
+  select(-`Cannabis is Safer than Alcohol Party`,
          -`People Before Profit Alliance`, -`Traditional Unionist Voice`,
          -Independent, -`Workers Party`)
 
@@ -173,6 +176,7 @@ results_15 <- results_15 %>%
          sf_15 = (sf_vote_15/total_votes_15)*100,
          sdlp_15 = (sdlp_vote_15/total_votes_15)*100,
          uup_15 = (uup_vote_15/total_votes_15)*100,
+         con_15 = (con_vote_15/total_votes_15)*100,
          turnout_15 = (total_votes_15/electorate_15)*100)
 
 glimpse(results_15)
@@ -189,6 +193,7 @@ ni_results <- ni_results %>%
          sf_1517 = sf_17 - sf_15,
          sdlp_1517 = sdlp_17 - sdlp_15,
          uup_1517 = uup_17 - uup_15,
+         con_1517 = con_17 - con_15,
          winner_17 = recode(
            winner_17,
            "Democratic Unionist Party - D.U.P." = "Democratic Unionist Party",
@@ -218,12 +223,12 @@ ni_results <- ni_results %>% select(ons_code, pano, constituency,
                                     majority_15, majority_vote_15,
                                     "alliance_vote_15", "dup_vote_15", 
                                     "green_vote_15", sf_vote_15, "sdlp_vote_15",
-                                    "ukip_vote_15", "uup_vote_15",
+                                    "ukip_vote_15", "uup_vote_15", con_vote_15,
                                     "other_vote_15", "alliance_15", "dup_15",
                                     "green_15", "sf_15", "sdlp_15", "uup_15", 
-                                    electorate_17, total_votes_17, turnout_17,
-                                    winner_17, majority_17, majority_vote_17,
-                                    everything()) %>%
+                                    con_15, electorate_17, total_votes_17,
+                                    turnout_17, winner_17, majority_17,
+                                    majority_vote_17, everything()) %>%
   rename(ons_const_id = ons_code, 
          constituency_name = constituency)
 

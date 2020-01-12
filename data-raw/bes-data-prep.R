@@ -105,6 +105,9 @@ usethis::use_data(bes_2017, overwrite = TRUE)
 
 library(stringr)
 library(stringi)
+library(readr)
+library(dplyr)
+library(tidyr)
 
 #https://candidates.democracyclub.org.uk/api/docs/csv/#past
 candidates <- read_csv("data-raw/candidates-parl.2019-12-12.csv") %>% 
@@ -177,7 +180,7 @@ names(candidates2) <- str_replace_all(names(candidates2),
 # results
 
 # from: https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-8749
-bes_2019 <- read_csv("./data-raw/HoC-GE2019-results-by-constituency.csv") %>%
+bes_2019_full <- read_csv("./data-raw/HoC-GE2019-results-by-constituency.csv") %>%
   select(-declaration_time, -mp_firstname, -mp_gender, -mp_surname,
          -second_party) %>% 
   rename("ons_const_id" = ons_id,
@@ -207,18 +210,18 @@ bes_2019 <- read_csv("./data-raw/HoC-GE2019-results-by-constituency.csv") %>%
            "Alliance" = "Alliance",
            "UUP" = "Ulster Unionist Party"))
 
-bes_2019 <- bes_2019 %>% 
+bes_2019_full <- bes_2019_full %>% 
   rename_at(vars(con:speaker), ~paste0(., "_vote_19"))
 
-bes_2019 <- bes_2019 %>%
+bes_2019_full <- bes_2019_full %>%
   mutate_at(list(perc = ~./total_vote_19),
             .vars = vars(con_vote_19:speaker_vote_19)) %>%
   mutate_at(vars(con_vote_19_perc:speaker_vote_19_perc), ~.*100)
 
-names(bes_2019) <- str_replace_all(names(bes_2019),
+names(bes_2019_full) <- str_replace_all(names(bes_2019_full),
                                       "(.*)_vote_19_perc", "\\1_19")
 
-bes_2019 <- bes_2019 %>% 
+bes_2019_full <- bes_2019_full %>% 
   mutate(seat_change_1719 = ifelse(
     substr(seat_change_1719, nchar(seat_change_1719)-4, 
            nchar(seat_change_1719)) == " hold",
@@ -232,10 +235,35 @@ bes_2019 <- bes_2019 %>%
     "Democratic Unionist Party"),
   vectorize_all = FALSE ))
 
+bes_2017 <- parlitools::bes_2017 %>%
+  select(pano:ons_const_id, winner_17:electorate_17, 
+         leave_hanretty, remain_hanretty)
 
-bes_2019 <- left_join(bes_2019, 
-                      bes_2017 %>% select(pano:electorate_17, 
-                                          leave_hanretty, remain_hanretty))
+bes_2019_gb <- bes_2019_full %>% filter(region != "Northern Ireland")
+
+bes_2019_gb <- inner_join(bes_2019_gb, 
+                      bes_2017)
+
+
+
+
+ni_ge_2017 <- parlitools::ni_ge_2017
+
+ni_ge_2017 <- ni_ge_2017 %>% select(pano, ons_const_id, electorate_17:con_17)
+
+leave_votes_west <- parlitools::leave_votes_west  %>%
+  mutate(leave_hanretty = figure_to_use*100) %>%
+  select(ons_const_id, leave_hanretty)
+
+ni_ge_2017 <- ni_ge_2017 %>%
+  inner_join(leave_votes_west) %>%
+  mutate(remain_hanretty = 100-leave_hanretty) %>%
+  rename(total_vote_17 = total_votes_17)
+
+x4 <- bes_2019_full %>%
+  inner_join(ni_ge_2017)
+
+bes_2019 <- bind_rows(bes_2019_gb, x4)
 
 bes_2019 <- bes_2019 %>%
   mutate(con_1719 = con_19 - con_17,
@@ -243,17 +271,24 @@ bes_2019 <- bes_2019 %>%
          ld_1719  = ld_19  - ld_17 ,
          green_1719   = green_19   - green_17  ,
          snp_1719 = snp_19 - snp_17,
-         pc_1719  = pc_19  - pc_17)
+         pc_1719  = pc_19  - pc_17,
+         uup_1719 = uup_19 - uup_17,
+         dup_1719 = dup_19 - dup_17,
+         alliance_1719 = alliance_19 - alliance_17,
+         sf_1719 = sf_19 - sf_17,
+         sdlp_1719 = sdlp_19 - sdlp_17
+         )
 
 
 glimpse(bes_2019)
 
-bes_2019 <- bes_2019 %>% select(pano, ons_const_id:speaker_19, con_1719:pc_1719,
-                                winner_17:electorate_17, leave_hanretty,
-                                remain_hanretty)
+# bes_2019 <- bes_2019 %>% select(pano, ons_const_id:speaker_19, con_1719:pc_1719,
+#                                 winner_17:electorate_17, leave_hanretty,
+#                                 remain_hanretty)
 
 bes_2019 <- bes_2019 %>% left_join(candidates2)
 
+bes_2019[bes_2019==0] <- NA
 
 usethis::use_data(bes_2019, overwrite = TRUE)
 
