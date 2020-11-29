@@ -4,7 +4,9 @@
 \name{ni_ge_2017}
 \alias{ni_ge_2017}
 \title{Northern Ireland GE Results}
-\format{A tibble, with 18 rows and 62 columns.}
+\format{
+A tibble, with 18 rows and 62 columns.
+}
 \source{
 \url{https://www.electoralcommission.org.uk/our-work/our-research/electoral-data/electoral-data-files-and-reports}
 }

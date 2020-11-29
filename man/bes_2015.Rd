@@ -4,9 +4,11 @@
 \name{bes_2015}
 \alias{bes_2015}
 \title{2015 General Election Results}
-\format{A tibble, containing 650 rows and 92 columns. For full details on
+\format{
+A tibble, containing 650 rows and 92 columns. For full details on
 the included variables see the vignette:
-\url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}}
+\url{http://docs.evanodell.com/parlitools/articles/bes-2015.html}
+}
 \source{
 \url{http://www.britishelectionstudy.com/data-object/2015-bes-constituency-results-with-census-and-candidate-data/}
 }

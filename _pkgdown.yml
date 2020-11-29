@@ -43,18 +43,22 @@ reference:
 - title: Data
   desc: Datasets included in parlitools
   contents:
-  - bes_2015
-  - bes_2017
-  - census_11
-  - party_colour
-  - leave_votes_west
+    - bes_2015
+    - bes_2017
+    - bes_2019
+    - census_11
+    - party_colour
+    - leave_votes_west
+    - council_seats
+    - la_codes
+    - ni_ge_2017
 - title: Data Retrieval
   desc: Data retrieval functions
   contents:
-  - mps_on_date
-  - current_mps
+    - mps_on_date
+    - current_mps
 - title: Maps
   desc: Hexagonal maps included with parlitools
   contents:
-  - west_hex_map
-  - local_hex_map
+    - west_hex_map
+    - local_hex_map

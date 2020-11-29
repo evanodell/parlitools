@@ -21,8 +21,9 @@ Imports:
     stringi,
     sf,
     snakecase,
-    readr
-RoxygenNote: 7.0.2
+    readr,
+    magrittr
+RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
 Suggests: 

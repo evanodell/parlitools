@@ -4,7 +4,8 @@
 \name{leave_votes_west}
 \alias{leave_votes_west}
 \title{A tibble with leave votes from the Brexit referendum in each constituency.}
-\format{A tibble, with 650 rows and 8 columns.
+\format{
+A tibble, with 650 rows and 8 columns.
 \describe{
 \item{\code{ons_const_id}}{ONS code for constituency}
 \item{\code{constituency_name}}{The name of the constituency.}
@@ -22,7 +23,8 @@ known constituency level Brexit votes. "Rosenbaum / Greenwood" refers to
 #' \item{\code{known_leave_vote}}{A dummy variable indicating 'Yes' if the
 actual leave vote percentage is known, and 'No' if only the estimate by
 Chris Hanretty is available.}
-}}
+}
+}
 \source{
 Hanretty, C. (2017). Areal interpolation and the UK’s referendum on EU
 membership. \emph{Journal of Elections, Public Opinion and Parties}, 27(4),

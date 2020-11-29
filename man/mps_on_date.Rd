@@ -7,6 +7,7 @@
 mps_on_date(
   date1 = Sys.Date(),
   date2 = NULL,
+  constituency = FALSE,
   tidy = TRUE,
   tidy_style = "snake_case"
 )
@@ -45,13 +46,10 @@ on a date or between two dates.
 \details{
 Returns information on all MPs who were members of the House of Commons on
 the date specificed (if only one date is included as a parameter), or on or
-between the two dates if both are specified. Includes constituency and
-electoral information if the date is 2010-05-06 or later, or if the date
-range is entirely between 2010-05-06 and the present day. This function
-is identical to the \code{mnis_mps_on_date} function from
-the \verb{[mnis](https://cran.r-project.org/package=mnis)} package, except it
-includes consituency data from the
-2010 General Election (on 2010-05-06) onwards.
+between the two dates if both are specified.
+
+This function is identical to the \code{mnis_mps_on_date} function from
+the \verb{[mnis](https://cran.r-project.org/package=mnis)} package.
 }
 \examples{
 \dontrun{

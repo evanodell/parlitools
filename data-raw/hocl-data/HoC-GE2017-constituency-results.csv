@@ -1,0 +1,651 @@
+ons_id,ons_region_id,constituency_name,county_name,region_name,country_name,constituency_type,declaration_time,result,first_party,second_party,electorate,valid_votes,invalid_votes,majority,con,lab,ld,ukip,green,snp,pc,dup,sf,sdlp,uup,alliance,other,other_winner
+W07000049,W92000004,Aberavon,West Glamorgan,Wales,Wales,County,2017-06-09 02:41:00,Lab hold,Lab,Con,49892,33268,57,16761,5901,22662,599,1345,0,0,2761,0,0,0,0,0,0,0
+W07000058,W92000004,Aberconwy,Clwyd,Wales,Wales,County,2017-06-09 02:31:00,Con hold,Con,Lab,45251,32150,78,635,14337,13702,941,0,0,0,3170,0,0,0,0,0,0,0
+S14000001,S92000003,Aberdeen North,Scotland,Scotland,Scotland,Borough,2017-06-09 02:26:00,SNP hold,SNP,Lab,62130,36757,55,4139,8341,11031,1693,0,0,15170,0,0,0,0,0,0,522,0
+S14000002,S92000003,Aberdeen South,Scotland,Scotland,Scotland,Borough,2017-06-09 03:08:00,Con gain from SNP,Con,SNP,64964,44493,63,4752,18746,9143,2610,0,0,13994,0,0,0,0,0,0,0,0
+S14000003,S92000003,Airdrie and Shotts,Scotland,Scotland,Scotland,County,2017-06-09 03:10:00,SNP hold,SNP,Lab,64146,38002,47,195,8813,14096,802,0,0,14291,0,0,0,0,0,0,0,0
+E14000530,E12000008,Aldershot,Hampshire,South East,England,Borough,2017-06-09 02:25:00,Con hold,Con,Lab,76205,48950,102,11473,26950,15477,3637,1796,1090,0,0,0,0,0,0,0,0,0
+E14000531,E12000005,Aldridge-Brownhills,West Midlands,West Midlands,England,Borough,2017-06-09 03:16:00,Con hold,Con,Lab,60363,40235,87,14307,26317,12010,1343,0,0,0,0,0,0,0,0,0,565,0
+E14000532,E12000002,Altrincham and Sale West,Greater Manchester,North West,England,Borough,2017-06-09 03:56:00,Con hold,Con,Lab,73226,52790,132,6426,26933,20507,4051,0,1000,0,0,0,0,0,0,0,299,0
+W07000043,W92000004,Alyn and Deeside,Clwyd,Wales,Wales,County,2017-06-09 02:41:00,Lab hold,Lab,Con,63013,44760,84,5235,18080,23315,1077,1117,0,0,1171,0,0,0,0,0,0,0
+E14000533,E12000004,Amber Valley,Derbyshire,East Midlands,England,County,2017-06-09 02:22:00,Con hold,Con,Lab,68065,45811,99,8300,25905,17605,1100,0,650,0,0,0,0,0,0,0,551,0
+S14000004,S92000003,Angus,Scotland,Scotland,Scotland,County,2017-06-09 01:52:00,Con gain from SNP,Con,SNP,63840,40192,65,2645,18148,5233,1308,0,0,15503,0,0,0,0,0,0,0,0
+W07000057,W92000004,Arfon,Gwynedd,Wales,Wales,County,2017-06-09 01:59:00,PC hold,PC,Lab,41367,28208,67,92,4614,11427,648,0,0,0,11519,0,0,0,0,0,0,0
+S14000005,S92000003,Argyll and Bute,Scotland,Scotland,Scotland,County,2017-06-09 04:56:00,SNP hold,SNP,Con,67230,48069,69,1328,15976,6044,8745,0,0,17304,0,0,0,0,0,0,0,0
+E14000534,E12000008,Arundel and South Downs,West Sussex,South East,England,County,2017-06-09 05:13:00,Con hold,Con,Lab,79478,60256,154,23883,37573,13690,4783,1668,2542,0,0,0,0,0,0,0,0,0
+E14000535,E12000004,Ashfield,Nottinghamshire,East Midlands,England,County,2017-06-09 05:45:00,Lab hold,Lab,Con,78076,49993,62,441,20844,21285,969,1885,398,0,0,0,0,0,0,0,4612,0
+E14000536,E12000008,Ashford,Kent,South East,England,County,2017-06-09 02:56:00,Con hold,Con,Lab,87387,59879,135,17478,35318,17840,3101,2218,1402,0,0,0,0,0,0,0,0,0
+E14000537,E12000002,Ashton-Under-Lyne,Greater Manchester,North West,England,Borough,2017-06-09 03:58:00,Lab hold,Lab,Con,67674,39773,81,11295,12710,24005,646,1878,534,0,0,0,0,0,0,0,0,0
+E14000538,E12000008,Aylesbury,Buckinghamshire,South East,England,County,2017-06-09 04:08:00,Con hold,Con,Lab,82546,58783,122,14656,32313,17657,5660,1296,1237,0,0,0,0,0,0,0,620,0
+S14000006,S92000003,"Ayr, Carrick and Cumnock",Scotland,Scotland,Scotland,County,2017-06-09 03:08:00,Con gain from SNP,Con,SNP,71241,46222,74,2774,18550,11024,872,0,0,15776,0,0,0,0,0,0,0,0
+E14000539,E12000008,Banbury,Oxfordshire,South East,England,County,2017-06-09 04:13:00,Con hold,Con,Lab,83824,61562,115,12399,33388,20989,3452,1581,1225,0,0,0,0,0,0,0,927,0
+S14000007,S92000003,Banff and Buchan,Scotland,Scotland,Scotland,County,2017-06-09 04:38:00,Con gain from SNP,Con,SNP,67601,41643,46,3693,19976,3936,1448,0,0,16283,0,0,0,0,0,0,0,0
+E14000540,E12000007,Barking,London,London,England,Borough,2017-06-09 03:31:00,Lab hold,Lab,Con,77022,47679,103,21608,10711,32319,599,3031,724,0,0,0,0,0,0,0,295,0
+E14000541,E12000003,Barnsley Central,South Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 02:34:00,Lab hold,Lab,Con,64204,39087,66,15546,9436,24982,549,3339,570,0,0,0,0,0,0,0,211,0
+E14000542,E12000003,Barnsley East,South Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 02:11:00,Lab hold,Lab,Con,69214,40776,91,13283,10997,24280,750,3247,0,0,0,0,0,0,0,0,1502,0
+E14000543,E12000002,Barrow and Furness,Cumbria,North West,England,County,2017-06-09 04:42:00,Lab hold,Lab,Con,69474,47590,60,209,22383,22592,1278,962,375,0,0,0,0,0,0,0,0,0
+E14000544,E12000006,Basildon and Billericay,Essex,East,England,Borough,2017-06-09 00:43:00,Con hold,Con,Lab,69149,44918,121,13400,27381,13981,1548,2008,0,0,0,0,0,0,0,0,0,0
+E14000545,E12000008,Basingstoke,Hampshire,South East,England,Borough,2017-06-09 05:49:00,Con hold,Con,Lab,81875,55960,138,9466,29510,20044,3406,1681,1106,0,0,0,0,0,0,0,213,0
+E14000546,E12000004,Bassetlaw,Nottinghamshire,East Midlands,England,County,2017-06-09 03:52:00,Lab hold,Lab,Con,78540,52250,127,4852,22615,27467,1154,0,0,0,0,0,0,0,0,0,1014,0
+E14000547,E12000009,Bath,Avon,South West,England,Borough,2017-06-09 03:15:00,LD gain from Con,LD,Con,66778,49583,112,5694,17742,7279,23436,0,1126,0,0,0,0,0,0,0,0,0
+E14000548,E12000003,Batley and Spen,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 04:00:00,Lab hold,Lab,Con,80161,53780,128,8961,20883,29844,1224,0,695,0,0,0,0,0,0,0,1134,0
+E14000549,E12000007,Battersea,London,London,England,Borough,2017-06-09 02:02:00,Lab gain from Con,Lab,Con,77574,55058,112,2416,22876,25292,4401,357,866,0,0,0,0,0,0,0,1266,0
+E14000550,E12000008,Beaconsfield,Buckinghamshire,South East,England,County,2017-06-09 03:03:00,Con hold,Con,Lab,77524,56028,109,24543,36559,12016,4448,1609,1396,0,0,0,0,0,0,0,0,0
+E14000551,E12000007,Beckenham,London,London,England,Borough,2017-06-09 04:31:00,Con hold,Con,Lab,67925,51630,182,15087,30632,15545,4073,0,1380,0,0,0,0,0,0,0,0,0
+E14000552,E12000006,Bedford,Bedfordshire,East,England,Borough,2017-06-09 03:14:00,Lab gain from Con,Lab,Con,71829,48480,176,789,21923,22712,2837,0,1008,0,0,0,0,0,0,0,0,0
+N06000001,N92000002,Belfast East,Northern Ireland,Northern Ireland,Northern Ireland,Borough,2017-06-09 02:53:00,DUP hold,DUP,Alliance,63495,42890,93,8474,446,0,0,0,561,0,0,23917,894,167,1408,15443,54,0
+N06000002,N92000002,Belfast North,Northern Ireland,Northern Ireland,Northern Ireland,Borough,2017-06-09 03:09:00,DUP hold,DUP,SF,68249,45936,158,2081,0,0,0,0,644,0,0,21240,19159,2058,0,2475,360,0
+N06000003,N92000002,Belfast South,Northern Ireland,Northern Ireland,Northern Ireland,Borough,2017-06-09 03:20:00,DUP gain from SDLP,DUP,SDLP,66105,43705,130,1996,246,0,0,0,2241,0,0,13299,7143,11303,1527,7946,0,0
+N06000004,N92000002,Belfast West,Northern Ireland,Northern Ireland,Northern Ireland,Borough,2017-06-09 02:18:00,SF hold,SF,DUP,62423,40633,190,21652,0,0,0,0,0,0,0,5455,27107,2860,0,731,4480,0
+E14000553,E12000007,Bermondsey and Old Southwark,London,London,England,Borough,2017-06-09 04:46:00,Lab hold,Lab,LD,87282,58521,148,12972,7581,31161,18189,838,639,0,0,0,0,0,0,0,113,0
+S14000008,S92000003,"Berwickshire, Roxburgh and Selkirk",Scotland,Scotland,Scotland,County,2017-06-09 03:59:00,Con gain from SNP,Con,SNP,73191,52367,96,11060,28213,4519,2482,0,0,17153,0,0,0,0,0,0,0,0
+E14000554,E12000001,Berwick-Upon-Tweed,Northumberland,North East,England,County,2017-06-09 06:12:00,Con hold,Con,Lab,58807,42212,79,11781,22145,10364,8916,0,787,0,0,0,0,0,0,0,0,0
+E14000555,E12000007,Bethnal Green and Bow,London,London,England,Borough,2017-06-09 04:52:00,Lab hold,Lab,Con,86075,59825,275,35393,7576,42969,2982,894,1516,0,0,0,0,0,0,0,3888,0
+E14000556,E12000003,Beverley and Holderness,Humberside,Yorkshire and The Humber,England,County,2017-06-09 03:43:00,Con hold,Con,Lab,80657,55638,184,14042,32499,18457,2808,0,716,0,0,0,0,0,0,0,1158,0
+E14000557,E12000008,Bexhill and Battle,East Sussex,South East,England,County,2017-06-09 03:57:00,Con hold,Con,Lab,81331,59472,102,22165,36854,14689,4485,2006,1438,0,0,0,0,0,0,0,0,0
+E14000558,E12000007,Bexleyheath and Crayford,London,London,England,Borough,2017-06-09 03:41:00,Con hold,Con,Lab,65315,45189,92,9073,25113,16040,1201,1944,601,0,0,0,0,0,0,0,290,0
+E14000559,E12000002,Birkenhead,Merseyside,North West,England,Borough,2017-06-09 01:25:00,Lab hold,Lab,Con,64484,43663,108,25514,8044,33558,1118,0,943,0,0,0,0,0,0,0,0,0
+E14000560,E12000005,"Birmingham, Edgbaston",West Midlands,West Midlands,England,Borough,2017-06-09 02:50:00,Lab hold,Lab,Con,68091,43612,108,6917,17207,24124,1564,0,562,0,0,0,0,0,0,0,155,0
+E14000561,E12000005,"Birmingham, Erdington",West Midlands,West Midlands,England,Borough,2017-06-09 02:56:00,Lab hold,Lab,Con,65067,37217,112,7285,14286,21571,750,0,610,0,0,0,0,0,0,0,0,0
+E14000562,E12000005,"Birmingham, Hall Green",West Midlands,West Midlands,England,Borough,2017-06-09 03:41:00,Lab hold,Lab,Con,78271,54310,187,33944,8199,42143,3137,0,831,0,0,0,0,0,0,0,0,0
+E14000563,E12000005,"Birmingham, Hodge Hill",West Midlands,West Midlands,England,Borough,2017-06-09 03:35:00,Lab hold,Lab,Con,75698,46394,159,31026,6580,37606,805,1016,387,0,0,0,0,0,0,0,0,0
+E14000564,E12000005,"Birmingham, Ladywood",West Midlands,West Midlands,England,Borough,2017-06-09 03:05:00,Lab hold,Lab,Con,70023,41307,155,28714,5452,34166,1156,0,533,0,0,0,0,0,0,0,0,0
+E14000565,E12000005,"Birmingham, Northfield",West Midlands,West Midlands,England,Borough,2017-06-09 02:49:00,Lab hold,Lab,Con,72322,44348,151,4667,18929,23596,959,0,864,0,0,0,0,0,0,0,0,0
+E14000566,E12000005,"Birmingham, Perry Barr",West Midlands,West Midlands,England,Borough,2017-06-09 03:57:00,Lab hold,Lab,Con,70106,44197,164,18383,11726,30109,1080,0,591,0,0,0,0,0,0,0,691,0
+E14000567,E12000005,"Birmingham, Selly Oak",West Midlands,West Midlands,England,Borough,2017-06-09 03:20:00,Lab hold,Lab,Con,74370,48985,138,15207,15629,30836,1644,0,876,0,0,0,0,0,0,0,0,0
+E14000568,E12000005,"Birmingham, Yardley",West Midlands,West Midlands,England,Borough,2017-06-09 02:50:00,Lab hold,Lab,Con,72581,44502,103,16574,8824,25398,7984,1916,280,0,0,0,0,0,0,0,100,0
+E14000569,E12000001,Bishop Auckland,Durham,North East,England,County,2017-06-09 02:42:00,Lab hold,Lab,Con,67661,43281,78,502,20306,20808,1176,0,0,0,0,0,0,0,0,0,991,0
+E14000570,E12000002,Blackburn,Lancashire,North West,England,Borough,2017-06-09 02:20:00,Lab hold,Lab,Con,70664,47515,187,20368,12780,33148,709,0,0,0,0,0,0,0,0,0,878,0
+E14000571,E12000002,Blackley and Broughton,Greater Manchester,North West,England,Borough,2017-06-09 02:52:00,Lab hold,Lab,Con,71648,40113,101,19601,8657,28258,737,1825,462,0,0,0,0,0,0,0,174,0
+E14000572,E12000002,Blackpool North and Cleveleys,Lancashire,North West,England,Borough,2017-06-09 02:31:00,Con hold,Con,Lab,63967,41007,59,2023,20255,18232,747,1392,381,0,0,0,0,0,0,0,0,0
+E14000573,E12000002,Blackpool South,Lancashire,North West,England,Borough,2017-06-09 02:50:00,Lab hold,Lab,Con,58470,34953,44,2523,15058,17581,634,1339,341,0,0,0,0,0,0,0,0,0
+W07000072,W92000004,Blaenau Gwent,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 02:01:00,Lab hold,Lab,PC,51227,32384,35,11907,4783,18787,295,973,0,0,6880,0,0,0,0,0,666,0
+E14000574,E12000001,Blaydon,Tyne and Wear,North East,England,Borough,2017-06-09 02:16:00,Lab hold,Lab,Con,68459,48084,64,13477,13502,26979,4366,2459,583,0,0,0,0,0,0,0,195,0
+E14000575,E12000001,Blyth Valley,Northumberland,North East,England,Borough,2017-06-09 04:21:00,Lab hold,Lab,Con,63415,42490,70,7915,15855,23770,1947,0,918,0,0,0,0,0,0,0,0,0
+E14000576,E12000008,Bognor Regis and Littlehampton,West Sussex,South East,England,County,2017-06-09 03:25:00,Con hold,Con,Lab,75827,51352,98,17494,30276,12782,3352,1861,993,0,0,0,0,0,0,0,2088,0
+E14000577,E12000004,Bolsover,Derbyshire,East Midlands,England,County,2017-06-09 04:19:00,Lab hold,Lab,Con,73429,46519,107,5288,18865,24153,1372,2129,0,0,0,0,0,0,0,0,0,0
+E14000578,E12000002,Bolton North East,Greater Manchester,North West,England,Borough,2017-06-09 02:41:00,Lab hold,Lab,Con,67233,45183,90,3797,19073,22870,1316,1567,357,0,0,0,0,0,0,0,0,0
+E14000579,E12000002,Bolton South East,Greater Manchester,North West,England,Borough,2017-06-09 03:09:00,Lab hold,Lab,Con,68886,42323,97,13126,12550,25676,781,2779,537,0,0,0,0,0,0,0,0,0
+E14000580,E12000002,Bolton West,Greater Manchester,North West,England,County,2017-06-09 03:24:00,Con hold,Con,Lab,72797,51054,81,936,24459,23523,1485,1587,0,0,0,0,0,0,0,0,0,0
+E14000581,E12000002,Bootle,Merseyside,North West,England,Borough,2017-06-09 02:21:00,Lab hold,Lab,Con,72872,50288,163,36200,6059,42259,837,0,709,0,0,0,0,0,0,0,424,0
+E14000582,E12000004,Boston and Skegness,Lincolnshire,East Midlands,England,County,2017-06-09 03:30:00,Con hold,Con,Lab,68402,42879,92,16572,27271,10699,771,3308,547,0,0,0,0,0,0,0,283,0
+E14000583,E12000004,Bosworth,Leicestershire,East Midlands,England,County,2017-06-09 03:02:00,Con hold,Con,Lab,81661,56168,133,18351,31864,13513,9744,0,1047,0,0,0,0,0,0,0,0,0
+E14000584,E12000009,Bournemouth East,Dorset,South West,England,Borough,2017-06-09 03:38:00,Con hold,Con,Lab,74591,48618,115,7937,25221,17284,3168,1405,1236,0,0,0,0,0,0,0,304,0
+E14000585,E12000009,Bournemouth West,Dorset,South West,England,Borough,2017-06-09 03:32:00,Con hold,Con,Lab,73195,44507,147,7711,23812,16101,2929,0,1247,0,0,0,0,0,0,0,418,0
+E14000586,E12000008,Bracknell,Berkshire,South East,England,County,2017-06-09 02:02:00,Con hold,Con,Lab,79199,55892,146,16016,32882,16866,4186,1521,0,0,0,0,0,0,0,0,437,0
+E14000587,E12000003,Bradford East,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 04:17:00,Lab hold,Lab,Con,70389,45622,78,20540,9291,29831,843,1372,289,0,0,0,0,0,0,0,3996,0
+E14000588,E12000003,Bradford South,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 03:17:00,Lab hold,Lab,Con,67752,41049,62,6700,15664,22364,516,1758,370,0,0,0,0,0,0,0,377,0
+E14000589,E12000003,Bradford West,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 04:00:00,Lab hold,Lab,Con,67568,45528,221,21902,7542,29444,712,885,481,0,0,0,0,0,0,0,6464,0
+E14000590,E12000006,Braintree,Essex,East,England,County,2017-06-09 03:55:00,Con hold,Con,Lab,75316,52326,74,18422,32873,14451,2251,1835,916,0,0,0,0,0,0,0,0,0
+W07000068,W92000004,Brecon and Radnorshire,Powys,Wales,Wales,County,2017-06-09 02:37:00,Con hold,Con,LD,56010,41334,63,8038,20081,7335,12043,576,0,0,1299,0,0,0,0,0,0,0
+E14000591,E12000007,Brent Central,London,London,England,Borough,2017-06-09 03:49:00,Lab hold,Lab,Con,80499,52296,199,27997,10211,38208,2519,556,802,0,0,0,0,0,0,0,0,0
+E14000593,E12000007,Brentford and Isleworth,London,London,England,Borough,2017-06-09 03:32:00,Lab hold,Lab,Con,85164,61629,156,12182,23182,35364,3083,0,0,0,0,0,0,0,0,0,0,0
+E14000592,E12000007,Brent North,London,London,England,Borough,2017-06-09 04:03:00,Lab hold,Lab,Con,82567,56444,203,17061,18435,35496,1614,0,660,0,0,0,0,0,0,0,239,0
+E14000594,E12000006,Brentwood and Ongar,Essex,East,England,County,2017-06-09 03:27:00,Con hold,Con,Lab,75067,52910,107,24002,34811,10809,4426,1845,915,0,0,0,0,0,0,0,104,0
+W07000073,W92000004,Bridgend,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 02:24:00,Lab hold,Lab,Con,62185,43255,55,4700,17213,21913,919,781,0,0,1783,0,0,0,0,0,646,0
+E14000595,E12000009,Bridgwater and West Somerset,Somerset,South West,England,County,2017-06-09 04:33:00,Con hold,Con,Lab,89294,58267,131,15448,32111,16663,6332,2102,1059,0,0,0,0,0,0,0,0,0
+E14000596,E12000003,Brigg and Goole,Humberside,Yorkshire and The Humber,England,County,2017-06-09 04:13:00,Con hold,Con,Lab,66069,45057,60,12363,27219,14856,836,1596,550,0,0,0,0,0,0,0,0,0
+E14000597,E12000008,"Brighton, Kemptown",East Sussex,South East,England,Borough,2017-06-09 04:42:00,Lab gain from Con,Lab,Con,67893,49207,154,9868,18835,28703,1457,0,0,0,0,0,0,0,0,0,212,0
+E14000598,E12000008,"Brighton, Pavilion",East Sussex,South East,England,Borough,2017-06-09 06:04:00,Green hold,Green,Lab,75486,57687,154,14699,11082,15450,0,630,30149,0,0,0,0,0,0,0,376,0
+E14000599,E12000009,Bristol East,Avon,South West,England,Borough,2017-06-09 02:41:00,Lab hold,Lab,Con,72415,50799,133,13394,17453,30847,1389,0,1110,0,0,0,0,0,0,0,0,0
+E14000600,E12000009,Bristol North West,Avon,South West,England,Borough,2017-06-09 02:55:00,Lab gain from Con,Lab,Con,75434,54096,132,4761,22639,27400,2814,0,1243,0,0,0,0,0,0,0,0,0
+E14000601,E12000009,Bristol South,Avon,South West,England,Borough,2017-06-09 02:31:00,Lab hold,Lab,Con,83012,54382,112,15987,16679,32666,1821,1672,1428,0,0,0,0,0,0,0,116,0
+E14000602,E12000009,Bristol West,Avon,South West,England,Borough,2017-06-09 02:56:00,Lab hold,Lab,Con,93003,71608,174,37336,9877,47213,5201,0,9216,0,0,0,0,0,0,0,101,0
+E14000603,E12000006,Broadland,Norfolk,East,England,County,2017-06-09 04:48:00,Con hold,Con,Lab,77334,55971,104,15816,32406,16590,4449,1594,932,0,0,0,0,0,0,0,0,0
+E14000604,E12000007,Bromley and Chislehurst,London,London,England,Borough,2017-06-09 04:07:00,Con hold,Con,Lab,65117,46662,119,9590,25175,15585,3369,1383,1150,0,0,0,0,0,0,0,0,0
+E14000605,E12000005,Bromsgrove,Hereford and Worcester,West Midlands,England,County,2017-06-09 02:36:00,Con hold,Con,Lab,73571,54040,206,16573,33493,16920,2488,0,1139,0,0,0,0,0,0,0,0,0
+E14000606,E12000006,Broxbourne,Hertfordshire,East,England,Borough,2017-06-09 00:36:00,Con hold,Con,Lab,73502,47485,102,15792,29515,13723,1481,1918,848,0,0,0,0,0,0,0,0,0
+E14000607,E12000004,Broxtowe,Nottinghamshire,East Midlands,England,County,2017-06-09 04:18:00,Con hold,Con,Lab,74013,55508,120,863,25983,25120,2247,1477,681,0,0,0,0,0,0,0,0,0
+E14000608,E12000008,Buckingham,Buckinghamshire,South East,England,County,2017-06-09 04:52:00,Spk hold,Spk,Green,79615,52679,1967,25725,0,0,0,4168,8574,0,0,0,0,0,0,0,39937,34299
+E14000609,E12000002,Burnley,Lancashire,North West,England,Borough,2017-06-09 01:49:00,Lab hold,Lab,Con,64709,40290,63,6353,12479,18832,6046,2472,461,0,0,0,0,0,0,0,0,0
+E14000610,E12000005,Burton,Staffordshire,West Midlands,England,County,2017-06-09 02:08:00,Con hold,Con,Lab,73954,49911,143,10047,28936,18889,1262,0,824,0,0,0,0,0,0,0,0,0
+E14000611,E12000002,Bury North,Greater Manchester,North West,England,Borough,2017-06-09 02:11:00,Lab gain from Con,Lab,Con,67580,47903,156,4375,21308,25683,912,0,0,0,0,0,0,0,0,0,0,0
+E14000612,E12000002,Bury South,Greater Manchester,North West,England,Borough,2017-06-09 02:33:00,Lab hold,Lab,Con,73715,50990,123,5965,21200,27165,1065,1316,0,0,0,0,0,0,0,0,244,0
+E14000613,E12000006,Bury St Edmunds,Suffolk,East,England,County,2017-06-09 03:54:00,Con hold,Con,Lab,86071,62160,152,18441,36794,18353,3565,0,2596,0,0,0,0,0,0,0,852,0
+W07000076,W92000004,Caerphilly,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 02:03:00,Lab hold,Lab,Con,64381,41297,83,12078,10413,22491,725,1259,447,0,5962,0,0,0,0,0,0,0
+S14000009,S92000003,"Caithness, Sutherland and Easter Ross",Scotland,Scotland,Scotland,County,2017-06-09 03:37:00,LD gain from SNP,LD,SNP,46868,30901,35,2044,6990,3833,11061,0,0,9017,0,0,0,0,0,0,0,0
+E14000614,E12000003,Calder Valley,West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 04:42:00,Con hold,Con,Lab,79045,58054,115,609,26790,26181,1952,1466,631,0,0,0,0,0,0,0,1034,0
+E14000615,E12000007,Camberwell and Peckham,London,London,England,Borough,2017-06-09 04:32:00,Lab hold,Lab,Con,85613,57412,236,37316,7349,44665,3413,0,1627,0,0,0,0,0,0,0,358,0
+E14000616,E12000009,Camborne and Redruth,Cornwall,South West,England,County,2017-06-09 04:48:00,Con hold,Con,Lab,68419,48456,93,1577,23001,21424,2979,0,1052,0,0,0,0,0,0,0,0,0
+E14000617,E12000006,Cambridge,Cambridgeshire,East,England,Borough,2017-06-09 03:01:00,Lab hold,Lab,LD,78544,55934,135,12661,9133,29032,16371,0,1265,0,0,0,0,0,0,0,133,0
+E14000618,E12000005,Cannock Chase,Staffordshire,West Midlands,England,County,2017-06-09 02:03:00,Con hold,Con,Lab,74540,47872,78,8391,26318,17927,794,2018,815,0,0,0,0,0,0,0,0,0
+E14000619,E12000008,Canterbury,Kent,South East,England,County,2017-06-09 03:29:00,Lab gain from Con,Lab,Con,78182,56800,178,187,25385,25572,4561,0,1282,0,0,0,0,0,0,0,0,0
+W07000050,W92000004,Cardiff Central,South Glamorgan,Wales,Wales,Borough,2017-06-09 02:35:00,Lab hold,Lab,Con,59288,40367,80,17196,7997,25193,5415,343,420,0,999,0,0,0,0,0,0,0
+W07000051,W92000004,Cardiff North,South Glamorgan,Wales,Wales,Borough,2017-06-09 03:09:00,Lab gain from Con,Lab,Con,67221,52022,98,4174,21907,26081,1714,582,0,0,1738,0,0,0,0,0,0,0
+W07000080,W92000004,Cardiff South and Penarth,South Glamorgan,Wales,Wales,Borough,2017-06-09 03:23:00,Lab hold,Lab,Con,76499,50736,107,14864,15318,30182,1430,942,532,0,2162,0,0,0,0,0,170,0
+W07000079,W92000004,Cardiff West,South Glamorgan,Wales,Wales,Borough,2017-06-09 03:32:00,Lab hold,Lab,Con,66775,46629,89,12551,13874,26425,1214,698,0,0,4418,0,0,0,0,0,0,0
+E14000620,E12000002,Carlisle,Cumbria,North West,England,County,2017-06-09 01:29:00,Con hold,Con,Lab,62294,43056,88,2599,21472,18873,1256,1455,0,0,0,0,0,0,0,0,0,0
+W07000067,W92000004,Carmarthen East and Dinefwr,Dyfed,Wales,Wales,County,2017-06-09 01:57:00,PC hold,PC,Lab,55976,41029,45,3908,10778,12219,920,985,0,0,16127,0,0,0,0,0,0,0
+W07000066,W92000004,Carmarthen West and South Pembrokeshire,Dyfed,Wales,Wales,County,2017-06-09 03:36:00,Con hold,Con,Lab,58565,42226,65,3110,19771,16661,956,905,0,0,3933,0,0,0,0,0,0,0
+E14000621,E12000007,Carshalton and Wallington,London,London,England,Borough,2017-06-09 03:35:00,LD hold,LD,Con,70849,50753,97,1369,19450,9360,20819,0,501,0,0,0,0,0,0,0,623,0
+E14000622,E12000006,Castle Point,Essex,East,England,Borough,2017-06-09 01:51:00,Con hold,Con,Lab,69470,44710,87,18872,30076,11204,1049,2381,0,0,0,0,0,0,0,0,0,0
+S14000010,S92000003,Central Ayrshire,Scotland,Scotland,Scotland,County,2017-06-09 04:07:00,SNP hold,SNP,Con,68999,45087,75,1267,15504,11762,1050,0,0,16771,0,0,0,0,0,0,0,0
+E14000623,E12000009,Central Devon,Devon,South West,England,County,2017-06-09 05:18:00,Con hold,Con,Lab,74370,57844,84,15680,31278,15598,6770,1326,1531,0,0,0,0,0,0,0,1341,0
+E14000624,E12000006,Central Suffolk and North Ipswich,Suffolk,East,England,County,2017-06-09 03:56:00,Con hold,Con,Lab,78116,56524,113,17185,33992,16807,2431,1635,1659,0,0,0,0,0,0,0,0,0
+W07000064,W92000004,Ceredigion,Dyfed,Wales,Wales,County,2017-06-09 06:20:00,PC gain from LD,PC,LD,54262,39767,52,104,7307,8017,11519,602,542,0,11623,0,0,0,0,0,157,0
+E14000625,E12000004,Charnwood,Leicestershire,East Midlands,England,County,2017-06-09 04:57:00,Con hold,Con,Lab,78071,55176,115,16341,33318,16977,2052,1471,1036,0,0,0,0,0,0,0,322,0
+E14000626,E12000008,Chatham and Aylesford,Kent,South East,England,County,2017-06-09 04:21:00,Con hold,Con,Lab,70419,44890,73,10458,25587,15129,1116,2225,573,0,0,0,0,0,0,0,260,0
+E14000627,E12000002,Cheadle,Greater Manchester,North West,England,Borough,2017-06-09 04:43:00,Con hold,Con,LD,73406,54572,117,4507,24331,10417,19824,0,0,0,0,0,0,0,0,0,0,0
+E14000628,E12000006,Chelmsford,Essex,East,England,Borough,2017-06-09 01:31:00,Con hold,Con,Lab,81032,56860,103,13572,30525,16953,6916,1645,821,0,0,0,0,0,0,0,0,0
+E14000629,E12000007,Chelsea and Fulham,London,London,England,Borough,2017-06-09 03:52:00,Con hold,Con,Lab,63728,42128,126,8188,22179,13991,4627,524,807,0,0,0,0,0,0,0,0,0
+E14000630,E12000009,Cheltenham,Gloucestershire,South West,England,Borough,2017-06-09 04:20:00,Con hold,Con,LD,78878,57012,107,2569,26615,5408,24046,0,943,0,0,0,0,0,0,0,0,0
+E14000631,E12000008,Chesham and Amersham,Buckinghamshire,South East,England,County,2017-06-09 03:00:00,Con hold,Con,Lab,71654,55252,136,22140,33514,11374,7179,1525,1660,0,0,0,0,0,0,0,0,0
+E14000632,E12000004,Chesterfield,Derbyshire,East Midlands,England,Borough,2017-06-09 03:44:00,Lab hold,Lab,Con,72069,47927,74,9605,16661,26266,2612,1611,777,0,0,0,0,0,0,0,0,0
+E14000633,E12000008,Chichester,West Sussex,South East,England,County,2017-06-09 03:10:00,Con hold,Con,Lab,84991,59918,129,22621,36032,13411,6749,1650,1992,0,0,0,0,0,0,0,84,0
+E14000634,E12000007,Chingford and Woodford Green,London,London,England,County,2017-06-09 02:52:00,Con hold,Con,Lab,65958,46961,170,2438,23076,20638,2043,0,1204,0,0,0,0,0,0,0,0,0
+E14000635,E12000009,Chippenham,Wiltshire,South West,England,County,2017-06-09 03:06:00,Con hold,Con,LD,76432,57140,210,16630,31267,11236,14637,0,0,0,0,0,0,0,0,0,0,0
+E14000636,E12000007,Chipping Barnet,London,London,England,Borough,2017-06-09 05:50:00,Con hold,Con,Lab,77218,55423,204,353,25679,25326,3012,0,1406,0,0,0,0,0,0,0,0,0
+E14000637,E12000002,Chorley,Lancashire,North West,England,County,2017-06-09 02:26:00,Lab hold,Lab,Con,76404,55634,134,7512,23233,30745,1126,0,530,0,0,0,0,0,0,0,0,0
+E14000638,E12000009,Christchurch,Dorset,South West,England,County,2017-06-09 02:26:00,Con hold,Con,Lab,70309,50634,161,25171,35230,10059,4020,0,1325,0,0,0,0,0,0,0,0,0
+E14000639,E12000007,Cities Of London and Westminster,London,London,England,Borough,2017-06-09 02:50:00,Con hold,Con,Lab,61533,38654,133,3148,18005,14857,4270,426,821,0,0,0,0,0,0,0,275,0
+E14000640,E12000002,City Of Chester,Cheshire,North West,England,County,2017-06-09 03:47:00,Lab hold,Lab,Con,72859,56421,144,9176,22847,32023,1551,0,0,0,0,0,0,0,0,0,0,0
+E14000641,E12000001,City Of Durham,Durham,North East,England,County,2017-06-09 02:55:00,Lab hold,Lab,Con,71132,48324,86,12364,14408,26772,4787,1116,797,0,0,0,0,0,0,0,444,0
+E14000642,E12000006,Clacton,Essex,East,England,County,2017-06-09 03:09:00,Con gain from UKIP,Con,Lab,69263,44145,73,15828,27031,11203,887,3357,719,0,0,0,0,0,0,0,948,0
+E14000643,E12000003,Cleethorpes,Humberside,Yorkshire and The Humber,England,County,2017-06-09 02:58:00,Con hold,Con,Lab,72711,47844,79,10400,27321,16921,1110,2022,470,0,0,0,0,0,0,0,0,0
+W07000062,W92000004,Clwyd South,Clwyd,Wales,Wales,County,2017-06-09 01:41:00,Lab hold,Lab,Con,53729,37474,56,4356,14646,19002,731,802,0,0,2293,0,0,0,0,0,0,0
+W07000059,W92000004,Clwyd West,Clwyd,Wales,Wales,County,2017-06-09 02:53:00,Con hold,Con,Lab,58263,40654,79,3437,19541,16104,1091,0,0,0,3918,0,0,0,0,0,0,0
+S14000011,S92000003,"Coatbridge, Chryston and Bellshill",Scotland,Scotland,Scotland,Borough,2017-06-09 03:27:00,Lab gain from SNP,Lab,SNP,71198,45040,79,1586,7318,19193,922,0,0,17607,0,0,0,0,0,0,0,0
+E14000644,E12000006,Colchester,Essex,East,England,Borough,2017-06-09 02:52:00,Con hold,Con,Lab,79996,53545,112,5677,24565,18888,9087,0,828,0,0,0,0,0,0,0,177,0
+E14000645,E12000003,Colne Valley,West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 04:26:00,Lab gain from Con,Lab,Con,84387,60420,158,915,27903,28818,2494,0,892,0,0,0,0,0,0,0,313,0
+E14000646,E12000002,Congleton,Cheshire,North West,England,County,2017-06-09 04:07:00,Con hold,Con,Lab,76694,56231,98,12619,31830,19211,2902,1289,999,0,0,0,0,0,0,0,0,0
+E14000647,E12000002,Copeland,Cumbria,North West,England,County,2017-06-09 03:01:00,Con gain from Lab,Con,Lab,61751,42927,85,1695,21062,19367,1404,1094,0,0,0,0,0,0,0,0,0,0
+E14000648,E12000004,Corby,Northamptonshire,East Midlands,England,County,2017-06-09 04:21:00,Con hold,Con,Lab,83020,59997,94,2690,29534,26844,1545,1495,579,0,0,0,0,0,0,0,0,0
+E14000649,E12000005,Coventry North East,West Midlands,West Midlands,England,Borough,2017-06-09 02:43:00,Lab hold,Lab,Con,75759,46508,128,15580,13919,29499,1157,1350,502,0,0,0,0,0,0,0,81,0
+E14000650,E12000005,Coventry North West,West Midlands,West Midlands,England,Borough,2017-06-09 02:52:00,Lab hold,Lab,Con,75196,49849,88,8580,18314,26894,1286,1525,666,0,0,0,0,0,0,0,1164,0
+E14000651,E12000005,Coventry South,West Midlands,West Midlands,England,Borough,2017-06-09 02:39:00,Lab hold,Lab,Con,70736,47009,114,7947,17927,25874,1343,1037,604,0,0,0,0,0,0,0,224,0
+E14000652,E12000008,Crawley,West Sussex,South East,England,Borough,2017-06-09 06:14:00,Con hold,Con,Lab,73425,50273,181,2457,25426,22969,1878,0,0,0,0,0,0,0,0,0,0,0
+E14000653,E12000002,Crewe and Nantwich,Cheshire,North West,England,County,2017-06-09 06:26:00,Lab gain from Con,Lab,Con,78895,55027,101,48,25880,25928,1334,1885,0,0,0,0,0,0,0,0,0,0
+E14000654,E12000007,Croydon Central,London,London,England,Borough,2017-06-09 04:01:00,Lab gain from Con,Lab,Con,80045,57091,109,5652,24221,29873,1083,1040,626,0,0,0,0,0,0,0,248,0
+E14000655,E12000007,Croydon North,London,London,England,Borough,2017-06-09 05:06:00,Lab hold,Lab,Con,87461,59623,131,32365,11848,44213,1656,753,983,0,0,0,0,0,0,0,170,0
+E14000656,E12000007,Croydon South,London,London,England,Borough,2017-06-09 05:36:00,Con hold,Con,Lab,83518,61257,123,11406,33334,21928,3541,1116,1125,0,0,0,0,0,0,0,213,0
+S14000012,S92000003,"Cumbernauld, Kilsyth and Kirkintilloch East",Scotland,Scotland,Scotland,County,2017-06-09 03:40:00,SNP hold,SNP,Lab,66554,43833,50,4264,8010,14858,1238,605,0,19122,0,0,0,0,0,0,0,0
+W07000070,W92000004,Cynon Valley,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 02:27:00,Lab hold,Lab,Con,51334,31802,71,13238,6166,19404,585,1271,0,0,4376,0,0,0,0,0,0,0
+E14000657,E12000007,Dagenham and Rainham,London,London,England,Borough,2017-06-09 03:34:00,Lab hold,Lab,Con,70616,45843,73,4652,18306,22958,465,3246,544,0,0,0,0,0,0,0,324,0
+E14000658,E12000001,Darlington,Durham,North East,England,Borough,2017-06-09 00:51:00,Lab hold,Lab,Con,66341,44817,79,3280,19401,22681,1031,1180,524,0,0,0,0,0,0,0,0,0
+E14000659,E12000008,Dartford,Kent,South East,England,County,2017-06-09 03:12:00,Con hold,Con,Lab,78506,54224,117,13186,31210,18024,1428,2544,807,0,0,0,0,0,0,0,211,0
+E14000660,E12000004,Daventry,Northamptonshire,East Midlands,England,County,2017-06-09 04:10:00,Con hold,Con,Lab,75268,55663,102,21734,35464,13730,4015,1497,957,0,0,0,0,0,0,0,0,0
+W07000042,W92000004,Delyn,Clwyd,Wales,Wales,County,2017-06-09 02:07:00,Lab hold,Lab,Con,54090,39418,69,4240,16333,20573,1031,0,0,0,1481,0,0,0,0,0,0,0
+E14000661,E12000002,Denton and Reddish,Greater Manchester,North West,England,Borough,2017-06-09 04:23:00,Lab hold,Lab,Con,65751,39599,72,14077,11084,25161,853,1798,486,0,0,0,0,0,0,0,217,0
+E14000662,E12000004,Derby North,Derbyshire,East Midlands,England,Borough,2017-06-09 03:38:00,Lab gain from Con,Lab,Con,69919,48672,109,2015,21607,23622,2262,1181,0,0,0,0,0,0,0,0,0,0
+E14000664,E12000004,Derbyshire Dales,Derbyshire,East Midlands,England,County,2017-06-09 03:39:00,Con hold,Con,Lab,64430,49571,151,14327,29744,15417,3126,0,1002,0,0,0,0,0,0,0,282,0
+E14000663,E12000004,Derby South,Derbyshire,East Midlands,England,Borough,2017-06-09 04:10:00,Lab hold,Lab,Con,69918,45306,105,11248,15182,26430,1229,2011,454,0,0,0,0,0,0,0,0,0
+E14000665,E12000009,Devizes,Wiltshire,South West,England,County,2017-06-09 06:04:00,Con hold,Con,Lab,72184,50593,107,21136,31744,10608,4706,1706,1606,0,0,0,0,0,0,0,223,0
+E14000666,E12000003,Dewsbury,West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 04:20:00,Lab hold,Lab,Con,81343,56545,155,3321,25493,28814,1214,0,1024,0,0,0,0,0,0,0,0,0
+E14000668,E12000003,Doncaster Central,South Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 02:25:00,Lab hold,Lab,Con,71718,43024,122,10131,14784,24915,973,0,0,0,0,0,0,0,0,0,2352,0
+E14000669,E12000003,Doncaster North,South Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 02:53:00,Lab hold,Lab,Con,72377,42312,76,14024,11687,25711,706,2738,0,0,0,0,0,0,0,0,1470,0
+E14000667,E12000003,Don Valley,South Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 02:51:00,Lab hold,Lab,Con,73990,45988,95,5169,19182,24351,856,0,0,0,0,0,0,0,0,0,1599,0
+E14000670,E12000008,Dover,Kent,South East,England,County,2017-06-09 01:41:00,Con hold,Con,Lab,74564,51966,76,6437,27211,20774,1336,1722,923,0,0,0,0,0,0,0,0,0
+E14000671,E12000005,Dudley North,West Midlands,West Midlands,England,Borough,2017-06-09 07:13:00,Lab hold,Lab,Con,62043,38910,72,22,18068,18090,368,2144,240,0,0,0,0,0,0,0,0,0
+E14000672,E12000005,Dudley South,West Midlands,West Midlands,England,Borough,2017-06-09 03:43:00,Con hold,Con,Lab,61323,38244,51,7730,21588,13858,625,1791,382,0,0,0,0,0,0,0,0,0
+E14000673,E12000007,Dulwich and West Norwood,London,London,England,Borough,2017-06-09 04:06:00,Lab hold,Lab,Con,78037,56143,162,28156,10940,39096,4475,0,1408,0,0,0,0,0,0,0,224,0
+S14000013,S92000003,Dumfries and Galloway,Scotland,Scotland,Scotland,County,2017-06-09 05:36:00,Con gain from SNP,Con,SNP,74206,51599,45,5643,22344,10775,1241,0,0,16701,0,0,0,0,0,0,538,0
+S14000014,S92000003,"Dumfriesshire, Clydesdale and Tweeddale",Scotland,Scotland,Scotland,County,2017-06-09 05:54:00,Con hold,Con,SNP,67672,48964,60,9441,24177,8102,1949,0,0,14736,0,0,0,0,0,0,0,0
+S14000015,S92000003,Dundee East,Scotland,Scotland,Scotland,Borough,2017-06-09 01:53:00,SNP hold,SNP,Con,65854,42928,57,6645,11746,11176,1615,0,0,18391,0,0,0,0,0,0,0,0
+S14000016,S92000003,Dundee West,Scotland,Scotland,Scotland,Borough,2017-06-09 02:01:00,SNP hold,SNP,Lab,62644,38677,99,5262,6257,12783,1189,0,0,18045,0,0,0,0,0,0,403,0
+S14000017,S92000003,Dunfermline and West Fife,Scotland,Scotland,Scotland,County,2017-06-09 02:58:00,SNP hold,SNP,Lab,75672,51010,73,844,12593,17277,3019,0,0,18121,0,0,0,0,0,0,0,0
+W07000061,W92000004,Dwyfor Meirionnydd,Gwynedd,Wales,Wales,County,2017-06-09 02:45:00,PC hold,PC,Con,44699,30348,67,4850,8837,6273,937,614,0,0,13687,0,0,0,0,0,0,0
+E14000674,E12000007,Ealing Central and Acton,London,London,England,Borough,2017-06-09 02:06:00,Lab hold,Lab,Con,74200,55342,191,13807,19230,33037,3075,0,0,0,0,0,0,0,0,0,0,0
+E14000675,E12000007,Ealing North,London,London,England,Borough,2017-06-09 02:41:00,Lab hold,Lab,Con,74764,52516,152,19693,14942,34635,1275,921,743,0,0,0,0,0,0,0,0,0
+E14000676,E12000007,"Ealing, Southall",London,London,England,Borough,2017-06-09 03:05:00,Lab hold,Lab,Con,65188,45145,173,22090,9630,31720,1892,504,1037,0,0,0,0,0,0,0,362,0
+E14000677,E12000001,Easington,Durham,North East,England,County,2017-06-09 03:20:00,Lab hold,Lab,Con,62385,36364,57,14892,8260,23152,460,1727,410,0,0,0,0,0,0,0,2355,0
+N06000005,N92000002,East Antrim,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 02:51:00,DUP hold,DUP,Alliance,62908,38143,126,15923,963,0,0,0,0,0,0,21873,3555,1278,4524,5950,0,0
+E14000684,E12000008,Eastbourne,East Sussex,South East,England,Borough,2017-06-09 03:29:00,LD gain from Con,LD,Con,78754,57420,91,1609,25315,4671,26924,0,510,0,0,0,0,0,0,0,0,0
+E14000678,E12000009,East Devon,Devon,South West,England,County,2017-06-09 04:18:00,Con hold,Con,Ind,82369,60382,61,8036,29306,6857,1468,1203,0,0,0,0,0,0,0,0,21548,0
+S14000018,S92000003,East Dunbartonshire,Scotland,Scotland,Scotland,County,2017-06-09 02:42:00,LD gain from SNP,LD,SNP,66300,51801,68,5339,7563,7531,21023,0,0,15684,0,0,0,0,0,0,0,0
+E14000679,E12000007,East Ham,London,London,England,Borough,2017-06-09 03:24:00,Lab hold,Lab,Con,83928,56633,179,39883,7241,47124,656,697,474,0,0,0,0,0,0,0,441,0
+E14000680,E12000008,East Hampshire,Hampshire,South East,England,County,2017-06-09 03:26:00,Con hold,Con,Lab,74151,55408,159,25852,35263,9411,8403,0,1760,0,0,0,0,0,0,0,571,0
+S14000019,S92000003,"East Kilbride, Strathaven and Lesmahagow",Scotland,Scotland,Scotland,County,2017-06-09 02:03:00,SNP hold,SNP,Lab,80442,54102,81,3866,13704,17157,1590,628,0,21023,0,0,0,0,0,0,0,0
+E14000685,E12000008,Eastleigh,Hampshire,South East,England,Borough,2017-06-09 02:37:00,Con hold,Con,LD,81212,57280,136,14179,28889,11454,14710,1477,750,0,0,0,0,0,0,0,0,0
+N06000006,N92000002,East Londonderry,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 02:06:00,DUP hold,DUP,SF,67038,41030,124,8842,330,0,0,0,0,0,0,19723,10881,4423,3135,2538,0,0
+S14000020,S92000003,East Lothian,Scotland,Scotland,Scotland,County,2017-06-09 03:07:00,Lab gain from SNP,Lab,SNP,79093,55878,57,3083,16540,20158,1738,0,0,17075,0,0,0,0,0,0,367,0
+S14000021,S92000003,East Renfrewshire,Scotland,Scotland,Scotland,County,2017-06-09 02:41:00,Con gain from SNP,Con,SNP,70067,53738,67,4712,21496,14346,1112,0,0,16784,0,0,0,0,0,0,0,0
+E14000681,E12000008,East Surrey,Surrey,South East,England,County,2017-06-09 02:17:00,Con hold,Con,Lab,82004,59203,121,23914,35310,11396,6197,2227,1100,0,0,0,0,0,0,0,2973,0
+E14000682,E12000008,East Worthing and Shoreham,West Sussex,South East,England,County,2017-06-09 05:03:00,Con hold,Con,Lab,75525,53117,70,5106,25988,20882,2523,1444,1273,0,0,0,0,0,0,0,1007,0
+E14000683,E12000003,East Yorkshire,Humberside,Yorkshire and The Humber,England,County,2017-06-09 04:27:00,Con hold,Con,Lab,81065,53956,97,15006,31442,16436,2134,1986,943,0,0,0,0,0,0,0,1015,0
+E14000686,E12000002,Eddisbury,Cheshire,North West,England,County,2017-06-09 04:09:00,Con hold,Con,Lab,70272,51319,85,11942,29192,17250,2804,1109,785,0,0,0,0,0,0,0,179,0
+S14000022,S92000003,Edinburgh East,Scotland,Scotland,Scotland,Borough,2017-06-09 03:13:00,SNP hold,SNP,Lab,65896,43523,100,3425,8081,15084,1849,0,0,18509,0,0,0,0,0,0,0,0
+S14000023,S92000003,Edinburgh North and Leith,Scotland,Scotland,Scotland,Borough,2017-06-09 04:03:00,SNP hold,SNP,Lab,79473,56552,72,1625,15385,17618,2579,0,1727,19243,0,0,0,0,0,0,0,0
+S14000024,S92000003,Edinburgh South,Scotland,Scotland,Scotland,Borough,2017-06-09 04:10:00,Lab hold,Lab,SNP,64553,47840,73,15514,9428,26269,1388,0,0,10755,0,0,0,0,0,0,0,0
+S14000025,S92000003,Edinburgh South West,Scotland,Scotland,Scotland,Borough,2017-06-09 04:18:00,SNP hold,SNP,Con,71178,49390,74,1097,16478,13213,2124,0,0,17575,0,0,0,0,0,0,0,0
+S14000026,S92000003,Edinburgh West,Scotland,Scotland,Scotland,Borough,2017-06-09 03:49:00,LD gain from SNP,LD,SNP,71500,52795,71,2988,11559,7876,18108,0,0,15120,0,0,0,0,0,0,132,0
+E14000687,E12000007,Edmonton,London,London,England,Borough,2017-06-09 04:43:00,Lab hold,Lab,Con,65777,43678,113,21115,10106,31221,858,860,633,0,0,0,0,0,0,0,0,0
+E14000688,E12000002,Ellesmere Port and Neston,Cheshire,North West,England,County,2017-06-09 03:09:00,Lab hold,Lab,Con,68666,50939,69,11390,18747,30137,892,821,342,0,0,0,0,0,0,0,0,0
+E14000689,E12000003,Elmet and Rothwell,West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 04:25:00,Con hold,Con,Lab,80291,59542,134,9805,32352,22547,2606,0,995,0,0,0,0,0,0,0,1042,0
+E14000690,E12000007,Eltham,London,London,England,Borough,2017-06-09 02:43:00,Lab hold,Lab,Con,64474,46155,150,6296,18832,25128,1457,0,0,0,0,0,0,0,0,0,738,0
+E14000691,E12000007,Enfield North,London,London,England,Borough,2017-06-09 04:25:00,Lab hold,Lab,Con,68076,48565,125,10247,17930,28177,1036,848,574,0,0,0,0,0,0,0,0,0
+E14000692,E12000007,"Enfield, Southgate",London,London,England,Borough,2017-06-09 04:52:00,Lab gain from Con,Lab,Con,65210,48328,158,4355,20634,24989,1925,0,780,0,0,0,0,0,0,0,0,0
+E14000693,E12000006,Epping Forest,Essex,East,England,County,2017-06-09 02:11:00,Con hold,Con,Lab,74737,50779,130,18243,31462,13219,2884,1871,1233,0,0,0,0,0,0,0,110,0
+E14000694,E12000008,Epsom and Ewell,Surrey,South East,England,Borough,2017-06-09 02:53:00,Con hold,Con,Lab,80029,59266,202,20475,35313,14838,7401,0,1714,0,0,0,0,0,0,0,0,0
+E14000695,E12000004,Erewash,Derbyshire,East Midlands,England,County,2017-06-09 01:54:00,Con hold,Con,Lab,72995,49781,86,4534,25939,21405,1243,0,675,0,0,0,0,0,0,0,519,0
+E14000696,E12000007,Erith and Thamesmead,London,London,England,Borough,2017-06-09 03:53:00,Lab hold,Lab,Con,69724,44464,79,10014,15571,25585,750,1728,507,0,0,0,0,0,0,0,323,0
+E14000697,E12000008,Esher and Walton,Surrey,South East,England,Borough,2017-06-09 03:20:00,Con hold,Con,Lab,80938,59842,52,23298,35071,11773,10374,1034,1074,0,0,0,0,0,0,0,516,0
+E14000698,E12000009,Exeter,Devon,South West,England,Borough,2017-06-09 03:26:00,Lab hold,Lab,Con,77330,55423,131,16117,18219,34336,1562,0,1027,0,0,0,0,0,0,0,279,0
+S14000028,S92000003,Falkirk,Scotland,Scotland,Scotland,County,2017-06-09 02:09:00,SNP hold,SNP,Lab,82240,53809,58,4923,14088,16029,1120,712,908,20952,0,0,0,0,0,0,0,0
+E14000699,E12000008,Fareham,Hampshire,South East,England,County,2017-06-09 01:59:00,Con hold,Con,Lab,78837,57014,124,21555,35915,14360,3896,1541,1302,0,0,0,0,0,0,0,0,0
+E14000700,E12000008,Faversham and Mid Kent,Kent,South East,England,County,2017-06-09 03:55:00,Con hold,Con,Lab,72205,49749,77,17413,30390,12977,3249,1702,1431,0,0,0,0,0,0,0,0,0
+E14000701,E12000007,Feltham and Heston,London,London,England,Borough,2017-06-09 03:55:00,Lab hold,Lab,Con,81714,53027,111,15603,16859,32462,1387,1510,809,0,0,0,0,0,0,0,0,0
+N06000007,N92000002,Fermanagh and South Tyrone,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 04:09:00,SF gain from UUP,SF,UUP,70601,53481,226,875,0,0,0,0,423,0,0,0,25230,2587,24355,886,0,0
+E14000702,E12000009,Filton and Bradley Stoke,Avon,South West,England,County,2017-06-09 04:31:00,Con hold,Con,Lab,72483,50702,164,4190,25339,21149,3052,0,1162,0,0,0,0,0,0,0,0,0
+E14000703,E12000007,Finchley and Golders Green,London,London,England,Borough,2017-06-09 04:47:00,Con hold,Con,Lab,73329,52385,159,1657,24599,22942,3463,462,919,0,0,0,0,0,0,0,0,0
+E14000704,E12000008,Folkestone and Hythe,Kent,South East,England,County,2017-06-09 01:52:00,Con hold,Con,Lab,86272,58875,97,15411,32197,16786,4222,2565,2498,0,0,0,0,0,0,0,607,0
+E14000705,E12000009,Forest Of Dean,Gloucestershire,South West,England,County,2017-06-09 03:34:00,Con hold,Con,Lab,70898,51767,81,9502,28096,18594,2029,1237,1241,0,0,0,0,0,0,0,570,0
+N06000008,N92000002,Foyle,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 02:45:00,SF gain from SDLP,SF,SDLP,70324,45965,177,169,0,0,0,0,0,0,0,7398,18256,18087,0,847,1377,0
+E14000706,E12000002,Fylde,Lancashire,North West,England,County,2017-06-09 02:15:00,Con hold,Con,Lab,65937,46467,127,11805,27334,15529,2341,0,1263,0,0,0,0,0,0,0,0,0
+E14000707,E12000004,Gainsborough,Lincolnshire,East Midlands,England,County,2017-06-09 03:07:00,Con hold,Con,Lab,75893,51425,150,17023,31790,14767,3630,0,1238,0,0,0,0,0,0,0,0,0
+E14000708,E12000002,Garston and Halewood,Merseyside,North West,England,Borough,2017-06-09 02:18:00,Lab hold,Lab,Con,75248,53522,143,32149,9450,41599,1723,0,750,0,0,0,0,0,0,0,0,0
+E14000709,E12000001,Gateshead,Tyne and Wear,North East,England,Borough,2017-06-09 02:03:00,Lab hold,Lab,Con,65186,42103,71,17350,10076,27426,1709,2281,611,0,0,0,0,0,0,0,0,0
+E14000710,E12000004,Gedling,Nottinghamshire,East Midlands,England,County,2017-06-09 03:04:00,Lab hold,Lab,Con,71223,51682,83,4694,22139,26833,1052,1143,515,0,0,0,0,0,0,0,0,0
+E14000711,E12000008,Gillingham and Rainham,Kent,South East,England,Borough,2017-06-09 04:19:00,Con hold,Con,Lab,72903,48868,90,9430,27091,17661,1372,2097,520,0,0,0,0,0,0,0,127,0
+S14000029,S92000003,Glasgow Central,Scotland,Scotland,Scotland,Borough,2017-06-09 02:53:00,SNP hold,SNP,Lab,64346,35984,114,2267,5014,13829,1045,0,0,16096,0,0,0,0,0,0,0,0
+S14000030,S92000003,Glasgow East,Scotland,Scotland,Scotland,Borough,2017-06-09 02:46:00,SNP hold,SNP,Lab,66242,36166,56,75,6816,13949,567,504,0,14024,0,0,0,0,0,0,306,0
+S14000031,S92000003,Glasgow North,Scotland,Scotland,Scotland,Borough,2017-06-09 03:04:00,SNP hold,SNP,Lab,53862,33473,61,1060,4935,11537,1153,0,3251,12597,0,0,0,0,0,0,0,0
+S14000032,S92000003,Glasgow North East,Scotland,Scotland,Scotland,Borough,2017-06-09 02:58:00,Lab gain from SNP,Lab,SNP,59931,31775,57,242,4106,13637,637,0,0,13395,0,0,0,0,0,0,0,0
+S14000033,S92000003,Glasgow North West,Scotland,Scotland,Scotland,Borough,2017-06-09 03:15:00,SNP hold,SNP,Lab,63773,38844,89,2561,7002,13947,1387,0,0,16508,0,0,0,0,0,0,0,0
+S14000034,S92000003,Glasgow South,Scotland,Scotland,Scotland,Borough,2017-06-09 03:10:00,SNP hold,SNP,Lab,69126,44550,83,2027,8506,16285,1447,0,0,18312,0,0,0,0,0,0,0,0
+S14000035,S92000003,Glasgow South West,Scotland,Scotland,Scotland,Borough,2017-06-09 03:21:00,SNP hold,SNP,Lab,62991,35378,66,60,5524,14326,661,481,0,14386,0,0,0,0,0,0,0,0
+S14000036,S92000003,Glenrothes,Scotland,Scotland,Scotland,County,2017-06-09 02:17:00,SNP hold,SNP,Lab,66378,40399,41,3267,7876,14024,1208,0,0,17291,0,0,0,0,0,0,0,0
+E14000712,E12000009,Gloucester,Gloucestershire,South West,England,Borough,2017-06-09 03:20:00,Con hold,Con,Lab,82965,54071,76,5520,27208,21688,2716,1495,754,0,0,0,0,0,0,0,210,0
+S14000037,S92000003,Gordon,Scotland,Scotland,Scotland,County,2017-06-09 04:21:00,Con gain from SNP,Con,SNP,78531,53685,55,2607,21861,6340,6230,0,0,19254,0,0,0,0,0,0,0,0
+E14000713,E12000008,Gosport,Hampshire,South East,England,Borough,2017-06-09 03:04:00,Con hold,Con,Lab,74152,49481,28,17211,30647,13436,2328,1790,1024,0,0,0,0,0,0,0,256,0
+W07000046,W92000004,Gower,West Glamorgan,Wales,Wales,County,2017-06-09 02:46:00,Lab gain from Con,Lab,Con,62163,45576,53,3269,19458,22727,931,642,0,0,1669,0,0,0,0,0,149,0
+E14000714,E12000004,Grantham and Stamford,Lincolnshire,East Midlands,England,County,2017-06-09 02:46:00,Con hold,Con,Lab,81740,56593,106,20094,35090,14996,3120,1745,782,0,0,0,0,0,0,0,860,0
+E14000715,E12000008,Gravesham,Kent,South East,England,County,2017-06-09 03:11:00,Con hold,Con,Lab,72954,48997,109,9347,27237,17890,1210,1742,723,0,0,0,0,0,0,0,195,0
+E14000716,E12000003,Great Grimsby,Humberside,Yorkshire and The Humber,England,Borough,2017-06-09 02:21:00,Lab hold,Lab,Con,61743,35521,60,2565,14980,17545,954,1648,0,0,0,0,0,0,0,0,394,0
+E14000717,E12000006,Great Yarmouth,Norfolk,East,England,County,2017-06-09 03:14:00,Con hold,Con,Lab,71408,44146,203,7973,23901,15928,987,2767,563,0,0,0,0,0,0,0,0,0
+E14000718,E12000007,Greenwich and Woolwich,London,London,England,Borough,2017-06-09 03:11:00,Lab hold,Lab,Con,77190,53106,200,20714,13501,34215,3785,0,1605,0,0,0,0,0,0,0,0,0
+E14000719,E12000008,Guildford,Surrey,South East,England,County,2017-06-09 02:49:00,Con hold,Con,LD,75291,55509,147,17040,30295,10545,13255,0,1152,0,0,0,0,0,0,0,262,0
+E14000720,E12000007,Hackney North and Stoke Newington,London,London,England,Borough,2017-06-09 03:22:00,Lab hold,Lab,Con,85058,56298,187,35139,7126,42265,3817,0,2606,0,0,0,0,0,0,0,484,0
+E14000721,E12000007,Hackney South and Shoreditch,London,London,England,Borough,2017-06-09 03:09:00,Lab hold,Lab,Con,83099,55354,215,37931,6043,43974,3168,0,1522,0,0,0,0,0,0,0,647,0
+E14000722,E12000005,Halesowen and Rowley Regis,West Midlands,West Midlands,England,Borough,2017-06-09 04:41:00,Con hold,Con,Lab,68856,44379,90,5253,23012,17759,859,2126,440,0,0,0,0,0,0,0,183,0
+E14000723,E12000003,Halifax,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 04:33:00,Lab hold,Lab,Con,71224,48276,99,5376,20131,25507,1070,1568,0,0,0,0,0,0,0,0,0,0
+E14000724,E12000003,Haltemprice and Howden,Humberside,Yorkshire and The Humber,England,County,2017-06-09 03:59:00,Con hold,Con,Lab,71519,51440,159,15405,31355,15950,2482,0,711,0,0,0,0,0,0,0,942,0
+E14000725,E12000002,Halton,Cheshire,North West,England,County,2017-06-09 01:25:00,Lab hold,Lab,Con,73457,49518,85,25405,10710,36115,896,1488,0,0,0,0,0,0,0,0,309,0
+E14000726,E12000007,Hammersmith,London,London,England,Borough,2017-06-09 03:42:00,Lab hold,Lab,Con,72803,52252,131,18651,14724,33375,2802,507,800,0,0,0,0,0,0,0,44,0
+E14000727,E12000007,Hampstead and Kilburn,London,London,England,Borough,2017-06-09 04:27:00,Lab hold,Lab,Con,82957,58407,165,15560,18904,34464,4100,0,742,0,0,0,0,0,0,0,197,0
+E14000728,E12000004,Harborough,Leicestershire,East Midlands,England,County,2017-06-09 03:36:00,Con hold,Con,Lab,78810,57598,118,12429,30135,17706,7286,1361,1110,0,0,0,0,0,0,0,0,0
+E14000729,E12000006,Harlow,Essex,East,England,County,2017-06-09 01:34:00,Con hold,Con,Lab,67699,44846,75,7031,24230,17199,970,1787,660,0,0,0,0,0,0,0,0,0
+E14000730,E12000003,Harrogate and Knaresborough,North Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 01:13:00,Con hold,Con,LD,77280,56740,139,18168,31477,11395,13309,0,0,0,0,0,0,0,0,0,559,0
+E14000731,E12000007,Harrow East,London,London,England,Borough,2017-06-09 03:39:00,Con hold,Con,Lab,71755,50845,142,1757,25129,23372,1573,0,771,0,0,0,0,0,0,0,0,0
+E14000732,E12000007,Harrow West,London,London,England,Borough,2017-06-09 03:25:00,Lab hold,Lab,Con,69797,50355,128,13314,17326,30640,1267,470,652,0,0,0,0,0,0,0,0,0
+E14000733,E12000001,Hartlepool,Cleveland,North East,England,Borough,2017-06-09 01:54:00,Lab hold,Lab,Con,70718,41835,86,7650,14319,21969,746,4801,0,0,0,0,0,0,0,0,0,0
+E14000734,E12000006,Harwich and North Essex,Essex,East,England,County,2017-06-09 02:40:00,Con hold,Con,Lab,71294,51141,83,14356,29921,15565,2787,1685,1042,0,0,0,0,0,0,0,141,0
+E14000735,E12000008,Hastings and Rye,East Sussex,South East,England,County,2017-06-09 04:56:00,Con hold,Con,Lab,78319,54766,97,346,25668,25322,1885,1479,0,0,0,0,0,0,0,0,412,0
+E14000736,E12000008,Havant,Hampshire,South East,England,Borough,2017-06-09 01:47:00,Con hold,Con,Lab,72470,46314,76,15956,27676,11720,2801,2011,1122,0,0,0,0,0,0,0,984,0
+E14000737,E12000007,Hayes and Harlington,London,London,England,Borough,2017-06-09 03:10:00,Lab hold,Lab,Con,73268,47802,118,18115,13681,31796,601,1153,571,0,0,0,0,0,0,0,0,0
+E14000738,E12000002,Hazel Grove,Greater Manchester,North West,England,County,2017-06-09 04:27:00,Con hold,Con,LD,63166,44132,114,5514,20047,9036,14533,0,516,0,0,0,0,0,0,0,0,0
+E14000739,E12000006,Hemel Hempstead,Hertfordshire,East,England,County,2017-06-09 02:04:00,Con hold,Con,Lab,74415,52282,151,9445,28735,19290,3233,0,1024,0,0,0,0,0,0,0,0,0
+E14000740,E12000003,Hemsworth,West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 05:28:00,Lab hold,Lab,Con,71870,45944,83,10174,15566,25740,912,2591,0,0,0,0,0,0,0,0,1135,0
+E14000741,E12000007,Hendon,London,London,England,Borough,2017-06-09 05:30:00,Con hold,Con,Lab,76522,52215,115,1072,25078,24006,1985,568,578,0,0,0,0,0,0,0,0,0
+E14000742,E12000008,Henley,Oxfordshire,South East,England,County,2017-06-09 04:55:00,Con hold,Con,Lab,74997,57099,119,22294,33749,11455,8485,1154,1864,0,0,0,0,0,0,0,392,0
+E14000743,E12000005,Hereford and South Herefordshire,Hereford and Worcester,West Midlands,England,County,2017-06-09 03:45:00,Con hold,Con,Lab,71088,50484,71,15013,27004,11991,3556,1153,1220,0,0,0,0,0,0,0,5560,0
+E14000744,E12000006,Hertford and Stortford,Hertfordshire,East,England,County,2017-06-09 02:15:00,Con hold,Con,Lab,82339,59992,230,19035,36184,17149,4845,0,1814,0,0,0,0,0,0,0,0,0
+E14000745,E12000006,Hertsmere,Hertfordshire,East,England,County,2017-06-09 01:46:00,Con hold,Con,Lab,73561,52253,136,16951,31928,14977,2794,1564,990,0,0,0,0,0,0,0,0,0
+E14000746,E12000001,Hexham,Northumberland,North East,England,County,2017-06-09 05:47:00,Con hold,Con,Lab,61053,46224,79,9236,24996,15760,3285,930,1253,0,0,0,0,0,0,0,0,0
+E14000747,E12000002,Heywood and Middleton,Greater Manchester,North West,England,County,2017-06-09 02:11:00,Lab hold,Lab,Con,79901,49865,97,7617,18961,26578,1087,3239,0,0,0,0,0,0,0,0,0,0
+E14000748,E12000004,High Peak,Derbyshire,East Midlands,England,County,2017-06-09 02:43:00,Lab gain from Con,Lab,Con,73248,53853,160,2322,24431,26753,2669,0,0,0,0,0,0,0,0,0,0,0
+E14000749,E12000006,Hitchin and Harpenden,Hertfordshire,East,England,County,2017-06-09 03:28:00,Con hold,Con,Lab,75916,58783,138,12031,31189,19158,6236,0,1329,0,0,0,0,0,0,0,871,0
+E14000750,E12000007,Holborn and St Pancras,London,London,England,Borough,2017-06-09 04:21:00,Lab hold,Lab,Con,88088,58997,178,30509,10834,41343,4020,727,1980,0,0,0,0,0,0,0,93,0
+E14000751,E12000007,Hornchurch and Upminster,London,London,England,Borough,2017-06-09 03:14:00,Con hold,Con,Lab,80802,56045,110,17723,33750,16027,1371,3502,1077,0,0,0,0,0,0,0,318,0
+E14000752,E12000007,Hornsey and Wood Green,London,London,England,Borough,2017-06-09 03:36:00,Lab hold,Lab,LD,79946,62293,158,30738,9246,40738,10000,429,1181,0,0,0,0,0,0,0,699,0
+E14000753,E12000008,Horsham,West Sussex,South East,England,County,2017-06-09 05:26:00,Con hold,Con,Lab,82772,61987,106,23484,36906,13422,7644,1533,1844,0,0,0,0,0,0,0,638,0
+E14000754,E12000001,Houghton and Sunderland South,Tyne and Wear,North East,England,Borough,2017-06-08 23:10:00,Lab hold,Lab,Con,68123,41480,77,12341,12324,24665,908,2379,725,0,0,0,0,0,0,0,479,0
+E14000755,E12000008,Hove,East Sussex,South East,England,Borough,2017-06-09 05:32:00,Lab hold,Lab,Con,74236,57596,120,18757,18185,36942,1311,0,971,0,0,0,0,0,0,0,187,0
+E14000756,E12000003,Huddersfield,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 04:07:00,Lab hold,Lab,Con,67037,43834,116,12005,14465,26470,1155,0,1395,0,0,0,0,0,0,0,349,0
+E14000757,E12000006,Huntingdon,Cambridgeshire,East,England,County,2017-06-09 02:21:00,Con hold,Con,Lab,84273,59720,136,14475,32915,18440,5090,2180,1095,0,0,0,0,0,0,0,0,0
+E14000758,E12000002,Hyndburn,Lancashire,North West,England,Borough,2017-06-09 02:47:00,Lab hold,Lab,Con,71608,45202,105,5815,18305,24120,824,1953,0,0,0,0,0,0,0,0,0,0
+E14000759,E12000007,Ilford North,London,London,England,Borough,2017-06-09 05:27:00,Lab hold,Lab,Con,72997,52941,111,9639,20950,30589,1034,0,0,0,0,0,0,0,0,0,368,0
+E14000760,E12000007,Ilford South,London,London,England,Borough,2017-06-09 05:33:00,Lab hold,Lab,Con,85358,57657,146,31647,12077,43724,772,477,542,0,0,0,0,0,0,0,65,0
+S14000038,S92000003,Inverclyde,Scotland,Scotland,Scotland,County,2017-06-09 02:21:00,SNP hold,SNP,Lab,58853,39093,57,384,8399,14666,978,0,0,15050,0,0,0,0,0,0,0,0
+S14000039,S92000003,"Inverness, Nairn, Badenoch and Strathspey",Scotland,Scotland,Scotland,County,2017-06-09 03:07:00,SNP hold,SNP,Con,76844,52801,67,4924,16118,8552,6477,0,0,21042,0,0,0,0,0,0,612,0
+E14000761,E12000006,Ipswich,Suffolk,East,England,Borough,2017-06-09 02:59:00,Lab gain from Con,Lab,Con,75668,51137,100,831,23393,24224,1187,1372,840,0,0,0,0,0,0,0,121,0
+E14000762,E12000008,Isle Of Wight,Isle of Wight,South East,England,County,2017-06-09 03:09:00,Con hold,Con,Lab,110683,74479,95,21069,38190,17121,2740,1921,12915,0,0,0,0,0,0,0,1592,0
+E14000763,E12000007,Islington North,London,London,England,Borough,2017-06-09 03:07:00,Lab hold,Lab,Con,74831,54928,122,33215,6871,40086,4946,413,2229,0,0,0,0,0,0,0,383,0
+E14000764,E12000007,Islington South and Finsbury,London,London,England,Borough,2017-06-09 02:53:00,Lab hold,Lab,Con,69536,48049,147,20263,9925,30188,5809,929,1198,0,0,0,0,0,0,0,0,0
+W07000077,W92000004,Islwyn,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 01:54:00,Lab hold,Lab,Con,56256,36093,78,11412,9826,21238,685,1605,0,0,2739,0,0,0,0,0,0,0
+E14000765,E12000001,Jarrow,Tyne and Wear,North East,England,Borough,2017-06-09 01:08:00,Lab hold,Lab,Con,64778,43023,77,17263,10757,28020,1163,2338,745,0,0,0,0,0,0,0,0,0
+E14000766,E12000003,Keighley,West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 04:53:00,Lab gain from Con,Lab,Con,71429,51714,91,239,23817,24056,1226,1291,790,0,0,0,0,0,0,0,534,0
+E14000767,E12000005,Kenilworth and Southam,Warwickshire,West Midlands,England,County,2017-06-09 02:55:00,Con hold,Con,Lab,66319,51321,99,18076,31207,13131,4921,929,1133,0,0,0,0,0,0,0,0,0
+E14000768,E12000007,Kensington,London,London,England,Borough,2017-06-09 21:03:00,Lab gain from Con,Lab,Con,60588,38677,118,20,16313,16333,4724,0,767,0,0,0,0,0,0,0,540,0
+E14000769,E12000004,Kettering,Northamptonshire,East Midlands,England,County,2017-06-09 00:25:00,Con hold,Con,Lab,71440,49404,120,10562,28616,18054,1618,0,1116,0,0,0,0,0,0,0,0,0
+S14000040,S92000003,Kilmarnock and Loudoun,Scotland,Scotland,Scotland,County,2017-06-09 01:50:00,SNP hold,SNP,Lab,73327,46509,81,6269,12404,13421,994,0,0,19690,0,0,0,0,0,0,0,0
+E14000770,E12000007,Kingston and Surbiton,London,London,England,Borough,2017-06-09 03:36:00,LD gain from Con,LD,Con,81588,62178,87,4124,23686,9203,27810,675,536,0,0,0,0,0,0,0,268,0
+E14000771,E12000003,Kingston upon Hull East,Humberside,Yorkshire and The Humber,England,Borough,2017-06-09 02:35:00,Lab hold,Lab,Con,65959,36638,60,10396,10959,21355,1258,2573,493,0,0,0,0,0,0,0,0,0
+E14000772,E12000003,Kingston upon Hull North,Humberside,Yorkshire and The Humber,England,Borough,2017-06-09 02:16:00,Lab hold,Lab,Con,64665,37122,76,14322,9363,23685,1869,1601,604,0,0,0,0,0,0,0,0,0
+E14000773,E12000003,Kingston upon Hull West and Hessle,Humberside,Yorkshire and The Humber,England,Borough,2017-06-09 02:55:00,Lab hold,Lab,Con,60181,34565,48,8025,10317,18342,2210,1399,332,0,0,0,0,0,0,0,1965,0
+E14000774,E12000009,Kingswood,Avon,South West,England,Borough,2017-06-09 04:20:00,Con hold,Con,Lab,69368,48741,116,7500,26754,19254,1749,0,984,0,0,0,0,0,0,0,0,0
+S14000041,S92000003,Kirkcaldy and Cowdenbeath,Scotland,Scotland,Scotland,County,2017-06-09 03:12:00,Lab gain from SNP,Lab,SNP,72721,46193,57,259,10762,17016,1118,540,0,16757,0,0,0,0,0,0,0,0
+E14000775,E12000002,Knowsley,Merseyside,North West,England,Borough,2017-06-09 01:36:00,Lab hold,Lab,Con,81760,55483,68,42214,5137,47351,1189,1285,521,0,0,0,0,0,0,0,0,0
+N06000009,N92000002,Lagan Valley,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 01:29:00,DUP hold,DUP,UUP,72380,44926,118,19229,462,0,0,0,0,0,0,26762,1567,3384,7533,4996,222,0
+S14000042,S92000003,Lanark and Hamilton East,Scotland,Scotland,Scotland,County,2017-06-09 02:59:00,SNP hold,SNP,Con,77313,50470,57,266,16178,16084,1214,550,0,16444,0,0,0,0,0,0,0,0
+E14000776,E12000002,Lancaster and Fleetwood,Lancashire,North West,England,County,2017-06-09 03:57:00,Lab hold,Lab,Con,67154,45989,94,6661,18681,25342,1170,0,796,0,0,0,0,0,0,0,0,0
+E14000777,E12000003,Leeds Central,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 03:29:00,Lab hold,Lab,Con,89537,47673,116,23698,9755,33453,1063,2056,1189,0,0,0,0,0,0,0,157,0
+E14000778,E12000003,Leeds East,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 03:09:00,Lab hold,Lab,Con,65950,41441,89,12752,12676,25428,739,1742,434,0,0,0,0,0,0,0,422,0
+E14000779,E12000003,Leeds North East,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 04:39:00,Lab hold,Lab,Con,70112,52999,103,16991,16445,33436,1952,0,680,0,0,0,0,0,0,0,486,0
+E14000780,E12000003,Leeds North West,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 04:04:00,Lab gain from LD,Lab,LD,68152,46287,97,4224,9097,20416,16192,0,582,0,0,0,0,0,0,0,0,0
+E14000781,E12000003,Leeds West,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 03:20:00,Lab hold,Lab,Con,67955,42229,72,15965,11048,27013,905,1815,1023,0,0,0,0,0,0,0,425,0
+E14000782,E12000004,Leicester East,Leicestershire,East Midlands,England,Borough,2017-06-09 03:35:00,Lab hold,Lab,Con,77788,52424,258,22428,12688,35116,1343,0,1070,0,0,0,0,0,0,0,2207,0
+E14000783,E12000004,Leicester South,Leicestershire,East Midlands,England,Borough,2017-06-09 03:00:00,Lab hold,Lab,Con,75534,50517,182,26261,10896,37157,1287,0,1177,0,0,0,0,0,0,0,0,0
+E14000784,E12000004,Leicester West,Leicestershire,East Midlands,England,Borough,2017-06-09 03:19:00,Lab hold,Lab,Con,64843,37512,122,11060,11763,22823,792,1406,607,0,0,0,0,0,0,0,121,0
+E14000785,E12000002,Leigh,Greater Manchester,North West,England,County,2017-06-09 01:19:00,Lab hold,Lab,Con,76202,46874,105,9554,16793,26347,951,2783,0,0,0,0,0,0,0,0,0,0
+E14000786,E12000008,Lewes,East Sussex,South East,England,County,2017-06-09 03:11:00,Con hold,Con,LD,70941,54192,136,5508,26820,6060,21312,0,0,0,0,0,0,0,0,0,0,0
+E14000789,E12000007,"Lewisham, Deptford",London,London,England,Borough,2017-06-09 03:28:00,Lab hold,Lab,Con,78468,55112,208,34899,7562,42461,2911,0,1640,0,0,0,0,0,0,0,538,0
+E14000787,E12000007,Lewisham East,London,London,England,Borough,2017-06-09 03:16:00,Lab hold,Lab,Con,68124,47201,111,21213,10859,32072,2086,798,803,0,0,0,0,0,0,0,583,0
+E14000788,E12000007,Lewisham West and Penge,London,London,England,Borough,2017-06-09 03:32:00,Lab hold,Lab,Con,72899,53196,156,23162,12249,35411,3317,700,1144,0,0,0,0,0,0,0,375,0
+E14000790,E12000007,Leyton and Wanstead,London,London,England,County,2017-06-09 03:12:00,Lab hold,Lab,Con,65149,46173,139,22607,9627,32234,2961,0,1351,0,0,0,0,0,0,0,0,0
+E14000791,E12000005,Lichfield,Staffordshire,West Midlands,England,County,2017-06-09 03:28:00,Con hold,Con,Lab,74430,53524,147,18581,34018,15437,2653,0,1416,0,0,0,0,0,0,0,0,0
+E14000792,E12000004,Lincoln,Lincolnshire,East Midlands,England,Borough,2017-06-09 04:03:00,Lab gain from Con,Lab,Con,73111,48718,79,1538,21795,23333,1284,1287,583,0,0,0,0,0,0,0,436,0
+S14000043,S92000003,Linlithgow and East Falkirk,Scotland,Scotland,Scotland,County,2017-06-09 03:37:00,SNP hold,SNP,Lab,86186,56094,92,2919,16311,17469,1926,0,0,20388,0,0,0,0,0,0,0,0
+E14000793,E12000002,"Liverpool, Riverside",Merseyside,North West,England,Borough,2017-06-09 01:59:00,Lab hold,Lab,Con,76332,48020,158,35947,4652,40599,1187,0,1582,0,0,0,0,0,0,0,0,0
+E14000794,E12000002,"Liverpool, Walton",Merseyside,North West,England,Borough,2017-06-09 02:59:00,Lab hold,Lab,Con,62738,42197,103,32551,3624,36175,638,0,523,0,0,0,0,0,0,0,1237,0
+E14000795,E12000002,"Liverpool, Wavertree",Merseyside,North West,England,Borough,2017-06-09 02:26:00,Lab hold,Lab,Con,62411,43640,119,29466,5251,34717,2858,0,598,0,0,0,0,0,0,0,216,0
+E14000796,E12000002,"Liverpool, West Derby",Merseyside,North West,England,Borough,2017-06-09 02:38:00,Lab hold,Lab,Con,65164,45163,112,32908,4463,37371,545,0,329,0,0,0,0,0,0,0,2455,0
+S14000044,S92000003,Livingston,Scotland,Scotland,Scotland,County,2017-06-09 04:07:00,SNP hold,SNP,Lab,81208,52505,84,3878,12799,17158,1512,0,0,21036,0,0,0,0,0,0,0,0
+W07000045,W92000004,Llanelli,Dyfed,Wales,Wales,County,2017-06-09 01:09:00,Lab hold,Lab,Con,59434,40342,56,12024,9544,21568,548,1331,0,0,7351,0,0,0,0,0,0,0
+E14000797,E12000004,Loughborough,Leicestershire,East Midlands,England,County,2017-06-09 05:13:00,Con hold,Con,Lab,79607,54148,110,4269,27022,22753,1937,1465,971,0,0,0,0,0,0,0,0,0
+E14000798,E12000004,Louth and Horncastle,Lincolnshire,East Midlands,England,County,2017-06-09 03:21:00,Con hold,Con,Lab,79007,52771,84,19641,33733,14092,1990,2460,0,0,0,0,0,0,0,0,496,0
+E14000799,E12000005,Ludlow,Shropshire,West Midlands,England,County,2017-06-09 04:29:00,Con hold,Con,Lab,68034,49970,140,19286,31433,12147,5336,0,1054,0,0,0,0,0,0,0,0,0
+E14000800,E12000006,Luton North,Bedfordshire,East,England,Borough,2017-06-09 02:52:00,Lab hold,Lab,Con,66811,46622,120,14364,15401,29765,808,0,648,0,0,0,0,0,0,0,0,0
+E14000801,E12000006,Luton South,Bedfordshire,East,England,Borough,2017-06-09 04:06:00,Lab hold,Lab,Con,67188,46133,100,13925,14879,28804,1056,795,439,0,0,0,0,0,0,0,160,0
+E14000802,E12000002,Macclesfield,Cheshire,North West,England,County,2017-06-09 04:34:00,Con hold,Con,Lab,75228,54307,137,8608,28595,19987,3350,0,1213,0,0,0,0,0,0,0,1162,0
+E14000803,E12000008,Maidenhead,Berkshire,South East,England,County,2017-06-09 03:20:00,Con hold,Con,Lab,76076,58239,108,26457,37718,11261,6540,871,907,0,0,0,0,0,0,0,942,0
+E14000804,E12000008,Maidstone and The Weald,Kent,South East,England,County,2017-06-09 03:57:00,Con hold,Con,Lab,75334,51717,86,17723,29156,11433,8455,1613,888,0,0,0,0,0,0,0,172,0
+E14000805,E12000002,Makerfield,Greater Manchester,North West,England,County,2017-06-09 01:24:00,Lab hold,Lab,Con,74259,46933,104,13542,14703,28245,1322,0,0,0,0,0,0,0,0,0,2663,0
+E14000806,E12000006,Maldon,Essex,East,England,County,2017-06-09 03:03:00,Con hold,Con,Lab,71470,50202,99,23430,34111,10681,2181,1899,1073,0,0,0,0,0,0,0,257,0
+E14000807,E12000002,Manchester Central,Greater Manchester,North West,England,Borough,2017-06-09 03:05:00,Lab hold,Lab,Con,90261,49720,150,31445,7045,38490,1678,1469,846,0,0,0,0,0,0,0,192,0
+E14000808,E12000002,"Manchester, Gorton",Greater Manchester,North West,England,Borough,2017-06-09 03:26:00,Lab hold,Lab,Con,75362,45953,145,31730,3355,35085,2597,952,1038,0,0,0,0,0,0,0,2926,0
+E14000809,E12000002,"Manchester, Withington",Greater Manchester,North West,England,Borough,2017-06-09 03:17:00,Lab hold,Lab,LD,74654,53602,134,29875,5530,38424,8549,0,865,0,0,0,0,0,0,0,234,0
+E14000810,E12000004,Mansfield,Nottinghamshire,East Midlands,England,County,2017-06-09 04:17:00,Con gain from Lab,Con,Lab,77811,50157,99,1057,23392,22335,697,2654,0,0,0,0,0,0,0,0,1079,0
+E14000811,E12000008,Meon Valley,Hampshire,South East,England,County,2017-06-09 04:39:00,Con hold,Con,Lab,74246,54192,115,25692,35624,9932,5900,1435,1301,0,0,0,0,0,0,0,0,0
+E14000812,E12000005,Meriden,West Midlands,West Midlands,England,County,2017-06-09 02:54:00,Con hold,Con,Lab,81443,54643,97,19198,33873,14675,2663,2016,1416,0,0,0,0,0,0,0,0,0
+W07000071,W92000004,Merthyr Tydfil and Rhymney,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 03:17:00,Lab hold,Lab,Con,55463,33545,71,16334,6073,22407,841,1484,0,0,2740,0,0,0,0,0,0,0
+E14000813,E12000006,Mid Bedfordshire,Bedfordshire,East,England,County,2017-06-09 02:07:00,Con hold,Con,Lab,84161,63138,185,20983,38936,17953,3788,0,1794,0,0,0,0,0,0,0,667,0
+E14000814,E12000004,Mid Derbyshire,Derbyshire,East Midlands,England,County,2017-06-09 04:28:00,Con hold,Con,Lab,67466,50371,136,11616,29513,17897,1793,0,1168,0,0,0,0,0,0,0,0,0
+E14000819,E12000001,Middlesbrough,Cleveland,North East,England,Borough,2017-06-09 00:41:00,Lab hold,Lab,Con,61059,35637,57,13873,9531,23404,368,1452,250,0,0,0,0,0,0,0,632,0
+E14000820,E12000001,Middlesbrough South and East Cleveland,Cleveland,North East,England,County,2017-06-09 03:21:00,Con gain from Lab,Con,Lab,72336,47620,144,1020,23643,22623,1354,0,0,0,0,0,0,0,0,0,0,0
+E14000815,E12000009,Mid Dorset and North Poole,Dorset,South West,England,County,2017-06-09 04:23:00,Con hold,Con,LD,65050,48254,145,15339,28585,6423,13246,0,0,0,0,0,0,0,0,0,0,0
+S14000045,S92000003,Midlothian,Scotland,Scotland,Scotland,County,2017-06-09 02:26:00,Lab gain from SNP,Lab,SNP,68328,45273,71,885,11521,16458,1721,0,0,15573,0,0,0,0,0,0,0,0
+E14000816,E12000006,Mid Norfolk,Norfolk,East,England,County,2017-06-09 02:49:00,Con hold,Con,Lab,80027,55668,96,16086,32828,16742,2848,2092,1158,0,0,0,0,0,0,0,0,0
+E14000817,E12000008,Mid Sussex,West Sussex,South East,England,County,2017-06-09 04:05:00,Con hold,Con,Lab,84170,61632,113,19673,35082,15409,7855,1251,1571,0,0,0,0,0,0,0,464,0
+N06000010,N92000002,Mid Ulster,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 03:16:00,SF hold,SF,DUP,68485,46694,278,12890,0,0,0,0,0,0,0,12565,25455,4563,3017,1094,0,0
+E14000818,E12000005,Mid Worcestershire,Hereford and Worcester,West Midlands,England,County,2017-06-09 02:24:00,Con hold,Con,Lab,76057,55089,102,23326,35967,12641,3450,1660,1371,0,0,0,0,0,0,0,0,0
+E14000821,E12000008,Milton Keynes North,Buckinghamshire,South East,England,County,2017-06-09 04:53:00,Con hold,Con,Lab,89207,63924,115,1975,30367,28392,2499,1390,1107,0,0,0,0,0,0,0,169,0
+E14000822,E12000008,Milton Keynes South,Buckinghamshire,South East,England,Borough,2017-06-09 04:22:00,Con hold,Con,Lab,92417,64546,122,1665,30652,28987,1895,1833,1179,0,0,0,0,0,0,0,0,0
+E14000823,E12000007,Mitcham and Morden,London,London,England,Borough,2017-06-09 02:43:00,Lab hold,Lab,Con,68705,48118,126,21375,11664,33039,1494,1054,644,0,0,0,0,0,0,0,223,0
+E14000824,E12000008,Mole Valley,Surrey,South East,England,County,2017-06-09 03:23:00,Con hold,Con,LD,74545,56726,140,24137,35092,7864,10955,1352,1463,0,0,0,0,0,0,0,0,0
+W07000054,W92000004,Monmouth,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 02:36:00,Con hold,Con,Lab,64909,49734,64,8206,26411,18205,2064,762,954,0,1338,0,0,0,0,0,0,0
+W07000063,W92000004,Montgomeryshire,Powys,Wales,Wales,County,2017-06-09 02:25:00,Con hold,Con,LD,50755,34891,75,9285,18075,5542,8790,0,524,0,1960,0,0,0,0,0,0,0
+S14000046,S92000003,Moray,Scotland,Scotland,Scotland,County,2017-06-09 02:18:00,Con gain from SNP,Con,SNP,70649,47605,62,4159,22637,5208,1078,0,0,18478,0,0,0,0,0,0,204,0
+E14000825,E12000002,Morecambe and Lunesdale,Lancashire,North West,England,County,2017-06-09 04:24:00,Con hold,Con,Lab,66818,45657,72,1399,21773,20374,1699,1333,478,0,0,0,0,0,0,0,0,0
+E14000826,E12000003,Morley and Outwood,West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 03:36:00,Con hold,Con,Lab,76495,52357,198,2104,26550,24446,1361,0,0,0,0,0,0,0,0,0,0,0
+S14000047,S92000003,Motherwell and Wishaw,Scotland,Scotland,Scotland,Borough,2017-06-09 04:07:00,SNP hold,SNP,Lab,68215,41926,58,318,8490,15832,920,534,0,16150,0,0,0,0,0,0,0,0
+S14000027,S92000003,Na h-Eileanan An Iar,Scotland,Scotland,Scotland,County,2017-06-09 02:12:00,SNP hold,SNP,Lab,21301,14818,35,1007,2441,5006,250,0,0,6013,0,0,0,0,0,0,1108,0
+W07000069,W92000004,Neath,West Glamorgan,Wales,Wales,County,2017-06-09 02:30:00,Lab hold,Lab,Con,55862,38285,83,12631,9082,21713,732,1419,0,0,5339,0,0,0,0,0,0,0
+E14000829,E12000004,Newark,Nottinghamshire,East Midlands,England,County,2017-06-09 03:48:00,Con hold,Con,Lab,75510,55042,137,18149,34493,16344,2786,1419,0,0,0,0,0,0,0,0,0,0
+E14000830,E12000008,Newbury,Berkshire,South East,England,County,2017-06-09 02:47:00,Con hold,Con,LD,82924,60849,144,24380,37399,8596,13019,0,1531,0,0,0,0,0,0,0,304,0
+E14000834,E12000005,Newcastle-Under-Lyme,Staffordshire,West Midlands,England,Borough,2017-06-09 06:17:00,Lab hold,Lab,Con,65596,43842,172,30,21094,21124,1624,0,0,0,0,0,0,0,0,0,0,0
+E14000831,E12000001,Newcastle Upon Tyne Central,Tyne and Wear,North East,England,Borough,2017-06-08 23:01:00,Lab hold,Lab,Con,55368,37094,79,14937,9134,24071,1812,1482,595,0,0,0,0,0,0,0,0,0
+E14000832,E12000001,Newcastle Upon Tyne East,Tyne and Wear,North East,England,Borough,2017-06-08 23:56:00,Lab hold,Lab,Con,61989,41637,84,19261,8866,28127,2574,1315,755,0,0,0,0,0,0,0,0,0
+E14000833,E12000001,Newcastle Upon Tyne North,Tyne and Wear,North East,England,Borough,2017-06-09 00:14:00,Lab hold,Lab,Con,66073,48288,83,10349,16380,26729,2533,1780,513,0,0,0,0,0,0,0,353,0
+E14000827,E12000008,New Forest East,Hampshire,South East,England,County,2017-06-09 02:48:00,Con hold,Con,Lab,72602,51366,127,21995,32162,10167,7786,0,1251,0,0,0,0,0,0,0,0,0
+E14000828,E12000008,New Forest West,Hampshire,South East,England,County,2017-06-09 03:14:00,Con hold,Con,Lab,68786,49627,98,23431,33170,9739,4781,0,1454,0,0,0,0,0,0,0,483,0
+W07000055,W92000004,Newport East,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 01:50:00,Lab hold,Lab,Con,57233,36820,68,8003,12801,20804,966,1180,0,0,881,0,0,0,0,0,188,0
+W07000056,W92000004,Newport West,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 02:03:00,Lab hold,Lab,Con,64399,43438,80,5658,17065,22723,976,1100,497,0,1077,0,0,0,0,0,0,0
+N06000011,N92000002,Newry and Armagh,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 03:48:00,SF hold,SF,DUP,78266,53579,321,12489,0,0,0,0,0,0,0,13177,25666,9055,4425,1256,0,0
+E14000835,E12000009,Newton Abbot,Devon,South West,England,County,2017-06-09 02:16:00,Con hold,Con,Lab,71714,51637,131,17160,28635,11475,10601,0,926,0,0,0,0,0,0,0,0,0
+E14000836,E12000003,"Normanton, Pontefract and Castleford",West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 05:12:00,Lab hold,Lab,Con,81641,49191,83,14499,14769,29268,693,3030,0,0,0,0,0,0,0,0,1431,0
+E14000861,E12000004,Northampton North,Northamptonshire,East Midlands,England,Borough,2017-06-09 04:31:00,Con hold,Con,Lab,58861,40378,63,807,19065,18258,1015,1404,636,0,0,0,0,0,0,0,0,0
+E14000862,E12000004,Northampton South,Northamptonshire,East Midlands,England,Borough,2017-06-09 04:32:00,Con hold,Con,Lab,61766,41034,71,1159,19231,18072,1405,1630,696,0,0,0,0,0,0,0,0,0
+N06000012,N92000002,North Antrim,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 02:40:00,DUP hold,DUP,SF,75657,48460,112,20643,0,0,0,0,0,0,0,28521,7878,2574,3482,2723,3282,0
+S14000048,S92000003,North Ayrshire and Arran,Scotland,Scotland,Scotland,County,2017-06-09 02:27:00,SNP hold,SNP,Con,73176,47433,82,3633,14818,13040,1124,0,0,18451,0,0,0,0,0,0,0,0
+E14000837,E12000009,North Cornwall,Cornwall,South West,England,County,2017-06-09 09:51:00,Con hold,Con,LD,68844,50944,103,7200,25835,6151,18635,0,0,0,0,0,0,0,0,0,323,0
+E14000838,E12000009,North Devon,Devon,South West,England,County,2017-06-09 03:33:00,Con hold,Con,LD,75801,55705,66,4332,25517,7063,21185,1187,753,0,0,0,0,0,0,0,0,0
+E14000839,E12000009,North Dorset,Dorset,South West,England,County,2017-06-09 03:36:00,Con hold,Con,Lab,76324,55724,167,25777,36169,10392,7556,0,1607,0,0,0,0,0,0,0,0,0
+N06000013,N92000002,North Down,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 01:13:00,Ind hold,Ind,DUP,64334,39185,83,1208,941,0,0,0,2549,0,0,14940,531,400,0,3639,16185,16148
+E14000840,E12000001,North Durham,Durham,North East,England,County,2017-06-09 02:30:00,Lab hold,Lab,Con,66970,43284,88,12939,12978,25917,1981,2408,0,0,0,0,0,0,0,0,0,0
+E14000841,E12000006,North East Bedfordshire,Bedfordshire,East,England,County,2017-06-09 04:53:00,Con hold,Con,Lab,87505,64220,134,20862,39139,18277,3693,1896,1215,0,0,0,0,0,0,0,0,0
+E14000842,E12000006,North East Cambridgeshire,Cambridgeshire,East,England,County,2017-06-09 04:03:00,Con hold,Con,Lab,84414,53284,81,21270,34340,13070,2383,2174,1024,0,0,0,0,0,0,0,293,0
+E14000843,E12000004,North East Derbyshire,Derbyshire,East Midlands,England,County,2017-06-09 04:47:00,Con gain from Lab,Con,Lab,72097,50380,78,2860,24783,21923,1390,1565,719,0,0,0,0,0,0,0,0,0
+S14000049,S92000003,North East Fife,Scotland,Scotland,Scotland,County,2017-06-09 06:29:00,SNP hold,SNP,LD,58685,41822,26,2,10088,4026,13741,0,0,13743,0,0,0,0,0,0,224,0
+E14000844,E12000008,North East Hampshire,Hampshire,South East,England,County,2017-06-09 05:35:00,Con hold,Con,Lab,74576,57627,121,27772,37754,9982,6987,1061,1476,0,0,0,0,0,0,0,367,0
+E14000845,E12000006,North East Hertfordshire,Hertfordshire,East,England,County,2017-06-09 02:16:00,Con hold,Con,Lab,75965,55580,168,16835,32587,15752,4276,0,2965,0,0,0,0,0,0,0,0,0
+E14000846,E12000009,North East Somerset,Avon,South West,England,County,2017-06-09 03:43:00,Con hold,Con,Lab,71355,54043,104,10235,28992,18757,4461,0,1245,0,0,0,0,0,0,0,588,0
+E14000847,E12000005,North Herefordshire,Hereford and Worcester,West Midlands,England,County,2017-06-09 04:17:00,Con hold,Con,Lab,67751,50177,116,21602,31097,9495,5874,0,2771,0,0,0,0,0,0,0,940,0
+E14000848,E12000006,North Norfolk,Norfolk,East,England,County,2017-06-09 03:21:00,LD hold,LD,Con,69271,52188,91,3512,21748,5180,25260,0,0,0,0,0,0,0,0,0,0,0
+E14000849,E12000005,North Shropshire,Shropshire,West Midlands,England,County,2017-06-09 04:35:00,Con hold,Con,Lab,80535,55599,146,16355,33642,17287,2948,0,1722,0,0,0,0,0,0,0,0,0
+E14000850,E12000009,North Somerset,Avon,South West,England,County,2017-06-09 04:36:00,Con hold,Con,Lab,80529,61994,120,17103,33605,16502,5982,0,1976,0,0,0,0,0,0,0,3929,0
+E14000851,E12000009,North Swindon,Wiltshire,South West,England,County,2017-06-08 23:58:00,Con hold,Con,Lab,80168,54911,104,8335,29431,21096,1962,1564,858,0,0,0,0,0,0,0,0,0
+E14000852,E12000008,North Thanet,Kent,South East,England,County,2017-06-09 04:47:00,Con hold,Con,Lab,72651,48325,82,10738,27163,16425,1586,2198,825,0,0,0,0,0,0,0,128,0
+E14000853,E12000001,North Tyneside,Tyne and Wear,North East,England,Borough,2017-06-09 01:52:00,Lab hold,Lab,Con,78914,51892,92,19284,14172,33456,1494,2101,669,0,0,0,0,0,0,0,0,0
+E14000854,E12000005,North Warwickshire,Warwickshire,West Midlands,England,County,2017-06-09 01:55:00,Con hold,Con,Lab,72277,47178,137,8510,26860,18350,1028,0,940,0,0,0,0,0,0,0,0,0
+E14000855,E12000006,North West Cambridgeshire,Cambridgeshire,East,England,County,2017-06-09 03:20:00,Con hold,Con,Lab,93221,63991,132,18008,37529,19521,3168,2518,1255,0,0,0,0,0,0,0,0,0
+E14000856,E12000001,North West Durham,Durham,North East,England,County,2017-06-09 02:54:00,Lab hold,Lab,Con,71918,47902,71,8792,16516,25308,3398,2150,530,0,0,0,0,0,0,0,0,0
+E14000857,E12000008,North West Hampshire,Hampshire,South East,England,County,2017-06-09 03:29:00,Con hold,Con,Lab,81430,58772,108,22679,36471,13792,5708,1467,1334,0,0,0,0,0,0,0,0,0
+E14000858,E12000004,North West Leicestershire,Leicestershire,East Midlands,England,County,2017-06-09 02:13:00,Con hold,Con,Lab,75362,53541,153,13286,31153,17867,3420,0,1101,0,0,0,0,0,0,0,0,0
+E14000859,E12000006,North West Norfolk,Norfolk,East,England,County,2017-06-09 03:09:00,Con hold,Con,Lab,72062,48811,80,13788,29408,15620,1393,1539,851,0,0,0,0,0,0,0,0,0
+E14000860,E12000009,North Wiltshire,Wiltshire,South West,England,County,2017-06-09 03:20:00,Con hold,Con,LD,71408,53706,91,22877,32398,9399,9521,871,1141,0,0,0,0,0,0,0,376,0
+E14000863,E12000006,Norwich North,Norfolk,East,England,Borough,2017-06-09 02:59:00,Con hold,Con,Lab,66924,45895,82,507,21900,21393,1480,0,782,0,0,0,0,0,0,0,340,0
+E14000864,E12000006,Norwich South,Norfolk,East,England,Borough,2017-06-09 03:11:00,Lab hold,Lab,Con,74182,51359,142,15596,15715,31311,2841,0,1492,0,0,0,0,0,0,0,0,0
+E14000865,E12000004,Nottingham East,Nottinghamshire,East Midlands,England,Borough,2017-06-09 02:57:00,Lab hold,Lab,Con,61760,39327,114,19590,8512,28102,1003,817,698,0,0,0,0,0,0,0,195,0
+E14000866,E12000004,Nottingham North,Nottinghamshire,East Midlands,England,Borough,2017-06-09 02:46:00,Lab hold,Lab,Con,66886,38319,71,11160,11907,23067,674,2133,538,0,0,0,0,0,0,0,0,0
+E14000867,E12000004,Nottingham South,Nottinghamshire,East Midlands,England,Borough,2017-06-09 02:37:00,Lab hold,Lab,Con,71182,48129,137,15162,14851,30013,1564,1103,598,0,0,0,0,0,0,0,0,0
+E14000868,E12000005,Nuneaton,Warwickshire,West Midlands,England,County,2017-06-09 00:34:00,Con hold,Con,Lab,69201,46067,71,4739,23755,19016,914,1619,763,0,0,0,0,0,0,0,0,0
+S14000050,S92000003,Ochil and South Perthshire,Scotland,Scotland,Scotland,County,2017-06-09 02:24:00,Con gain from SNP,Con,SNP,76767,54168,77,3359,22469,10847,1742,0,0,19110,0,0,0,0,0,0,0,0
+W07000074,W92000004,Ogmore,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 02:04:00,Lab hold,Lab,Con,57125,37204,72,13871,9354,23225,594,1235,0,0,2796,0,0,0,0,0,0,0
+E14000869,E12000007,Old Bexley and Sidcup,London,London,England,Borough,2017-06-09 04:21:00,Con hold,Con,Lab,66005,48042,99,15466,29545,14079,1572,1619,820,0,0,0,0,0,0,0,407,0
+E14000870,E12000002,Oldham East and Saddleworth,Greater Manchester,North West,England,County,2017-06-09 03:30:00,Lab hold,Lab,Con,72184,47037,104,8182,17447,25629,1683,2278,0,0,0,0,0,0,0,0,0,0
+E14000871,E12000002,Oldham West and Royton,Greater Manchester,North West,England,Borough,2017-06-09 03:48:00,Lab hold,Lab,Con,72401,45788,99,17198,12648,29846,956,1899,439,0,0,0,0,0,0,0,0,0
+S14000051,S92000003,Orkney and Shetland,Scotland,Scotland,Scotland,County,2017-06-09 05:22:00,LD hold,LD,SNP,34164,23277,43,4563,2024,2664,11312,283,0,6749,0,0,0,0,0,0,245,0
+E14000872,E12000007,Orpington,London,London,England,Borough,2017-06-09 03:29:00,Con hold,Con,Lab,67902,50461,104,19461,31762,12301,3315,2023,1060,0,0,0,0,0,0,0,0,0
+E14000873,E12000008,Oxford East,Oxfordshire,South East,England,Borough,2017-06-09 01:55:00,Lab hold,Lab,Con,78350,53896,90,23284,11834,35118,4904,0,1785,0,0,0,0,0,0,0,255,0
+E14000874,E12000008,Oxford West and Abingdon,Oxfordshire,South East,England,County,2017-06-09 05:02:00,LD gain from Con,LD,Con,75574,60020,114,816,25440,7573,26256,751,0,0,0,0,0,0,0,0,0,0
+S14000052,S92000003,Paisley and Renfrewshire North,Scotland,Scotland,Scotland,County,2017-06-09 02:04:00,SNP hold,SNP,Lab,67436,46615,51,2613,12842,14842,1476,0,0,17455,0,0,0,0,0,0,0,0
+S14000053,S92000003,Paisley and Renfrewshire South,Scotland,Scotland,Scotland,County,2017-06-09 01:32:00,SNP hold,SNP,Lab,61344,41712,59,2541,8122,14423,1327,0,0,16964,0,0,0,0,0,0,876,0
+E14000875,E12000002,Pendle,Lancashire,North West,England,Borough,2017-06-09 02:22:00,Con hold,Con,Lab,64962,44854,82,1279,21986,20707,941,0,502,0,0,0,0,0,0,0,718,0
+E14000876,E12000003,Penistone and Stocksbridge,South Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 03:24:00,Lab hold,Lab,Con,71293,49787,123,1322,21485,22807,2042,3453,0,0,0,0,0,0,0,0,0,0
+E14000877,E12000002,Penrith and The Border,Cumbria,North West,England,County,2017-06-09 04:07:00,Con hold,Con,Lab,65139,46470,78,15910,28078,12168,3641,1142,1029,0,0,0,0,0,0,0,412,0
+S14000054,S92000003,Perth and North Perthshire,Scotland,Scotland,Scotland,County,2017-06-09 03:12:00,SNP hold,SNP,Con,71762,51525,99,21,21783,5349,2589,0,0,21804,0,0,0,0,0,0,0,0
+E14000878,E12000006,Peterborough,Cambridgeshire,East,England,Borough,2017-06-09 03:13:00,Lab gain from Con,Lab,Con,71522,47738,145,607,22343,22950,1597,0,848,0,0,0,0,0,0,0,0,0
+E14000879,E12000009,"Plymouth, Moor View",Devon,South West,England,Borough,2017-06-09 04:40:00,Con hold,Con,Lab,69342,45417,70,5019,23567,18548,917,1849,536,0,0,0,0,0,0,0,0,0
+E14000880,E12000009,"Plymouth, Sutton and Devonport",Devon,South West,England,Borough,2017-06-09 04:23:00,Lab gain from Con,Lab,Con,76584,51208,83,6807,20476,27283,1244,1364,604,0,0,0,0,0,0,0,237,0
+W07000075,W92000004,Pontypridd,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 01:57:00,Lab hold,Lab,Con,60564,39894,106,11448,10655,22103,1963,1071,0,0,4102,0,0,0,0,0,0,0
+E14000881,E12000009,Poole,Dorset,South West,England,Borough,2017-06-09 04:15:00,Con hold,Con,Lab,73796,49850,126,14209,28888,14679,4433,0,1299,0,0,0,0,0,0,0,551,0
+E14000882,E12000007,Poplar and Limehouse,London,London,England,Borough,2017-06-09 05:00:00,Lab hold,Lab,Con,87331,58814,277,27712,11846,39558,3959,849,989,0,0,0,0,0,0,0,1613,0
+E14000883,E12000008,Portsmouth North,Hampshire,South East,England,Borough,2017-06-09 03:21:00,Con hold,Con,Lab,71374,47210,77,9965,25860,15895,2608,1926,791,0,0,0,0,0,0,0,130,0
+E14000884,E12000008,Portsmouth South,Hampshire,South East,England,Borough,2017-06-09 03:25:00,Lab gain from Con,Lab,Con,69785,44566,94,1554,16736,18290,7699,1129,712,0,0,0,0,0,0,0,0,0
+W07000065,W92000004,Preseli Pembrokeshire,Dyfed,Wales,Wales,County,2017-06-09 05:11:00,Con hold,Con,Lab,58554,42197,59,314,18302,17988,1106,850,0,0,2711,0,0,0,0,0,1240,0
+E14000885,E12000002,Preston,Lancashire,North West,England,Borough,2017-06-09 02:05:00,Lab hold,Lab,Con,57791,35597,63,15723,8487,24210,1204,1348,348,0,0,0,0,0,0,0,0,0
+E14000886,E12000003,Pudsey,West Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 04:52:00,Con hold,Con,Lab,72622,53959,118,331,25550,25219,1761,0,0,0,0,0,0,0,0,0,1429,0
+E14000887,E12000007,Putney,London,London,England,Borough,2017-06-09 01:41:00,Con hold,Con,Lab,65031,46894,112,1554,20679,19125,5448,477,1107,0,0,0,0,0,0,0,58,0
+E14000888,E12000006,Rayleigh and Wickford,Essex,East,England,County,2017-06-09 01:37:00,Con hold,Con,Lab,78556,55323,96,23450,36914,13464,1557,2326,1062,0,0,0,0,0,0,0,0,0
+E14000889,E12000008,Reading East,Berkshire,South East,England,Borough,2017-06-09 04:14:00,Lab gain from Con,Lab,Con,75537,55238,132,3749,23344,27093,3378,0,1093,0,0,0,0,0,0,0,330,0
+E14000890,E12000008,Reading West,Berkshire,South East,England,County,2017-06-09 03:38:00,Con hold,Con,Lab,74523,51766,147,2876,25311,22435,3041,0,979,0,0,0,0,0,0,0,0,0
+E14000891,E12000001,Redcar,Cleveland,North East,England,Borough,2017-06-09 03:11:00,Lab hold,Lab,Con,66836,42560,66,9485,14138,23623,2849,1950,0,0,0,0,0,0,0,0,0,0
+E14000892,E12000005,Redditch,Hereford and Worcester,West Midlands,England,County,2017-06-09 03:44:00,Con hold,Con,Lab,64413,45203,95,7363,23652,16289,1173,1371,380,0,0,0,0,0,0,0,2338,0
+E14000893,E12000008,Reigate,Surrey,South East,England,Borough,2017-06-09 03:16:00,Con hold,Con,Lab,74628,53823,170,17614,30896,13282,5889,1542,2214,0,0,0,0,0,0,0,0,0
+W07000052,W92000004,Rhondda,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 02:20:00,Lab hold,Lab,PC,50514,32936,60,13746,3333,21096,277,880,0,0,7350,0,0,0,0,0,0,0
+E14000894,E12000002,Ribble Valley,Lancashire,North West,England,County,2017-06-09 02:59:00,Con hold,Con,Lab,77968,55200,163,13199,31919,18720,3247,0,1314,0,0,0,0,0,0,0,0,0
+E14000896,E12000007,Richmond Park,London,London,England,Borough,2017-06-09 07:08:00,Con hold,Con,LD,80025,63330,131,45,28588,5773,28543,426,0,0,0,0,0,0,0,0,0,0
+E14000895,E12000003,Richmond (Yorks),North Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 03:58:00,Con hold,Con,Lab,80905,57013,135,23108,36458,13350,3360,0,1739,0,0,0,0,0,0,0,2106,0
+E14000897,E12000002,Rochdale,Greater Manchester,North West,England,County,2017-06-09 02:28:00,Lab hold,Lab,Con,78064,50044,103,14819,14216,29035,4027,1641,0,0,0,0,0,0,0,0,1125,0
+E14000898,E12000008,Rochester and Strood,Kent,South East,England,County,2017-06-09 04:18:00,Con hold,Con,Lab,82702,53769,70,9850,29232,19382,1189,2893,781,0,0,0,0,0,0,0,292,0
+E14000899,E12000006,Rochford and Southend East,Essex,East,England,County,2017-06-09 02:23:00,Con hold,Con,Lab,73501,47248,75,5548,23013,17465,1265,1777,804,0,0,0,0,0,0,0,2924,0
+E14000900,E12000007,Romford,London,London,England,Borough,2017-06-09 02:47:00,Con hold,Con,Lab,73493,49944,126,13778,29671,15893,1215,2350,815,0,0,0,0,0,0,0,0,0
+E14000901,E12000008,Romsey and Southampton North,Hampshire,South East,England,County,2017-06-09 03:26:00,Con hold,Con,LD,67186,50128,117,18046,28668,9614,10622,0,953,0,0,0,0,0,0,0,271,0
+E14000902,E12000002,Rossendale and Darwen,Lancashire,North West,England,Borough,2017-06-09 04:07:00,Con hold,Con,Lab,72486,50156,134,3216,25499,22283,1550,0,824,0,0,0,0,0,0,0,0,0
+S14000055,S92000003,"Ross, Skye and Lochaber",Scotland,Scotland,Scotland,County,2017-06-09 04:12:00,SNP hold,SNP,Con,53638,38454,49,5919,9561,4695,8042,0,0,15480,0,0,0,0,0,0,676,0
+E14000904,E12000003,Rotherham,South Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 03:54:00,Lab hold,Lab,Con,63237,37923,83,11387,10017,21404,1754,3316,0,0,0,0,0,0,0,0,1432,0
+E14000903,E12000003,Rother Valley,South Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 03:53:00,Lab hold,Lab,Con,75230,49488,107,3882,19939,23821,1155,3704,869,0,0,0,0,0,0,0,0,0
+E14000905,E12000005,Rugby,Warwickshire,West Midlands,England,County,2017-06-09 02:10:00,Con hold,Con,Lab,72175,51336,143,8212,27872,19660,2851,0,953,0,0,0,0,0,0,0,0,0
+E14000906,E12000007,"Ruislip, Northwood and Pinner",London,London,England,Borough,2017-06-09 03:41:00,Con hold,Con,Lab,73427,53382,146,13980,30555,16575,3813,1171,1268,0,0,0,0,0,0,0,0,0
+E14000907,E12000008,Runnymede and Weybridge,Surrey,South East,England,County,2017-06-09 02:16:00,Con hold,Con,Lab,74888,51609,140,18050,31436,13386,3765,1675,1347,0,0,0,0,0,0,0,0,0
+E14000908,E12000004,Rushcliffe,Nottinghamshire,East Midlands,England,County,2017-06-09 02:18:00,Con hold,Con,Lab,74738,58311,157,8010,30223,22213,2759,1490,1626,0,0,0,0,0,0,0,0,0
+S14000056,S92000003,Rutherglen and Hamilton West,Scotland,Scotland,Scotland,Borough,2017-06-09 01:12:00,Lab gain from SNP,Lab,SNP,80098,50872,57,265,9941,19101,2158,465,0,18836,0,0,0,0,0,0,371,0
+E14000909,E12000004,Rutland and Melton,Leicestershire,East Midlands,England,County,2017-06-09 05:54:00,Con hold,Con,Lab,78463,57569,141,23104,36169,13065,4711,1869,1755,0,0,0,0,0,0,0,0,0
+E14000910,E12000006,Saffron Walden,Essex,East,England,County,2017-06-09 03:47:00,Con hold,Con,Lab,83072,60911,197,24966,37629,12663,8528,2091,0,0,0,0,0,0,0,0,0,0
+E14000911,E12000002,Salford and Eccles,Greater Manchester,North West,England,Borough,2017-06-09 02:57:00,Lab hold,Lab,Con,78080,47619,111,19132,12036,31168,1286,2320,809,0,0,0,0,0,0,0,0,0
+E14000912,E12000009,Salisbury,Wiltshire,South West,England,County,2017-06-09 02:57:00,Con hold,Con,Lab,72892,53311,88,17333,30952,13619,5982,1191,1152,0,0,0,0,0,0,0,415,0
+E14000913,E12000003,Scarborough and Whitby,North Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 02:52:00,Con hold,Con,Lab,73599,50449,74,3435,24401,20966,1354,1682,915,0,0,0,0,0,0,0,1131,0
+E14000914,E12000003,Scunthorpe,Humberside,Yorkshire and The Humber,England,County,2017-06-09 04:01:00,Lab hold,Lab,Con,61578,40202,72,3431,17485,20916,554,1247,0,0,0,0,0,0,0,0,0,0
+E14000915,E12000001,Sedgefield,Durham,North East,England,County,2017-06-09 03:08:00,Lab hold,Lab,Con,63889,41591,62,6059,16143,22202,797,1763,686,0,0,0,0,0,0,0,0,0
+E14000916,E12000002,Sefton Central,Merseyside,North West,England,County,2017-06-09 01:54:00,Lab hold,Lab,Con,69019,52079,128,15618,17212,32830,1381,0,656,0,0,0,0,0,0,0,0,0
+E14000917,E12000003,Selby and Ainsty,North Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 03:20:00,Con hold,Con,Lab,75918,56076,145,13772,32921,19149,2293,1713,0,0,0,0,0,0,0,0,0,0
+E14000918,E12000008,Sevenoaks,Kent,South East,England,County,2017-06-09 02:09:00,Con hold,Con,Lab,71565,51218,146,21917,32644,10727,4280,1894,1673,0,0,0,0,0,0,0,0,0
+E14000921,E12000003,"Sheffield, Brightside and Hillsborough",South Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 02:17:00,Lab hold,Lab,Con,70344,41870,70,19143,9050,28193,1061,2645,737,0,0,0,0,0,0,0,184,0
+E14000919,E12000003,Sheffield Central,South Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 03:04:00,Lab hold,Lab,Con,77560,47877,137,27748,6215,33963,2465,1060,3848,0,0,0,0,0,0,0,326,0
+E14000922,E12000003,"Sheffield, Hallam",South Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 02:48:00,Lab gain from LD,Lab,LD,73455,57020,89,2125,13561,21881,19756,929,823,0,0,0,0,0,0,0,70,0
+E14000923,E12000003,"Sheffield, Heeley",South Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 02:29:00,Lab hold,Lab,Con,68040,44226,79,13828,12696,26524,2022,1977,943,0,0,0,0,0,0,0,64,0
+E14000920,E12000003,Sheffield South East,South Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 02:36:00,Lab hold,Lab,Con,68945,43596,90,11798,13722,25520,1432,2820,0,0,0,0,0,0,0,0,102,0
+E14000924,E12000004,Sherwood,Nottinghamshire,East Midlands,England,County,2017-06-09 04:51:00,Con hold,Con,Lab,76196,53364,98,5198,27492,22294,1113,1801,664,0,0,0,0,0,0,0,0,0
+E14000925,E12000003,Shipley,West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 04:22:00,Con hold,Con,Lab,73133,53395,138,4681,27417,22736,2202,0,0,0,0,0,0,0,0,0,1040,0
+E14000926,E12000005,Shrewsbury and Atcham,Shropshire,West Midlands,England,County,2017-06-09 03:59:00,Con hold,Con,Lab,79043,58203,109,6627,29073,22446,4254,1363,1067,0,0,0,0,0,0,0,0,0
+E14000927,E12000008,Sittingbourne and Sheppey,Kent,South East,England,County,2017-06-09 03:16:00,Con hold,Con,Lab,81717,51389,77,15211,30911,15700,1392,0,558,0,0,0,0,0,0,0,2828,0
+E14000928,E12000003,Skipton and Ripon,North Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 04:44:00,Con hold,Con,Lab,78104,58138,186,19985,36425,16440,0,0,3734,0,0,0,0,0,0,0,1539,0
+E14000929,E12000004,Sleaford and North Hykeham,Lincolnshire,East Midlands,England,County,2017-06-09 03:57:00,Con hold,Con,Lab,90929,65797,107,25237,42245,17008,2722,1954,968,0,0,0,0,0,0,0,900,0
+E14000930,E12000008,Slough,Berkshire,South East,England,Borough,2017-06-09 03:47:00,Lab hold,Lab,Con,83272,54295,168,16998,17172,34170,1308,1228,0,0,0,0,0,0,0,0,417,0
+E14000931,E12000005,Solihull,West Midlands,West Midlands,England,Borough,2017-06-09 02:43:00,Con hold,Con,Lab,77789,56748,120,20571,32985,12414,8901,1291,1157,0,0,0,0,0,0,0,0,0
+E14000932,E12000009,Somerton and Frome,Somerset,South West,England,County,2017-06-09 02:46:00,Con hold,Con,LD,84437,63892,104,22906,36231,10998,13325,0,2347,0,0,0,0,0,0,0,991,0
+E14000955,E12000008,"Southampton, Itchen",Hampshire,South East,England,Borough,2017-06-09 05:53:00,Con hold,Con,Lab,71722,46783,92,31,21773,21742,1421,1122,725,0,0,0,0,0,0,0,0,0
+E14000956,E12000008,"Southampton, Test",Hampshire,South East,England,Borough,2017-06-09 06:05:00,Lab hold,Lab,Con,70199,46903,119,11503,16006,27509,1892,0,0,0,0,0,0,0,0,0,1496,0
+N06000014,N92000002,South Antrim,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 02:26:00,DUP gain from UUP,DUP,UUP,68244,43170,122,3208,0,0,0,0,0,0,0,16508,7797,2362,13300,3203,0,0
+E14000933,E12000006,South Basildon and East Thurrock,Essex,East,England,County,2017-06-09 01:14:00,Con hold,Con,Lab,73537,47120,75,11490,26811,15321,732,3193,680,0,0,0,0,0,0,0,383,0
+E14000934,E12000006,South Cambridgeshire,Cambridgeshire,East,England,County,2017-06-09 02:27:00,Con hold,Con,Lab,85257,64924,166,15952,33631,17679,12102,0,1512,0,0,0,0,0,0,0,0,0
+E14000935,E12000004,South Derbyshire,Derbyshire,East Midlands,England,County,2017-06-09 03:18:00,Con hold,Con,Lab,76380,52631,120,11970,30907,18937,1870,0,917,0,0,0,0,0,0,0,0,0
+E14000936,E12000009,South Dorset,Dorset,South West,England,County,2017-06-09 03:05:00,Con hold,Con,Lab,75553,51906,103,11695,29135,17440,3053,0,2278,0,0,0,0,0,0,0,0,0
+N06000015,N92000002,South Down,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 03:15:00,SF gain from SDLP,SF,SDLP,75685,50893,189,2446,0,0,0,0,0,0,0,8867,20328,17882,2002,1814,0,0
+E14000937,E12000006,South East Cambridgeshire,Cambridgeshire,East,England,County,2017-06-09 04:37:00,Con hold,Con,Lab,86121,63002,226,16158,33601,17443,11958,0,0,0,0,0,0,0,0,0,0,0
+E14000938,E12000009,South East Cornwall,Cornwall,South West,England,County,2017-06-09 09:22:00,Con hold,Con,Lab,71880,53224,133,17443,29493,12050,10346,0,1335,0,0,0,0,0,0,0,0,0
+E14000957,E12000006,Southend West,Essex,East,England,Borough,2017-06-09 02:28:00,Con hold,Con,Lab,67677,47191,101,10000,26046,16046,2110,1666,831,0,0,0,0,0,0,0,492,0
+E14000939,E12000004,South Holland and The Deepings,Lincolnshire,East Midlands,England,County,2017-06-09 02:50:00,Con hold,Con,Lab,76374,50315,84,24897,35179,10282,1433,2185,894,0,0,0,0,0,0,0,342,0
+E14000940,E12000004,South Leicestershire,Leicestershire,East Midlands,England,County,2017-06-09 04:20:00,Con hold,Con,Lab,78985,56689,112,18631,34795,16164,2403,2235,1092,0,0,0,0,0,0,0,0,0
+E14000941,E12000006,South Norfolk,Norfolk,East,England,County,2017-06-09 01:47:00,Con hold,Con,Lab,83055,61111,182,16678,35580,18902,5074,0,1555,0,0,0,0,0,0,0,0,0
+E14000942,E12000004,South Northamptonshire,Northamptonshire,East Midlands,England,County,2017-06-09 03:43:00,Con hold,Con,Lab,85759,64998,125,22840,40599,17759,3623,1363,1357,0,0,0,0,0,0,0,297,0
+E14000958,E12000002,Southport,Merseyside,North West,England,Borough,2017-06-09 02:29:00,Con gain from LD,Con,Lab,69400,47956,63,2914,18541,15627,12661,1127,0,0,0,0,0,0,0,0,0,0
+E14000943,E12000002,South Ribble,Lancashire,North West,England,County,2017-06-09 03:10:00,Con hold,Con,Lab,75752,54834,92,7421,28980,21559,2073,1387,494,0,0,0,0,0,0,0,341,0
+E14000944,E12000001,South Shields,Tyne and Wear,North East,England,Borough,2017-06-09 00:51:00,Lab hold,Lab,Con,63433,40772,77,14508,10570,25078,681,3006,1437,0,0,0,0,0,0,0,0,0
+E14000945,E12000005,South Staffordshire,Staffordshire,West Midlands,England,County,2017-06-09 03:45:00,Con hold,Con,Lab,73441,51109,187,22733,35656,12923,1348,0,1182,0,0,0,0,0,0,0,0,0
+E14000946,E12000006,South Suffolk,Suffolk,East,England,County,2017-06-09 03:43:00,Con hold,Con,Lab,75485,54235,116,17749,32829,15080,3154,1449,1723,0,0,0,0,0,0,0,0,0
+E14000947,E12000009,South Swindon,Wiltshire,South West,England,County,2017-06-09 01:10:00,Con hold,Con,Lab,72372,51271,87,2464,24809,22345,2079,1291,747,0,0,0,0,0,0,0,0,0
+E14000948,E12000008,South Thanet,Kent,South East,England,County,2017-06-09 04:13:00,Con hold,Con,Lab,72334,49753,92,6387,25262,18875,1514,2997,809,0,0,0,0,0,0,0,296,0
+E14000949,E12000006,South West Bedfordshire,Bedfordshire,East,England,County,2017-06-09 02:36:00,Con hold,Con,Lab,79658,55635,163,14168,32961,18793,2630,0,950,0,0,0,0,0,0,0,301,0
+E14000950,E12000009,South West Devon,Devon,South West,England,County,2017-06-09 04:10:00,Con hold,Con,Lab,71260,52857,97,15816,31634,15818,2732,1540,1133,0,0,0,0,0,0,0,0,0
+E14000951,E12000006,South West Hertfordshire,Hertfordshire,East,England,County,2017-06-09 04:18:00,Con hold,Con,Lab,81087,60653,138,19550,35128,15578,7078,1293,1576,0,0,0,0,0,0,0,0,0
+E14000952,E12000006,South West Norfolk,Norfolk,East,England,County,2017-06-09 04:10:00,Con hold,Con,Lab,77874,52416,154,18312,32894,14582,2365,2575,0,0,0,0,0,0,0,0,0,0
+E14000953,E12000008,South West Surrey,Surrey,South East,England,County,2017-06-09 04:12:00,Con hold,Con,National Health Action Party,78042,60432,151,21590,33683,7606,5967,1083,0,0,0,0,0,0,0,0,12093,0
+E14000954,E12000009,South West Wiltshire,Wiltshire,South West,England,County,2017-06-09 03:23:00,Con hold,Con,Lab,76898,54751,146,18326,32841,14515,5360,0,1445,0,0,0,0,0,0,0,590,0
+E14000959,E12000008,Spelthorne,Surrey,South East,England,Borough,2017-06-09 04:01:00,Con hold,Con,Lab,72641,50115,106,13425,28692,15267,2755,2296,1105,0,0,0,0,0,0,0,0,0
+E14000965,E12000005,Stafford,Staffordshire,West Midlands,England,County,2017-06-09 03:14:00,Con hold,Con,Lab,68445,51924,122,7729,28424,20695,1540,0,1265,0,0,0,0,0,0,0,0,0
+E14000966,E12000005,Staffordshire Moorlands,Staffordshire,West Midlands,England,County,2017-06-09 03:08:00,Con hold,Con,Lab,63260,44655,84,10830,25963,15133,1494,0,541,0,0,0,0,0,0,0,1524,0
+E14000960,E12000006,St Albans,Hertfordshire,East,England,County,2017-06-09 02:50:00,Con hold,Con,LD,72811,56998,142,6109,24571,13137,18462,0,828,0,0,0,0,0,0,0,0,0
+E14000967,E12000002,Stalybridge and Hyde,Greater Manchester,North West,England,County,2017-06-09 03:48:00,Lab hold,Lab,Con,71409,42457,127,8084,16193,24277,996,0,991,0,0,0,0,0,0,0,0,0
+E14000961,E12000009,St Austell and Newquay,Cornwall,South West,England,County,2017-06-09 09:05:00,Con hold,Con,Lab,78609,54212,231,11142,26856,15714,11642,0,0,0,0,0,0,0,0,0,0,0
+E14000968,E12000006,Stevenage,Hertfordshire,East,England,County,2017-06-09 02:43:00,Con hold,Con,Lab,70765,49327,141,3386,24798,21412,2032,0,1085,0,0,0,0,0,0,0,0,0
+E14000962,E12000002,St Helens North,Merseyside,North West,England,Borough,2017-06-09 01:56:00,Lab hold,Lab,Con,76088,50222,90,18406,13606,32012,1287,2097,1220,0,0,0,0,0,0,0,0,0
+E14000963,E12000002,St Helens South and Whiston,Merseyside,North West,England,Borough,2017-06-09 02:04:00,Lab hold,Lab,Con,79036,52886,79,24343,11536,35879,2101,1953,1417,0,0,0,0,0,0,0,0,0
+S14000057,S92000003,Stirling,Scotland,Scotland,Scotland,County,2017-06-09 04:00:00,Con gain from SNP,Con,SNP,66415,49356,72,148,18291,10902,1683,0,0,18143,0,0,0,0,0,0,337,0
+E14000964,E12000009,St Ives,Cornwall,South West,England,County,2017-06-09 07:39:00,Con hold,Con,LD,67145,51226,109,312,22120,7298,21808,0,0,0,0,0,0,0,0,0,0,0
+E14000969,E12000002,Stockport,Greater Manchester,North West,England,Borough,2017-06-09 04:57:00,Lab hold,Lab,Con,64236,41544,97,14477,11805,26282,1778,1088,591,0,0,0,0,0,0,0,0,0
+E14000970,E12000001,Stockton North,Cleveland,North East,England,Borough,2017-06-09 01:14:00,Lab hold,Lab,Con,66285,42731,74,8715,15589,24304,646,1834,358,0,0,0,0,0,0,0,0,0
+E14000971,E12000001,Stockton South,Cleveland,North East,England,Borough,2017-06-09 02:02:00,Lab gain from Con,Lab,Con,75625,53824,82,888,25214,26102,951,1186,371,0,0,0,0,0,0,0,0,0
+E14000972,E12000005,Stoke-On-Trent Central,Staffordshire,West Midlands,England,Borough,2017-06-09 04:44:00,Lab hold,Lab,Con,56915,33145,64,3897,13186,17083,680,1608,378,0,0,0,0,0,0,0,210,0
+E14000973,E12000005,Stoke-On-Trent North,Staffordshire,West Midlands,England,Borough,2017-06-09 04:32:00,Lab hold,Lab,Con,71558,41786,123,2359,18913,21272,916,0,685,0,0,0,0,0,0,0,0,0
+E14000974,E12000005,Stoke-On-Trent South,Staffordshire,West Midlands,England,Borough,2017-06-09 05:16:00,Con gain from Lab,Con,Lab,66057,41690,101,663,20451,19788,808,0,643,0,0,0,0,0,0,0,0,0
+E14000975,E12000005,Stone,Staffordshire,West Midlands,England,County,2017-06-09 03:56:00,Con hold,Con,Lab,67824,50032,99,17495,31614,14119,2222,1370,707,0,0,0,0,0,0,0,0,0
+E14000976,E12000005,Stourbridge,West Midlands,West Midlands,England,Borough,2017-06-09 04:02:00,Con hold,Con,Lab,70215,47135,72,7654,25706,18052,1083,1801,493,0,0,0,0,0,0,0,0,0
+N06000016,N92000002,Strangford,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 01:28:00,DUP hold,DUP,Alliance,64327,38749,77,18343,507,0,0,0,607,0,0,24036,1083,2404,4419,5693,0,0
+E14000977,E12000005,Stratford-On-Avon,Warwickshire,West Midlands,England,County,2017-06-09 01:47:00,Con hold,Con,Lab,72572,53532,152,21958,33657,11699,6357,0,1345,0,0,0,0,0,0,0,474,0
+E14000978,E12000007,Streatham,London,London,England,Borough,2017-06-09 03:34:00,Lab hold,Lab,Con,78649,55795,161,26285,11927,38212,3611,349,1696,0,0,0,0,0,0,0,0,0
+E14000979,E12000002,Stretford and Urmston,Greater Manchester,North West,England,Borough,2017-06-09 03:58:00,Lab hold,Lab,Con,71833,50191,95,19705,13814,33519,1001,1094,641,0,0,0,0,0,0,0,122,0
+E14000980,E12000009,Stroud,Gloucestershire,South West,England,County,2017-06-09 02:52:00,Lab gain from Con,Lab,Con,82839,63816,97,687,29307,29994,2053,1039,1423,0,0,0,0,0,0,0,0,0
+E14000981,E12000006,Suffolk Coastal,Suffolk,East,England,County,2017-06-09 03:13:00,Con hold,Con,Lab,79366,58074,236,16012,33713,17701,4048,0,1802,0,0,0,0,0,0,0,810,0
+E14000982,E12000001,Sunderland Central,Tyne and Wear,North East,England,Borough,2017-06-08 23:45:00,Lab hold,Lab,Con,72728,45111,76,9997,15059,25056,1777,2209,705,0,0,0,0,0,0,0,305,0
+E14000983,E12000008,Surrey Heath,Surrey,South East,England,County,2017-06-09 02:43:00,Con hold,Con,Lab,80764,57822,226,24943,37118,12175,6271,0,2258,0,0,0,0,0,0,0,0,0
+E14000984,E12000007,Sutton and Cheam,London,London,England,Borough,2017-06-09 03:26:00,Con hold,Con,LD,70404,51970,123,12698,26567,10663,13869,0,871,0,0,0,0,0,0,0,0,0
+E14000985,E12000005,Sutton Coldfield,West Midlands,West Midlands,England,Borough,2017-06-09 02:24:00,Con hold,Con,Lab,75652,52858,141,15339,32224,16885,2302,0,965,0,0,0,0,0,0,0,482,0
+W07000048,W92000004,Swansea East,West Glamorgan,Wales,Wales,Borough,2017-06-09 03:02:00,Lab hold,Lab,Con,58521,35159,56,13168,9139,22307,625,1040,359,0,1689,0,0,0,0,0,0,0
+W07000047,W92000004,Swansea West,West Glamorgan,Wales,Wales,Borough,2017-06-09 02:34:00,Lab hold,Lab,Con,56892,37282,83,10598,11680,22278,1269,0,434,0,1529,0,0,0,0,0,92,0
+E14000986,E12000005,Tamworth,Staffordshire,West Midlands,England,County,2017-06-09 02:20:00,Con hold,Con,Lab,71308,47110,180,12347,28748,16401,1961,0,0,0,0,0,0,0,0,0,0,0
+E14000987,E12000002,Tatton,Cheshire,North West,England,County,2017-06-09 04:21:00,Con hold,Con,Lab,67874,49116,104,14787,28764,13977,4431,0,1024,0,0,0,0,0,0,0,920,0
+E14000988,E12000009,Taunton Deane,Somerset,South West,England,County,2017-06-09 04:31:00,Con hold,Con,LD,85457,63053,99,15887,33333,9689,17446,1434,1151,0,0,0,0,0,0,0,0,0
+E14000989,E12000005,Telford,Shropshire,West Midlands,England,Borough,2017-06-09 03:13:00,Con hold,Con,Lab,68106,44686,146,720,21777,21057,954,0,898,0,0,0,0,0,0,0,0,0
+E14000990,E12000009,Tewkesbury,Gloucestershire,South West,England,County,2017-06-09 04:55:00,Con hold,Con,Lab,81440,59084,115,22574,35448,12874,7981,1205,1576,0,0,0,0,0,0,0,0,0
+E14000991,E12000009,The Cotswolds,Gloucestershire,South West,England,County,2017-06-09 03:04:00,Con hold,Con,Lab,80449,59702,127,25499,36201,10702,9748,1197,1747,0,0,0,0,0,0,0,107,0
+E14000992,E12000005,The Wrekin,Shropshire,West Midlands,England,County,2017-06-09 02:56:00,Con hold,Con,Lab,68604,49523,115,9564,27451,17887,1345,1656,804,0,0,0,0,0,0,0,380,0
+E14000993,E12000003,Thirsk and Malton,North Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 05:11:00,Con hold,Con,Lab,78670,55929,94,19001,33572,14571,3859,1532,1100,0,0,0,0,0,0,0,1295,0
+E14000994,E12000009,Thornbury and Yate,Avon,South West,England,County,2017-06-09 03:57:00,Con hold,Con,LD,67892,50690,101,12071,28008,6112,15937,0,633,0,0,0,0,0,0,0,0,0
+E14000995,E12000006,Thurrock,Essex,East,England,Borough,2017-06-09 03:06:00,Con hold,Con,Lab,78154,50325,97,345,19880,19535,798,10112,0,0,0,0,0,0,0,0,0,0
+E14000996,E12000009,Tiverton and Honiton,Devon,South West,England,County,2017-06-09 04:50:00,Con hold,Con,Lab,80731,57815,172,19801,35471,15670,4639,0,2035,0,0,0,0,0,0,0,0,0
+E14000997,E12000008,Tonbridge and Malling,Kent,South East,England,County,2017-06-09 03:15:00,Con hold,Con,Lab,77417,56907,108,23508,36218,12710,3787,1857,2335,0,0,0,0,0,0,0,0,0
+E14000998,E12000007,Tooting,London,London,England,Borough,2017-06-09 01:24:00,Lab hold,Lab,Con,77971,58171,133,15458,19236,34694,3057,339,845,0,0,0,0,0,0,0,0,0
+E14000999,E12000009,Torbay,Devon,South West,England,Borough,2017-06-09 02:08:00,Con hold,Con,LD,75931,51174,75,14283,27141,9310,12858,1213,652,0,0,0,0,0,0,0,0,0
+W07000053,W92000004,Torfaen,Gwent and Mid Glamorgan,Wales,Wales,County,2017-06-09 01:51:00,Lab hold,Lab,Con,61839,38429,62,10240,11894,22134,852,1490,0,0,2059,0,0,0,0,0,0,0
+E14001000,E12000009,Torridge and West Devon,Devon,South West,England,County,2017-06-09 05:42:00,Con hold,Con,Lab,80524,59480,144,20686,33612,12926,10526,0,1622,0,0,0,0,0,0,0,794,0
+E14001001,E12000009,Totnes,Devon,South West,England,County,2017-06-09 03:33:00,Con hold,Con,Lab,68914,50270,82,13477,26972,13495,6466,1240,2097,0,0,0,0,0,0,0,0,0
+E14001002,E12000007,Tottenham,London,London,England,Borough,2017-06-09 03:18:00,Lab hold,Lab,Con,72884,49339,147,34584,5665,40249,1687,462,1276,0,0,0,0,0,0,0,0,0
+E14001003,E12000009,Truro and Falmouth,Cornwall,South West,England,County,2017-06-09 06:27:00,Con hold,Con,Lab,74683,56647,70,3792,25123,21331,8465,897,831,0,0,0,0,0,0,0,0,0
+E14001004,E12000008,Tunbridge Wells,Kent,South East,England,County,2017-06-09 02:40:00,Con hold,Con,Lab,74782,54209,99,16465,30856,14391,5355,1464,1441,0,0,0,0,0,0,0,702,0
+E14001005,E12000007,Twickenham,London,London,England,Borough,2017-06-09 02:54:00,LD gain from Con,LD,Con,83362,66290,143,9762,25207,6114,34969,0,0,0,0,0,0,0,0,0,0,0
+E14001006,E12000001,Tynemouth,Tyne and Wear,North East,England,Borough,2017-06-09 01:47:00,Lab hold,Lab,Con,77434,56858,106,11666,20729,32395,1724,1257,629,0,0,0,0,0,0,0,124,0
+N06000017,N92000002,Upper Bann,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 03:34:00,DUP hold,DUP,SF,80168,51258,173,7992,0,0,0,0,0,0,0,22317,14325,4397,7900,2319,0,0
+E14001007,E12000007,Uxbridge and South Ruislip,London,London,England,Borough,2017-06-09 02:48:00,Con hold,Con,Lab,69936,46694,84,5034,23716,18682,1835,1577,884,0,0,0,0,0,0,0,0,0
+W07000060,W92000004,Vale Of Clwyd,Clwyd,Wales,Wales,County,2017-06-09 01:40:00,Lab gain from Con,Lab,Con,56890,38684,91,2379,17044,19423,666,0,0,0,1551,0,0,0,0,0,0,0
+W07000078,W92000004,Vale Of Glamorgan,South Glamorgan,Wales,Wales,County,2017-06-09 02:04:00,Con hold,Con,Lab,73959,53718,63,2190,25501,23311,1020,868,419,0,2295,0,0,0,0,0,304,0
+E14001008,E12000007,Vauxhall,London,London,England,Borough,2017-06-09 03:50:00,Lab hold,Lab,LD,82055,55042,164,20250,10277,31576,11326,0,1152,0,0,0,0,0,0,0,711,0
+E14001009,E12000003,Wakefield,West Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 04:55:00,Lab hold,Lab,Con,70340,46284,112,2176,20811,22987,943,0,0,0,0,0,0,0,0,0,1543,0
+E14001010,E12000002,Wallasey,Merseyside,North West,England,Borough,2017-06-09 02:03:00,Lab hold,Lab,Con,67454,48353,77,23320,11232,34552,772,1160,637,0,0,0,0,0,0,0,0,0
+E14001011,E12000005,Walsall North,West Midlands,West Midlands,England,Borough,2017-06-09 02:52:00,Con gain from Lab,Con,Lab,67308,38118,78,2601,18919,16318,586,2295,0,0,0,0,0,0,0,0,0,0
+E14001012,E12000005,Walsall South,West Midlands,West Midlands,England,Borough,2017-06-09 03:28:00,Lab hold,Lab,Con,67417,44072,117,8892,16394,25286,587,1805,0,0,0,0,0,0,0,0,0,0
+E14001013,E12000007,Walthamstow,London,London,England,County,2017-06-09 02:41:00,Lab hold,Lab,Con,67957,48143,159,32017,6776,38793,1384,0,1190,0,0,0,0,0,0,0,0,0
+E14001014,E12000001,Wansbeck,Northumberland,North East,England,County,2017-06-09 05:19:00,Lab hold,Lab,Con,62151,42454,57,10435,13903,24338,2015,1483,715,0,0,0,0,0,0,0,0,0
+E14001015,E12000008,Wantage,Oxfordshire,South East,England,County,2017-06-09 04:46:00,Con hold,Con,Lab,85786,63602,156,17380,34459,17079,9234,1284,1546,0,0,0,0,0,0,0,0,0
+E14001016,E12000005,Warley,West Midlands,West Midlands,England,Borough,2017-06-09 01:45:00,Lab hold,Lab,Con,63739,40206,116,16483,10521,27004,777,1349,555,0,0,0,0,0,0,0,0,0
+E14001017,E12000002,Warrington North,Cheshire,North West,England,Borough,2017-06-09 03:33:00,Lab hold,Lab,Con,71918,48517,99,9582,17774,27356,1207,1561,619,0,0,0,0,0,0,0,0,0
+E14001018,E12000002,Warrington South,Cheshire,North West,England,Borough,2017-06-09 04:03:00,Lab gain from Con,Lab,Con,85617,61995,120,2549,27445,29994,3339,0,0,0,0,0,0,0,0,0,1217,0
+E14001019,E12000005,Warwick and Leamington,Warwickshire,West Midlands,England,Borough,2017-06-09 03:32:00,Lab gain from Con,Lab,Con,74237,54055,125,1206,24021,25227,2810,799,1198,0,0,0,0,0,0,0,0,0
+E14001020,E12000001,Washington and Sunderland West,Tyne and Wear,North East,England,Borough,2017-06-09 00:03:00,Lab hold,Lab,Con,67280,40574,74,12940,11699,24639,961,2761,514,0,0,0,0,0,0,0,0,0
+E14001021,E12000006,Watford,Hertfordshire,East,England,Borough,2017-06-09 02:51:00,Con hold,Con,Lab,86507,58610,113,2092,26731,24639,5335,1184,721,0,0,0,0,0,0,0,0,0
+E14001022,E12000006,Waveney,Suffolk,East,England,County,2017-06-09 03:47:00,Con hold,Con,Lab,80763,52674,68,9215,28643,19428,1012,1933,1332,0,0,0,0,0,0,0,326,0
+E14001023,E12000008,Wealden,East Sussex,South East,England,County,2017-06-09 02:46:00,Con hold,Con,Lab,81425,60464,113,23628,37027,13399,6281,1798,1959,0,0,0,0,0,0,0,0,0
+E14001024,E12000002,Weaver Vale,Cheshire,North West,England,County,2017-06-09 03:57:00,Lab gain from Con,Lab,Con,69016,50613,108,3928,22138,26066,1623,0,786,0,0,0,0,0,0,0,0,0
+E14001025,E12000004,Wellingborough,Northamptonshire,East Midlands,England,County,2017-06-09 02:20:00,Con hold,Con,Lab,79254,53240,100,12460,30579,18119,1782,1804,956,0,0,0,0,0,0,0,0,0
+E14001026,E12000009,Wells,Somerset,South West,England,County,2017-06-09 04:35:00,Con hold,Con,LD,82451,60843,131,7582,30488,7129,22906,0,0,0,0,0,0,0,0,0,320,0
+E14001027,E12000006,Welwyn Hatfield,Hertfordshire,East,England,County,2017-06-09 04:04:00,Con hold,Con,Lab,72888,51669,109,7369,26374,19005,3836,1441,835,0,0,0,0,0,0,0,178,0
+E14001028,E12000003,Wentworth and Dearne,South Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 03:54:00,Lab hold,Lab,Con,74890,43947,280,14803,13744,28547,1656,0,0,0,0,0,0,0,0,0,0,0
+S14000058,S92000003,West Aberdeenshire and Kincardine,Scotland,Scotland,Scotland,County,2017-06-09 03:59:00,Con gain from SNP,Con,SNP,72477,51625,49,7950,24704,5706,4461,0,0,16754,0,0,0,0,0,0,0,0
+E14001029,E12000005,West Bromwich East,West Midlands,West Midlands,England,Borough,2017-06-09 01:30:00,Lab hold,Lab,Con,63846,39098,138,7713,14951,22664,625,0,533,0,0,0,0,0,0,0,325,0
+E14001030,E12000005,West Bromwich West,West Midlands,West Midlands,England,Borough,2017-06-09 01:54:00,Lab hold,Lab,Con,65967,36094,90,4460,14329,18789,333,2320,323,0,0,0,0,0,0,0,0,0
+E14001031,E12000009,West Dorset,Dorset,South West,England,County,2017-06-09 02:57:00,Con hold,Con,LD,79048,59598,152,19091,33081,10896,13990,0,1631,0,0,0,0,0,0,0,0,0
+S14000059,S92000003,West Dunbartonshire,Scotland,Scotland,Scotland,County,2017-06-09 01:44:00,SNP hold,SNP,Lab,67602,44083,86,2288,7582,16602,1009,0,0,18890,0,0,0,0,0,0,0,0
+E14001032,E12000007,West Ham,London,London,England,Borough,2017-06-09 03:33:00,Lab hold,Lab,Con,92418,60708,161,36754,9837,46591,1836,1134,957,0,0,0,0,0,0,0,353,0
+E14001033,E12000002,West Lancashire,Lancashire,North West,England,County,2017-06-09 03:29:00,Lab hold,Lab,Con,73257,54389,114,11689,20341,32030,1069,0,680,0,0,0,0,0,0,0,269,0
+E14001036,E12000007,Westminster North,London,London,England,Borough,2017-06-09 02:36:00,Lab hold,Lab,Con,63846,43295,192,11512,14422,25934,2253,0,595,0,0,0,0,0,0,0,91,0
+E14001037,E12000002,Westmorland and Lonsdale,Cumbria,North West,England,County,2017-06-09 03:25:00,LD hold,LD,Con,66391,51687,81,777,22909,4783,23686,0,0,0,0,0,0,0,0,0,309,0
+E14001038,E12000009,Weston-Super-Mare,Avon,South West,England,County,2017-06-09 03:58:00,Con hold,Con,Lab,82136,56415,97,11544,29982,18438,5175,1932,888,0,0,0,0,0,0,0,0,0
+E14001034,E12000006,West Suffolk,Suffolk,East,England,County,2017-06-09 02:45:00,Con hold,Con,Lab,77348,51746,104,17063,31649,14586,2180,2396,935,0,0,0,0,0,0,0,0,0
+N06000018,N92000002,West Tyrone,Northern Ireland,Northern Ireland,Northern Ireland,County,2017-06-09 03:42:00,SF hold,SF,DUP,64009,43486,189,10342,0,0,0,0,427,0,0,11718,22060,5635,2253,1000,393,0
+E14001035,E12000005,West Worcestershire,Hereford and Worcester,West Midlands,England,County,2017-06-09 02:42:00,Con hold,Con,Lab,74375,56471,112,21328,34703,13375,5307,1481,1605,0,0,0,0,0,0,0,0,0
+E14001039,E12000002,Wigan,Greater Manchester,North West,England,County,2017-06-09 01:21:00,Lab hold,Lab,Con,75359,47542,96,16027,13548,29575,916,2750,753,0,0,0,0,0,0,0,0,0
+E14001040,E12000007,Wimbledon,London,London,England,Borough,2017-06-09 03:03:00,Con hold,Con,Lab,66780,51526,127,5622,23946,18324,7472,553,1231,0,0,0,0,0,0,0,0,0
+E14001041,E12000008,Winchester,Hampshire,South East,England,County,2017-06-09 05:15:00,Con hold,Con,LD,72497,57156,100,9999,29729,6007,19730,695,846,0,0,0,0,0,0,0,149,0
+E14001042,E12000008,Windsor,Berkshire,South East,England,County,2017-06-09 03:34:00,Con hold,Con,Lab,73595,53921,164,22384,34718,12334,5434,0,1435,0,0,0,0,0,0,0,0,0
+E14001043,E12000002,Wirral South,Merseyside,North West,England,County,2017-06-09 02:23:00,Lab hold,Lab,Con,57670,45195,84,8323,17548,25871,1322,0,454,0,0,0,0,0,0,0,0,0
+E14001044,E12000002,Wirral West,Merseyside,North West,England,County,2017-06-09 02:17:00,Lab hold,Lab,Con,55995,43951,83,5365,18501,23866,1155,0,429,0,0,0,0,0,0,0,0,0
+E14001045,E12000006,Witham,Essex,East,England,County,2017-06-09 03:57:00,Con hold,Con,Lab,69137,49241,159,18646,31670,13024,2715,0,1832,0,0,0,0,0,0,0,0,0
+E14001046,E12000008,Witney,Oxfordshire,South East,England,County,2017-06-09 03:31:00,Con hold,Con,Lab,82727,60927,124,21241,33839,12598,12457,980,1053,0,0,0,0,0,0,0,0,0
+E14001047,E12000008,Woking,Surrey,South East,England,County,2017-06-09 03:24:00,Con hold,Con,Lab,76170,55246,127,16724,29903,13179,9711,1161,1092,0,0,0,0,0,0,0,200,0
+E14001048,E12000008,Wokingham,Berkshire,South East,England,County,2017-06-09 02:45:00,Con hold,Con,Lab,79111,59690,199,18798,33806,15008,9512,0,1364,0,0,0,0,0,0,0,0,0
+E14001049,E12000005,Wolverhampton North East,West Midlands,West Midlands,England,Borough,2017-06-09 01:59:00,Lab hold,Lab,Con,60770,36508,85,4587,14695,19282,570,1479,482,0,0,0,0,0,0,0,0,0
+E14001050,E12000005,Wolverhampton South East,West Midlands,West Midlands,England,Borough,2017-06-09 02:22:00,Lab hold,Lab,Con,60301,36304,86,8514,12623,21137,448,1675,421,0,0,0,0,0,0,0,0,0
+E14001051,E12000005,Wolverhampton South West,West Midlands,West Midlands,England,Borough,2017-06-09 02:31:00,Lab hold,Lab,Con,59971,42346,115,2185,18714,20899,784,1012,579,0,0,0,0,0,0,0,358,0
+E14001052,E12000005,Worcester,Hereford and Worcester,West Midlands,England,Borough,2017-06-09 03:07:00,Con hold,Con,Lab,73893,51423,92,2508,24731,22223,1757,1354,1211,0,0,0,0,0,0,0,147,0
+E14001053,E12000002,Workington,Cumbria,North West,England,County,2017-06-09 00:43:00,Lab hold,Lab,Con,60265,41676,55,3925,17392,21317,1133,1556,0,0,0,0,0,0,0,0,278,0
+E14001054,E12000002,Worsley and Eccles South,Greater Manchester,North West,England,County,2017-06-09 02:47:00,Lab hold,Lab,Con,73689,45642,115,8379,17667,26046,1087,0,842,0,0,0,0,0,0,0,0,0
+E14001055,E12000008,Worthing West,West Sussex,South East,England,Borough,2017-06-09 04:50:00,Con hold,Con,Lab,77757,54503,111,12090,30181,18091,2982,1635,1614,0,0,0,0,0,0,0,0,0
+W07000044,W92000004,Wrexham,Clwyd,Wales,Wales,County,2017-06-09 01:10:00,Lab hold,Lab,Con,49881,35092,68,1832,15321,17153,865,0,0,0,1753,0,0,0,0,0,0,0
+E14001056,E12000008,Wycombe,Buckinghamshire,South East,England,County,2017-06-09 02:18:00,Con hold,Con,Lab,77087,53493,144,6578,26766,20188,4147,1210,1182,0,0,0,0,0,0,0,0,0
+E14001057,E12000002,Wyre and Preston North,Lancashire,North West,England,County,2017-06-09 03:33:00,Con hold,Con,Lab,72319,52646,126,12246,30684,18438,2551,0,973,0,0,0,0,0,0,0,0,0
+E14001058,E12000005,Wyre Forest,Hereford and Worcester,West Midlands,England,County,2017-06-09 02:22:00,Con hold,Con,Lab,77758,51129,90,13334,29859,16525,1943,1777,1025,0,0,0,0,0,0,0,0,0
+E14001059,E12000002,Wythenshawe and Sale East,Greater Manchester,North West,England,Borough,2017-06-09 02:59:00,Lab hold,Lab,Con,76361,45846,71,14944,13581,28525,1504,1475,576,0,0,0,0,0,0,0,185,0
+E14001060,E12000009,Yeovil,Somerset,South West,England,County,2017-06-09 01:51:00,Con hold,Con,LD,82916,59404,94,14723,32369,7418,17646,0,1052,0,0,0,0,0,0,0,919,0
+W07000041,W92000004,Ynys Mon,Gwynedd,Wales,Wales,County,2017-06-09 02:28:00,Lab hold,Lab,Con,52921,37367,40,5259,10384,15643,479,624,0,0,10237,0,0,0,0,0,0,0
+E14001061,E12000003,York Central,North Yorkshire,Yorkshire and The Humber,England,Borough,2017-06-09 04:59:00,Lab hold,Lab,Con,77315,53088,213,18575,16019,34594,2475,0,0,0,0,0,0,0,0,0,0,0
+E14001062,E12000003,York Outer,North Yorkshire,Yorkshire and The Humber,England,County,2017-06-09 04:17:00,Con hold,Con,Lab,75835,57427,146,8289,29356,21067,5910,0,1094,0,0,0,0,0,0,0,0,0

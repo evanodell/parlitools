@@ -1,3 +1,11 @@
+
+
+# parlitools 0.4.1.9000
+
+* `mps_on_date()` no longer imports redundant constituency data.
+
+* updates to `party_colours` dataset
+
 # parlitools 0.4.1
 
 * Fixed some missing 2017 results from `bes_2019` data, spotted by Antony Unwin.

@@ -6,7 +6,8 @@
 \alias{local_hex_map}
 \title{A hexagonal cartogram of Westminster parliamentary constituencies,
 stored as a simple feature.}
-\format{An sf and data.frame object, containing 650 elements and 8 variables.
+\format{
+An sf and data.frame object, containing 650 elements and 8 variables.
 \describe{
 \item{\code{object_id}}{Row Name}
 \item{\code{constituency_name}}{The name of the constituency}
@@ -17,7 +18,18 @@ Service) code}
 \item{\code{shape_length}}{The lengths of the shape}
 \item{\code{shape_area}}{The area of shape}
 \item{\code{geometry}}{Shape geometry/projection}
-}}
+}
+
+An sf and data.frame object, containing 650 elements and 8 variables.
+\describe{
+\item{\code{object_id}}{Row Name}
+\item{\code{la_code}}{Local Authority identifier code}
+\item{\code{la_name}}{Local Authority Name}
+\item{\code{shape_length}}{The lengths of the shape}
+\item{\code{shape_area}}{The area of the shape}
+\item{\code{geometry}}{Shape geometry/projection}
+}
+}
 \source{
 \url{http://www.arcgis.com/home/item.html?id=15baaa6fecd54aa4b7250780b6534682}
 

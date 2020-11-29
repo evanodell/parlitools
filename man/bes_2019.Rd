@@ -4,9 +4,11 @@
 \name{bes_2019}
 \alias{bes_2019}
 \title{2019 General Election Results}
-\format{A tibble, containing 650 rows and 98 columns. For full details on
+\format{
+A tibble, containing 650 rows and 98 columns. For full details on
 the included variables see the vignette:
-\url{http://docs.evanodell.com/parlitools/articles/bes-2019.html}}
+\url{http://docs.evanodell.com/parlitools/articles/bes-2019.html}
+}
 \source{
 \url{https://candidates.democracyclub.org.uk/api/docs/csv/#past}
 

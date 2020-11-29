@@ -4,7 +4,7 @@ author: "Evan Odell"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{British Election Study variables (2015)}
+  %\VignetteIndexEntry{British Election Study 2015 Variables}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

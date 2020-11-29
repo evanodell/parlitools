@@ -5,13 +5,15 @@
 \alias{la_codes}
 \title{A tibble with the name, ONS code and local authority type for UK
 local authorities.}
-\format{A tibble, with 418 rows and 3 columns.
+\format{
+A tibble, with 418 rows and 3 columns.
 \describe{
 \item{\code{name}}{Local Authority Name}
 \item{\code{la_code}}{The Local Authority code from the Office for
 National Statistics}
 \item{\code{type}}{The type of local authority}
-}}
+}
+}
 \source{
 \url{http://opencouncildata.co.uk/councils.php?model=}
 \url{http://geoportal.statistics.gov.uk/datasets/464be6191a434a91a5fa2f52c7433333_0}

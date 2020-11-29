@@ -1,5 +1,5 @@
-pandoc: 2.9.1.1
-pkgdown: 1.4.1
+pandoc: 2.11.2
+pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
   bes-2015: bes-2015.html
@@ -9,4 +9,5 @@ articles:
   introduction: introduction.html
   mapping-local-authorities: mapping-local-authorities.html
   using-cartograms: using-cartograms.html
+last_built: 2020-11-29T10:35Z
 
