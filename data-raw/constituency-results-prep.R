@@ -102,6 +102,6 @@ x2 <- x %>%
   distinct_all()
 
 
-results_df <- results_df %>% left_join(x2, by = c("ons_id" = "id",
-                                                  "election" = "election"))
+results_df <- results_df %>%
+  left_join(x2, by = c("ons_id" = "id", "election" = "election"))
 
